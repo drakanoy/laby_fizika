@@ -1,0 +1,48 @@
+\newcounter{point}
+\newenvironment{point}[1]{
+    \refstepcounter{point}
+    \vspace{2mm}
+    \textbf{\emph{\thepoint. #1}}
+    \vspace{1mm}
+}
+{
+    
+}
+
+
+\newcommand{\makeheader}{
+\noindent
+    \begin{minipage}[t]{0.2\textwidth}
+        \vspace{0mm}
+        \includegraphics[width=\textwidth]{images/au-logo-shadow.eps}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.75\textwidth}
+        \footnotesize ФЕДРЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ \\ ВЫСШЕГО ОБРАЗОВАНИЯ И НАУКИ
+        \normalsize \\
+        \textbf{САНКТ-ПЕТЕРБУРГСКИЙ НАЦИОНАЛЬНЫЙ \\ ИССЛЕДОВАТЕЛЬСКИЙ АКАДЕМИЧЕСКИЙ \\ УНИВЕРСИТЕТ ИМЕНИ Ж. И. АЛФЁРОВА \\ РОССИЙСКОЙ АКАДЕМИИ НАУК \qquad \qquad \qquad \qquad \quad \quad \ \ \(  \)}
+        \vspace{0mm}
+    \end{minipage}
+    \noindent \rule{185mm}{1pt}
+    \vspace{5mm}
+
+    \large
+    \noindent Группа \underline{201.1} \noindent\rule{52mm}{0.4pt} \hspace{25mm} К работе допущен \noindent\rule{34mm}{0.4pt} \\ %\noindent\rule{60mm}{0.4pt}
+     Студент \underline{Кононов А, Ясинский М} \noindent\rule{0mm}{0.4pt} \hspace{32mm} Работа выполнена \noindent\rule{34mm}{0.4pt}\\ % \noindent\rule{58mm}{0.4pt}
+     Преподаватель \underline{Василькова Е. И.} \hspace{34mm} Отчет принят \noindent\rule{43mm}{0.4pt}
+     Лаборант \noindent\rule{55mm}{0.4pt} \\
+    \vspace{5mm}
+}
+
+\newcommand{\makelabheading}[2]{
+    \begin{center}
+        \LARGE \textbf{Рабочий протокол и отчет по \\ лабораторной работе №#1}
+    \end{center}
+    \vspace{-3mm}
+    \begin{center}
+        \Large #2
+    \end{center}
+    \vspace{-8mm}
+    \noindent \rule{185 mm}{1pt}
+    \vspace{5mm}
+}

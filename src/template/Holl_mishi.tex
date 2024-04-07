@@ -1,0 +1,247 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[left=2cm, right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,ragged2e}
+\usepackage{multirow}
+
+%Russian-specific packages
+%--------------------------------------
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+% \usepackage{fancyhdr}
+%--------------------------------------
+
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+%--------------------------------------
+
+
+ \title{ \textbf{Рабочий протокол и отчет по
+лабораторной работе № 4}\\ \vspace{1mm}
+\begin{flushleft}
+{\large
+Группа: 101.2\\
+Студенты: Сосновицкая Злата, Ясинский Михаил, Чатулов Антон\\
+Преподаватель: Павлов Александр Валерьевич\\
+Отчет принят:}\\
+\end{flushleft}
+\author{}
+\date{}
+}
+
+ \begin{document}
+ \maketitle
+%  \begin{description}
+      \section{Цель работы.}\
+      \par Изучить поведение примесного полупроводника в магнитном
+поле.
+      \par
+
+      \section{Задачи, решаемые при выполнении работы.}\par
+      \begin{enumerate}
+          \item Провести измерение продольного напряжения $U_{||}$ в зависимости от силы тока через образец Германия (Ge-p).
+          \item Построить график $I=I(U_{||})$
+          \item По графику определить величину проводимости $\sigma$, используя формулу (1)
+          \item Провести измерения поперечного напряжения, изменяя магнитное поле, в которое помещён образец.
+          \item Построить график $I=U_{\bot}(B)$
+          \item Используя график и формулу (2) определить величину постоянной Холла.
+          \item По формуле (3) найти величину концентрации носителей $n$.
+          \item По формуле (4) найти величину подвижности заряда $\mu$.
+
+      \end{enumerate}
+
+      \section{Объект исследования.}\
+
+
+      \par Объект исследования - проводники в электромагнитном поле.\
+      \par Предмет исследования - эффект Холла при взаимодействии полупроводника с электромагнитным полем.\par
+
+      \section{Метод экспериментального исследования.}\
+      \par Прямые измерения опытным путём — измерение продольного напряжения в зависимости от силы тока, измерения поперечного напряжения от величины магнитного поля;\
+      \par Аналитические выводы, косвенное измерение величин для установления экспериментальной зависимости — построение графиков зависимостей физических величин, линейная аппроксимация.
+
+
+      \section{Рабочие формулы и исходные данные.}\par
+        \subsection{Формулы:}
+        \begin{enumerate}
+            \item Проводимость
+                \begin{equation}
+                    \sigma  = \frac{\Delta I \cdot l}{\Delta U \cdot S}
+                \end{equation}
+            \item Постоянная Холла
+                \begin{equation}
+                    R=\frac{\Delta U_{\bot}\cdot d}{\Delta B\cdot I}
+                \end{equation}
+            \item Концентрация носителей
+                \begin{equation}
+                    n=\frac{1}{eR}
+                \end{equation}
+            \item Подвижность
+                \begin{equation}
+                    \mu=\sigma R
+                \end{equation}
+        \end{enumerate}
+        \subsection{Исходные данные:}
+        \begin{enumerate}
+            \item Геометрические параметры образца:
+            $$d=1\textit{мм}$$
+            $$S=10\textit{мм²}$$
+            $$l=20\textit{мм}$$
+        \end{enumerate}
+
+
+      \section{Измерительные приборы.}\par
+      \begin{table}[h!]
+          \centering
+          \caption{\centering{Приборы и их погрешности}}
+          \begin{tabular}{|c|c|}
+                \hline
+               Прибор&Погрешности\\
+               \hline
+               Амперметр&0,001\textit{А}\\
+               \hline
+               Вольтметр(||)&0,001\textit{В}\\
+               \hline
+               Вольтметр(-)&1\cdot10^{-4}\textit{В}\\
+               \hline
+               Амперметр(магн)&0,1\textit{А}\\
+               \hline
+               Магнитометр&0,001\textit{Тл}\\
+               \hline
+          \end{tabular}
+          \end{table}
+
+
+      \section{Результаты прямых измерений и их обработки.}\par
+
+      \begin{table}[h!]
+          \centering
+          \caption{\centering{Прямые измерения продольного напряжения}}
+          \begin{tabular}{|c|c|c|}
+                \hline
+               № Опыта&I,A&U_{||},B \\
+               \hline
+               1&0,005&0,211\\
+               \hline
+               2&0,01&0,455\\
+               \hline
+               3&0,015&0,709\\
+               \hline
+               4&0,02&0,984\\
+               \hline
+               5&0,025&1,216\\
+               \hline
+               6&0,03&1,475\\
+               \hline
+          \end{tabular}
+          \label{tab:my_label}
+      \end{table}
+
+      \begin{table}[h!]
+          \centering
+          \caption{\centering{Прямые измерения поперечного напряжения}}
+          \begin{tabular}{|c|c|c|c|}
+            \hline
+            № Опыта&I_{mg},A&B,\textit{Тл}&U_{\bot},\textit{мВ}\\
+            \hline
+            1&0,2&0,012&40,7\\
+            \hline
+            2&0,4&0,036&44,2\\
+            \hline
+            3&0,6&0,058&47,5\\
+            \hline
+            4&0,8&0,086&51,5\\
+            \hline
+            5&1,0&0,111&55,1\\
+            \hline
+            6&1,2&0,136&58,7\\
+            \hline
+            7&1,4&0,158&61,7\\
+            \hline
+            8&1,6&0,189&66\\
+            \hline
+            9&1,8&0,222&70,3\\
+            \hline
+            10&2&0,241&72,7\\
+            \hline
+
+
+          \end{tabular}
+          \label{tab:my_label}
+      \end{table}
+\newpage
+      \section{Расчет результатов косвенных измерений.}\par
+      \subsection{Проводимость}\par
+
+        \begin{figure}[h!]
+            \center{\includegraphics[scale=0.5]{graphs/graph1.png}}
+            \caption{Зависимость продольного напряжения от силы тока через образец}
+            \label{fig:image}
+        \end{figure}
+
+            Величина $\frac{\Delta I}{\Delta U}$ равна тангенсу угла наклона графика (*).$\frac{\Delta I}{\Delta U} = 50,7 \frac{A}{B}$.\newline
+            $\sigma  = \frac{\Delta I \cdot l}{\Delta U \cdot S}=50,7\frac{\textit{А}}{\textit{В}}\cdot\frac{20\textit{м}\cdot10^{-3}}{10\textit{м²}\cdot10^{-6}}=101463 \frac{\textit{А}}{\textit{В×м}}$
+      \subsection{Постоянная Холла}\par
+
+        \begin{figure}[h!]
+            \center{\includegraphics[scale=0.5]{graphs/graph2.png}}
+            \caption{Зависимость поперечного напряжения от магнитной индукции}
+            \label{fig:image}
+        \end{figure}
+
+
+         $\frac{\Delta U_{\bot}}{\Delta B}=0,14 \frac{\textit{В}}{\textit{Тл}}$(определяется наклоном графика (Рис.2)
+         \newline
+         $R=\frac{\Delta U_{\bot}\cdot d}{\Delta B\cdot I}=0,14\frac{\textit{В}}{\textit{Тл}}\cdot\frac{1\textit{м}\cdot 10^{-3}}{0,02\textit{A}} = 7,0\cdot10^{-3} \frac{\textit{м³}}{\textit{Кл}}$
+      \newpage
+      \subsection{Концентрация носителей заряда}\par
+        $n=\frac{1}{eR}=\frac{1}{1,6\cdot 10^{-19}\textit{Кл}\cdot 7,0\cdot10^{-3}\frac{\textit{м³}}{\textit{Кл}}}=8,9\cdot 10^{20} \frac{1}{\textit{м³}}$
+      \subsection{Подвижность носителей заряда}\newline
+        $\mu = \sigma R=101460 \frac{\textit{А}}{\textit{В×м}}\cdot 7,0\cdot10^{-3}\frac{\textit{м³}}{\textit{Кл}}=711\frac{\textit{м²}}{\textit{В×c}}$
+      \subsection {Расчёт погрешностей}
+        \begin{enumerate}
+            \item Погрешность концентрации носителей\par
+            $\Delta n = n \frac {\Delta R}{R}=1,6\cdot 10^{20} \frac{1}{\textit{м³}}$
+            \item Погрешность проводимости\par
+            $\Delta \sigma = 30 \frac{A}{B\cdot \textit{м}}$
+            \item Погрешность коэффициента Холла\par
+            $\Delta R = 1\cdot10^{-3} \frac{\textit{м³}}{\textit{Кл}}$
+            \item Погрешность подвижности носителей заряда\par
+            $\Delta \mu = 30 \frac{\textit{м²}}{\textit{В} \cdot \textit {c}} $
+        \end{enumerate}
+      \section{Выводы и анализ результатов}\
+      \begin{table}[h!]
+          \centering
+          \begin{tabular}{|c|c|}
+          \hline
+               Проводимость & 101 463 \pm 30 \frac{A}{B\cdot \textit{м}}\\
+               \hline
+               Постоянная Холла& 70\cdot10^{-2} \pm 10\cdot10^{-2} \frac{\textit{м}^3}{\textit{Кл}}\\
+               \hline
+               Концентрация носителей заряда&8,9\cdot  10^{20} \pm 1,6\cdot 10^{20}\frac{\textit{1}}{\textit{м³}}\\
+               \hline
+               Подвижность носителей заряда&711 \pm 30\frac{\textit{м²}}{\textit{В}\cdot\textit{с}}\\
+               \hline
+          \end{tabular}
+          \caption{Конечные результаты}
+          \label{tab:my_label}
+      \end{table}
+      \par Лабораторная работа состояла из нескольких этапов. В первую очередь, посредством прямых измерений продольного напряжения на германиевом проводнике при прохождении через него тока различной силы, была получена вольт-амперная характеристика эксперементальной установки. Таким образом, опытном путём была подтверждена линейная зависимость силы тока от продольного напряжения, в полном соответствии с теоретическими предсказаниями. Эти измерения также позволили определить и проводимость германиевого полупроводника, посредством косвенных вычислений.
+
+
+      Затем было установлено фиксированное значение силы тока в полупроводнике в 20мА, и полупроводник был помещён во внешнее магнитное поле. После чего, за счёт изменения силы тока в магните, удалось измерить значения поперечного напряжения в полупроводнике при различных показателях магнитной индукции внешнего поля. Зависимость поперечного напряжения от магнитной индукции на практике оказалась линейной, что также целиком соответсвует теоретическим выкладкам. Полученная зависимость была применена в косвенных вычислениях для определения Постоянной Холла, концентрации носителей заряда и его подвижности.
+
+
+      В ходе расчётов были учтены все необходимые погрешности, благодаря чему удалось получить наиболее точные значения всех необходимых величин.
+      \section{Замечания преподавателя}\\
+%  \end{description}
+
+ \end{document}

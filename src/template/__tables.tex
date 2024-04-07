@@ -1,0 +1,95 @@
+\newcounter{tablenumber}
+\newcommand{\gimmeheading}[1]{
+    \refstepcounter{tablenumber}
+    \begin{center}
+        \underline{Таблица \thetablenumber}: #1
+    \end{center}
+}
+
+\newcommand{\devices}{
+    \begin{center}
+        \begin{tabular}{ |c|c|c|c|c| }
+            \hline
+            № & Наименование & Тип прибора & \makecell{Исследуемый \\ диапазон} & \makecell{Погрешность \\ прибора} \\
+            \hline
+            1 & Тесламетр    & Электронный  & \(0 \div 1100\) мТл & 1 мТл  \\
+            \hline
+            2 & Вольтметр    & Электронный  & \(0 \div 10\) мкВ & 0,1 мкВ  \\
+            \hline
+            3 & Амперметр    & Электронный  & \(0 \div 5\) А & 0,1 А  \\
+            \hline
+        \end{tabular}
+    \end{center}
+    \gimmeheading{перечень измерительных приборов}
+}
+\newcommand{\izmerenia}{
+    \begin{center}
+\begin{tabular}{|r|r|r|}
+\hline
+\multicolumn{1}{|l|}{№} & \multicolumn{1}{l|}{$B$, мТл} & \multicolumn{1}{l|}{$U_{\perp}$, мкВ} \\ \hline
+1                       & 56                          & 0,9                             \\ \hline
+2                       & 155                         & 1,1                             \\ \hline
+3                       & 257                         & 1,7                             \\ \hline
+4                       & 356                         & 2,3                             \\ \hline
+5                       & 456                         & 2,7                             \\ \hline
+6                       & 555                         & 3,4                             \\ \hline
+7                       & 656                         & 3,9                             \\ \hline
+8                       & 756                         & 4,4                             \\ \hline
+9                       & 856                         & 4,7                             \\ \hline
+10                      & 956                         & 5,1                             \\ \hline
+11                      & 1055                        & 5,6                             \\ \hline
+\end{tabular}
+    \end{center}
+    \gimmeheading{результаты измерений}
+}
+\newcommand{\vichislenia}{
+    \begin{center}
+\begin{tabular}{|l|r|r|r|r|}
+\hline
+№  & \multicolumn{1}{l|}{$1000/T$, $\text{К}^{-1} \cdot 1000$} & \multicolumn{1}{l|}{$G \cdot 1000$, $\text{Ом}^{-1} \cdot 1000$} & \multicolumn{1}{l|}{$\sigma$, $(\text{Ом} \cdot \text{м})^{-1}$} & \multicolumn{1}{l|}{$\ln(\sigma)$} \\ \hline
+1  & 2,392                                                                            & 76,046                                                                                                                         & 38,02                                                                                                                                            & 3,64                                           \\ \hline
+2  & 2,451                                                                            & 59,524                                                                                                                         & 29,76                                                                                                                                            & 3,39                                           \\ \hline
+3  & 2,513                                                                            & 44,643                                                                                                                         & 22,32                                                                                                                                            & 3,11                                           \\ \hline
+4  & 2,577                                                                            & 33,411                                                                                                                         & 16,71                                                                                                                                            & 2,82                                           \\ \hline
+5  & 2,646                                                                            & 25,870                                                                                                                         & 12,93                                                                                                                                            & 2,56                                           \\ \hline
+6  & 2,681                                                                            & 22,818                                                                                                                         & 11,41                                                                                                                                            & 2,43                                           \\ \hline
+7  & 2,717                                                                            & 20,833                                                                                                                         & 10,42                                                                                                                                            & 2,34                                           \\ \hline
+8  & 2,755                                                                            & 18,999                                                                                                                         & 9,50                                                                                                                                             & 2,25                                           \\ \hline
+9  & 2,793                                                                            & 17,857                                                                                                                         & 8,93                                                                                                                                             & 2,19                                           \\ \hline
+10 & 2,833                                                                            & 16,878                                                                                                                         & 8,44                                                                                                                                             & 2,13                                           \\ \hline
+11 & 2,874                                                                            & 16,529                                                                                                                         & 8,26                                                                                                                                             & 2,11                                           \\ \hline
+12 & 2,915                                                                            & 16,393                                                                                                                         & 8,20                                                                                                                                             & 2,10                                           \\ \hline
+13 & 2,959                                                                            & 16,393                                                                                                                         & 8,20                                                                                                                                             & 2,10                                           \\ \hline
+14 & 3,003                                                                            & 16,529                                                                                                                         & 8,26                                                                                                                                             & 2,11                                           \\ \hline
+15 & 3,049                                                                            & 16,807                                                                                                                         & 8,40                                                                                                                                             & 2,13                                           \\ \hline
+16 & 3,096                                                                            & 17,241                                                                                                                         & 8,62                                                                                                                                             & 2,15                                           \\ \hline
+17 & 3,145                                                                            & 17,699                                                                                                                         & 8,85                                                                                                                                             & 2,18                                           \\ \hline
+18 & 3,195                                                                            & 18,349                                                                                                                         & 9,17                                                                                                                                             & 2,22                                           \\ \hline
+19 & 3,247                                                                            & 18,868                                                                                                                         & 9,43                                                                                                                                             & 2,24                                           \\ \hline
+20 & 3,300                                                                            & 19,608                                                                                                                         & 9,80                                                                                                                                             & 2,28                                           \\ \hline
+\end{tabular}
+\end{center}
+\gimmeheading{вычесление удельной проводимости и ее логарифма}
+}
+\newcommand{\pogrehnosti}{
+    \begin{center}
+    \begin{tabular}{|l|r|r|r|r|r|}
+\hline
+№  & \multicolumn{1}{l|}{$\Delta r_{0}$, м $\cdot 10^{-7}$} & \multicolumn{1}{l|}{$\Delta q_{0}$, Кл $\cdot 10^{-19}$} & \multicolumn{1}{l|}{$\Delta r$, м $\cdot 10^{-7}$} & \multicolumn{1}{l|}{$\Delta q$, Кл $\cdot 10^{-19}$} & \multicolumn{1}{l|}{$\Delta e$, Кл $\cdot 10^{-19}$} \\ \hline
+1  & 0,003                                                & 0,28                                                   & 0,003                                               & 0,27                                                  & 0,13                                                  \\ \hline
+2  & 0,001                                                & 0,43                                                   & 0,001                                               & 0,42                                                  & 0,14                                                  \\ \hline
+3  & 0,002                                                & 0,81                                                   & 0,002                                               & 0,79                                                  & 0,15                                                  \\ \hline
+4  & 0,001                                                & 0,15                                                   & 0,001                                               & 0,14                                                  & 0,14                                                  \\ \hline
+5  & 0,003                                                & 0,69                                                   & 0,003                                               & 0,68                                                  & 0,17                                                  \\ \hline
+6  & 0,002                                                & 0,20                                                   & 0,002                                               & 0,20                                                  & 0,20                                                  \\ \hline
+7  & 0,007                                                & 2,02                                                   & 0,007                                               & 2,01                                                  & 0,18                                                  \\ \hline
+8  & 0,007                                                & 0,35                                                   & 0,007                                               & 0,34                                                  & 0,34                                                  \\ \hline
+9  & 0,005                                                & 2,13                                                   & 0,005                                               & 2,11                                                  & 0,15                                                  \\ \hline
+10 & 0,006                                                & 2,73                                                   & 0,006                                               & 2,71                                                  & 0,15                                                  \\ \hline
+11 & 0,003                                                & 0,27                                                   & 0,003                                               & 0,27                                                  & 0,13                                                  \\ \hline
+12 & 0,002                                                & 0,17                                                   & 0,002                                               & 0,16                                                  & 0,16                                                  \\ \hline
+\end{tabular}
+
+    \end{center}
+    \gimmeheading{погрешности измерений}
+}
