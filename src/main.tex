@@ -2,7 +2,7 @@
 %! Date = 22.12.2023
 
 % Preamble
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 
 % Packages
 \usepackage[utf8]{inputenc}
@@ -19,9 +19,9 @@
 
 % Document
 \begin{document}
-
-
-
+\begin{center}
+\LARGE \textbf{Не инвариантность уравнений максвелла}
+\end{center}
 I'm no expert on the historical development of the subject, however I will offer a derivation.
 
 Consider two frames of reference $S$ and $S'$, and suppose that $S'$ moves with speed $\textbf v$ with respect to $S$. Coordinates in $S$ and $S'$ are related by a Galileian transformation: $$\begin{cases} t' = t \\ \textbf x' = \textbf x-\textbf vt\end{cases}$$ To find how the fields transform, we note that a Lorentz transformation reduces to a Galileian transformation in the limit $c \to \infty$. In fact, under a Lorentz transformation the fields transform like: $$ \begin{cases} \textbf E' = \gamma (\textbf E + \textbf v \times \textbf B) - (\gamma-1) (\textbf E \cdot \hat{\textbf{v}}) \hat{\textbf{v}}\\ \textbf B' = \gamma \left(\textbf B - \frac{1}{c^2}\textbf v \times \textbf E \right) - (\gamma-1) (\textbf B \cdot \hat{\textbf{v}}) \hat{\textbf{v}}\\ \end{cases}$$ Taking the limit $c\to \infty$ so that $\gamma\to 1$, we obtain the Galileian transformations of the fields: $$ \begin{cases} \textbf E' = \textbf E + \textbf v \times \textbf B\\ \textbf B' = \textbf B\\ \end{cases}$$ We can then invert the transformation by sending $\textbf v \to -\textbf v$: $$ \begin{cases} \textbf E = \textbf E' - \textbf v \times \textbf B'\\ \textbf B = \textbf B'\\ \end{cases}$$ By the same reasoning, can obtain the Galileian transformation of the sources: $$ \begin{cases} \textbf J = \textbf J' + \rho' \textbf v\\ \rho = \rho'\\ \end{cases}$$ We know that the fields and sources satisfy Maxwell's equations in $S$: $$ \begin{cases} \nabla \cdot \textbf E = \rho/\epsilon_0\\ \nabla \cdot \textbf B = 0\\ \nabla \times \textbf E = -\frac{\partial \textbf B}{\partial t}\\ \nabla \times \textbf B = \mu_0 \left(\textbf J +\epsilon_0 \frac{\partial \textbf E}{\partial t} \right)\\ \end{cases}$$ Replacing the fields and sources in $S$ with those in $S'$ we obtain: $$ \begin{cases} \nabla \cdot \textbf (\textbf E' - \textbf v \times \textbf B') = \rho'/\epsilon_0\\ \nabla \cdot \textbf B' = 0\\ \nabla \times \textbf (\textbf E' - \textbf v \times \textbf B') = -\frac{\partial \textbf B'}{\partial t}\\ \nabla \times \textbf B' = \mu_0 \left(\textbf J' + \rho' \textbf v +\epsilon_0 \frac{\partial (\textbf E' - \textbf v \times \textbf B')}{\partial t} \right)\\ \end{cases}$$ As a last step, we need to replace derivatives in $S$ with derivatives in $S'$. We have: $$\begin{cases} \nabla = \nabla' \\ \frac{\partial }{\partial t} = \frac{\partial }{\partial t'} - \textbf v \cdot \nabla\end{cases}$$ Substituting and removing the primes and using vector calculus, we obtain: $$ \begin{cases} \nabla \cdot \textbf E + \textbf v \cdot (\nabla \times \textbf B) = \rho/\epsilon_0\\ \nabla \cdot \textbf B = 0\\ \nabla \times \textbf E = -\frac{\partial \textbf B}{\partial t}\\ \nabla \times \textbf B = \mu_0 \left(\textbf J + \rho \textbf v +\epsilon_0 \frac{\partial}{\partial t}( \textbf E - \textbf v \times \textbf B) - \epsilon_0 \textbf v \cdot \nabla (\textbf E - \textbf v \times \textbf B) \right)\\ \end{cases}$$
