@@ -8,7 +8,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T2A]{fontenc}
 \usepackage[english, russian]{babel}
-\usepackage[a4paper, includefoot, left=1.5cm, right=1cm, top=1cm, bottom=1.5cm, headsep=1cm, footskip=1cm]{geometry}
+\usepackage[a4paper, includefoot, left=1.5cm, right=1.5cm, top=1cm, bottom=1.5cm, headsep=1cm, footskip=1cm]{geometry}
 \usepackage{makecell}
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -16,16 +16,143 @@
 \usepackage{svg}
 \usepackage{multirow}
 \usepackage{hyperref}
+\usepackage{mathtools}
 
 % Document
 \begin{document}
+\begin{large}
 \begin{center}
-\LARGE \textbf{Не инвариантность уравнений максвелла}
+\LARGE \textbf{Преобразования Лоренца}
 \end{center}
-I'm no expert on the historical development of the subject, however I will offer a derivation.
-
-Consider two frames of reference $S$ and $S'$, and suppose that $S'$ moves with speed $\textbf v$ with respect to $S$. Coordinates in $S$ and $S'$ are related by a Galileian transformation: $$\begin{cases} t' = t \\ \textbf x' = \textbf x-\textbf vt\end{cases}$$ To find how the fields transform, we note that a Lorentz transformation reduces to a Galileian transformation in the limit $c \to \infty$. In fact, under a Lorentz transformation the fields transform like: $$ \begin{cases} \textbf E' = \gamma (\textbf E + \textbf v \times \textbf B) - (\gamma-1) (\textbf E \cdot \hat{\textbf{v}}) \hat{\textbf{v}}\\ \textbf B' = \gamma \left(\textbf B - \frac{1}{c^2}\textbf v \times \textbf E \right) - (\gamma-1) (\textbf B \cdot \hat{\textbf{v}}) \hat{\textbf{v}}\\ \end{cases}$$ Taking the limit $c\to \infty$ so that $\gamma\to 1$, we obtain the Galileian transformations of the fields: $$ \begin{cases} \textbf E' = \textbf E + \textbf v \times \textbf B\\ \textbf B' = \textbf B\\ \end{cases}$$ We can then invert the transformation by sending $\textbf v \to -\textbf v$: $$ \begin{cases} \textbf E = \textbf E' - \textbf v \times \textbf B'\\ \textbf B = \textbf B'\\ \end{cases}$$ By the same reasoning, can obtain the Galileian transformation of the sources: $$ \begin{cases} \textbf J = \textbf J' + \rho' \textbf v\\ \rho = \rho'\\ \end{cases}$$ We know that the fields and sources satisfy Maxwell's equations in $S$: $$ \begin{cases} \nabla \cdot \textbf E = \rho/\epsilon_0\\ \nabla \cdot \textbf B = 0\\ \nabla \times \textbf E = -\frac{\partial \textbf B}{\partial t}\\ \nabla \times \textbf B = \mu_0 \left(\textbf J +\epsilon_0 \frac{\partial \textbf E}{\partial t} \right)\\ \end{cases}$$ Replacing the fields and sources in $S$ with those in $S'$ we obtain: $$ \begin{cases} \nabla \cdot \textbf (\textbf E' - \textbf v \times \textbf B') = \rho'/\epsilon_0\\ \nabla \cdot \textbf B' = 0\\ \nabla \times \textbf (\textbf E' - \textbf v \times \textbf B') = -\frac{\partial \textbf B'}{\partial t}\\ \nabla \times \textbf B' = \mu_0 \left(\textbf J' + \rho' \textbf v +\epsilon_0 \frac{\partial (\textbf E' - \textbf v \times \textbf B')}{\partial t} \right)\\ \end{cases}$$ As a last step, we need to replace derivatives in $S$ with derivatives in $S'$. We have: $$\begin{cases} \nabla = \nabla' \\ \frac{\partial }{\partial t} = \frac{\partial }{\partial t'} - \textbf v \cdot \nabla\end{cases}$$ Substituting and removing the primes and using vector calculus, we obtain: $$ \begin{cases} \nabla \cdot \textbf E + \textbf v \cdot (\nabla \times \textbf B) = \rho/\epsilon_0\\ \nabla \cdot \textbf B = 0\\ \nabla \times \textbf E = -\frac{\partial \textbf B}{\partial t}\\ \nabla \times \textbf B = \mu_0 \left(\textbf J + \rho \textbf v +\epsilon_0 \frac{\partial}{\partial t}( \textbf E - \textbf v \times \textbf B) - \epsilon_0 \textbf v \cdot \nabla (\textbf E - \textbf v \times \textbf B) \right)\\ \end{cases}$$
-
-In a vacuum, we can take the curl of the fourth equation to obtain: $$c^2\nabla^2 \textbf B = \frac{\partial^2 \textbf B}{\partial t^2} + (\textbf v \cdot \nabla)^2 \textbf B - 2 \textbf v \cdot \nabla \left(\frac{\partial \textbf B}{\partial t}\right)$$ Substituting a wave solution of the form $\textbf B \sim \exp{i(\textbf k \cdot \textbf x -\omega t)}$ We obtain an equation for $\omega$, which we can solve to obtain: $$\omega = -\textbf v \cdot \textbf k \pm c |\textbf k|$$ Therefore the speed of propagation is the group velocity: $$\frac{\partial \omega}{\partial \textbf k} = -\textbf v \pm c \hat{\textbf{ k}}$$ which gives you the expected $c\pm v$ with an appropriate choice of $\textbf v$ and $\textbf k$.
-
+\par В физике преобразования Лоренца - линейная группа преобразований пространства времени,
+относительно которой законы физики должны быть инварианты.
+\par А именно, если $A_1(\vec{r}; ct); \dots; A_n(\vec{r}; ct)$ - физические величины,
+\newline $F(A_1; \dots, A_n) = 0$ - закон, связывающий их, то после преобразований $L$:
+    \begin{equation}
+        \begin{pmatrix}
+            ct'\\
+            x'\\
+            y'\\
+            z'
+        \end{pmatrix}
+        = \Lambda \cdot
+        \begin{pmatrix}
+            ct\\
+            x\\
+            y\\
+            z
+        \end{pmatrix}
+    \end{equation}
+Новые величины $A'_1(\vec{r'}; ct'); \dots; A'_n(\vec{r'}; ct')$ будут подчиняться тому же закону
+\newline $F(A'_1; \dots, A'_n) = 0$.
+    \par Группа Лоренца состоит из 3-х групп: поворотов, сдвигов и Лоренцевых бустов.
+    Про первые 2 все понятно. Мы знаем как выглядит общая матрица поворота и сдвиг:
+    \begin{equation}
+        \begin{pmatrix}
+            cos(\theta) & -sin(\theta)\\
+            sin(\theta) & cos(\theta)
+        \end{pmatrix};
+        \begin{pmatrix}
+            ct'\\
+            x'\\
+            y'\\
+            z'
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+            ct_0\\
+            x_0\\
+            y_0\\
+            z_0
+        \end{pmatrix}
+        +
+        \begin{pmatrix}
+            ct\\
+            x\\
+            y\\
+            z
+        \end{pmatrix}
+    \end{equation}
+    Я получу матрицу Лоренцево буста в общем виде.
+    \par Всем достаточно хорошо известна эта матрица в случае сонаправленности скорости с одной из осей (например х):
+    \begin{equation}
+        \Lambda^i_{\text{ }j} =
+        \begin{pmatrix}
+            \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} & \frac{-\frac{v}{c}}{\sqrt{1-\frac{v^2}{c^2}}} & 0 & 0 \\
+            \frac{-\frac{v}{c}}{\sqrt{1-\frac{v^2}{c^2}}} & \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} & 0 & 0 \\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1
+        \end{pmatrix}
+    \end{equation}
+    А если обозначить $\beta \coloneqq \frac{v}{c}$; $\gamma \coloneqq \frac{1}{\sqrt{1 - \beta}}$ то:
+    \begin{equation}
+        \Lambda^i_{\text{ }j} =
+        \begin{pmatrix}
+            \gamma & -\beta \gamma & 0 & 0 \\
+            -\beta \gamma & \gamma & 0 & 0 \\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1
+        \end{pmatrix}
+    \end{equation}
+    Но что делать если нужно совершить буст в направлении не совпадающим с осями, например когда $\vec{v} = (v_x; v_y, v_z)$?
+    Из 1-ого случая мы видим что какое-либо изменение происходит по оси, параллельной направлению скорости.
+    \par Распишем:
+    \begin{equation}
+    \begin{gathered}
+        \vec{r} = \vec{r_{\parallel}} + \vec{r_\perp} \\
+        \vec{r}\text{ }' = \vec{r_{\parallel}}' + \vec{r_\perp}'
+    \end{gathered}
+    \end{equation}
+    \par Где:
+    \begin{equation}
+    \begin{gathered}
+        \vec{r_{\parallel}} = \left(\vec{r} \cdot \frac{\vec{v}}{v}\right) \frac{\vec{v}}{v} \\
+        \vec{r_\perp} = \vec{r} - \left(\vec{r} \cdot \frac{\vec{v}}{v}\right) \frac{\vec{v}}{v}
+    \end{gathered}
+    \end{equation}
+    \par Тогда:
+    \begin{equation}
+    \begin{gathered}
+        ct' = \gamma \left( ct - \left(\vec{\beta} \cdot \vec{r_{\parallel}}\right)   \right) \\
+        \vec{r_{\parallel}}' = \gamma \left(\vec{r_\parallel} - \vec{\beta}ct \right) \\
+        \vec{r_\perp}' = \vec{r_\perp}
+    \end{gathered}
+    \end{equation}
+    \par В общем виде:
+    \begin{equation}
+    \begin{gathered}
+        ct' = \gamma \left( ct - \beta \left(\vec{r} \cdot \frac{\vec{v}}{v}\right)  \right) \\
+        \vec{r}\text{ }' = \vec{r} + \left( \gamma - 1 \right)\left(\vec{r} \cdot \frac{\vec{v}}{v}\right) \frac{\vec{v}}{v} - \gamma\vec{\beta}ct
+    \end{gathered}
+    \end{equation}
+    \par И матрица преобразования Лоренца в общем случае:
+    \begin{equation}
+        \Lambda^i_{\text{ }j} =
+        \begin{pmatrix}
+            \gamma & -\gamma\frac{v_x}{c} & -\gamma\frac{v_y}{c} & -\gamma\frac{v_z}{c}\\
+            -\gamma\frac{v_x}{c} & 1 + \left( \gamma - 1 \right)\frac{v_x^2}{v^2} & \left( \gamma - 1 \right)\frac{v_x v_y}{v^2} & \left( \gamma - 1 \right)\frac{v_x v_z}{v^2} \\
+            -\gamma\frac{v_y}{c} & \left( \gamma - 1 \right)\frac{v_y v_x}{v^2} & 1 + \left( \gamma - 1 \right)\frac{v_y^2}{v^2} & \left( \gamma - 1 \right)\frac{v_y v_z}{v^2} \\
+            -\gamma\frac{v_z}{c} & \left( \gamma - 1 \right)\frac{v_z v_x}{v^2} & \left( \gamma - 1 \right)\frac{v_z v_y}{v^2} & 1 + \left( \gamma - 1 \right)\frac{v_z^2}{v^2}
+        \end{pmatrix}
+    \end{equation}
+    \par Для скорости тоже общий вид напишу для красоты, получить который можно расписав дифференциалы:
+    \begin{equation}
+    \begin{gathered}
+        \vec{u} = \frac{d\vec{r}}{dt} \\
+        \vec{u}\text{ }' = \frac{d\vec{r}\text{ }'}{dt} \\
+        \gamma_v \coloneqq \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \\
+        \vec{u}\text{ }' = \frac{1}{1 - \frac{\vec{v} \cdot \vec{u}}{c^2}}\left( \frac{\vec{u}}{\gamma_v} -\vec{v} + \frac{1}{c^2}\frac{\gamma_v}{1 + \gamma_v}\left( \vec{u} \cdot \vec{v} \right) \cdot \vec{v} \right)
+    \end{gathered}
+    \end{equation}
+    \par Ну и на десерт формула, которую я мало понимаю, но выглядящую красиво. Преобразование общего \textsl{невзаимодействующего} многочастичного состояния (состояния из пространства Фока) в квантовой теории поля:
+    \begin{equation}
+    \begin{normalsize}
+    \begin{gathered}
+        U(\Lambda; a)\Psi_{p_1\sigma_1 n_1;p_2\sigma_2 n_2;\dots} = \\
+        = e^{-ia_\mu\left[ \left( \Lambda p_1 \right)^\mu + \left( \Lambda p_2 \right)^\mu + \dots \right]}\sqrt{\frac{\left( \Lambda p_1 \right)^0 \left( \Lambda p_2 \right)^0 \dots}{p_1^0 p_2^0 \dots}}\left( \sum\limits_{\sigma'_1 \sigma'_2 \dots} D_{\sigma'_1 \sigma_1}^{(j_1)}[W(\Lambda; p_1)] D_{\sigma'_2 \sigma_2}^{(j_2)}[W(\Lambda; p_2)] \dots\right)\Psi_{\Lambda p_1\sigma'_1 n_1;\Lambda p_2\sigma'_2 n_2;\dots}
+    \end{gathered}
+    \end{normalsize}
+    \end{equation}
+    \par Где $W(\Lambda; p)$ - вигнеровское вращение, a $D^{(j)}$ - $(2 j + 1)$-мерное представление группы $SO(3)$.
+\end{large}
 \end{document}
