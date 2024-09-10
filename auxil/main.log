@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.7.5)  5 JUL 2024 02:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.9.8)  8 SEP 2024 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-05-27>
+L3 programming layer <2024-07-20>
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
@@ -247,7 +247,7 @@ rillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2024/06/02 v24.6 The Babel package
+Package: babel 2024/06/26 v24.7 The Babel package
 \babel@savecnt=\count268
 \U@D=\dimen142
 \l@unhyphenated=\language79
@@ -627,7 +627,7 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref
 .sty
-Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kv
 setkeys/kvsetkeys.sty
@@ -679,7 +679,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.d
 ef
-File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -691,7 +691,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.de
 f
-File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -744,7 +744,7 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.
 def
-File: hpdftex.def 2024-05-23 v7.01i Hyperref driver for pdfTeX
+File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atveryend-lt
 x.sty
@@ -917,16 +917,16 @@ Overfull \hbox (19.4773pt too wide) detected at line 155
 [2] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-05-27>
+L3 programming layer <2024-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15720 strings out of 473904
- 266670 string characters out of 5723743
- 1955905 words of memory out of 5000000
- 38312 multiletter control sequences out of 15000+600000
+ 15720 strings out of 473899
+ 266670 string characters out of 5723643
+ 1955957 words of memory out of 5000000
+ 38317 multiletter control sequences out of 15000+600000
  568547 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,93p,449b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
