@@ -9,6 +9,8 @@
 \usepackage{xcolor} % пакет для работы с цветами
 \usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage{amsfonts}
+%\usepackage{stmaryrd}
 \linespread{1.5}   % межстрочный интервал 1.5
 
 
@@ -43,7 +45,7 @@
 С заданием ознакомлен \\
  
 Оценка \\
-Руководитель практики Аверкиев Н.С\\
+Руководитель практики Аверкиев Н.С.\\
 (Ф.И.О. полностью, должность, звание, подпись).
 
 \end{titlepage}
@@ -194,7 +196,7 @@
         ik_{0}Te^{ik_{0}b} - (Ae^{ik_{0}b} - Be^{-ik_{0}b}) + k_0^2 a Te^{ik_{0}b} = 0 % & \text{, скачёк производной в $b$}
     \end{cases}
 \end{equation}
-Решив эту систему уравнений получили выражения на коэфецииенты отражения $R$ и пропускания $T$:
+Решив эту систему уравнений получили выражения на коэффициенты отражения $R$ и пропускания $T$:
 \begin{equation}
     \begin{cases}
         R = \frac{(cos(ik_{0}b) + 2sin(k_0b))ie^{ik_{0}b}}{k_0a(e^{2ik_{0}b}-(1 + 2i/k_0a)^2)}
@@ -207,18 +209,123 @@
 Посмотрим теперь при каких значения параметров $|T| = 1$. Физически это значит что волна проходит через оба барьера полностью.
 Получаем следующие уравнение на параметры системы:
 \begin{equation}
+    2(1-Cos(2kb)) + 8 \frac{1}{k^2 a^2} (1+Cos(2kb)) - 8\frac{1}{k a}Sin(2kb) = 0
+\end{equation}
+Это трасдендентное уравнение на $k$, однако оно имеет не корни, согласно этому графику:
+\par
+\begin{center}
+\includegraphics[scale = 0.55]{trans_graphic.pdf}
+\par
+    \underline{Рисунок 3}: График уравнения (10)
+\end{center}
+\par А значит при некоторых значениях $k$ волна проходит полностью через 2 $\delta$-образных барьера.
+\subsection{Задача на условие возникновения параметрического резонанса в колебательной системе за счет двойного $\delta$-образного потенциала}
+%{\color{red} тут написать про параметрический резонанс, корни, оперделитель, на вещетвенность корней, на проверку корней равных еденице условие на вещественность и возникновение параметрического резонанса}
+\par Рассмотрим теперь гармонический ассцилятор, который колеблится под действием периодического потенциала следующего вида:
+\begin{equation}
     \begin{cases}
-        R = \frac{(cos(ik_{0}b) + 2sin(k_0b))ie^{ik_{0}b}}{k_0a(e^{2ik_{0}b}-(1 + 2i/k_0a)^2)}
-        \\
-        T = \frac{4}{k_0^2a^2e^{2ik_{0}b}-(k_0a + 2i)^2}
+    \chi(t) = \frac{1}{\Omega}(\delta(t-T/4) - \delta(t-3T/4)) & 0 < t < T
+    \\
+    \chi(t+T) = \chi(t)
     \end{cases}
 \end{equation}
+\par
+\begin{center}
+\includegraphics[scale = 0.55]{ertyu6r567.png}
+\par
+    \underline{Рисунок 4}: График потенциала $\chi(t)$
+\end{center}
+\par Тогда уравнение на функцию принимает вид:
+\begin{equation}
+    \ddot{U} + \omega_0 (1+\chi(t))U = 0
+\end{equation}
+\par Так как потенциал имеет периодическую структуру во времени, то решение данного уравнения можно получить из теоремы Блоха [2], а именно:
+\begin{equation}
+    U(t) = e^{\lambda t} \widetilde{U}(t)
+\end{equation}
+Где:
+\begin{equation}
+    \widetilde{U}(t) = \widetilde{U}(t+T)
+\end{equation}
+То есть, $U(t)$ можно переписать в виде:
+\begin{equation}
+    U(t+T) = e^{\lambda T} U(t)
+\end{equation}
+Учитывая, что на интервале между $\delta$-функциями $U(t)$ имеет вид:
+\begin{equation}
+    U(t) = Ae^{i\omega_0 t} + Be^{-i\omega_0 t}
+\end{equation}
+А также граничные условия аналогичные (7) и дополнительные на непрерывность в точке $t=T$: $U(T) = e^{\lambda T}U(0)$, $\dot{U}(T) = e^{\lambda T}\dot{U}(0)$.
+Подставляя в них решение, получим:
+\begin{equation}
+    \begin{cases}
+    (\alpha + \beta - e^{\lambda T})A + (\gamma + \delta - e^{\lambda T})B = 0
+    \\
+    (\alpha - \beta - e^{\lambda T})A + (\gamma - \delta + e^{\lambda T})B = 0
+    \end{cases}
+\end{equation}
+Где:
+\begin{equation}
+    \begin{cases}
+    \alpha = e^{i\omega_0 T} + \frac{\omega_0^2}{4\Omega^2} e^{i\omega_0 T} - \frac{\omega_0^2}{4\Omega^2}
+    \\
+    \beta = \frac{i\omega_0}{2\Omega} e^{-i\omega_0 T/2} + \frac{\omega_0^2}{4\Omega^2} e^{-i\omega_0 T/2} - \frac{i\omega_0}{2\Omega} e^{i\omega_0 T/2} - \frac{\omega_0^2}{4\Omega^2} e^{i\omega_0 T/2}
+    \\
+    \gamma =  -\frac{i\omega_0}{2\Omega} e^{i\omega_0 T/2} - \frac{\omega_0^2}{4\Omega^2} e^{-i\omega_0 T/2} + \frac{i\omega_0}{2\Omega} e^{-i\omega_0 T/2} + \frac{\omega_0^2}{4\Omega^2} e^{i\omega_0 T/2}
+    \\
+    \delta = e^{-i\omega_0 T} + \frac{\omega_0^2}{4\Omega^2} e^{-i\omega_0 T} - \frac{\omega_0^2}{4\Omega^2}
+    \end{cases}
+\end{equation}
+Для того, чтобы система уравнений имела решение необходимо, чтобы ее определитель был равен $0$.
+\begin{equation}
+    det = e^{2\lambda T} - (\alpha + \beta) e^{\lambda T} + (\alpha \delta - \beta \gamma ) = 0
+\end{equation}
 
-\subsection{Задача на условие возникновения параметрического резонанса в колебательной системе за счет двойного $\delta$-образного потенциала}
-\par {\color{red} тут написать про параметрический резонанс, корни, оперделитель, на вещетвенность корней, на проверку корней равных еденице условие на вещественность и возникновение параметрического резонанса}
-
+Из выражений $\alpha, \beta, \gamma, \delta$ полчается, что $\alpha \delta - \beta \gamma = 1$.
+Значит $e^{\lambda_1 T} \cdot e^{\lambda_2 T} = 1$.
+Тогда, получаем выражение:
+\begin{multline*}
+    e^{\lambda_1 T} = Cos(\omega_0 t) + \frac{\omega_0^2}{4\Omega^2} Cos(\omega_0 t) - \frac{\omega_0^2}{4\Omega^2} \pm
+    \\
+    \pm Sin(\frac{\omega_0 t}{2}) \sqrt{(\frac{\omega_0^2}{2\Omega^2} + 2)(Sin^2(\frac{\omega_0 t}{2}) \cdot (\frac{\omega_0^2}{2\Omega^2} + 2) - 2)}
+\end{multline*}
+Необходимо, чтобы это выражение было вещественным, иначе мы получим что обе экспоненты имеют чисто мнимые показатели:
+\[
+    e^{\lambda_1 T} = \alpha + i\beta
+\]
+\[
+    e^{\lambda_2 T} = \alpha - i\beta
+\]
+\[
+    e^{\lambda_1 T} \cdot e^{\lambda_2 T} = 1 = \alpha^2 + \beta^2
+\]
+\[
+    => \lambda_1 = -\lambda_2 = i\widetilde{\lambda}, \widetilde{\lambda} \in \mathbb{R}
+\]
+Так как нас интересует параметрический резонанс, необходимо чтобы $e^{\lambda T} \in \mathbb{R}$.
+Значит:
+\begin{equation}
+    Sin^2(\frac{\omega_0 T}{2}) > \frac{1}{1 + \omega_0^2/4\Omega^2}
+\end{equation}
+\[
+    \frac{2\pi}{T} = 2\omega_0 + \gamma
+\]
+\[
+    Sin^2(\frac{\pi}{1+\gamma/2\omega_0}) > \frac{1}{1+\omega_0^2/4\Omega^2}
+\]
+Это трансцендентное неравенство, решением которого будет область допустимых значений $T$ для возникновения параметрического резонанса.
+\par
+\begin{center}
+\includegraphics[scale = 0.55]{rezonans.jpg}
+\par
+    \underline{Рисунок 5}: Графическое представление неравенства
+\end{center}
+\par Из графика можно видеть, что существует диапазон значений $T$, при которых выполняется неравенство, а следовательно и осуществляется параметрический резонанс.
 \section{Заключение}
-{\color{red} тут про то что я решил задачу без теории возмущений описывая более широкий класс потенциалов которые создают параметрический резонанс}
+В данной работе представлено решение задачи о возникновении параметрического резонанса в системе с $\delta$-образным периодическим потенциалом.
+Стоит отметить также, что система с данным потенциалом, не может быть описан через теорию возмущений и приближением малого взаимодействия, как это принято в классическом подходе решения задач о параметрическом резонансе.
+С помощью данного подхода можно попробовать описывать не слабые периодические потенциалы, раскладывая их по $\delta$-функциям, что увеличивает класс решаемых задач.
+%{\color{red} тут про то что я решил задачу без теории возмущений описывая более широкий класс потенциалов которые создают параметрический резонанс}
 %\newpage
 
 \section{Список литературы}
@@ -227,18 +334,5 @@
        \item Zafar Ahmed, 'Revisiting double Dirac delta potential', European Journal of Physics (March 2016)
        \item Dr Siegfried Flugge, 'Practical Quantum Mechanics', Springer (1994)
    \end{enumerate}
-
-%\newpage
-%\section{Чеклист}
-% \begin{itemize}
-%     \item Вспомнить и аккуратно подписать картинки
-%     \item источник статья 2005 года норм не норм
-%     \item титульный лист
-%     \item лист задание
-%     \item разобраться с отступами
-%     \item
-%
-%
-% \end{itemize}
 
 \end{document}
