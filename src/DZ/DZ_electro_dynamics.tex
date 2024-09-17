@@ -17,6 +17,8 @@
 \usepackage{multirow}
 \usepackage{hyperref}
 \usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{textcomp}
 
 % Document
 \begin{document}
@@ -26,87 +28,103 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{10.09.2024}
+    \textbf{17.09.2024}
 \end{center}
 \par Условие:
 \par
-\includegraphics[width=\textwidth]{photo.jpg}
+\includegraphics[width=\textwidth]{photo.png}
 %\begin{center}
 %\underline{Рисунок 1}:
 %\end{center}
 \par Решение:
 \[
-    j(t) = \frac{\sigma}{\tau} \int\limits_0^{+\infty} E(t-\widetilde{t} ) e^{-\widetilde{t}/\tau} d \widetilde{t}
+    \Delta \overrightarrow{B} = \frac{4\pi e^2 n}{c^2 m} \overrightarrow{B} \Rightarrow \Delta \overrightarrow{B} = \frac{\overrightarrow{B}}{\Lambda^2}
+\]
+\par Введем цилиндрические координаты
+\par Лапласиан:
+\[
+    \Delta = \frac{1}{r} \frac{\partial}{\partial r} \left( r \frac{\partial}{\partial r} \right) + \frac{1}{r^2} \frac{\partial^2}{\partial \varphi^2} + \frac{\partial^2}{\partial z^2}
+\]
+\par При $r > r_0$
+\[
+    \Delta \overrightarrow{B} = 0  \Rightarrow \overrightarrow{B}(r) = \overrightarrow{B_0}
+\]
+\par При $r \leqslant r_0$
+\[
+   \Delta \overrightarrow{B} = \frac{\overrightarrow{B}}{\Lambda^2}
+\]
+\par
+\[
+    \frac{1}{r} \frac{\partial}{\partial r} \left( r \frac{\partial \overrightarrow{B}}{\partial r} \right) = \frac{\overrightarrow{B}}{\Lambda^2}
+\]
+\par
+\[
+    \frac{\partial^2 \overrightarrow{B}}{\partial r^2} + \frac{1}{r} \frac{\partial \overrightarrow{B}}{\partial r} - \frac{\overrightarrow{B}}{\Lambda^2} = 0
+\]
+\par Замена: $r = \Lambda \rho$
+\[
+   \frac{\partial^2 \overrightarrow{B}}{\partial \rho^2} + \frac{1}{\rho} \frac{\partial \overrightarrow{B}}{\partial \rho} - \overrightarrow{B} = 0
+\]
+\par
+\[
+    \overrightarrow{B} = B_z \overrightarrow{e_z}
+\]
+\par
+\[
+    \frac{\partial^2 B_z}{\partial \rho^2} + \frac{1}{\rho} \frac{\partial B_z}{\partial \rho} - B_z = 0
+\]
+\par Будем искать решение уравнения в виде:
+\[
+   B_z(\rho) = C \cdot I_0(\rho) + D \cdot K_0(\rho)
+\]
+\par Функция $K_0(\rho) \rightarrow +\infty$ при $\rho \rightarrow 0$
+\par $B_z(\rho)$ - ограничена при $\rho = 0 \Rightarrow D = 0$
+\[
+    \Rightarrow B_z(\rho) = C \cdot I_0(\rho)
 \]
 \[
-    E(t) =
-    \begin{cases}
-        0; t < 0
-        \\
-        E; 0 < t < T
-        \\
-        0; t > T
-    \end{cases}
+    \Rightarrow B_z(r) = C \cdot I_0(r/\Lambda)
 \]
-\par Сделаем замену в интеграле:
+\par Непрерывность тангенсеальной компоненты поля:
 \[
-    t - \widetilde{t} = y
+    B_{\tau}|_{r_0 + 0} - B_{\tau}|_{r_0 - 0} = 0
 \]
 \[
-    - \widetilde{t} = y - t
+    B_0 = C \cdot I_0(r_0/\Lambda) \Rightarrow C = \frac{B_0}{I_0(r_0/\Lambda)}
 \]
+\par Получаем:
 \[
-    d \widetilde{t} = -dy
+    \overrightarrow{B}(r) = \frac{B_0 \overrightarrow{e_z}}{I_0(r_0/\Lambda)} I_0(r/\Lambda); \text{ при } r \leqslant r_0
 \]
+\par
 \[
-    \widetilde{t} = 0 <=> y = t
+    \overrightarrow{B}(r) = B_0 \overrightarrow{e_z}; \text{ при } r > r_0
 \]
+\par Найдем $\vec{j}$
 \[
-    \widetilde{t} = + \infty <=> y = - \infty
+    rot \overrightarrow{B} = \frac{4\pi}{c} \vec{j}
 \]
-\par Тогда
+\begin{multline*}
+    \vec{j} = \frac{c}{4\pi} \left( \frac{1}{r} \frac{\partial B_z}{\partial \varphi} - \frac{\partial B_\varphi}{\partial z} \right) \overrightarrow{e_r} + \left( \frac{\partial B_r}{\partial z} - \frac{\partial B_z}{\partial r} \right) \overrightarrow{e_\varphi} + \frac{1}{r} \left( \frac{\partial(rB_\varphi)}{\partial r} - \frac{\partial B_r}{\partial \varphi} \right) \overrightarrow{e_z} =
+    \end{multline*}
 \[
-    j(t) = \frac{\sigma}{\tau} \int\limits_0^{+\infty} E(t-\widetilde{t} ) e^{-\widetilde{t}/\tau} d \widetilde{t} =
+    = -\frac{c}{4\pi} \frac{\partial B_z}{\partial r} \overrightarrow{e_\varphi} = -\frac{c}{4\pi} \frac{B_0 \overrightarrow{e_\varphi}}{I_0(r_0/\Lambda)} \frac{1}{\Lambda} I'_0(r/\Lambda)
 \]
+\par Используя рекуррентные соотношения, получаем:
 \[
-    = \frac{\sigma}{\tau} \int\limits_{-\infty}^{t} E(y) e^{(y-t)/\tau} dy = \frac{\sigma}{\tau} e^{-t/\tau} E \int\limits_{0}^{t} e^{y/\tau}dy =
-\]
-\[
-    = \frac{\sigma}{\tau} E e^{-t/\tau}
-    \begin{cases}
-        \int\limits_{0}^{T} e^{y/\tau} dy ; t > T
-        \\
-        \int\limits_{0}^{t} e^{y/\tau} dy ; 0 < t < T
-        \\
-        0 ; t < 0
-    \end{cases}
-\]
-\[
-    = \frac{\sigma}{\tau} E \tau e^{-t/\tau}
-    \begin{cases}
-        e^{y/\tau}  \textbar_{0}^{T} ; t > T
-        \\
-        e^{y/\tau}  \textbar_{0}^{t} ; 0 < t < T
-        \\
-        0 ; t < 0
-    \end{cases}
-\]
-\[
-    = \sigma E e^{-t/\tau}
-    \begin{cases}
-        (e^{T/\tau} - 1) ; t > T
-        \\
-        (e^{t/\tau} - 1)  ; 0 < t < T
-        \\
-        0 ; t < 0
-    \end{cases}
-\]
-\[
-    = \sigma E e^{-t/\tau} [(e^{T/\tau} - 1) \cdot \Theta(t - T) + (e^{t/\tau} - 1) \cdot (\Theta(t) - \Theta(t - T) )]
+   \vec{j} = -\frac{c}{8\pi} \frac{B_0 \overrightarrow{e_\varphi}}{I_0(r_0/\Lambda)} \frac{1}{\Lambda} \left( I_{-1}(r/\Lambda) + I_{+1}(r/\Lambda) \right) = -\frac{c}{4\pi} \frac{B_0 \overrightarrow{e_\varphi}}{I_0(r_0/\Lambda)} \frac{1}{\Lambda} I_{+1}(r/\Lambda)
 \]
 \par Ответ:
 \[
-   j(t) = \sigma E e^{-t/\tau} [(e^{T/\tau} - 1) \cdot \Theta(t - T) + (e^{t/\tau} - 1) \cdot (\Theta(t) - \Theta(t - T) )]
+    \overrightarrow{B}(r) = \frac{B_0 \overrightarrow{e_z}}{I_0(r_0/\Lambda)} I_0(r/\Lambda); \text{ при } r \leqslant r_0
+\]
+\par
+\[
+    \overrightarrow{B}(r) = B_0 \overrightarrow{e_z}; \text{ при } r > r_0
+\]
+\par
+\[
+   \vec{j}(r) = -\frac{c}{4\pi} \frac{B_0 \overrightarrow{e_\varphi}}{I_0(r_0/\Lambda)} \frac{1}{\Lambda} I_{+1}(r/\Lambda)
 \]
 \end{large}
 \end{document}
