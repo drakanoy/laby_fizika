@@ -28,103 +28,98 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{17.09.2024}
+    \textbf{25.09.2024}
 \end{center}
 \par Условие:
 \par
-\includegraphics[width=\textwidth]{photo.png}
+\includegraphics[width=0.5\textwidth]{photo.png}
 %\begin{center}
 %\underline{Рисунок 1}:
 %\end{center}
 \par Решение:
 \[
-    \Delta \overrightarrow{B} = \frac{4\pi e^2 n}{c^2 m} \overrightarrow{B} \Rightarrow \Delta \overrightarrow{B} = \frac{\overrightarrow{B}}{\Lambda^2}
+    div\left( \overrightarrow{D} \right) = 0 \Rightarrow \overrightarrow{D_{n_1}} = \overrightarrow{D_{n_2}}
 \]
-\par Введем цилиндрические координаты
-\par Лапласиан:
 \[
-    \Delta = \frac{1}{r} \frac{\partial}{\partial r} \left( r \frac{\partial}{\partial r} \right) + \frac{1}{r^2} \frac{\partial^2}{\partial \varphi^2} + \frac{\partial^2}{\partial z^2}
+    \overrightarrow{D}(\vec{r})=\varepsilon(\vec{r}) \overrightarrow{E}(\vec{r})
 \]
-\par При $r > r_0$
 \[
-    \Delta \overrightarrow{B} = 0  \Rightarrow \overrightarrow{B}(r) = \overrightarrow{B_0}
+    \varepsilon =
+    \begin{cases}
+        1 ; \rho > a
+        \\
+        \varepsilon ; \rho \leq a
+    \end{cases}
 \]
-\par При $r \leqslant r_0$
+\par На границе:
 \[
-   \Delta \overrightarrow{B} = \frac{\overrightarrow{B}}{\Lambda^2}
+    E_n\mid_{\rho = a+0} = \varepsilon  E_n\mid_{\rho = a-0}
 \]
-\par
 \[
-    \frac{1}{r} \frac{\partial}{\partial r} \left( r \frac{\partial \overrightarrow{B}}{\partial r} \right) = \frac{\overrightarrow{B}}{\Lambda^2}
-\]
-\par
-\[
-    \frac{\partial^2 \overrightarrow{B}}{\partial r^2} + \frac{1}{r} \frac{\partial \overrightarrow{B}}{\partial r} - \frac{\overrightarrow{B}}{\Lambda^2} = 0
-\]
-\par Замена: $r = \Lambda \rho$
-\[
-   \frac{\partial^2 \overrightarrow{B}}{\partial \rho^2} + \frac{1}{\rho} \frac{\partial \overrightarrow{B}}{\partial \rho} - \overrightarrow{B} = 0
+    \overrightarrow{E} = - \overrightarrow{\nabla} \varphi \Rightarrow E_n = -\frac{\partial \varphi}{\partial \rho}
 \]
 \par
 \[
-    \overrightarrow{B} = B_z \overrightarrow{e_z}
+    \Rightarrow \frac{\partial \varphi}{\partial \rho}\mid_{\rho = a+0} = \varepsilon \frac{\partial \varphi}{\partial \rho}\mid_{\rho = a-0}
+\]
+\par Так же учтём непрерывность $\varphi$:
+\[
+    \varphi \mid_{\rho = a+0} =  \varphi \mid_{\rho = a-0}
+\]
+\par Воспользуемся подсказкой и граничными условиями для нахождения коэффициентов
+\[
+    \begin{cases}
+        -E_0 a \cdot cos(\theta) + \frac{d \cdot cos(\theta)}{a} = -E_i a \cdot cos(\theta)
+        \\
+        -E_0 \cdot cos(\theta) - \frac{d \cdot cos(\theta)}{a^2} = -E_i \varepsilon \cdot cos(\theta)
+    \end{cases}
 \]
 \par
 \[
-    \frac{\partial^2 B_z}{\partial \rho^2} + \frac{1}{\rho} \frac{\partial B_z}{\partial \rho} - B_z = 0
-\]
-\par Будем искать решение уравнения в виде:
-\[
-   B_z(\rho) = C \cdot I_0(\rho) + D \cdot K_0(\rho)
-\]
-\par Функция $K_0(\rho) \rightarrow +\infty$ при $\rho \rightarrow 0$
-\par $B_z(\rho)$ - ограничена при $\rho = 0 \Rightarrow D = 0$
-\[
-    \Rightarrow B_z(\rho) = C \cdot I_0(\rho)
+    \begin{cases}
+        -E_0  + \frac{d}{a^2} = -E_i
+        \\
+        E_0 + \frac{d}{a^2} = E_i \varepsilon
+    \end{cases}
 \]
 \[
-    \Rightarrow B_z(r) = C \cdot I_0(r/\Lambda)
+    \Rightarrow
+    \begin{cases}
+        d = \frac{\varepsilon - 1}{\varepsilon + 1}E_0
+        \\
+        E_i = \frac{2E_0}{\varepsilon + 1}
+    \end{cases}
 \]
-\par Непрерывность тангенсеальной компоненты поля:
 \[
-    B_{\tau}|_{r_0 + 0} - B_{\tau}|_{r_0 - 0} = 0
+    \Rightarrow  \varphi =
+    \begin{cases}
+        - \frac{2E_0}{\varepsilon + 1} \rho cos(\theta) ; \rho \leqslant a
+        \\
+        -E_0 \rho cos(\theta) + \frac{E_0}{\rho}\frac{\varepsilon - 1}{\varepsilon + 1} cos(\theta) ; \rho > a
+    \end{cases}
+\]
+\par В цилиндрических координатах:
+\[
+    \overrightarrow{\nabla} = \frac{\partial}{\partial \rho} \vec{e_\rho} + \frac{1}{\rho} \frac{\partial}{\partial \varphi} \vec{e_\varphi} + \frac{\partial}{\partial z} \vec{e_z}
+\]
+\par В силу симметрии задачи по $z \Rightarrow \frac{\partial}{\partial z} = 0$
+\[
+    \overrightarrow{E}_{\text{внутр}} = - \overrightarrow{\nabla} \varphi ; \text{ при } \rho \leqslant a
 \]
 \[
-    B_0 = C \cdot I_0(r_0/\Lambda) \Rightarrow C = \frac{B_0}{I_0(r_0/\Lambda)}
-\]
-\par Получаем:
-\[
-    \overrightarrow{B}(r) = \frac{B_0 \overrightarrow{e_z}}{I_0(r_0/\Lambda)} I_0(r/\Lambda); \text{ при } r \leqslant r_0
-\]
-\par
-\[
-    \overrightarrow{B}(r) = B_0 \overrightarrow{e_z}; \text{ при } r > r_0
-\]
-\par Найдем $\vec{j}$
-\[
-    rot \overrightarrow{B} = \frac{4\pi}{c} \vec{j}
-\]
-\begin{multline*}
-    \vec{j} = \frac{c}{4\pi} \left( \frac{1}{r} \frac{\partial B_z}{\partial \varphi} - \frac{\partial B_\varphi}{\partial z} \right) \overrightarrow{e_r} + \left( \frac{\partial B_r}{\partial z} - \frac{\partial B_z}{\partial r} \right) \overrightarrow{e_\varphi} + \frac{1}{r} \left( \frac{\partial(rB_\varphi)}{\partial r} - \frac{\partial B_r}{\partial \varphi} \right) \overrightarrow{e_z} =
-    \end{multline*}
-\[
-    = -\frac{c}{4\pi} \frac{\partial B_z}{\partial r} \overrightarrow{e_\varphi} = -\frac{c}{4\pi} \frac{B_0 \overrightarrow{e_\varphi}}{I_0(r_0/\Lambda)} \frac{1}{\Lambda} I'_0(r/\Lambda)
-\]
-\par Используя рекуррентные соотношения, получаем:
-\[
-   \vec{j} = -\frac{c}{8\pi} \frac{B_0 \overrightarrow{e_\varphi}}{I_0(r_0/\Lambda)} \frac{1}{\Lambda} \left( I_{-1}(r/\Lambda) + I_{+1}(r/\Lambda) \right) = -\frac{c}{4\pi} \frac{B_0 \overrightarrow{e_\varphi}}{I_0(r_0/\Lambda)} \frac{1}{\Lambda} I_{+1}(r/\Lambda)
+    \overrightarrow{E}_{\text{внутр}} = \frac{2E_0}{\varepsilon + 1} cos(\theta) \vec{e_\rho} - \frac{2E_0}{\varepsilon + 1} sin(\theta) \vec{e_\theta}
 \]
 \par Ответ:
 \[
-    \overrightarrow{B}(r) = \frac{B_0 \overrightarrow{e_z}}{I_0(r_0/\Lambda)} I_0(r/\Lambda); \text{ при } r \leqslant r_0
+    \varphi =
+    \begin{cases}
+        - \frac{2E_0}{\varepsilon + 1} \rho cos(\theta) ; \rho \leqslant a
+        \\
+        -E_0 \rho cos(\theta) + \frac{E_0}{\rho}\frac{\varepsilon - 1}{\varepsilon + 1} cos(\theta) ; \rho > a
+    \end{cases}
 \]
-\par
 \[
-    \overrightarrow{B}(r) = B_0 \overrightarrow{e_z}; \text{ при } r > r_0
-\]
-\par
-\[
-   \vec{j}(r) = -\frac{c}{4\pi} \frac{B_0 \overrightarrow{e_\varphi}}{I_0(r_0/\Lambda)} \frac{1}{\Lambda} I_{+1}(r/\Lambda)
+    \overrightarrow{E}_{\text{внутр}} = \frac{2E_0}{\varepsilon + 1} cos(\theta) \vec{e_\rho} - \frac{2E_0}{\varepsilon + 1} sin(\theta) \vec{e_\theta}
 \]
 \end{large}
 \end{document}
