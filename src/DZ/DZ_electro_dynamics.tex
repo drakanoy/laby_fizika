@@ -32,94 +32,106 @@
 \end{center}
 \par Условие:
 \par
-\includegraphics[width=0.5\textwidth]{photo.png}
+\includegraphics[width=1\textwidth]{photo.png}
 %\begin{center}
 %\underline{Рисунок 1}:
 %\end{center}
 \par Решение:
+\par Полный потенциал $\varphi$ на $ z = 0 $ является суммой потенциала от точечного заряда $\varphi_0$ и индуцированного потенциала $\varphi_{\text{ind}}$ от поляризации слоя:
 \[
-    div\left( \overrightarrow{D} \right) = 0 \Rightarrow \overrightarrow{D_{n_1}} = \overrightarrow{D_{n_2}}
+    \varphi(\vec{\rho}, z = 0) = \varphi_0(\vec{\rho}, z = 0) + \varphi_{\text{ind}}(\vec{\rho}, z = 0)
 \]
 \[
-    \overrightarrow{D}(\vec{r})=\varepsilon(\vec{r}) \overrightarrow{E}(\vec{r})
+    \varphi_0(\vec{\rho}, z = 0) = \frac{e}{\rho}
 \]
+\par Индуцированная поверхностная плотность заряда $ \sigma_{\text{ind}} $ связана с поляризацией следующим образом:
 \[
-    \varepsilon =
-    \begin{cases}
-        1 ; \rho > a
-        \\
-        \varepsilon ; \rho \leq a
-    \end{cases}
+    \sigma_{\text{ind}}(\vec{\rho}, z) = -\nabla_{\vec{\rho}} \cdot \mathbf{P}_{\parallel}(\vec{\rho}, z)
 \]
-\par На границе:
+\par Подставляя
 \[
-    E_n\mid_{\rho = a+0} = \varepsilon  E_n\mid_{\rho = a-0}
+    \mathbf{P}_{\parallel}(\vec{\rho}, z) = \alpha \delta(z) \mathbf{E}_{\parallel}(\vec{\rho})
 \]
+\par и
 \[
-    \overrightarrow{E} = - \overrightarrow{\nabla} \varphi \Rightarrow E_n = -\frac{\partial \varphi}{\partial \rho}
+    \mathbf{E}_{\parallel}(\vec{\rho}) = -\nabla_{\vec{\rho}} \, \varphi(\vec{\rho}, z = 0)
 \]
-\par
+\par получаем:
 \[
-    \Rightarrow \frac{\partial \varphi}{\partial \rho}\mid_{\rho = a+0} = \varepsilon \frac{\partial \varphi}{\partial \rho}\mid_{\rho = a-0}
-\]
-\par Так же учтём непрерывность $\varphi$:
-\[
-    \varphi \mid_{\rho = a+0} =  \varphi \mid_{\rho = a-0}
-\]
-\par Воспользуемся подсказкой и граничными условиями для нахождения коэффициентов
-\[
-    \begin{cases}
-        -E_0 a \cdot cos(\theta) + \frac{d \cdot cos(\theta)}{a} = -E_i a \cdot cos(\theta)
-        \\
-        -E_0 \cdot cos(\theta) - \frac{d \cdot cos(\theta)}{a^2} = -E_i \varepsilon \cdot cos(\theta)
-    \end{cases}
+    \sigma_{\text{ind}}(\vec{\rho}, z) = \alpha \delta(z) \nabla_{\vec{\rho}}^2 \, \varphi(\vec{\rho}, z = 0)
 \]
 \par
 \[
-    \begin{cases}
-        -E_0  + \frac{d}{a^2} = -E_i
-        \\
-        E_0 + \frac{d}{a^2} = E_i \varepsilon
-    \end{cases}
+    \varphi_{\text{ind}}(\vec{\rho}, z) = \int \frac{\sigma_{\text{ind}}(\vec{\rho}\,')}{|\vec{\rho} - \vec{\rho}\,'|} \, d^2 \rho' \delta(z - z') dz' =
 \]
 \[
-    \Rightarrow
-    \begin{cases}
-        d = \frac{\varepsilon - 1}{\varepsilon + 1}E_0
-        \\
-        E_i = \frac{2E_0}{\varepsilon + 1}
-    \end{cases}
+    = \int \frac{\sigma_{\text{ind}}(\vec{\rho}')}{|\vec{\rho} - \vec{\rho}\,'|} \, d^2 \rho'
+\]
+\par Фурье:
+\[
+    \tilde{f}(\vec{k}, \chi) = \int e^{-i \vec{k} \cdot \vec{\rho} - i z \chi} f(\vec{\rho}, z) \, d^2 \rho dz
 \]
 \[
-    \Rightarrow  \varphi =
-    \begin{cases}
-        - \frac{2E_0}{\varepsilon + 1} \rho cos(\theta) ; \rho \leqslant a
-        \\
-        -E_0 \rho cos(\theta) + \frac{E_0}{\rho}\frac{\varepsilon - 1}{\varepsilon + 1} cos(\theta) ; \rho > a
-    \end{cases}
+    f(\vec{\rho}, z) = \frac{1}{(2\pi)^3} \int e^{i \vec{k} \cdot \vec{\rho} + i z \chi} \tilde{f}(\vec{k}, \chi) \, d^2 k d \chi
 \]
-\par В цилиндрических координатах:
+
+\par Для точечного заряда знаем:
 \[
-    \overrightarrow{\nabla} = \frac{\partial}{\partial \rho} \vec{e_\rho} + \frac{1}{\rho} \frac{\partial}{\partial \varphi} \vec{e_\varphi} + \frac{\partial}{\partial z} \vec{e_z}
+    \tilde{\varphi}_0(\vec{k}, \chi) = \int e^{-i \vec{k} \cdot \vec{\rho}} \frac{e}{\rho} \, d^2 \rho = 2\pi \frac{e}{k}
 \]
-\par В силу симметрии задачи по $z \Rightarrow \frac{\partial}{\partial z} = 0$
+\par Из интегрального представления для индуцироного потенциала получаем уравнение на Фурье образы. Так как под интегралом стоит свертка, то:
 \[
-    \overrightarrow{E}_{\text{внутр}} = - \overrightarrow{\nabla} \varphi ; \text{ при } \rho \leqslant a
+    \tilde{\varphi}_{\text{ind}}(\vec{k}, \chi) = 2\pi \frac{\tilde{\sigma}_{\text{ind}}(\vec{k}, \chi)}{k}
+\]
+\par Используя:
+\[
+    \sigma_{\text{ind}}(\vec{\rho}) = \alpha \delta(z) \nabla_{\vec{\rho}}^2 \, \varphi(\vec{\rho}, z = 0)
+\]
+\par получаем:
+\[
+\tilde{\sigma}_{\text{ind}}(\vec{k}, \chi) = -\alpha k^2 \tilde{\varphi}(\vec{k}, \chi)
+\]
+\par Подставляем:
+\[
+    \tilde{\varphi}_{\text{ind}}(\vec{k}, \chi) = -2\pi \alpha k \tilde{\varphi}(\vec{k}, \chi)
+\]
+\par Так как:
+\[
+\tilde{\varphi}(\vec{k}, \chi) = \tilde{\varphi}_0(\vec{k}), \chi + \tilde{\varphi}_{\text{ind}}(\vec{k}, \chi) = \tilde{\varphi}_0(\vec{k}, \chi) - 2\pi \alpha k \tilde{\varphi}(\vec{k}, \chi)
 \]
 \[
-    \overrightarrow{E}_{\text{внутр}} = \frac{2E_0}{\varepsilon + 1} cos(\theta) \vec{e_\rho} - \frac{2E_0}{\varepsilon + 1} sin(\theta) \vec{e_\theta}
+\left(1 + 2\pi \alpha k\right) \tilde{\varphi}(\vec{k}, \chi) = 2\pi \frac{e}{k}
+\]
+\[
+\tilde{\varphi}(\vec{k}, \chi) = \frac{2\pi e}{k \left(1 + 2\pi \alpha k\right)}
+\]
+
+\par Обратный Фурье:
+\par По $z = 0$ ничего не меняется:
+\[
+    \tilde{\varphi}(\vec{k}, z = 0) = \frac{2\pi e}{k \left(1 + 2\pi \alpha k\right)}
+\]
+\[
+    \varphi(\vec{\rho}, z = 0) = \int \frac{d^2 k}{(2\pi)^2} \cdot e^{i \vec{k} \cdot \vec{\rho}} \cdot \frac{2\pi e}{k \left(1 + 2\pi \alpha k\right)} =
+\]
+\[
+    = \int\limits_0^{ \infty} \int\limits_0^{ 2\pi} \frac{k dk d \theta}{(2\pi)^2} \cdot e^{i k \rho \cos(\theta)} \cdot \frac{2\pi e}{k \left(1 + 2\pi \alpha k\right)} =
+\]
+\[
+    = \int\limits_0^{ \infty} \frac{dk}{2\pi} \cdot \frac{2\pi e}{\left(1 + 2\pi \alpha k\right)} \int\limits_0^{ 2\pi} \frac{d \theta}{2\pi} \cdot e^{i k \rho \cos(\theta)}
+\]
+\[
+    = \int\limits_0^{ \infty} \frac{dk}{2\pi} \cdot \frac{2\pi e}{\left(1 + 2\pi \alpha k\right)} \cdot J_0(k \rho) =
+\]
+\[
+    = \frac{2\pi e}{4 \pi^2 \alpha} \int\limits_0^{ \infty} dx \frac{J_0(x \cdot \rho/2\pi\alpha)}{1 + x}
+\]
+\[
+    = \frac{e}{4\alpha} \left[ H_0(\rho/2\pi\alpha) - N_0(\rho/2\pi\alpha) \right]
 \]
 \par Ответ:
 \[
-    \varphi =
-    \begin{cases}
-        - \frac{2E_0}{\varepsilon + 1} \rho cos(\theta) ; \rho \leqslant a
-        \\
-        -E_0 \rho cos(\theta) + \frac{E_0}{\rho}\frac{\varepsilon - 1}{\varepsilon + 1} cos(\theta) ; \rho > a
-    \end{cases}
-\]
-\[
-    \overrightarrow{E}_{\text{внутр}} = \frac{2E_0}{\varepsilon + 1} cos(\theta) \vec{e_\rho} - \frac{2E_0}{\varepsilon + 1} sin(\theta) \vec{e_\theta}
+    \varphi(\vec{\rho}, z = 0) = \frac{e}{4\alpha} \left[ H_0(\rho/2\pi\alpha) - N_0(\rho/2\pi\alpha) \right]
 \]
 \end{large}
 \end{document}
