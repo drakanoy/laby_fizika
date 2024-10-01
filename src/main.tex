@@ -1,158 +1,195 @@
-%! Author = drakanoy
-%! Date = 22.12.2023
-
-% Preamble
-\documentclass[12pt]{article}
-
-% Packages
+\documentclass{article}
 \usepackage[utf8]{inputenc}
-\usepackage[T2A]{fontenc}
-\usepackage[english, russian]{babel}
-\usepackage[a4paper, includefoot, left=1.5cm, right=1.5cm, top=1cm, bottom=1.5cm, headsep=1cm, footskip=1cm]{geometry}
-\usepackage{makecell}
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{enumitem}
-\usepackage{svg}
-\usepackage{multirow}
+\usepackage[russian]{babel}
+\usepackage{amsmath, amssymb, graphicx}
+\usepackage{geometry}
 \usepackage{hyperref}
-\usepackage{mathtools}
+%\usepackage{physics}
+\usepackage{bm}
 
-% Document
 \begin{document}
-\begin{large}
-\begin{center}
-\LARGE \textbf{Преобразования Лоренца}
-\end{center}
-\par В физике преобразования Лоренца - линейная группа преобразований пространства времени,
-относительно которой законы физики должны быть инварианты.
-\par А именно, если $A_1(\vec{r}; ct); \dots; A_n(\vec{r}; ct)$ - физические величины,
-\newline $F(A_1; \dots, A_n) = 0$ - закон, связывающий их, то после преобразований $\Lambda$:
-    \begin{equation}
-        \begin{pmatrix}
-            ct'\\
-            x'\\
-            y'\\
-            z'
-        \end{pmatrix}
-        = \Lambda \cdot
-        \begin{pmatrix}
-            ct\\
-            x\\
-            y\\
-            z
-        \end{pmatrix}
-    \end{equation}
-Новые величины $A'_1(\vec{r'}; ct'); \dots; A'_n(\vec{r'}; ct')$ будут подчиняться тому же закону
-\newline $F(A'_1; \dots, A'_n) = 0$.
-    \par Группа Лоренца состоит из 3-х групп: поворотов, сдвигов и Лоренцевых бустов.
-    Про первые 2 все понятно. Мы знаем как выглядит общая матрица поворота и сдвиг:
-    \begin{equation}
-        \begin{pmatrix}
-            cos(\theta) & -sin(\theta)\\
-            sin(\theta) & cos(\theta)
-        \end{pmatrix};
-        \begin{pmatrix}
-            ct'\\
-            x'\\
-            y'\\
-            z'
-        \end{pmatrix}
-        =
-        \begin{pmatrix}
-            ct_0\\
-            x_0\\
-            y_0\\
-            z_0
-        \end{pmatrix}
-        +
-        \begin{pmatrix}
-            ct\\
-            x\\
-            y\\
-            z
-        \end{pmatrix}
-    \end{equation}
-    Я получу матрицу Лоренцево буста в общем виде.
-    \par Всем достаточно хорошо известна эта матрица в случае сонаправленности скорости с одной из осей (например х):
-    \begin{equation}
-        \Lambda^i_{\text{ }j} =
-        \begin{pmatrix}
-            \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} & \frac{-\frac{v}{c}}{\sqrt{1-\frac{v^2}{c^2}}} & 0 & 0 \\
-            \frac{-\frac{v}{c}}{\sqrt{1-\frac{v^2}{c^2}}} & \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} & 0 & 0 \\
-            0 & 0 & 1 & 0 \\
-            0 & 0 & 0 & 1
-        \end{pmatrix}
-    \end{equation}
-    А если обозначить $\beta \coloneqq \frac{v}{c}$; $\gamma \coloneqq \frac{1}{\sqrt{1 - \beta}}$ то:
-    \begin{equation}
-        \Lambda^i_{\text{ }j} =
-        \begin{pmatrix}
-            \gamma & -\beta \gamma & 0 & 0 \\
-            -\beta \gamma & \gamma & 0 & 0 \\
-            0 & 0 & 1 & 0 \\
-            0 & 0 & 0 & 1
-        \end{pmatrix}
-    \end{equation}
-    Но что делать если нужно совершить буст в направлении не совпадающим с осями, например когда $\vec{v} = (v_x; v_y; v_z)$?
-    Из 1-ого случая мы видим что какое-либо изменение происходит по оси, параллельной направлению скорости.
-    \par Распишем:
-    \begin{equation}
-    \begin{gathered}
-        \vec{r} = \vec{r_{\parallel}} + \vec{r_\perp} \\
-        \vec{r}\text{ }' = \vec{r_{\parallel}}' + \vec{r_\perp}'
-    \end{gathered}
-    \end{equation}
-    \par Где:
-    \begin{equation}
-    \begin{gathered}
-        \vec{r_{\parallel}} = \left(\vec{r} \cdot \frac{\vec{v}}{v}\right) \frac{\vec{v}}{v} \\
-        \vec{r_\perp} = \vec{r} - \left(\vec{r} \cdot \frac{\vec{v}}{v}\right) \frac{\vec{v}}{v}
-    \end{gathered}
-    \end{equation}
-    \par Тогда:
-    \begin{equation}
-    \begin{gathered}
-        ct' = \gamma \left( ct - \left(\vec{\beta} \cdot \vec{r_{\parallel}}\right)   \right) \\
-        \vec{r_{\parallel}}' = \gamma \left(\vec{r_\parallel} - \vec{\beta}ct \right) \\
-        \vec{r_\perp}' = \vec{r_\perp}
-    \end{gathered}
-    \end{equation}
-    \par В общем виде:
-    \begin{equation}
-    \begin{gathered}
-        ct' = \gamma \left( ct - \beta \left(\vec{r} \cdot \frac{\vec{v}}{v}\right)  \right) \\
-        \vec{r}\text{ }' = \vec{r} + \left( \gamma - 1 \right)\left(\vec{r} \cdot \frac{\vec{v}}{v}\right) \frac{\vec{v}}{v} - \gamma\vec{\beta}ct
-    \end{gathered}
-    \end{equation}
-    \par И матрица преобразования Лоренца в общем случае:
-    \begin{equation}
-        \Lambda^i_{\text{ }j} =
-        \begin{pmatrix}
-            \gamma & -\gamma\frac{v_x}{c} & -\gamma\frac{v_y}{c} & -\gamma\frac{v_z}{c}\\
-            -\gamma\frac{v_x}{c} & 1 + \left( \gamma - 1 \right)\frac{v_x^2}{v^2} & \left( \gamma - 1 \right)\frac{v_x v_y}{v^2} & \left( \gamma - 1 \right)\frac{v_x v_z}{v^2} \\
-            -\gamma\frac{v_y}{c} & \left( \gamma - 1 \right)\frac{v_y v_x}{v^2} & 1 + \left( \gamma - 1 \right)\frac{v_y^2}{v^2} & \left( \gamma - 1 \right)\frac{v_y v_z}{v^2} \\
-            -\gamma\frac{v_z}{c} & \left( \gamma - 1 \right)\frac{v_z v_x}{v^2} & \left( \gamma - 1 \right)\frac{v_z v_y}{v^2} & 1 + \left( \gamma - 1 \right)\frac{v_z^2}{v^2}
-        \end{pmatrix}
-    \end{equation}
-    \par Для скорости тоже общий вид напишу для красоты, получить который можно расписав дифференциалы:
-    \begin{equation}
-    \begin{gathered}
-        \vec{u} = \frac{d\vec{r}}{dt} \\
-        \vec{u}\text{ }' = \frac{d\vec{r}\text{ }'}{dt} \\
-        \gamma_v \coloneqq \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \\
-        \vec{u}\text{ }' = \frac{1}{1 - \frac{\vec{v} \cdot \vec{u}}{c^2}}\left( \frac{\vec{u}}{\gamma_v} -\vec{v} + \frac{1}{c^2}\frac{\gamma_v}{1 + \gamma_v}\left( \vec{u} \cdot \vec{v} \right) \cdot \vec{v} \right)
-    \end{gathered}
-    \end{equation}
-    \par Ну и на десерт формула, которую я мало понимаю, но выглядящую красиво. Преобразование общего \textsl{невзаимодействующего} многочастичного состояния (состояния из пространства Фока) в квантовой теории поля:
-    \begin{equation}
-    \begin{normalsize}
-    \begin{gathered}
-        U(\Lambda; a)\Psi_{p_1\sigma_1 n_1;p_2\sigma_2 n_2;\dots} = \\
-        = e^{-ia_\mu\left[ \left( \Lambda p_1 \right)^\mu + \left( \Lambda p_2 \right)^\mu + \dots \right]}\sqrt{\frac{\left( \Lambda p_1 \right)^0 \left( \Lambda p_2 \right)^0 \dots}{p_1^0 p_2^0 \dots}}\left( \sum\limits_{\sigma'_1 \sigma'_2 \dots} D_{\sigma'_1 \sigma_1}^{(j_1)}[W(\Lambda; p_1)] D_{\sigma'_2 \sigma_2}^{(j_2)}[W(\Lambda; p_2)] \dots\right)\Psi_{\Lambda p_1\sigma'_1 n_1;\Lambda p_2\sigma'_2 n_2;\dots}
-    \end{gathered}
-    \end{normalsize}
-    \end{equation}
-    \par Где $W(\Lambda; p)$ - вигнеровское вращение, a $D^{(j)}$ - $(2 j + 1)$-мерное представление группы $SO(3)$.
-\end{large}
+
+\textbf{Решение задачи 4}
+
+\section*{Условие задачи}
+
+Двумерный слой расположен в вакууме в плоскости \( z = 0 \). Вектор поляризуемости слоя задан как
+\[
+\mathbf{P}(\bm{\rho}, z) = \delta(z)\, \alpha\, \mathbf{E}_{\parallel}(\bm{\rho}),
+\]
+где \( \bm{\rho} \) — двумерный радиус-вектор в плоскости, \( \alpha \) — скалярная поляризуемость, а \( \mathbf{E}_{\parallel}(\bm{\rho}) \) — электрическое поле в плоскости \( z = 0 \):
+\[
+\mathbf{E}_{\parallel}(\bm{\rho}) = -\nabla_{\bm{\rho}} \varphi(\bm{\rho}, z = 0).
+\]
+Найти потенциал, который наводит в слое точечный заряд \( e \), с учётом наведённой поляризуемости слоя.
+
+\section*{Решение}
+
+\subsection*{1. Понимание системы}
+
+Рассматривается точечный заряд \( e \), расположенный в начале координат \( (\bm{\rho} = 0, z = 0) \), рядом с двумерным поляризуемым слоем в плоскости \( z = 0 \). Заряд создаёт электрическое поле, которое наводит в слое поляризацию, влияющую на общий потенциал. Требуется найти полный потенциал \( \varphi(\bm{\rho}, z = 0) \) в плоскости слоя.
+
+\subsection*{2. Формулировка задачи}
+
+Полный потенциал \( \varphi \) на \( z = 0 \) является суммой потенциала от точечного заряда \( \varphi_0 \) и наведённого потенциала \( \varphi_{\text{ind}} \) от поляризации слоя:
+\[
+\varphi(\bm{\rho}, z = 0) = \varphi_0(\bm{\rho}, z = 0) + \varphi_{\text{ind}}(\bm{\rho}, z = 0).
+\]
+
+\subsubsection*{Потенциал от точечного заряда}
+
+В системе СГС потенциал от точечного заряда в двумерном пространстве при \( z = 0 \) равен:
+\[
+\varphi_0(\bm{\rho}, z = 0) = \frac{e}{\rho},
+\]
+где \( \rho = |\bm{\rho}| \).
+
+\subsubsection*{Наведённая поверхностная плотность заряда}
+
+Наведённая поверхностная плотность заряда \( \sigma_{\text{ind}} \) связана с поляризацией следующим образом:
+\[
+\sigma_{\text{ind}}(\bm{\rho}) = -\nabla_{\bm{\rho}} \cdot \mathbf{P}_{\parallel}(\bm{\rho}, z = 0).
+\]
+Подставляя \( \mathbf{P}_{\parallel}(\bm{\rho}, z = 0) = \alpha \mathbf{E}_{\parallel}(\bm{\rho}) \) и \( \mathbf{E}_{\parallel}(\bm{\rho}) = -\nabla_{\bm{\rho}} \varphi(\bm{\rho}, z = 0) \), получаем:
+\[
+\sigma_{\text{ind}}(\bm{\rho}) = \alpha \nabla_{\bm{\rho}}^2 \varphi(\bm{\rho}, z = 0).
+\]
+
+\subsubsection*{Наведённый потенциал}
+
+Наведённый потенциал на \( z = 0 \) от \( \sigma_{\text{ind}} \) выражается через интеграл:
+\[
+\varphi_{\text{ind}}(\bm{\rho}, z = 0) = \int \frac{\sigma_{\text{ind}}(\bm{\rho}')}{|\bm{\rho} - \bm{\rho}'|} \, d^2 \rho'.
+\]
+
+\subsection*{3. Применение преобразования Фурье}
+
+Для упрощения свёртки воспользуемся двумерным преобразованием Фурье по переменной \( \bm{\rho} \).
+
+\subsubsection*{Определения преобразования Фурье}
+
+Прямое и обратное преобразования Фурье определяются как:
+\[
+\tilde{f}(\bm{k}) = \int e^{-i \bm{k} \cdot \bm{\rho}} f(\bm{\rho}) \, d^2 \rho,
+\]
+\[
+f(\bm{\rho}) = \frac{1}{(2\pi)^2} \int e^{i \bm{k} \cdot \bm{\rho}} \tilde{f}(\bm{k}) \, d^2 k.
+\]
+
+\subsubsection*{Преобразование Фурье потенциала от точечного заряда}
+
+Преобразование Фурье от \( \varphi_0(\bm{\rho}, z = 0) \):
+\[
+\tilde{\varphi}_0(\bm{k}) = \int e^{-i \bm{k} \cdot \bm{\rho}} \frac{e}{\rho} \, d^2 \rho = 2\pi \frac{e}{k},
+\]
+где \( k = |\bm{k}| \).
+
+\subsubsection*{Преобразование Фурье наведённого потенциала}
+
+В преобразованном пространстве наведённый потенциал связан с \( \tilde{\sigma}_{\text{ind}}(\bm{k}) \) следующим образом:
+\[
+\tilde{\varphi}_{\text{ind}}(\bm{k}) = 2\pi \frac{\tilde{\sigma}_{\text{ind}}(\bm{k})}{k}.
+\]
+
+\subsubsection*{Преобразование Фурье наведённой плотности заряда}
+
+Используя \( \sigma_{\text{ind}}(\bm{\rho}) = \alpha \nabla_{\bm{\rho}}^2 \varphi(\bm{\rho}, z = 0) \), получаем:
+\[
+\tilde{\sigma}_{\text{ind}}(\bm{k}) = -\alpha k^2 \tilde{\varphi}(\bm{k}).
+\]
+
+\subsubsection*{Общий потенциал в преобразованном пространстве}
+
+Комбинируя результаты:
+\[
+\tilde{\varphi}(\bm{k}) = \tilde{\varphi}_0(\bm{k}) + \tilde{\varphi}_{\text{ind}}(\bm{k}) = \tilde{\varphi}_0(\bm{k}) - 2\pi \alpha k \tilde{\varphi}(\bm{k}).
+\]
+Переносим все члены с \( \tilde{\varphi}(\bm{k}) \) в левую часть:
+\[
+\tilde{\varphi}(\bm{k}) + 2\pi \alpha k \tilde{\varphi}(\bm{k}) = \tilde{\varphi}_0(\bm{k}).
+\]
+Выносим \( \tilde{\varphi}(\bm{k}) \) за скобки:
+\[
+\left(1 + 2\pi \alpha k\right) \tilde{\varphi}(\bm{k}) = 2\pi \frac{e}{k}.
+\]
+Решаем относительно \( \tilde{\varphi}(\bm{k}) \):
+\[
+\tilde{\varphi}(\bm{k}) = \frac{2\pi e}{k \left(1 + 2\pi \alpha k\right)}.
+\]
+
+\subsection*{4. Обратное преобразование Фурье}
+
+Теперь выполним обратное преобразование Фурье для нахождения \( \varphi(\bm{\rho}, z = 0) \).
+
+\subsubsection*{Упрощение с учётом радиальной симметрии}
+
+Благодаря радиальной симметрии, обратное преобразование сводится к интегралу:
+\[
+\varphi(\rho, z = 0) = \frac{1}{2\pi} \int_0^\infty k \tilde{\varphi}(k) J_0(k \rho) \, dk,
+\]
+где \( J_0 \) — функция Бесселя первого рода нулевого порядка.
+
+\subsubsection*{Подстановка \( \tilde{\varphi}(k) \)}
+
+Подставляем найденное выражение для \( \tilde{\varphi}(k) \):
+\[
+\varphi(\rho, z = 0) = \frac{1}{2\pi} \int_0^\infty k \left( \frac{2\pi e}{k \left(1 + 2\pi \alpha k\right)} \right) J_0(k \rho) \, dk.
+\]
+Упрощаем выражение:
+\[
+\varphi(\rho, z = 0) = e \int_0^\infty \frac{J_0(k \rho)}{1 + 2\pi \alpha k} \, dk.
+\]
+
+\subsubsection*{Введение новой переменной}
+
+Введём замену:
+\[
+\beta = 2\pi \alpha, \quad s = \beta k \implies k = \frac{s}{\beta}, \quad dk = \frac{ds}{\beta}.
+\]
+Тогда интеграл принимает вид:
+\[
+\varphi(\rho, z = 0) = \frac{e}{\beta} \int_0^\infty \frac{J_0\left( \frac{s \rho}{\beta} \right)}{1 + s} \, ds.
+\]
+
+\subsection*{5. Применение подсказки}
+
+Согласно подсказке:
+\[
+\int_0^\infty \frac{J_0(a x)}{x + 1} \, dx = \frac{\pi}{2} \left( H_0(a) - N_0(a) \right),
+\]
+где \( H_0 \) — функция Струве, а \( N_0 \) — функция Неймана нулевого порядка.
+
+Пусть \( a = \dfrac{\rho}{\beta} \), тогда:
+\[
+\int_0^\infty \frac{J_0\left( \frac{s \rho}{\beta} \right)}{1 + s} \, ds = \frac{\pi}{2} \left( H_0\left( \frac{\rho}{\beta} \right) - N_0\left( \frac{\rho}{\beta} \right) \right).
+\]
+
+\subsection*{6. Итоговое выражение для потенциала}
+
+Подставляем обратно в выражение для \( \varphi(\rho, z = 0) \):
+\[
+\varphi(\rho, z = 0) = \frac{e}{\beta} \cdot \frac{\pi}{2} \left( H_0\left( \frac{\rho}{\beta} \right) - N_0\left( \frac{\rho}{\beta} \right) \right).
+\]
+Зная, что \( \beta = 2\pi \alpha \), получаем:
+\[
+\varphi(\rho, z = 0) = \frac{e}{2\pi \alpha} \cdot \frac{\pi}{2} \left( H_0\left( \frac{\rho}{2\pi \alpha} \right) - N_0\left( \frac{\rho}{2\pi \alpha} \right) \right).
+\]
+Упрощаем константы:
+\[
+\varphi(\rho, z = 0) = \frac{e}{4 \alpha} \left( H_0\left( \frac{\rho}{2\pi \alpha} \right) - N_0\left( \frac{\rho}{2\pi \alpha} \right) \right).
+\]
+
+\section*{Ответ}
+
+Явное выражение для потенциала:
+\[
+\boxed{\varphi(\rho, z = 0) = \dfrac{e}{4\alpha} \left[ H_0\left( \dfrac{\rho}{2\pi \alpha} \right) - N_0\left( \dfrac{\rho}{2\pi \alpha} \right) \right]}
+\]
+где:
+\begin{itemize}
+    \item \( H_0 \) — \textbf{функция Струве} нулевого порядка.
+    \item \( N_0 \) — \textbf{функция Неймана} (функция Бесселя второго рода) нулевого порядка.
+    \item \( \alpha \) — константа поляризуемости.
+\end{itemize}
+
 \end{document}
