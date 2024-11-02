@@ -1,152 +1,233 @@
 \documentclass{article}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage[russian]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 \begin{document}
 
-\title{Решение задачи 1.1}
-\date{}
-\maketitle
+\textbf{Задача. Бусина на кольце}
 
-\section*{1.1.}
+Маленькая бусина массой \( m \) свободно скользит по проволочному кольцу радиуса \( R \). Кольцо вращают с постоянной угловой скоростью \( \omega \) вокруг оси, проходящей через диаметр и параллельной силе тяжести. Найти положения равновесия бусины, исследовать их устойчивость и найти частоту малых колебаний.
 
-Необходимо предложить две эквивалентные схемы реализации данного двухполюсника двумя элементами, соединенными:
+\textbf{Решение:}
 
-\begin{itemize}
-    \item а) последовательно;
-    \item б) параллельно.
-\end{itemize}
+\textbf{1. Условие задачи:}
 
-\subsection*{Дано:}
+- Кольцо расположено в вертикальной плоскости и вращается вокруг вертикальной оси, проходящей через его центр.
+- Бусина может свободно двигаться без трения по кольцу.
+- Требуется найти положения равновесия, исследовать их устойчивость и определить частоту малых колебаний.
 
-Напряжение:
-\[
-u(t) = 80 + 2\cos(200t - 15^\circ) \, \text{В}
-\]
+\textbf{2. Выбор системы координат:}
 
-Ток:
-\[
-i(t) = \sin(200t - 60^\circ) \, \text{А}
-\]
-
-\subsection*{Решение:}
-
-\subsubsection*{Шаг 1: Преобразование тока к косинусной форме}
-
-Преобразуем ток для удобства сравнения:
+Обозначим угол \(\theta\) как угол отклонения бусины от нижней точки кольца, измеренный против часовой стрелки. Тогда положение бусины задаётся координатами:
 
 \[
-i(t) = \sin(200t - 60^\circ) = \cos\left(200t - 60^\circ - 90^\circ\right) = \cos(200t - 150^\circ) \, \text{А}
+x = R \sin \theta, \quad z = -R \cos \theta.
 \]
 
-\subsubsection*{Шаг 2: Выделение постоянной и переменной составляющих}
+\textbf{3. Силы, действующие на бусину:}
 
-Напряжение содержит постоянную составляющую \( U_{\text{DC}} = 80 \, \text{В} \) и переменную составляющую \( U_{\text{AC}} = 2\cos(200t - 15^\circ) \, \text{В} \). Ток является чисто переменным.
-
-\subsubsection*{Шаг 3: Представление в комплексной форме (фазоры)}
-
-Для анализа переменной составляющей используем фазоры:
+1. \textbf{Сила тяжести} \( \mathbf{F}_g \):
 
 \[
-\underline{U} = 2\angle (-15^\circ) \, \text{В}
-\]
-\[
-\underline{I} = 1\angle (-150^\circ) \, \text{А}
+\mathbf{F}_g = -mg \hat{z}.
 \]
 
-\subsubsection*{Шаг 4: Вычисление импеданса}
-
-Используя закон Ома в комплексной форме:
+2. \textbf{Центробежная сила} \( \mathbf{F}_c \) в системе отсчёта, вращающейся вместе с кольцом:
 
 \[
-\underline{Z} = \frac{\underline{U}}{\underline{I}} = \frac{2\angle (-15^\circ)}{1\angle (-150^\circ)} = 2\angle (135^\circ)
+\mathbf{F}_c = m \omega^2 R \sin \theta \, \hat{x}.
 \]
 
-Преобразуем импеданс в алгебраическую форму:
+\textbf{4. Эффективная потенциальная энергия:}
+
+Эффективная потенциальная энергия в вращающейся системе отсчёта:
 
 \[
-\underline{Z} = 2\left( \cos 135^\circ + j \sin 135^\circ \right) = 2\left( -\frac{\sqrt{2}}{2} + j\frac{\sqrt{2}}{2} \right) = -1.4142 + j\,1.4142 \, \Omega
+U(\theta) = U_g + U_c = -mgR \cos \theta - \dfrac{1}{2} m \omega^2 R^2 \sin^2 \theta.
 \]
 
-\textbf{Примечание:} Отрицательная действительная часть импеданса указывает на отрицательное сопротивление, что предполагает наличие активных элементов.
+\textbf{5. Поиск положений равновесия:}
 
-\subsubsection*{Вариант а) Последовательное соединение}
-
-\paragraph*{Элементы схемы:}
-
-\begin{itemize}
-    \item \textbf{Источник напряжения} \( V_s = 80 \, \text{В} \) (постоянная составляющая)
-    \item \textbf{Сопротивление} \( R_s = -1.4142 \, \Omega \)
-    \item \textbf{Индуктивность} \( L_s \)
-\end{itemize}
-
-\paragraph*{Вычисление индуктивности:}
-
-Зная, что \( X_s = \omega L_s \), где \( \omega = 200 \, \text{рад/с} \):
+Равновесие достигается там, где первая производная потенциальной энергии по \(\theta\) равна нулю:
 
 \[
-X_s = 1.4142 \, \Omega
-\]
-\[
-L_s = \frac{X_s}{\omega} = \frac{1.4142}{200} = 0.00707 \, \text{Гн}
+\dfrac{dU}{d\theta} = 0.
 \]
 
-\paragraph*{Итоговая последовательная схема:}
-
-\begin{itemize}
-    \item \textbf{Источник напряжения:} \( V_s = 80 \, \text{В} \)
-    \item \textbf{Отрицательное сопротивление:} \( R_s = -1.4142 \, \Omega \)
-    \item \textbf{Индуктивность:} \( L_s = 7.07 \, \text{мГн} \)
-\end{itemize}
-
-\subsubsection*{Вариант б) Параллельное соединение}
-
-\paragraph*{Вычисление проводимости:}
-
-Сначала находим комплексную проводимость \( \underline{Y} \):
+Вычисляем производную:
 
 \[
-\underline{Y} = \frac{1}{\underline{Z}} = \frac{1}{2\angle 135^\circ} = 0.5\angle (-135^\circ)
+\dfrac{dU}{d\theta} = mgR \sin \theta - m \omega^2 R^2 \sin \theta \cos \theta = mR \sin \theta \left( g - \omega^2 R \cos \theta \right).
 \]
 
-Преобразуем проводимость в алгебраическую форму:
+Приравниваем к нулю:
 
 \[
-\underline{Y} = 0.5\left( \cos(-135^\circ) + j \sin(-135^\circ) \right) = 0.5\left( -\frac{\sqrt{2}}{2} - j\frac{\sqrt{2}}{2} \right) = -0.3536 - j\,0.3536 \, \text{См}
+\sin \theta \left( g - \omega^2 R \cos \theta \right) = 0.
 \]
 
-\paragraph*{Элементы схемы:}
+Получаем два случая:
 
-\begin{itemize}
-    \item \textbf{Проводимость} \( G_p = -0.3536 \, \text{См} \)
-    \item \textbf{Сусцептанс} \( B_p = -0.3536 \, \text{См} \)
-\end{itemize}
-
-\paragraph*{Вычисление емкости:}
-
-Так как \( B_p = -\omega C_p \), то:
+1. \(\sin \theta = 0\):
 
 \[
-C_p = \frac{-B_p}{\omega} = \frac{0.3536}{200} = 0.001768 \, \text{Ф}
+\theta = 0, \quad \theta = \pi.
 \]
 
-\paragraph*{Итоговая параллельная схема:}
+2. \(g - \omega^2 R \cos \theta = 0\):
 
-\begin{itemize}
-    \item \textbf{Отрицательное сопротивление:} \( R_p = \frac{1}{G_p} = -2.8284 \, \Omega \)
-    \item \textbf{Емкость:} \( C_p = 1.768 \, \text{мФ}
-\end{itemize}
+\[
+\cos \theta = \dfrac{g}{\omega^2 R}.
+\]
 
-\subsection*{Вывод:}
+Это решение имеет физический смысл, если \(|\cos \theta| \leq 1\), то есть при \(\omega^2 R \geq g\).
 
-\begin{itemize}
-    \item \textbf{Вариант а)}: Двухполюсник можно представить как последовательное соединение источника напряжения \( 80 \, \text{В} \), отрицательного сопротивления \( -1.4142 \, \Omega \) и индуктивности \( 7.07 \, \text{мГн} \).
-    \item \textbf{Вариант б)}: Альтернативно, его можно представить как параллельное соединение отрицательного сопротивления \( -2.8284 \, \Omega \) и емкости \( 1.768 \, \text{мФ} \).
-\end{itemize}
+\textbf{6. Исследование устойчивости:}
 
-\textbf{Важно:} Отрицательное сопротивление и проводимость указывают на наличие активных элементов (например, управляемых источников или усилителей). В реальных цепях пассивные компоненты не могут иметь отрицательное сопротивление. Поэтому реализация таких схем требует использования активных элементов.
+Устойчивость определяется знаком второй производной потенциальной энергии:
+
+\[
+\dfrac{d^2 U}{d\theta^2} = mgR \cos \theta - m \omega^2 R^2 (\cos^2 \theta - \sin^2 \theta).
+\]
+
+\textbf{a) При \(\theta = 0\):}
+
+\[
+\dfrac{d^2 U}{d\theta^2} \bigg|_{\theta = 0} = mgR - m \omega^2 R^2 = mR (g - \omega^2 R).
+\]
+
+- Если \(\omega^2 R < g\), то \(\dfrac{d^2 U}{d\theta^2} > 0\) — положение устойчиво.
+- Если \(\omega^2 R > g\), то \(\dfrac{d^2 U}{d\theta^2} < 0\) — положение неустойчиво.
+
+\textbf{b) При \(\theta = \pi\):}
+
+\[
+\dfrac{d^2 U}{d\theta^2} \bigg|_{\theta = \pi} = -mgR - m \omega^2 R^2 = -mR (g + \omega^2 R) < 0.
+\]
+
+- Положение всегда неустойчиво.
+
+\textbf{c) При \(\cos \theta = \dfrac{g}{\omega^2 R}\):}
+
+Вычисляем вторую производную:
+
+\[
+\begin{aligned}
+\dfrac{d^2 U}{d\theta^2} &= mgR \cos \theta - m \omega^2 R^2 (\cos^2 \theta - \sin^2 \theta) \\
+&= mgR \cos \theta - m \omega^2 R^2 (2 \cos^2 \theta - 1).
+\end{aligned}
+\]
+
+Подставляем \(\cos \theta = \dfrac{g}{\omega^2 R}\):
+
+\[
+\cos^2 \theta = \left( \dfrac{g}{\omega^2 R} \right)^2, \quad \sin^2 \theta = 1 - \cos^2 \theta = 1 - \left( \dfrac{g}{\omega^2 R} \right)^2.
+\]
+
+Вычисляем:
+
+\[
+\dfrac{d^2 U}{d\theta^2} = mgR \left( \dfrac{g}{\omega^2 R} \right ) - m \omega^2 R^2 \left( 2 \left( \dfrac{g}{\omega^2 R} \right )^2 - 1 \right ).
+\]
+
+Упрощаем:
+
+\[
+\dfrac{d^2 U}{d\theta^2} = m \left( \dfrac{g^2}{\omega^2} \right ) - m \left( \dfrac{2 g^2}{\omega^2} - \omega^2 R^2 \right ) = m \left( \omega^2 R^2 - \dfrac{g^2}{\omega^2} \right ) > 0.
+\]
+
+Поскольку \(\omega^2 R^2 - \dfrac{g^2}{\omega^4 R^2} > 0\) при \(\omega^2 R > g\).
+
+- Положение устойчиво при \(\omega^2 R > g\).
+
+\textbf{7. Нахождение частоты малых колебаний:}
+
+\textbf{a) Вокруг \(\theta = 0\):}
+
+Частота малых колебаний определяется выражением:
+
+\[
+\omega_0 = \sqrt{ \dfrac{1}{m R^2} \dfrac{d^2 U}{d\theta^2} } = \sqrt{ \dfrac{g - \omega^2 R}{R} }.
+\]
+
+- Частота определена только при \(\omega^2 R < g\).
+
+\textbf{b) Вокруг \(\cos \theta_0 = \dfrac{g}{\omega^2 R}\):}
+
+Рассмотрим малые отклонения \(\varphi\) от положения равновесия:
+
+\[
+\theta = \theta_0 + \varphi, \quad \varphi \ll 1.
+\]
+
+Уравнение движения:
+
+\[
+m R^2 \ddot{\varphi} = -\dfrac{d^2 U}{d\theta^2} \bigg|_{\theta = \theta_0} \varphi.
+\]
+
+Ранее мы получили:
+
+\[
+\dfrac{d^2 U}{d\theta^2} \bigg|_{\theta = \theta_0} = m \left( \omega^2 R^2 - \dfrac{g^2}{\omega^2} \right ).
+\]
+
+Уравнение принимает вид:
+
+\[
+m R^2 \ddot{\varphi} + m \left( \omega^2 R^2 - \dfrac{g^2}{\omega^2} \right ) \varphi = 0.
+\]
+
+Сокращаем на \(m\):
+
+\[
+R^2 \ddot{\varphi} + \left( \omega^2 R^2 - \dfrac{g^2}{\omega^2} \right ) \varphi = 0.
+\]
+
+Делим на \(R^2\):
+
+\[
+\ddot{\varphi} + \left( \omega^2 - \dfrac{g^2}{\omega^4 R^2} \right ) \varphi = 0.
+\]
+
+Получаем выражение для частоты малых колебаний:
+
+\[
+\omega_0^2 = \omega^2 - \left( \dfrac{g}{\omega R} \right )^2.
+\]
+
+Поскольку \(\cos \theta_0 = \dfrac{g}{\omega^2 R}\), то \(\sin^2 \theta_0 = 1 - \left( \dfrac{g}{\omega^2 R} \right )^2\). Тогда:
+
+\[
+\omega_0 = \omega \sqrt{ 1 - \left( \dfrac{g}{\omega^2 R} \right )^2 } = \omega \sin \theta_0.
+\]
+
+\textbf{8. Итоговые результаты:}
+
+- Положения равновесия:
+
+  - \(\theta = 0\): устойчиво при \(\omega^2 R < g\).
+  - \(\theta = \pi\): всегда неустойчиво.
+  - \(\cos \theta = \dfrac{g}{\omega^2 R}\): устойчиво при \(\omega^2 R > g\).
+
+- Частоты малых колебаний:
+
+  - Вокруг \(\theta = 0\):
+
+    \[
+    \omega_0 = \sqrt{ \dfrac{g - \omega^2 R}{R} }.
+    \]
+
+  - Вокруг \(\cos \theta = \dfrac{g}{\omega^2 R}\):
+
+    \[
+    \omega_0 = \omega \sqrt{ 1 - \left( \dfrac{g}{\omega^2 R} \right )^2 } = \omega \sin \theta_0.
+    \]
+
+\textbf{Заключение:}
+
+Бусина имеет устойчивые положения равновесия в нижней точке кольца при низкой скорости вращения (\(\omega^2 R < g\)) и при углах, удовлетворяющих условию \(\cos \theta = \dfrac{g}{\omega^2 R}\), при высокой скорости вращения (\(\omega^2 R > g\)). Частота малых колебаний зависит от угловой скорости вращения кольца, радиуса кольца и ускорения свободного падения.
 
 \end{document}

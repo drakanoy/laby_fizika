@@ -28,7 +28,7 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{26.10.2024}
+    \textbf{2.11.2024}
 \end{center}
 \par Условие:
 \par
@@ -37,110 +37,99 @@
 %\underline{Рисунок 1}:
 %\end{center}
 \par Решение:
-\par Будем считать, что поле направлено по оси z.
+\par
 \par
 %\includegraphics[width=1\textwidth]{photo_1.jpg}
 %\par
 %\includegraphics[width=1\textwidth]{photo_2.jpg}
 \par
 \[
-    \overrightarrow{B} = \overrightarrow{B_0} + \overrightarrow{B_1} e^{-i\omega t}
+    \xi_3 = \frac{|E_x|^2 - |E_y|^2}{|E_x|^2 + |E_y|^2}
 \]
 \[
-    \overrightarrow{M} = \overrightarrow{M_0} + \overrightarrow{M_1} e^{-i\omega t}
+    \xi_1 = \frac{E_x E_y^* + E_y E_x^*}{|E_x|^2 + |E_y|^2}
 \]
-\begin{eqnarray*}
-%    \nonumber
-    \frac{d\left(  \overrightarrow{M_0} + \overrightarrow{M_1} e^{-i\omega t}\right)}{dt} = \gamma \cdot \left( \overrightarrow{B_0} + \overrightarrow{B_1} e^{-i\omega t} \right) \times \left( \overrightarrow{M_0} + \overrightarrow{M_1} e^{-i\omega t} \right) - \\
-    - \frac{\left( \overrightarrow{M_0} + \overrightarrow{M_1} e^{-i\omega t} \right)_{||} - \overrightarrow{M_0}}{T_1} - \frac{\left( \overrightarrow{M_0} + \overrightarrow{M_1} e^{-i\omega t} \right)_{\perp}}{T_2}
-\end{eqnarray*}
 \[
-   -i\omega \overrightarrow{M_1} = \gamma \cdot \left( \overrightarrow{B_0} \times \overrightarrow{M_1} +  \overrightarrow{B_1} \times \overrightarrow{M_0} + \overrightarrow{B_1} \times \overrightarrow{M_1} \right) - \frac{\overrightarrow{M_{1 ||}}}{T_1} - \frac{\overrightarrow{M_{1 \perp}}}{T_1}
+    \xi_2 = \frac{E_y E_x^* - E_x E_y^*}{i (|E_x|^2 + |E_y|^2)}
 \]
-\par Слагаемое $\overrightarrow{B_1} \times \overrightarrow{M_1} = 0$, так как это следующий порядок малости:
-\[
-   -i\omega \overrightarrow{M_1} = \gamma \cdot \left( \overrightarrow{B_0} \times \overrightarrow{M_1} +  \overrightarrow{B_1} \times \overrightarrow{M_0} \right) - \frac{\overrightarrow{M_{1 ||}}}{T_1} - \frac{\overrightarrow{M_{1 \perp}}}{T_1}
-\]
-\par Считаем что поле по z не меняется в силу малости поля $\overrightarrow{B_1}$ и $M_z = M_0$
-\par Проецируем на оси x и y и получаем систему уравнений
-\begin{equation*}
-    \begin{cases}
-        -i\omega M_{1x} = \gamma \left( -B_{0} M_1{1y} + B_{1y} M_1{0} \right) -\frac{M_{1x}}{T_2} \\
-        -i\omega M_{1y} = \gamma \left( B_{0} M_1{1x} - B_{1x} M_1{0} \right) -\frac{M_{1y}}{T_2}
-    \end{cases}
-\end{equation*}
-\par В матричном виде получаем уравнение
 \begin{equation*}
     \begin{pmatrix}
-        \left( 1 -i\omega T_2 \right) & \gamma B_0 T_2 \\
-         \gamma B_0 T_2 & - \left( 1 -i\omega T_2 \right) \\
+        E_{x}^{'} \\
+        E_{y}^{'}
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+        \cos \varphi & -\sin \varphi \\
+         \sin \varphi & \cos \varphi \\
     \end{pmatrix}
     \cdot
     \begin{pmatrix}
-        M_{1x} \\
-        M_{1y}
-    \end{pmatrix}
-    = \gamma B_0 T_2 \chi_M
-    \begin{pmatrix}
-        B_{1y} \\
-        B_{1x}
+        E_{x} \\
+        E_{y}
     \end{pmatrix}
 \end{equation*}
+\par 1)
+\begin{eqnarray*}
+%    \nonumber
+    |E_{x}^{'}|^2 + |E_{y}^{'}|^2 = |E_{x}|^2 + |E_{y}|^2
+\end{eqnarray*}
+\par 2)
+\begin{eqnarray*}
+%    \nonumber
+    |E_{x}^{'}|^2 - |E_{y}^{'}|^2 = \left( \cos \varphi \cdot E_x - \sin \varphi \cdot E_y \right)\left( \cos \varphi \cdot E_x^* - \sin \varphi \cdot E_y^* \right) - \\
+    - \left( \sin \varphi \cdot E_x + \cos \varphi \cdot E_y \right) \left( \sin \varphi \cdot E_x^* + \cos \varphi \cdot E_y^* \right) = \\
+    = \cos^2 \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \left( E_x E_y^* + E_y E_x^* \right) + \sin^2 \varphi \cdot |E_y|^2 - \\
+    - \left( \sin^2 \varphi \cdot |E_x|^2 + \cos \varphi \sin \varphi \left( E_x E_y^* + E_y E_x^* \right) + \cos^2 \varphi \cdot |E_y|^2 \right) = \\
+    = \cos 2 \varphi \left( |E_{x}|^2 - |E_{y}|^2 \right) - \sin 2 \varphi \left( E_x E_y^* + E_y E_x^* \right)
+\end{eqnarray*}
+\[
+    \Rightarrow \xi_3^{'} = \cos 2 \varphi \xi_3 - \sin 2 \varphi \xi_1
+\]
+\par 3)
+\begin{eqnarray*}
+%    \nonumber
+    E_{x}^{'}E_{y}^{'*} + E_{x}^{'*}E_{y}^{'} = \left( \cos \varphi \cdot E_x - \sin \varphi \cdot E_y \right)\left( \sin \varphi \cdot E_x^* + \cos \varphi \cdot E_y^* \right) + \\
+    + \left( \cos \varphi \cdot E_x^* - \sin \varphi \cdot E_y^* \right) \left( \sin \varphi \cdot E_x + \cos \varphi \cdot E_y \right) = \\
+    = \cos \varphi \sin \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \cdot |E_y|^2 + \cos^2 \varphi \cdot E_x E_y^* - \sin^2 \varphi \cdot E_y E_x^* + \\
+    + \cos \varphi \sin \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \cdot |E_y|^2 + \cos^2 \varphi \cdot E_x^* E_y - \sin^2 \varphi \cdot E_y^* E_x = \\
+    = \sin 2 \varphi \left( |E_{x}|^2 - |E_{y}|^2 \right) + \cos 2 \varphi \left( E_x E_y^* + E_y E_x^* \right)
+\end{eqnarray*}
+\[
+    \Rightarrow \xi_1^{'} = \sin 2 \varphi \xi_3 + \cos 2 \varphi \xi_1
+\]
+\par 4)
+\begin{eqnarray*}
+%    \nonumber
+    E_{x}^{'*}E_{y}^{'} - E_{x}^{'}E_{y}^{'*} = \left( \cos \varphi \cdot E_x^* - \sin \varphi \cdot E_y^* \right)\left( \sin \varphi \cdot E_x + \cos \varphi \cdot E_y \right) - \\
+    - \left( \cos \varphi \cdot E_x - \sin \varphi \cdot E_y \right) \left( \sin \varphi \cdot E_x^* + \cos \varphi \cdot E_y^* \right) = \\
+    = \cos \varphi \sin \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \cdot |E_y|^2 + \cos^2 \varphi \cdot E_x^* E_y - \sin^2 \varphi \cdot E_y^* E_x - \\
+    - \left(  \cos \varphi \sin \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \cdot |E_y|^2 + \cos^2 \varphi \cdot E_x E_y^* - \sin^2 \varphi \cdot E_y E_x^*  \right) = \\
+    = E_x^* E_y - E_y^* E_x
+\end{eqnarray*}
+\[
+    \Rightarrow \xi_2^{'} = \xi_2
+\]
+\par Ответ:
 
 \begin{equation*}
     \begin{pmatrix}
-        M_{1x} \\
-        M_{1y}
+        \xi_1^{'} \\
+        \xi_2^{'} \\
+        \xi_3^{'}
     \end{pmatrix}
-    = \gamma B_0 T_2 \chi_M \cdot
+    =
     \begin{pmatrix}
-        \left( 1 -i\omega T_2 \right) & \gamma B_0 T_2 \\
-         \gamma B_0 T_2 & - \left( 1 -i\omega T_2 \right) \\
-    \end{pmatrix}^{-1}
-    \begin{pmatrix}
-        B_{1y} \\
-        B_{1x}
+        \cos 2 \varphi & 0 & \sin 2 \varphi \\
+        0 & 1 & 0 \\
+        -\sin 2 \varphi & 0 & \cos 2 \varphi \\
     \end{pmatrix}
-\end{equation*}
-
-\begin{equation*}
+    \cdot
     \begin{pmatrix}
-        M_{1x} \\
-        M_{1y}
-    \end{pmatrix}
-    = \gamma B_0 T_2 \chi_M \frac{1}{\left( 1 -i\omega T_2 \right)^2 + \left( \gamma B_0 T_2 \right)^2} \cdot
-    \begin{pmatrix}
-        \left( 1 -i\omega T_2 \right) & \gamma B_0 T_2 \\
-         \gamma B_0 T_2 & - \left( 1 -i\omega T_2 \right) \\
-    \end{pmatrix}
-    \begin{pmatrix}
-        B_{1y} \\
-        B_{1x}
+        \xi_1 \\
+        \xi_2 \\
+        \xi_3
     \end{pmatrix}
 \end{equation*}
 
-\begin{equation*}
-    \begin{pmatrix}
-        M_{1x} \\
-        M_{1y}
-    \end{pmatrix}
-    = \gamma B_0 T_2 \chi_M \frac{1}{\left( 1 -i\omega T_2 \right)^2 + \left( \gamma B_0 T_2 \right)^2} \cdot
-    \begin{pmatrix}
-         \gamma B_0 T_2 & \left( 1 -i\omega T_2 \right)\\
-         - \left( 1 -i\omega T_2 \right) & \gamma B_0 T_2 \\
-    \end{pmatrix}
-    \begin{pmatrix}
-        B_{1x} \\
-        B_{1y}
-    \end{pmatrix}
-\end{equation*}
-\par Очевидно что $\chi_{zz} = \chi_M$ в силу линейности поля $B$, а $\chi_{zx} = \chi_{zy} = \chi_{xz} = \chi_{yz} = 0$
-\par Графики:
-\par $\chi_{xx} = -\chi_{yy}$
-\par
-\includegraphics[width=1\textwidth]{photo_1.png}
-\par $\chi_{xy} = \chi_{yx}$
-\par
-\includegraphics[width=1\textwidth]{photo_2.png}
 \end{large}
 \end{document}
