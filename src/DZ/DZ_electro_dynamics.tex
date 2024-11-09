@@ -28,7 +28,7 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{2.11.2024}
+    \textbf{9.11.2024}
 \end{center}
 \par Условие:
 \par
@@ -44,92 +44,24 @@
 %\includegraphics[width=1\textwidth]{photo_2.jpg}
 \par
 \[
-    \xi_3 = \frac{|E_x|^2 - |E_y|^2}{|E_x|^2 + |E_y|^2}
+    \frac{n_x^2}{\varepsilon_{\parallel}} + \frac{n_z^2}{\varepsilon_{\perp}} = 1
 \]
 \[
-    \xi_1 = \frac{E_x E_y^* + E_y E_x^*}{|E_x|^2 + |E_y|^2}
+    n_z = \sqrt{\varepsilon_{\perp} - \frac{\varepsilon_{\perp}}{\varepsilon_{\parallel}} n_x^2 }
 \]
+\par В вакууме: $n_x = \sin \theta$, при переходе в кристалл эта компонента сохраняется
 \[
-    \xi_2 = \frac{E_y E_x^* - E_x E_y^*}{i (|E_x|^2 + |E_y|^2)}
+    n_z = \sqrt{\varepsilon_{\perp} - \frac{\varepsilon_{\perp}}{\varepsilon_{\parallel}} \sin^2 \theta}
 \]
-\begin{equation*}
-    \begin{pmatrix}
-        E_{x}^{'} \\
-        E_{y}^{'}
-    \end{pmatrix}
-    =
-    \begin{pmatrix}
-        \cos \varphi & -\sin \varphi \\
-         \sin \varphi & \cos \varphi \\
-    \end{pmatrix}
-    \cdot
-    \begin{pmatrix}
-        E_{x} \\
-        E_{y}
-    \end{pmatrix}
-\end{equation*}
-\par 1)
-\begin{eqnarray*}
-%    \nonumber
-    |E_{x}^{'}|^2 + |E_{y}^{'}|^2 = |E_{x}|^2 + |E_{y}|^2
-\end{eqnarray*}
-\par 2)
-\begin{eqnarray*}
-%    \nonumber
-    |E_{x}^{'}|^2 - |E_{y}^{'}|^2 = \left( \cos \varphi \cdot E_x - \sin \varphi \cdot E_y \right)\left( \cos \varphi \cdot E_x^* - \sin \varphi \cdot E_y^* \right) - \\
-    - \left( \sin \varphi \cdot E_x + \cos \varphi \cdot E_y \right) \left( \sin \varphi \cdot E_x^* + \cos \varphi \cdot E_y^* \right) = \\
-    = \cos^2 \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \left( E_x E_y^* + E_y E_x^* \right) + \sin^2 \varphi \cdot |E_y|^2 - \\
-    - \left( \sin^2 \varphi \cdot |E_x|^2 + \cos \varphi \sin \varphi \left( E_x E_y^* + E_y E_x^* \right) + \cos^2 \varphi \cdot |E_y|^2 \right) = \\
-    = \cos 2 \varphi \left( |E_{x}|^2 - |E_{y}|^2 \right) - \sin 2 \varphi \left( E_x E_y^* + E_y E_x^* \right)
-\end{eqnarray*}
+\par Отношение компонент лучевых скоростей:
 \[
-    \Rightarrow \xi_3^{'} = \cos 2 \varphi \xi_3 - \sin 2 \varphi \xi_1
-\]
-\par 3)
-\begin{eqnarray*}
-%    \nonumber
-    E_{x}^{'}E_{y}^{'*} + E_{x}^{'*}E_{y}^{'} = \left( \cos \varphi \cdot E_x - \sin \varphi \cdot E_y \right)\left( \sin \varphi \cdot E_x^* + \cos \varphi \cdot E_y^* \right) + \\
-    + \left( \cos \varphi \cdot E_x^* - \sin \varphi \cdot E_y^* \right) \left( \sin \varphi \cdot E_x + \cos \varphi \cdot E_y \right) = \\
-    = \cos \varphi \sin \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \cdot |E_y|^2 + \cos^2 \varphi \cdot E_x E_y^* - \sin^2 \varphi \cdot E_y E_x^* + \\
-    + \cos \varphi \sin \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \cdot |E_y|^2 + \cos^2 \varphi \cdot E_x^* E_y - \sin^2 \varphi \cdot E_y^* E_x = \\
-    = \sin 2 \varphi \left( |E_{x}|^2 - |E_{y}|^2 \right) + \cos 2 \varphi \left( E_x E_y^* + E_y E_x^* \right)
-\end{eqnarray*}
-\[
-    \Rightarrow \xi_1^{'} = \sin 2 \varphi \xi_3 + \cos 2 \varphi \xi_1
-\]
-\par 4)
-\begin{eqnarray*}
-%    \nonumber
-    E_{x}^{'*}E_{y}^{'} - E_{x}^{'}E_{y}^{'*} = \left( \cos \varphi \cdot E_x^* - \sin \varphi \cdot E_y^* \right)\left( \sin \varphi \cdot E_x + \cos \varphi \cdot E_y \right) - \\
-    - \left( \cos \varphi \cdot E_x - \sin \varphi \cdot E_y \right) \left( \sin \varphi \cdot E_x^* + \cos \varphi \cdot E_y^* \right) = \\
-    = \cos \varphi \sin \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \cdot |E_y|^2 + \cos^2 \varphi \cdot E_x^* E_y - \sin^2 \varphi \cdot E_y^* E_x - \\
-    - \left(  \cos \varphi \sin \varphi \cdot |E_x|^2 - \cos \varphi \sin \varphi \cdot |E_y|^2 + \cos^2 \varphi \cdot E_x E_y^* - \sin^2 \varphi \cdot E_y E_x^*  \right) = \\
-    = E_x^* E_y - E_y^* E_x
-\end{eqnarray*}
-\[
-    \Rightarrow \xi_2^{'} = \xi_2
+    tg \theta' = \frac{s_x'}{s_z'} = \frac{\varepsilon_{\perp} n_x}{\varepsilon_{\parallel} n_z} = \frac{\varepsilon_{\perp} \sin \theta}{\varepsilon_{\parallel} \sqrt{\varepsilon_{\perp} - \frac{\varepsilon_{\perp}}{\varepsilon_{\parallel}} \sin^2 \theta}}
 \]
 \par Ответ:
 
-\begin{equation*}
-    \begin{pmatrix}
-        \xi_1^{'} \\
-        \xi_2^{'} \\
-        \xi_3^{'}
-    \end{pmatrix}
-    =
-    \begin{pmatrix}
-        \cos 2 \varphi & 0 & \sin 2 \varphi \\
-        0 & 1 & 0 \\
-        -\sin 2 \varphi & 0 & \cos 2 \varphi \\
-    \end{pmatrix}
-    \cdot
-    \begin{pmatrix}
-        \xi_1 \\
-        \xi_2 \\
-        \xi_3
-    \end{pmatrix}
-\end{equation*}
+\[
+    tg \theta' = \frac{s_x'}{s_z'} = \frac{\varepsilon_{\perp} n_x}{\varepsilon_{\parallel} n_z} = \frac{\varepsilon_{\perp} \sin \theta}{\varepsilon_{\parallel} \sqrt{\varepsilon_{\perp} - \frac{\varepsilon_{\perp}}{\varepsilon_{\parallel}} \sin^2 \theta}}
+\]
 
 \end{large}
 \end{document}
