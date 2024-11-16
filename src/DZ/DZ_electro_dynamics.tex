@@ -28,7 +28,7 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{9.11.2024}
+    \textbf{16.11.2024}
 \end{center}
 \par Условие:
 \par
@@ -38,30 +38,85 @@
 %\end{center}
 \par Решение:
 \par
-\par
+\par Пункт (а). $\chi_{ijk}^{(2)}$ - всего 27 компонент
+\par Все $C_2$ - симметрии:
 %\includegraphics[width=1\textwidth]{photo_1.jpg}
 %\par
 %\includegraphics[width=1\textwidth]{photo_2.jpg}
-\par
+\par Поворот на $\pi$ вокруг $x$:
 \[
-    \frac{n_x^2}{\varepsilon_{\parallel}} + \frac{n_z^2}{\varepsilon_{\perp}} = 1
+    x \rightarrow x, \,\,\, y \rightarrow -y, \,\,\, z \rightarrow -z
 \]
 \[
-    n_z = \sqrt{\varepsilon_{\perp} - \frac{\varepsilon_{\perp}}{\varepsilon_{\parallel}} n_x^2 }
+    p_x \rightarrow p_x, \,\,\, p_y \rightarrow -p_y, \,\,\, p_z \rightarrow -p_z
 \]
-\par В вакууме: $n_x = \sin \theta$, при переходе в кристалл эта компонента сохраняется
 \[
-    n_z = \sqrt{\varepsilon_{\perp} - \frac{\varepsilon_{\perp}}{\varepsilon_{\parallel}} \sin^2 \theta}
+    E_x \rightarrow E_x, \,\,\, E_y \rightarrow -E_y, \,\,\, E_z \rightarrow -E_z
 \]
-\par Отношение компонент лучевых скоростей:
+\par Получаем:
 \[
-    tg \theta' = \frac{s_x'}{s_z'} = \frac{\varepsilon_{\perp} n_x}{\varepsilon_{\parallel} n_z} = \frac{\varepsilon_{\perp} \sin \theta}{\varepsilon_{\parallel} \sqrt{\varepsilon_{\perp} - \frac{\varepsilon_{\perp}}{\varepsilon_{\parallel}} \sin^2 \theta}}
+    \left.
+    \begin{array}{r}
+        p_x = \chi_{xxy}^{(2)} E_x E_y \\
+        p_x = \chi_{xxy}^{(2)} E_x (-E_y)
+    \end{array}
+    \right\} \Rightarrow \chi_{xxy}^{(2)} = 0
+\]
+\par Ан-но:
+\[
+    \chi_{xxy}^{(2)} = \chi_{xyx}^{(2)} = \chi_{xxz}^{(2)} = \chi_{xzx}^{(2)} = 0
+\]
+\par Ан-но $\pi$ вокруг $y$:
+\[
+    \chi_{yxy}^{(2)} = \chi_{yyx}^{(2)} = \chi_{yxz}^{(2)} = \chi_{yzx}^{(2)} = 0
+\]
+\par Ан-но $\pi$ вокруг $z$:
+\[
+    \chi_{zxy}^{(2)} = \chi_{zyx}^{(2)} = \chi_{zxz}^{(2)} = \chi_{zzx}^{(2)} = 0
+\]
+\par Все $C_3$ симметрии вокруг диагоналей:
+\[
+    x \rightarrow y, \,\,\, y \rightarrow z, \,\,\, z \rightarrow x
+\]
+\[
+    \chi_{xyz}^{(2)} = \chi_{yzx}^{(2)} = \chi_{zxy}^{(2)}
+\]
+\[
+    \chi_{xzy}^{(2)} = \chi_{zyx}^{(2)} = \chi_{yxz}^{(2)}
+\]
+\[
+    \chi_{xxx}^{(2)} = \chi_{yyy}^{(2)} = \chi_{zzz}^{(2)}
+\]
+\[
+    \chi_{xyy}^{(2)} = \chi_{yzz}^{(2)} = \chi_{zxx}^{(2)}
+\]
+\[
+    \chi_{xzz}^{(2)} = \chi_{yxx}^{(2)} = \chi_{zyy}^{(2)}
+\]
+\par Вокруг другой диагонали
+\[
+    x \rightarrow -z, \,\,\, y \rightarrow x, \,\,\, z \rightarrow -y
+\]
+\par Получаем:
+\[
+    \chi_{iii}^{(2)} = \chi_{ijj}^{(2)} = 0
+\]
+\par Отражение $\sigma$ отн диагонали грани
+\[
+    x \rightarrow x, \,\,\, y \rightarrow z, \,\,\, z \rightarrow y
+\]
+\par Тогда все $\chi_{ijk}^{(2)}$ с разными индексами равны. По сути это можно переписать через перестановку индексов:
+\[
+    \chi_{xyz}^{(2)} = \chi_{\sigma\{x; y; z\}}^{(2)}
 \]
 \par Ответ:
-
 \[
-    tg \theta' = \frac{s_x'}{s_z'} = \frac{\varepsilon_{\perp} n_x}{\varepsilon_{\parallel} n_z} = \frac{\varepsilon_{\perp} \sin \theta}{\varepsilon_{\parallel} \sqrt{\varepsilon_{\perp} - \frac{\varepsilon_{\perp}}{\varepsilon_{\parallel}} \sin^2 \theta}}
+    \chi_{xyz}^{(2)} = \chi_{\sigma\{x; y; z\}}^{(2)}
 \]
-
+\[
+    \chi_{iii}^{(2)} = \chi_{\sigma\{i; i; j\}}^{(2)} = 0
+\]
+\par Один линейно-независимый элемент
+\par Пункт (б) я не решал
 \end{large}
 \end{document}
