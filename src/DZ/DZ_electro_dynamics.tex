@@ -28,7 +28,7 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{16.11.2024}
+    \textbf{23.11.2024}
 \end{center}
 \par Условие:
 \par
@@ -38,85 +38,46 @@
 %\end{center}
 \par Решение:
 \par
-\par Пункт (а). $\chi_{ijk}^{(2)}$ - всего 27 компонент
-\par Все $C_2$ - симметрии:
+\par Условие генерации второй ТМ гармоники:
+\[
+    2 \cdot k_{TE}( \omega ) = k_{TM}(2 \omega )
+\]
+\par
 %\includegraphics[width=1\textwidth]{photo_1.jpg}
 %\par
-%\includegraphics[width=1\textwidth]{photo_2.jpg}
-\par Поворот на $\pi$ вокруг $x$:
+\begin{center}
+\includegraphics[width=0.4\textwidth]{photo_2.jpg}
+\end{center}
+\par Дисперсионное соотношение:
 \[
-    x \rightarrow x, \,\,\, y \rightarrow -y, \,\,\, z \rightarrow -z
+    k^2( \omega ) = \varepsilon ( \omega ) \frac{ \omega^2 }{c^2}
+\]
+\par Так как ТЕ поляризации соответствует обыкновенная волна, то:
+\[
+    K_{TE}^2 ( \omega ) = \varepsilon_{xx} ( \omega ) \frac{ \omega^2 }{c^2}
+\]
+\par А для ТМ поляризации:
+\[
+    K_{TM}^2 ( \omega ) = K_{TM; x}^2 ( \omega ) + K_{TM; z}^2 ( \omega ) = \left( tg^2 \theta + 1 \right) K_{TM; z}^2 ( \omega ) = \frac{\varepsilon_{zz} ( \omega ) \frac{ \omega^2 }{c^2}}{ \cos^2 \theta }
+\]
+\par Используя условие генерации получаем:
+\[
+    2 \sqrt{K_{TE}^2 ( \omega )} = \sqrt{K_{TM}^2 ( 2 \omega )}
 \]
 \[
-    p_x \rightarrow p_x, \,\,\, p_y \rightarrow -p_y, \,\,\, p_z \rightarrow -p_z
+    2 \sqrt{ \varepsilon_{xx} ( \omega ) \frac{ \omega^2 }{c^2} } = \sqrt{ \frac{\varepsilon_{zz} ( 2 \omega ) \frac{ ( 2 \omega )^2 }{c^2}}{ \cos^2 \theta } }
 \]
 \[
-    E_x \rightarrow E_x, \,\,\, E_y \rightarrow -E_y, \,\,\, E_z \rightarrow -E_z
-\]
-\par Получаем:
-\[
-    \left.
-    \begin{array}{r}
-        p_x = \chi_{xxy}^{(2)} E_x E_y \\
-        p_x = \chi_{xxy}^{(2)} E_x (-E_y)
-    \end{array}
-    \right\} \Rightarrow \chi_{xxy}^{(2)} = 0
-\]
-\par Ан-но:
-\[
-    \chi_{xxy}^{(2)} = \chi_{xyx}^{(2)} = \chi_{xxz}^{(2)} = \chi_{xzx}^{(2)} = 0
-\]
-\par Ан-но $\pi$ вокруг $y$:
-\[
-    \chi_{yxy}^{(2)} = \chi_{yyx}^{(2)} = \chi_{yxz}^{(2)} = \chi_{yzx}^{(2)} = 0
-\]
-\par Ан-но $\pi$ вокруг $z$:
-\[
-    \chi_{zxy}^{(2)} = \chi_{zyx}^{(2)} = \chi_{zxz}^{(2)} = \chi_{zzx}^{(2)} = 0
-\]
-\par Все $C_3$ симметрии вокруг диагоналей:
-\[
-    x \rightarrow y, \,\,\, y \rightarrow z, \,\,\, z \rightarrow x
+    \sqrt{\varepsilon_{xx} ( \omega )} = \frac{\sqrt{\varepsilon_{zz} (2 \omega )}}{ \cos \theta }
 \]
 \[
-    \chi_{xyz}^{(2)} = \chi_{yzx}^{(2)} = \chi_{zxy}^{(2)}
-\]
-\[
-    \chi_{xzy}^{(2)} = \chi_{zyx}^{(2)} = \chi_{yxz}^{(2)}
-\]
-\[
-    \chi_{xxx}^{(2)} = \chi_{yyy}^{(2)} = \chi_{zzz}^{(2)}
-\]
-\[
-    \chi_{xyy}^{(2)} = \chi_{yzz}^{(2)} = \chi_{zxx}^{(2)}
-\]
-\[
-    \chi_{xzz}^{(2)} = \chi_{yxx}^{(2)} = \chi_{zyy}^{(2)}
-\]
-\par Вокруг другой диагонали
-\[
-    x \rightarrow -z, \,\,\, y \rightarrow x, \,\,\, z \rightarrow -y
-\]
-\par Получаем:
-\[
-    \chi_{iii}^{(2)} = \chi_{ijj}^{(2)} = 0
-\]
-\par Отражение $\sigma$ отн диагонали грани
-\[
-    x \rightarrow x, \,\,\, y \rightarrow z, \,\,\, z \rightarrow y
-\]
-\par Тогда все $\chi_{ijk}^{(2)}$ с разными индексами равны. По сути это можно переписать через перестановку индексов:
-\[
-    \chi_{xyz}^{(2)} = \chi_{\sigma\{x; y; z\}}^{(2)}
+    \cos \theta = \sqrt{\frac{\varepsilon_{zz} (2 \omega )}{\varepsilon_{xx} ( \omega )}}
 \]
 \par Ответ:
 \[
-    \chi_{xyz}^{(2)} = \chi_{\sigma\{x; y; z\}}^{(2)}
+    \cos \theta = \sqrt{\frac{\varepsilon_{zz} (2 \omega )}{\varepsilon_{xx} ( \omega )}}
 \]
-\[
-    \chi_{iii}^{(2)} = \chi_{\sigma\{i; i; j\}}^{(2)} = 0
-\]
-\par Один линейно-независимый элемент
-\par Пункт (б) я не решал
+\par
+\par
 \end{large}
 \end{document}
