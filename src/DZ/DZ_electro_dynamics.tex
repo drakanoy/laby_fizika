@@ -28,7 +28,7 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{23.11.2024}
+    \textbf{30.11.2024}
 \end{center}
 \par Условие:
 \par
@@ -38,45 +38,83 @@
 %\end{center}
 \par Решение:
 \par
-\par Условие генерации второй ТМ гармоники:
-\[
-    2 \cdot k_{TE}( \omega ) = k_{TM}(2 \omega )
-\]
 \par
 %\includegraphics[width=1\textwidth]{photo_1.jpg}
 %\par
 \begin{center}
-\includegraphics[width=0.4\textwidth]{photo_2.jpg}
+\includegraphics[width=0.4\textwidth]{photo_2.png}
 \end{center}
-\par Дисперсионное соотношение:
+\par Так как у нас вакуум вне металла то $\theta = \theta'$
+\par Граничные условия:
 \[
-    k^2( \omega ) = \varepsilon ( \omega ) \frac{ \omega^2 }{c^2}
-\]
-\par Так как ТЕ поляризации соответствует обыкновенная волна, то:
-\[
-    K_{TE}^2 ( \omega ) = \varepsilon_{xx} ( \omega ) \frac{ \omega^2 }{c^2}
-\]
-\par А для ТМ поляризации:
-\[
-    K_{TM}^2 ( \omega ) = K_{TM; x}^2 ( \omega ) + K_{TM; z}^2 ( \omega ) = \left( tg^2 \theta + 1 \right) K_{TM; z}^2 ( \omega ) = \frac{\varepsilon_{zz} ( \omega ) \frac{ \omega^2 }{c^2}}{ \cos^2 \theta }
-\]
-\par Используя условие генерации получаем:
-\[
-    2 \sqrt{K_{TE}^2 ( \omega )} = \sqrt{K_{TM}^2 ( 2 \omega )}
+    E_{x1} = E_{x2}
 \]
 \[
-    2 \sqrt{ \varepsilon_{xx} ( \omega ) \frac{ \omega^2 }{c^2} } = \sqrt{ \frac{\varepsilon_{zz} ( 2 \omega ) \frac{ ( 2 \omega )^2 }{c^2}}{ \cos^2 \theta } }
+    E_{x1} = E_0 \cos \theta - r E_0 \cos \theta
 \]
 \[
-    \sqrt{\varepsilon_{xx} ( \omega )} = \frac{\sqrt{\varepsilon_{zz} (2 \omega )}}{ \cos \theta }
+    E_{x2} = t E_0 \cos \theta
 \]
 \[
-    \cos \theta = \sqrt{\frac{\varepsilon_{zz} (2 \omega )}{\varepsilon_{xx} ( \omega )}}
+    \Rightarrow 1 - r = t
 \]
+\[
+    \oint \overrightarrow{H} d \vec{l} = \frac{4 \pi}{c} \overrightarrow{I} + \frac{1}{c} \int \frac{\partial \overrightarrow{E}}{\partial t} d\overrightarrow{S}
+\]
+\[
+     \Rightarrow E_{x2} - E_{x1} = \frac{4\pi}{c} j = \frac{4\pi}{c} \sigma E_x
+\]
+\[
+    rot \overrightarrow{E} = -\frac{1}{c} \frac{\partial \overrightarrow{H}}{\partial t}
+\]
+\par У $H$ только $y$ компонента, получаем:
+\[
+    \frac{\partial E_z}{\partial x} - \frac{\partial E_x}{\partial z} = \frac{i \omega }{c} H_y
+\]
+\[
+    \frac{c}{i \omega} \left[  \frac{\partial E_{z2}}{\partial x} - \frac{\partial E_{x2}}{\partial z} - \left( \frac{\partial E_{z1}}{\partial x} - \frac{\partial E_{x1}}{\partial z} \right) \right] = \frac{4\pi}{c} \sigma E_{x2}
+\]
+\[
+    \overrightarrow{E} = E_0 \left( \cos \theta \vec{e_x} + \sin \theta \vec{e_z} \right) e^{ikx\sin \theta  + ik y\cos \theta  - i\omega t}
+\]
+\begin{eqnarray*}
+    \frac{c}{i \omega} \left[ ik \sin \theta t E_0 \sin \theta - ik \cos \theta t E_0 \cos \theta - \left( ik \sin \theta \left( E_0 + r E_0 \right) \sin \theta - \right. \right. \\
+    \left. \left. - ik \cos \theta \left( E_0 + r E_0 \right) \cos \theta \right) \right] = \frac{4\pi}{c} \sigma t E_0 \cos \theta
+\end{eqnarray*}
+\[
+    k = \frac{\omega}{c}
+\]
+\[
+    t \sin^2 \theta - t \cos^2 \theta - \left( \sin^2 \theta \left( 1 + r \right) + \cos^2 \theta \left( 1 - r \right) \right) = \frac{4\pi}{c} \sigma t \cos \theta
+\]
+\[
+    r \cos 2\theta - 1 - t\cos 2\theta = \frac{4\pi}{c} \sigma t \cos \theta
+\]
+\begin{eqnarray*}
+    \begin{cases}
+        1 - r = t \\
+        r \cos 2\theta - 1 - t\cos 2\theta = \frac{4\pi \sigma}{c} t \cos \theta
+    \end{cases}
+\end{eqnarray*}
+\begin{eqnarray*}
+    \begin{cases}
+        1 - t = r \\
+        \cos 2\theta - 1 - 2 t\cos 2\theta = \frac{4\pi \sigma}{c} t \cos \theta
+    \end{cases}
+\end{eqnarray*}
+\begin{eqnarray*}
+    \begin{cases}
+        r = \frac{\cos 2\theta + \frac{4\pi \sigma}{c} \cos \theta +1 }{2\cos 2\theta + \frac{4\pi \sigma}{c} \cos \theta} \\
+        r = \frac{\cos 2\theta -1 }{2\cos 2\theta + \frac{4\pi \sigma}{c} \cos \theta}
+    \end{cases}
+\end{eqnarray*}
 \par Ответ:
-\[
-    \cos \theta = \sqrt{\frac{\varepsilon_{zz} (2 \omega )}{\varepsilon_{xx} ( \omega )}}
-\]
+\begin{eqnarray*}
+    \begin{cases}
+        r = \frac{\cos 2\theta + \frac{4\pi \sigma}{c} \cos \theta +1 }{2\cos 2\theta + \frac{4\pi \sigma}{c} \cos \theta} \\
+        r = \frac{\cos 2\theta -1 }{2\cos 2\theta + \frac{4\pi \sigma}{c} \cos \theta}
+    \end{cases}
+\end{eqnarray*}
 \par
 \par
 \end{large}
