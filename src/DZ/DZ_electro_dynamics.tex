@@ -19,6 +19,7 @@
 \usepackage{mathtools}
 \usepackage{amssymb}
 \usepackage{textcomp}
+\usepackage{stmaryrd}
 
 % Document
 \begin{document}
@@ -28,11 +29,11 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{16.12.2024}
+    \textbf{26.12.2024}
 \end{center}
 \par Условие:
 \par
-\includegraphics[width=1\textwidth]{photo.png}
+\includegraphics[width=0.8\textwidth]{photo.png}
 %\begin{center}
 %\underline{Рисунок 1}:
 %\end{center}
@@ -41,105 +42,293 @@
 \par
 %\includegraphics[width=1\textwidth]{photo_1.jpg}
 %\par
-\begin{center}
-\includegraphics[width=0.4\textwidth]{photo_1.jpg}
-\end{center}
+%\begin{center}
+%\includegraphics[width=0.4\textwidth]{photo_1.jpg}
+%\end{center}
+%\begin{eqnarray*}
+%    \begin{cases}
+%        \Delta \overrightarrow{E} + \frac{\varepsilon \omega^2}{c^2} \overrightarrow{E} = 0 ; 0 < z < b \\
+%        \Delta \overrightarrow{E} + \frac{\omega^2}{c^2} \overrightarrow{E} = 0 ; b < z < a
+%    \end{cases}
+%\end{eqnarray*}
+%\par Так как у нас $E_y = E_z = 0$, то
+%\begin{eqnarray*}
+%    \begin{cases}
+%        \Delta E_x + \frac{\varepsilon \omega^2}{c^2} E_x = 0 ; \,\, 0 < z < b \\
+%        \Delta E_x + \frac{\omega^2}{c^2} E_x = 0 ; \,\, b < z < a
+%    \end{cases}
+%\end{eqnarray*}
+%\par Граничные условия:
+%\[
+%    \varepsilon_1 E_{1n} = \varepsilon_2 E_{2n} ; \,\,\, E_{1\tau} = E_{2\tau}
+%\]
+%\par при $y = 0, a$, $z = 0, a$:
+%\[
+%    E_x = 0
+%\]
+%\par при $x = 0, a$:
+\[
+    \overrightarrow{E}_{seat} \left( \vec{r} \right) = \widehat{G} \left( \vec{r} \right) \vec{p}
+\]
+\[
+    \vec{p} = \alpha_x E_{0x} \vec{e_x} + \alpha_y E_{0y} \vec{e_y}
+\]
+\[
+    G_{\alpha \beta } = \left( q^2 \delta_{\alpha \beta} + \frac{\partial }{\partial x_\alpha}\frac{\partial }{\partial x_\beta} \right) \frac{e^{iqr}}{r} ;  \, \, \, \alpha; \beta = x; y; z
+\]
+\par так как $r >> 1/q$:
+\[
+    G_{\alpha \beta } = \frac{1}{r} \left( q^2 \delta_{\alpha \beta} + \frac{\partial }{\partial x_\alpha}\frac{\partial }{\partial x_\beta} \right)e^{iqr} = q^2 \left( \delta_{\alpha \beta} + n_\alpha n_\beta \right) \frac{e^{iqr}}{r}
+\]
+\[
+    E_i = G_{ij}\left( \alpha_j E_{0j} \right) ;  \, \, \, i; j = x; y; z
+\]
+\par Пусть пока $|E_{0x}|^2 + |E_{0y}|^2 = I$
 \begin{eqnarray*}
     \begin{cases}
-        \Delta \overrightarrow{E} + \frac{\varepsilon \omega^2}{c^2} \overrightarrow{E} = 0 ; 0 < z < b \\
-        \Delta \overrightarrow{E} + \frac{\omega^2}{c^2} \overrightarrow{E} = 0 ; b < z < a
+        \xi_1 = \frac{1}{I}\left( E_{0x}E_{0y}^* + E_{0x}^*E_{0y} \right) = \frac{2}{I} Re\left( E_{0x}E_{0y}^* \right) = 2|E_{0x}||E_{0y}| \cos \delta ; \,\,\, \delta - \text{Разность фаз} \\
+        \xi_2 = \frac{1}{I i}\left( E_{0x}E_{0y}^* - E_{0x}^*E_{0y} \right) = \frac{2}{I} Im\left( E_{0x}E_{0y}^* \right) = 2|E_{0x}||E_{0y}| \sin \delta \\
+        \xi_3 = \frac{1}{I} \left( |E_{0x}|^2 - |E_{0y}|^2 \right)
     \end{cases}
 \end{eqnarray*}
-\par Так как у нас $E_y = E_z = 0$, то
+\par Из условия
 \begin{eqnarray*}
     \begin{cases}
-        \Delta E_x + \frac{\varepsilon \omega^2}{c^2} E_x = 0 ; \,\, 0 < z < b \\
-        \Delta E_x + \frac{\omega^2}{c^2} E_x = 0 ; \,\, b < z < a
-    \end{cases}
-\end{eqnarray*}
-\par Граничные условия:
-\[
-    \varepsilon_1 E_{1n} = \varepsilon_2 E_{2n} ; \,\,\, E_{1\tau} = E_{2\tau}
-\]
-\par при $y = 0, a$, $z = 0, a$:
-\[
-    E_x = 0
-\]
-\par при $x = 0, a$:
-\[
-    E_x' = 0
-\]
-\par при $z = b$:
-\[
-    E_x(b-0) = E_x(b+0) ; \,\,\, E_x'(b-0) = E_x'(b+0)
-\]
-\[
-    E_x = X(x) \cdot Y(y) \cdot Z(z)
-\]
-\par Магия матфизики:
-\[
-    X = A \cos(k_x \cdot x) ; \,\, k_x = \frac{\pi n}{a} \,\, n \in \mathbb{Z}
-\]
-\[
-    Y = B \sin(k_y \cdot y) ; \,\, k_y = \frac{\pi m}{a} \,\, m \in \mathbb{Z}
-\]
-\par $\Rightarrow$ уравнение на $Z$:
-\begin{eqnarray*}
-    \begin{cases}
-        \frac{Z''}{Z} = -\frac{\varepsilon \omega^2}{c^2} + k_x^2 + k_y^2 \\
-        \frac{Z''}{Z} = -\frac{\omega^2}{c^2} + k_x^2 + k_y^2
+        \xi_1 = 0 \Rightarrow \cos \delta = 0  \Rightarrow \sin \delta = 1 \\
+        \xi_2 = 24/25 \Rightarrow |E_{0x}||E_{0y}| = \frac{12}{25}I \\
+        \xi_3 = -7/25 \Rightarrow |E_{0x}|^2 - |E_{0y}|^2 = -\frac{7}{25}I
     \end{cases}
 \end{eqnarray*}
 \begin{eqnarray*}
+    \Rightarrow
     \begin{cases}
-        Z'' \left( \frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2 \right) Z = 0 \\
-        Z'' \left( \frac{\omega^2}{c^2} - k_x^2 - k_y^2 \right) Z = 0
+        |E_{0x}| = \frac{3}{5}\sqrt{I} \\
+        |E_{0y}| = \frac{4}{5}\sqrt{I}
+    \end{cases}
+    \Rightarrow
+    \begin{cases}
+        E_{0x} = |E_{0x}| e^{i \pi /2} = |E_{0x}| \cdot i\\
+        E_{0y} = |E_{0y}|
     \end{cases}
 \end{eqnarray*}
-\par при $0 < z < b$:
+\par Такое определение $\xi_1; \xi_2; \xi_3$ - когда мы смотрим на падующую волну. То есть ее волновой вектор направлен на нас. В таком случае в сферической сисетме коореднат мы их переопределим через замену $E_x \shortrightarrow E_\varphi ; E_y \shortrightarrow - E_\theta $
+\par Найдем новые $ E_x; E_y; E_z $, после этого найдем $E_\theta ; E_\varphi$, и тогда найдем вектора Стокса.
 \[
-    Z_1 = A \sin\left(\sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} z\right)
+    E_i = G_{ij}\left( \alpha_j E_{0j} \right) ;  \, \, \, i; j = x; y; z
 \]
-\par при $b < z < a$:
-\[
-    Z_{2} = B \sin\left(\sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(z-a\right)\right)
-\]
-\par теперь $z = b$:
+\begin{equation*}
+    \begin{pmatrix}
+        E_x \\
+        E_y \\
+        E_z
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+        1 - n_x^2 & -n_x n_y &  -n_x n_z\\
+        -n_y n_x & 1 - n_y^2 &  -n_y n_z\\
+        -n_z n_x & -n_z n_y &  1 - n_z^2
+    \end{pmatrix}
+    \begin{pmatrix}
+        \alpha_x E_{0x} \\
+        \alpha_y E_{0y} \\
+        0
+    \end{pmatrix}
+    \cdot q^2 \frac{e^{iqr}}{r}
+\end{equation*}
+\begin{equation*}
+    \begin{pmatrix}
+        E_x \\
+        E_y \\
+        E_z
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+        \alpha_x E_{0x} - n_x^2 \alpha_x E_{0x} - n_x n_y \alpha_y E_{0y} \\
+        \alpha_y E_{0y} - n_y^2 \alpha_y E_{0y} - n_x n_y \alpha_x E_{0x} \\
+        - n_x n_z \alpha_x E_{0x} - n_y n_z \alpha_y E_{0y}
+    \end{pmatrix}
+    \cdot q^2 \frac{e^{iqr}}{r}
+\end{equation*}
+\par Выразим $n_x; n_y; n_z$ через $n_r; n_\theta; n_\varphi$. Так как мы всегда будем смотреть по $n_r$, то $n_\theta = n_\varphi = 0; n_r = 1$. Это по сути переход из декартовых коореднат в сферические
 \begin{eqnarray*}
     \begin{cases}
-        A \sin\left(\sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} b\right) = B \sin\left(\sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right)\right) \\
-        A \sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} \cos\left(\sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} b\right) = B \sqrt{\frac{\omega^2}{c^2} - k_x^2 - k_y^2} \cos\left(\sqrt{\frac{\omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right)\right)
+        n_x = \sin \theta \cos \varphi \\
+        n_y = \sin \theta \sin \varphi \\
+        n_z = \cos \theta
     \end{cases}
 \end{eqnarray*}
-\par $det = 0$:
+\begin{equation*}
+    \begin{pmatrix}
+        E_x \\
+        E_y \\
+        E_z
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+        \alpha_x E_{0x} - \sin^2 \theta \cos^2 \varphi \alpha_x E_{0x} - \sin^2 \theta \sin \varphi \cos \varphi \alpha_y E_{0y} \\
+        \alpha_y E_{0y} - \sin^2 \theta \sin^2 \varphi \alpha_y E_{0y} - \sin^2 \theta \sin \varphi \cos \varphi \alpha_x E_{0x} \\
+        - \sin \theta \cos \theta \cos \varphi \alpha_x E_{0x} - \sin \theta \cos \theta \sin \varphi \alpha_y E_{0y}
+    \end{pmatrix}
+    \cdot q^2 \frac{e^{iqr}}{r}
+\end{equation*}
+\par Переходим в сферические коорденаты:
+\begin{equation*}
+    \begin{pmatrix}
+        E_r \\
+        E_\theta \\
+        E_\varphi
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+        \sin \theta \cos \varphi & \sin \theta \sin \varphi & \cos \theta\\
+        \cos \theta \cos \varphi & \cos \theta \sin \varphi & -\sin \theta\\
+        -\sin \varphi & \cos \varphi & 0
+    \end{pmatrix} \times
+\end{equation*}
+\begin{equation*}
+    \times
+    \begin{pmatrix}
+        \alpha_x E_{0x} - \sin^2 \theta \cos^2 \varphi \alpha_x E_{0x} - \sin^2 \theta \sin \varphi \cos \varphi \alpha_y E_{0y} \\
+        \alpha_y E_{0y} - \sin^2 \theta \sin^2 \varphi \alpha_y E_{0y} - \sin^2 \theta \sin \varphi \cos \varphi \alpha_x E_{0x} \\
+        - \sin \theta \cos \theta \cos \varphi \alpha_x E_{0x} - \sin \theta \cos \theta \sin \varphi \alpha_y E_{0y}
+    \end{pmatrix}
+    \cdot q^2 \frac{e^{iqr}}{r}
+\end{equation*}
+\par Магия математики:
+\begin{equation*}
+    \begin{pmatrix}
+        E_r \\
+        E_\theta \\
+        E_\varphi
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+        0 \\
+        \cos \theta \left( \alpha_x E_{0x} \cos \varphi + \alpha_y E_{0y} \sin \varphi \right) \\
+        \alpha_y E_{0y} \cos \varphi - \alpha_x E_{0x} \sin \varphi
+    \end{pmatrix}
+    \cdot q^2 \frac{e^{iqr}}{r}
+\end{equation*}
+\begin{eqnarray*}
+\Rightarrow
+    \begin{cases}
+        \xi_1 = - \frac{2 Re\left( E_\theta E_\varphi^* \right)}{|E_\theta|^2 + |E_\varphi|^2} \\
+        \xi_2 = - \frac{2 Im\left( E_\theta E_\varphi^* \right)}{|E_\theta|^2 + |E_\varphi|^2} \\
+        \xi_3 = \frac{|E_\theta|^2 - |E_\varphi|^2}{|E_\theta|^2 + |E_\varphi|^2} \\
+    \end{cases}
+\end{eqnarray*}
+\par Подаставляем $E_r; E_\theta; E_\varphi$, учитываем $E_{0x} = |E_{0x}| i ; E_{0y} = |E_{0y}|$, получаем:
+\begin{eqnarray*}
+    \begin{cases}
+        \xi_1 = \frac{2 \cos \theta \left( \alpha_y^2 |E_{0y}|^2 - \alpha_x^2 |E_{0x}|^2 \right) \cos \varphi \sin \varphi}{\left( \cos^2 \theta + 1 \right)\left( \alpha_y^2 |E_{0y}|^2 \varphi + \alpha_x^2 |E_{0x}|^2 \cos \varphi \right)} \\
+        \xi_2 = \frac{2 \cos \theta \alpha_x |E_{0x}| \alpha_y |E_{0y}| \left( \cos^2 \varphi + \sin^2 \varphi \right)}{\left( \cos^2 \theta + 1 \right)\left( \alpha_y^2 |E_{0y}|^2 \varphi + \alpha_x^2 |E_{0x}|^2 \cos \varphi \right)} \\
+        \xi_3 = \frac{\cos^2 \theta - 1}{\cos^2 \theta + 1} = - \frac{\sin^2 \theta}{\cos^2 \theta + 1}
+    \end{cases}
+\end{eqnarray*}
+\begin{eqnarray*}
+    \begin{cases}
+        \xi_1 = \frac{2 \cos \theta \left( \alpha_y^2 \frac{16}{25} - \alpha_x^2 \frac{9}{25} \right) \cos \varphi \sin \varphi}{\left( \cos^2 \theta + 1 \right)\left( \alpha_y^2 \frac{16}{25} \varphi + \alpha_x^2 \frac{9}{25} \cos \varphi \right)} \\
+        \xi_2 = \frac{2 \cos \theta \alpha_x \alpha_y \frac{4}{5} \frac{3}{5}}{\left( \cos^2 \theta + 1 \right)\left( \alpha_y^2 |E_{0y}|^2 \varphi + \alpha_x^2 |E_{0x}|^2 \cos \varphi \right)} \\
+        \xi_3 = - \frac{\sin^2 \theta}{\cos^2 \theta + 1}
+    \end{cases}
+\end{eqnarray*}
+\par Теперь $\alpha_x; \alpha_y$
+\par Приблизим нашу фигуру Элипсоидом вращения. В такмо случае полуоси:
 \[
-    \frac{\tan\left( \sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} b\right)}{ \sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2}} = \frac{\tan\left( \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right)\right)}{ \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2}}
+    a_x = h; a_y = a_z = R
 \]
-\par Пусть $\varepsilon = 1$:
+\par В таком случае в литературе (Г. ван де Хюлст 'Рассеяние света малыми частицами' , параграф 6.3) находим выражения для $\alpha_i$
+\par
+\includegraphics[width=1\textwidth]{photo_2.png}
+\par
 \[
-    \Rightarrow \tan\left( \sqrt{\frac{\omega^2}{c^2} - k_x^2 - k_y^2} b\right) = \tan\left( \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right)\right)
-\]
-\[
-    \Rightarrow \sqrt{\frac{\omega^2}{c^2} - k_x^2 - k_y^2} b  = \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right) + \pi p ; \,\, p \in \mathbb{Z}
-\]
-\[
-    \frac{\omega^2}{c^2} - k_x^2 - k_y^2 = \frac{\pi^2p^2}{a^2}
+    \alpha_i = \frac{V \left( \varepsilon - 1 \right)}{1 + \left( \varepsilon - 1 \right) N_i}
 \]
 \[
-    \frac{\omega^2}{c^2} = k_x^2 + k_y^2 + \frac{\pi^2p^2}{a^2}
+    V = \frac{4}{3}\pi R^2 h
 \]
 \[
-    \frac{\omega^2}{c^2} = \frac{\pi^2n^2}{a^2} + \frac{\pi^2m^2}{a^2} + \frac{\pi^2p^2}{a^2} ; \,\, n, m, p \in \mathbb{Z}
+    V = \frac{4}{3}\pi R^2 h
 \]
 \[
-    \omega = \frac{c \pi}{a}\sqrt{n^2 + m^2+ p^2} ; \,\, n, m, p \in \mathbb{Z}
+    N_x = \frac{1-e^2}{e^3}\left( \frac{1}{2} \ln \frac{1+e}{1-e} - e \right) ; \, \, \, e = 1 - \frac{R^2}{h^2}
 \]
+\[
+    N_y = N_z = \frac{1}{2} \left( 1 - N_x \right)
+\]
+%\par $\Rightarrow$ уравнение на $Z$:
+%\begin{eqnarray*}
+%    \begin{cases}
+%        \frac{Z''}{Z} = -\frac{\varepsilon \omega^2}{c^2} + k_x^2 + k_y^2 \\
+%        \frac{Z''}{Z} = -\frac{\omega^2}{c^2} + k_x^2 + k_y^2
+%    \end{cases}
+%\end{eqnarray*}
+%\begin{eqnarray*}
+%    \begin{cases}
+%        Z'' \left( \frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2 \right) Z = 0 \\
+%        Z'' \left( \frac{\omega^2}{c^2} - k_x^2 - k_y^2 \right) Z = 0
+%    \end{cases}
+%\end{eqnarray*}
+%\par при $0 < z < b$:
+%\[
+%    Z_1 = A \sin\left(\sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} z\right)
+%\]
+%\par при $b < z < a$:
+%\[
+%    Z_{2} = B \sin\left(\sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(z-a\right)\right)
+%\]
+%\par теперь $z = b$:
+%\begin{eqnarray*}
+%    \begin{cases}
+%        A \sin\left(\sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} b\right) = B \sin\left(\sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right)\right) \\
+%        A \sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} \cos\left(\sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} b\right) = B \sqrt{\frac{\omega^2}{c^2} - k_x^2 - k_y^2} \cos\left(\sqrt{\frac{\omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right)\right)
+%    \end{cases}
+%\end{eqnarray*}
+%\par $det = 0$:
+%\[
+%    \frac{\tan\left( \sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} b\right)}{ \sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2}} = \frac{\tan\left( \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right)\right)}{ \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2}}
+%\]
+%\par Пусть $\varepsilon = 1$:
+%\[
+%    \Rightarrow \tan\left( \sqrt{\frac{\omega^2}{c^2} - k_x^2 - k_y^2} b\right) = \tan\left( \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right)\right)
+%\]
+%\[
+%    \Rightarrow \sqrt{\frac{\omega^2}{c^2} - k_x^2 - k_y^2} b  = \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right) + \pi p ; \,\, p \in \mathbb{Z}
+%\]
+%\[
+%    \frac{\omega^2}{c^2} - k_x^2 - k_y^2 = \frac{\pi^2p^2}{a^2}
+%\]
+%\[
+%    \frac{\omega^2}{c^2} = k_x^2 + k_y^2 + \frac{\pi^2p^2}{a^2}
+%\]
+%\[
+%    \frac{\omega^2}{c^2} = \frac{\pi^2n^2}{a^2} + \frac{\pi^2m^2}{a^2} + \frac{\pi^2p^2}{a^2} ; \,\, n, m, p \in \mathbb{Z}
+%\]
+%\[
+%    \omega = \frac{c \pi}{a}\sqrt{n^2 + m^2+ p^2} ; \,\, n, m, p \in \mathbb{Z}
+%\]
 \par Ответ:
+\begin{eqnarray*}
+    \begin{cases}
+        \xi_1 = \frac{2 \cos \theta \left( \alpha_y^2 \frac{16}{25} - \alpha_x^2 \frac{9}{25} \right) \cos \varphi \sin \varphi}{\left( \cos^2 \theta + 1 \right)\left( \alpha_y^2 \frac{16}{25} \varphi + \alpha_x^2 \frac{9}{25} \cos \varphi \right)} \\
+        \xi_2 = \frac{2 \cos \theta \alpha_x \alpha_y \frac{4}{5} \frac{3}{5}}{\left( \cos^2 \theta + 1 \right)\left( \alpha_y^2 |E_{0y}|^2 \varphi + \alpha_x^2 |E_{0x}|^2 \cos \varphi \right)} \\
+        \xi_3 = - \frac{\sin^2 \theta}{\cos^2 \theta + 1}
+    \end{cases}
+\end{eqnarray*}
 \[
-    \frac{\tan\left( \sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2} b\right)}{ \sqrt{\frac{\varepsilon \omega^2}{c^2} - k_x^2 - k_y^2}} = \frac{\tan\left( \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2} \left(b-a\right)\right)}{ \sqrt{\frac{ \omega^2}{c^2} - k_x^2 - k_y^2}}
+    \alpha_i = \frac{V \left( \varepsilon - 1 \right)}{1 + \left( \varepsilon - 1 \right) N_i}
 \]
 \[
-    \omega = \frac{c \pi}{a}\sqrt{n^2 + m^2+ p^2} ; \,\, n, m, p \in \mathbb{Z}
+    V = \frac{4}{3}\pi R^2 h
+\]
+\[
+    V = \frac{4}{3}\pi R^2 h
+\]
+\[
+    N_x = \frac{1-e^2}{e^3}\left( \frac{1}{2} \ln \frac{1+e}{1-e} - e \right) ; \, \, \, e = 1 - \frac{R^2}{h^2}
+\]
+\[
+    N_y = N_z = \frac{1}{2} \left( 1 - N_x \right)
 \]
 \par
 \par
