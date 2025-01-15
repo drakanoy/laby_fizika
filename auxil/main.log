@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.12.27)  15 JAN 2025 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.12.27)  15 JAN 2025 12:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -398,12 +398,14 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Info: Redefining \th on input line 8.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -411,34 +413,88 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
-x/pdftex.map}] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/main.aux)
+x/pdftex.map}]
+Overfull \hbox (109.77661pt too wide) detected at line 168
+\OML/cmm/m/it/10 C[] \OT1/cmr/m/n/10 = 21 []\OML/cmm/m/it/10 ;  C[] \OT1/cmr/m/
+n/10 = 6 []\OML/cmm/m/it/10 ;  \OT1/cmr/m/n/10 7 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/
+m/n/10 4 = 28 []\OML/cmm/m/it/10 ;  \OT1/cmr/m/n/10 7 \OMS/cmsy/m/n/10 ^^B \OT1
+/cmr/m/n/10 1 = 7 []\OML/cmm/m/it/10 ;  \OT1/cmr/m/n/10 4 \OMS/cmsy/m/n/10 ^^B 
+\OT1/cmr/m/n/10 1 = 4 []\OML/cmm/m/it/10 :
+ []
+
+
+
+[2]
+Overfull \hbox (29.44543pt too wide) detected at line 214
+\OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 = 31\OML/cmm/m/it/10 ;  n[] \OT1/cmr/m/n/1
+0 = 28\OML/cmm/m/it/10 ;  n[] \OT1/cmr/m/n/10 = 31\OML/cmm/m/it/10 ;  n[] \OT1/
+cmr/m/n/10 = 30\OML/cmm/m/it/10 ;  n[] \OT1/cmr/m/n/10 = 31\OML/cmm/m/it/10 ;  
+n[] \OT1/cmr/m/n/10 = 30\OML/cmm/m/it/10 ;  n[] \OT1/cmr/m/n/10 = 31\OML/cmm/m/
+it/10 ;  n[] \OT1/cmr/m/n/10 = 31\OML/cmm/m/it/10 ;
+ []
+
+
+
+[3]
+
+[4]
+Overfull \hbox (12.4642pt too wide) detected at line 359
+\U/msb/m/n/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 X[]\OT1/cmr/m/n/10 ] = [][]1 \
+OMS/cmsy/m/n/10 ^^@ [][]  \OT1/cmr/m/n/10 +  2 [][]1  \OMS/cmsy/m/n/10 ^^@  [] 
+ ^^@  []  \OT1/cmr/m/n/10 +  [][]\OML/cmm/m/it/10 :
+ []
+
+
+
+[5]
+Overfull \hbox (198.48842pt too wide) detected at line 395
+[]\OML/cmm/m/it/10 :
+ []
+
+
+
+[6] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3438 strings out of 473650
- 52105 string characters out of 5715016
- 451658 words of memory out of 5000000
- 26547 multiletter control sequences out of 15000+600000
- 562993 words of font info for 48 fonts, out of 8000000 for 9000
+ 3486 strings out of 473650
+ 52677 string characters out of 5715016
+ 452658 words of memory out of 5000000
+ 26580 multiletter control sequences out of 15000+600000
+ 572092 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,65p,366b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,12n,65p,530b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakanoy/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk></Library/Appli
-cation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX
-/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/Application S
-upport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/main.pdf (1 p
-age, 94425 bytes).
+our/lh/lh-t2a/dpi600/lati1000.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </Users/drak
+anoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/d
+pi600/labx1000.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
+ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk> </Users/drakanoy/Library/Appl
+ication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk
+> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600/labx1440.pk></Library/Application Support/MiKTeX/texmfs/ins
+tall/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Applica
+tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi5.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/te
+xmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Sup
+port/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Library/Ap
+plication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmsy5.pfb></Library/Application Support/MiKTeX/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTe
+X/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/main.pdf (6 p
+ages, 195333 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 264 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
