@@ -1,0 +1,114 @@
+\documentclass[14pt aspectratio=169]{beamer}
+
+
+%%% Theme (color order, page numbering, etc)
+
+\usetheme{Madrid}  % Copenhagen doesnt have page numbers; better dont change
+
+\useoutertheme{split} 
+% infolines - Автор (университет) | название | дата | число слайдов
+% split - Автор | название | число слайдов + headline
+% miniframes - infolines + headline
+
+
+%%% Circle theme without shadows (uncomment latter, comment former)
+
+\useinnertheme{circles}
+
+%\setbeamertemplate{blocks}[rounded][shadow=false]
+%\setbeamertemplate{items}[circle]
+%\setbeamertemplate{sections/subsections in toc}[circle]
+%\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true,shadow=false]
+%\setbeamertemplate{part page}[default][colsep=-4bp,rounded=true,shadow=false]
+%\setbeamertemplate{section page}[default][colsep=-4bp,rounded=true,shadow=false]
+%\setbeamertemplate{subsection page}[default][colsep=-4bp,rounded=true,shadow=false]
+
+
+%%% Kill headline and navigation symbols
+
+\setbeamertemplate{headline}{} % kill headline with section names
+\setbeamertemplate{navigation symbols}{}  % kill navigation symbols
+
+
+%%% colors
+
+\definecolor{AUred}{rgb}{0.609 0 0.297}
+\definecolor{AUblue}{rgb}{0.398 0 0.609}
+%\definecolor{AUblue}{rgb}{0.199 0 0.398} darker blue
+
+\setbeamercolor{palette primary}{bg=AUred,fg=white}
+\setbeamercolor{palette secondary}{bg=AUred,fg=white}
+\setbeamercolor{palette tertiary}{bg=AUred,fg=white}
+\setbeamercolor{palette quaternary}{bg=AUblue,fg=white}
+\setbeamercolor{structure}{fg=AUblue} % itemize, enumerate, etc
+% But!!:
+\setbeamercolor{caption name}{fg=black}
+\setbeamercolor{section in toc}{fg=AUblue} % TOC sections
+
+% Override palette coloring with secondary
+
+\setbeamercolor{subsection in head/foot}{bg=AUred,fg=white}
+
+%%% Misc
+
+\setbeamercovered{transparent}  % make covered items opaque
+\usepackage{appendixnumberbeamer}  % to hide slides in \appendix
+\setbeamertemplate{caption}[numbered]
+
+%%% Non-beamer packages
+
+\usepackage[english, russian]{babel}
+\usepackage[utf8]{inputenc}  % fonts for xelatex
+%\setmainfont{arial}
+
+\usefonttheme{serif}  % beamer way to set font
+
+\usepackage{amsmath, amsfonts, amssymb, mathtools}  % mathfonts
+\usepackage[f]{esvect}  % decent vector sign and double-dot command (\ddot{})
+\usepackage{pifont}  % special symbols (bullets)
+
+\usepackage{indentfirst}
+
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{tikz}
+
+\usepackage{multirow}
+\newcolumntype{O}{>{$}c<{$}}  % mathmode in centered columns
+
+\usepackage[font=scriptsize,labelfont=bf]{caption}
+\usepackage{subcaption}
+\setlength{\parindent}{20pt}
+
+\theoremstyle{plain}
+\newtheorem{thm}{Теорема}
+\newtheorem{prf}{Доказательство}
+\newtheorem{clr}{Следствие}
+\newtheorem{lm}{Лемма}[]
+\newtheorem*{lm*}{Лемма}
+\newtheorem*{dfn}{Определение}
+\newtheorem*{rem}{Замечание}
+\newtheorem{ex}{Пример}
+\newtheorem*{prop}{Предложение}
+\newtheorem*{thm*}{Теорема}
+\newtheorem*{ex*}{Пример}
+\newtheorem*{clr*}{Следствие}
+\newtheorem*{ill}{Пример}
+
+%\newcommand{\sh}{\mathrm{sh} \,}
+%\newcommand{\ch}{\mathrm{ch} \,}
+%\newcommand{\th}{\mathrm{th} \,}
+%\newcommand{\cth}{\mathrm{cth} \,}
+
+%\newcommand{\arcsh}{\mathrm{arcsh} \,}
+\newcommand{\arcch}{\mathrm{arcch} \,}
+%\newcommand{\arcth}{\mathrm{arcth} \,}
+%\newcommand{\arccth}{\mathrm{arccth} \,}
+
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=false  % dont color links, cause name in the footline is link
+}

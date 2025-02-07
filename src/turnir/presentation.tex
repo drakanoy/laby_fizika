@@ -1,0 +1,548 @@
+\include{preamble_def}
+
+\title{Задача №9 Хаотичные шнурки}
+\author{Докладчик: Кононов Александр Михайлович}
+\institute{{\normalsize Команда: Не на паре, Алферовский университет}}
+%\institute{Алферовский университет}
+\date{}  % \today
+
+\begin{document}
+
+\begin{frame}
+	\tikz [remember picture,overlay]
+		\node at
+		([xshift=-2cm, yshift=2cm]current page.south east)
+		%or: (current page.center)
+		{\includegraphics[width=.3\textwidth,height=.2\textheight]{img/au-logo-shadow.pdf}};
+	\titlepage
+\end{frame}
+
+
+\section{Условие задачи}
+
+\begin{frame}{Условие задачи}
+		\begin{block}{Хаотичные шнурки}
+			Если достаточно большое количество шнурков вращать в центрифуге с водой, подобно тому, как это происходит в стиральной машине, то шнурки запутаются. Исследуйте количество узлов на одном шнурке, а также узлы между шнурками. Рассмотрите самую длинную веревку, получающуюся в результате каждого такого опыта. Исследуйте распределение ее длины для серии таких опытов.
+			%\textit{Подсказка: } Обычно это явление наблюдается при использовании жесткой воды для чая.
+		\end{block}
+	\begin{figure}
+		\includegraphics[width=0.3\linewidth]{img/hnurki_logo.png}
+	\end{figure}
+
+\end{frame}
+
+\begin{frame}{Что такое узел?}
+
+	\begin{columns}
+
+		\begin{column}{0.5\linewidth}
+			\begin{block}{Определение узла}
+				Назовем узлом замкнутую 2d нить устойчивую к 3 видам преобразований. То есть преобразованные нити являются топологически эквивалентными.
+			\end{block}
+
+			\begin{block}{Топология}
+				Топология узла описывается полиномами Джинса.
+			\end{block}
+
+%			\begin{alertblock}{}
+%				$\Rightarrow$ ячейки Рэлея-Бенара
+%			\end{alertblock}
+		\end{column}
+
+		\begin{column}{0.5\linewidth}
+			\includegraphics[height=1\linewidth]{img/hnurki_peracii.png}
+		\end{column}
+
+	\end{columns}
+
+\end{frame}
+
+\begin{frame}{Теоретическое моделирование}
+
+	\begin{block}{}
+		В качестве модели взят марковский процесс случайного блуждания конца шнурка.
+		Конец шнурка с равной вероятностью мог за один такт опуститься вверх или вниз над или под одной из частей шнурка.
+		После случайного блуждания образуется узел.
+	\end{block}
+
+	\begin{columns}
+
+		\begin{column}{0.4\linewidth}
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/hnurki_zaput.png}
+				%\caption{Капля левитирует в восходящем потоке пара}
+			\end{figure}
+
+		\end{column}
+
+%		\begin{column}{0.5\linewidth}
+%
+%			\begin{figure}[H]
+%				\includegraphics[width=0.5\linewidth]{img/probobility_31.png}
+%				%\caption{Фото узора из капель}
+%			\end{figure}
+%		\end{column}
+%
+%		\begin{column}{0.3\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=0.5\linewidth]{img/probobility_32.png}
+%				%\caption{Фото через дальнофокусный микроскоп}
+%			\end{figure}
+%
+%		\end{column}
+
+	\end{columns}
+
+\end{frame}
+
+\begin{frame}{Теоретическое моделирование}
+
+	\begin{block}{}
+		Ниже результаты моделирования: графики зависимости вероятность образования узла на одном шнурке в зависимости от его длины и времени вращения.
+	\end{block}
+
+	\begin{columns}
+
+		\begin{column}{0.5\linewidth}
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/probability_3.png}
+				%\caption{Капля левитирует в восходящем потоке пара}
+			\end{figure}
+
+		\end{column}
+
+		\begin{column}{0.5\linewidth}
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/probobility_5.png}
+				%\caption{Капля левитирует в восходящем потоке пара}
+			\end{figure}
+		\end{column}
+
+%		\begin{column}{0.5\linewidth}
+%
+%			\begin{figure}[H]
+%				\includegraphics[width=0.5\linewidth]{img/probobility_31.png}
+%				%\caption{Фото узора из капель}
+%			\end{figure}
+%		\end{column}
+%
+%		\begin{column}{0.3\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=0.5\linewidth]{img/probobility_32.png}
+%				%\caption{Фото через дальнофокусный микроскоп}
+%			\end{figure}
+%
+%		\end{column}
+
+	\end{columns}
+
+\end{frame}
+
+\begin{frame}{Экспериментальная установка}
+
+	\begin{block}{}
+		comming soon.... (планируется проверсти эксперимент на основе Arduino с шаговым двигателем)
+	\end{block}
+
+	\begin{columns}
+
+		\begin{column}{1\linewidth}
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/experiment.png}
+				%\caption{Капля левитирует в восходящем потоке пара}
+			\end{figure}
+
+		\end{column}
+
+	\end{columns}
+
+%	\begin{columns}
+%
+%		\begin{column}{0.5\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=\linewidth]{img/setting_exp.pdf}
+%				\caption{Схема установки}
+%			\end{figure}
+%
+%		\end{column}
+%
+%		\begin{column}{0.5\linewidth}
+%
+%			\begin{figure}[H]
+%				\includegraphics[width=0.8\linewidth]{img/new_prem.pdf}
+%				\caption{Фото узора из капель}
+%			\end{figure}
+%			\vspace{-0.5cm}
+%			\begin{figure}[H]
+%			\includegraphics[width=0.8\linewidth]{img/micro_ph.pdf}
+%			\caption{Фото через дальнофокусный микроскоп}
+%			\end{figure}
+%
+%		\end{column}
+%
+%	\end{columns}
+
+\end{frame}
+
+\begin{frame}{Сравнение со сатьей}
+
+	\begin{block}{}
+		В статье "doi/10.1073/pnas.0611320104" представлены следующие результаты
+	\end{block}
+
+	\begin{columns}
+
+		\begin{column}{0.5\linewidth}
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/knot_prob.png}
+				%\caption{Капля левитирует в восходящем потоке пара}
+			\end{figure}
+
+		\end{column}
+
+		\begin{column}{0.5\linewidth}
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/kros_mean.png}
+				%\caption{Капля левитирует в восходящем потоке пара}
+			\end{figure}
+		\end{column}
+
+	\end{columns}
+
+\end{frame}
+
+%\begin{frame}{Левитация капли}
+%	\begin{figure}[H]
+%		\includegraphics[width=0.6\linewidth]{img/droplet.pdf}
+%		\caption{Капля левитирует в восходящем потоке пара}
+%	\end{figure}
+%\end{frame}
+
+
+%\begin{frame}{Левитация капли}
+%
+%	$$
+%	6 \pi u \mu R \cdot \beta \left( \dfrac{z}{R} \right)
+%	= \dfrac{4 \pi}{3} R^3 \rho_w g
+%	$$
+%
+%	где $\beta$ - поправка к закону Стокса ($\xi = \text{arc ch} \dfrac{z}{R}$):
+%
+%	\[
+%	\beta \left( \dfrac{z}{R} \right)
+%	= \dfrac{4}{3}
+%	 \sh \xi
+%	 \sum_{n=1}^{\infty}
+%	 \dfrac{n(n+1)}{(2n-1)(2n+3)}
+%	 \left[
+%	 \dfrac{4 \ch^2 (n+\dfrac{1}{2}) \xi + (2n+1)^2 \sh^2 \xi}{2 \sh (2n+1)\xi - (2n+1) \sh 2\xi} -1
+%	 \right]
+%	\]
+%
+%	\begin{minipage}{0.4\linewidth}
+%		\begin{tabular}{|O|O|}
+%			\hline
+%			z/R & \beta \\
+%			\hline
+%			1 & \infty \\
+%			\hline
+%			1.1 & 4.626 \\
+%			\hline
+%			1.2 & 3.104 \\
+%			\hline
+%			1.3 & 2.541 \\
+%			\hline
+%			1.4 & 2.235 \\
+%			\hline
+%		\end{tabular}
+%		\begin{tabular}{|O|O|}
+%			\hline
+%			z/R & \beta \\
+%			\hline
+%			1.5 & 2.039 \\
+%			\hline
+%			2 & 1.597 \\
+%			\hline
+%			5 & 1.175 \\
+%			\hline
+%			10 & 1.081 \\
+%			\hline
+%			\infty &  1 \\
+%			\hline
+%		\end{tabular}
+%	\end{minipage}
+%	\begin{minipage}{0.4\linewidth}
+%		{\footnotesize \label{happel} [\ref{happel}] J. Happel, H. Brenner, Low Reynolds number	hydrodynamics with special applications	to particulate media,  - Prentice-Hall, 1965}
+%	\end{minipage}
+%
+%\end{frame}
+
+%\begin{frame}{Левитация капли}
+%	\begin{columns}
+%		\begin{column}{0.55\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=\linewidth]{lev/hr_beta.pdf}
+%				\caption{Зависимость высоты $h$ левитации капли от ее радиуса, $u$ - скорость вертикального потока (м/с)}
+%			\end{figure}
+%		\end{column}
+%		\begin{column}{0.45\linewidth}
+%			\[
+%			\dfrac{ \beta \left( \dfrac{z}{R} \right) }{R^2}
+%			=
+%			\dfrac{2 \rho_w g}{9 u \mu}
+%			\rightarrow \boxed{z = z (R)}
+%			\]
+%			\[
+%			\mu \approx 1.16 \cdot 10^{-5} ~ \dfrac{kg}{m~s}, ~ \rho_w \approx 10^3 \dfrac{kg}{m^3}
+%			\]
+%		\end{column}
+%	\end{columns}
+%
+%	$u$ и $z/R$ определим на эксперименте и проверим модель
+%\end{frame}
+
+%\begin{frame}{Структура пленки}
+%
+%	\begin{alertblock}{}
+%		Пленка - средство диагностики процессов, происходящих в тонком слое жидкости, близком к ее поверхности
+%	\end{alertblock}
+%
+%	\begin{figure}[H]
+%			\includegraphics[width=0.8\linewidth]{img/ienna_cells.jpg}
+%			\caption{Side-by-side comparison between the emitted infrared mosaic
+%				pattern (a) and the visible distribution of floating droplets (b). Several of
+%				the cells in both images are highlighted in yellow to facilitate the
+%				similarity, {\label{ienna} [\ref{ienna}] - Spatially resolved evaporative patterns from water, Ienna F. et al}}
+%	\end{figure}
+%
+%\end{frame}
+
+%\begin{frame}{Структура пленки}
+%
+%	\begin{columns}
+%		\begin{column}{0.6\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=\linewidth]{img/ienna_infrared.jpg}
+%				\caption{Infrared image of the surface of water, viewed from directly
+%					above. Corresponding temperatures are shown on the right. [\ref{ienna}]}
+%			\end{figure}
+%		\end{column}
+%
+%		\begin{column}{0.2\linewidth}
+%			Число Релея:
+%			\[
+%			Ra=\dfrac{g \beta \Delta T L^3}{\nu \chi}
+%			\]
+%		\end{column}
+%	\end{columns}
+%
+%
+%\end{frame}
+
+%\begin{frame}{Что происходит в кружке?}
+%
+%	\begin{columns}
+%
+%		\begin{column}{0.5\linewidth}
+%			\includegraphics[height=1\linewidth]{img/br_set.pdf}
+%		\end{column}
+%
+%		\begin{column}{0.5\linewidth}
+%			\begin{block}{Толстый слой}
+%				Теплопроводные непроницаемые стенки и дно; граница с тонким слоем непроницаемая, темепратура меняется непрерывно
+%			\end{block}
+%
+%			\begin{block}{Тонкий слой}
+%				Бесконечная поверхность жидкости, верхняя границе открыта, считаем что воздух тепло не проводит
+%			\end{block}
+%
+%			\begin{alertblock}{}
+%				$\Rightarrow$ ячейки Рэлея-Бенара
+%			\end{alertblock}
+%		\end{column}
+%
+%	\end{columns}
+%
+%\end{frame}
+
+%\begin{frame}{Образование страйпа}
+%
+%	\begin{columns}
+%
+%		\begin{column}{0.6\linewidth}
+%			\centering
+%			\begin{figure}
+%				\includegraphics[width=\linewidth]{str/denser.jpg}
+%				\caption{На фотографии ([\ref{ienna}]) видно, что плотность капель пара выше вблизи границ ячеек - там и формируются страйпы}
+%			\end{figure}
+%		\end{column}
+%
+%		\begin{column}{0.4\linewidth}
+%
+%			\begin{block}{}
+%				\begin{itemize}
+%					\item Высокая плотность
+%					\item Малая высота
+%					\item Нисходящие потоки
+%				\end{itemize}
+%			\end{block}
+%
+%		\end{column}
+%
+%	\end{columns}
+%
+%	Капли сразу над поверхностью в силу вязкости воздуха и пара до некоторой степени повторяют движение потоков жидкости на поверхности жидкости. Движение этих потоков - движение от центра ячейки к ее краю, поэтому капли скапливаются на периферии, и при достижении достаточно большой концентрации возникает капиллярная волна
+%
+%\end{frame}
+
+%\begin{frame}{Капилярная волна}
+%	\begin{columns}
+%		\begin{column}{0.6\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=\linewidth]{img/cap_draft.pdf}
+%				\caption{Механизм капилярной волны}
+%			\end{figure}
+%		\end{column}
+%		\begin{column}{0.4\linewidth}
+%			$1\rightarrow2$: одна из капель коалесцирует с поверхностью воды
+%
+%			$2\rightarrow3$: капля растекается
+%
+%			$3\rightarrow4$: из-за искривленния поверхности, коалесцирует вторая капля
+%		\end{column}
+%	\end{columns}
+%
+%
+%\end{frame}
+
+%\begin{frame}{Жесткость}
+%	\begin{columns}
+%		\begin{column}{0.7\linewidth}
+%			\begin{block}{}
+%				Мягкая вода: $(0 \div 7 ~ \text{мг-экв/л}) \leftrightarrow (0 \div 0.14) \%$
+%
+%				Жесткая вода:  $(10 \div 20 ~ \text{мг-экв/л}) \leftrightarrow (0.2 \div 0.4) \%$
+%			\end{block}
+%		\end{column}
+%		\begin{column}{0.2\linewidth}
+%			\begin{block}{}
+%				$t=d^2/D$
+%			\end{block}
+%		\end{column}
+%	\end{columns}
+%
+%	\begin{figure}[H]
+%		\includegraphics[width=0.5\linewidth]{sol/fedorets_sol.jpg}
+%		\caption{Equilibrium water droplets in stabilized droplet clusters: domain of self-stabilized droplet clusters; [2] - Fedorets et al}
+%	\end{figure}
+%	\vspace{-0.5cm}
+%	{\small Что подтвержает утвержджение в подсказке: образование структуры легче наблюдать в жесткой воде}
+%\end{frame}
+
+\begin{frame}{Вывод}
+	\begin{itemize}
+		\item Качественно объяснена причина возникновения узлов
+		\item Рассмотрен механизм образования узлов на шнурках
+		\item Был промоделирован 1 шнурок и получено распределение вероятности узла
+		\item Поставлен эксперимент (?), сходимость/расхождение с моделью
+		\item Сравнены результаты со статьей (?)
+		\item НЕ сделано для нескольких шнурков
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Спасибо за внимание}
+	Благодарим за внимание!
+\end{frame}
+
+\appendix
+
+\begin{frame}{Скрытые слайды}
+	Дальше будут скрытые слайды...
+\end{frame}
+
+%\begin{frame}{Поправка}
+%
+%	\begin{figure}[H]
+%		\includegraphics[width=0.8\linewidth]{lev/beta.png}
+%		\caption{Поправка к закону Стокса}
+%	\end{figure}
+%
+%
+%\end{frame}
+%
+\end{document}
+%
+%\begin{frame}{Испарение}
+%
+%	\begin{columns}
+%		\begin{column}{0.5\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=\linewidth]{lev/evap.pdf}
+%				\caption{Частица вылетает из воды в пар. Температуры на границе непрерывна}
+%			\end{figure}
+%		\end{column}
+%
+%		\begin{column}{0.5\linewidth}
+%
+%			\begin{block}{Начальная скорость}
+%				$$
+%				u_0 = \dfrac{\pi}{8}  v_T = \dfrac{\pi}{8} \sqrt{5RT/\mu}
+%				$$
+%				$v_T = \sqrt{5RT/\mu}$ - скорость теплового движения частиц воды
+%			\end{block}
+%
+%		\end{column}
+%	\end{columns}
+%
+%\end{frame}
+%
+%\begin{frame}{Восходящий поток}
+%
+%	\begin{columns}
+%
+%		\begin{column}{0.5\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=0.8\linewidth]{lev/colis.pdf}
+%				\caption{Столкновение двух частиц. Частица сверху неподвижна, частица снизу имеет вертикальную скорость $u$}
+%			\end{figure}
+%		\end{column}
+%
+%		\begin{column}{0.5\linewidth}
+%			\begin{block}{За одно столкновение}
+%				$$
+%				u' = u \cdot \dfrac{1}{\pi} \int_{-\pi/2}^{\pi/2} \sin^2 \theta d \theta = \dfrac{u}{2}
+%				$$
+%			\end{block}
+%
+%			\begin{block}{}
+%				$$
+%				u(z) = u_0 \cdot 2^{-z/l}, ~~ l = \lambda \dfrac{2}{\pi}
+%				$$
+%				$\lambda $ - длина свободного пробега частицы в паре
+%
+%			\end{block}
+%
+%
+%		\end{column}
+%	\end{columns}
+%
+%\end{frame}
+
+%\begin{frame}{Скорость восходящего потока}
+%
+%	\begin{columns}
+%		\begin{column}{0.7\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=\linewidth]{lev/rasch.png}
+%				\caption{Скорость потока в зависимости от высоты над поверхностью воды $u(z)$}
+%			\end{figure}
+%		\end{column}
+%
+%		\begin{column}{0.3\linewidth}
+%			\begin{block}{}
+%				На масштабе порядка размера капли ($7$ мкм) скорость потока меняется сильно
+%			\end{block}
+%		\end{column}
+%	\end{columns}
+%
+%\end{frame}
