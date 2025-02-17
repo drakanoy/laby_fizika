@@ -1,7 +1,7 @@
 \include{preamble_def}
 
 \title{Задача №9 Хаотичные шнурки}
-\author{Докладчик: Кононов Александр Михайлович}
+\author{Докладчик: Кононов Александр}
 \institute{{\normalsize Команда: Не на паре, Алферовский университет}}
 %\institute{Алферовский университет}
 \date{}  % \today
@@ -57,6 +57,64 @@
 
 \end{frame}
 
+\begin{frame}{Экспериментальная установка}
+
+	\begin{block}{}
+		Экспериментальная установка состоит из цилиндра длиной $l_0 = 13$см и двигателя с частотой вращения $\omega = 1 $ Гц
+	\end{block}
+
+	\begin{columns}
+
+		\begin{column}{0.4\linewidth}
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/experiment.jpg}
+				%\caption{Капля левитирует в восходящем потоке пара}
+			\end{figure}
+
+		\end{column}
+
+		\begin{column}{0.6\linewidth}
+
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/exp_4.png}
+				%\caption{Капля левитирует в восходящем потоке пара}
+			\end{figure}
+			Аппроксимация точек зависимостью:
+			$P = \frac{P_0}{1+(l/l_0)^b}$
+			где $P_0 = 0.3$, $b = -3$
+
+		\end{column}
+
+	\end{columns}
+
+%	\begin{columns}
+%
+%		\begin{column}{0.5\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=\linewidth]{img/setting_exp.pdf}
+%				\caption{Схема установки}
+%			\end{figure}
+%
+%		\end{column}
+%
+%		\begin{column}{0.5\linewidth}
+%
+%			\begin{figure}[H]
+%				\includegraphics[width=0.8\linewidth]{img/new_prem.pdf}
+%				\caption{Фото узора из капель}
+%			\end{figure}
+%			\vspace{-0.5cm}
+%			\begin{figure}[H]
+%			\includegraphics[width=0.8\linewidth]{img/micro_ph.pdf}
+%			\caption{Фото через дальнофокусный микроскоп}
+%			\end{figure}
+%
+%		\end{column}
+%
+%	\end{columns}
+
+\end{frame}
+
 \begin{frame}{Теоретическое моделирование}
 
 	\begin{block}{}
@@ -95,28 +153,43 @@
 
 \end{frame}
 
-\begin{frame}{Теоретическое моделирование}
+\begin{frame}{Результаты моделирования}
+		\begin{block}{}
+			Графики зависимости вероятности образования узла на одном шнурке от его длины и времени блуждания.
+		\end{block}
 
-	\begin{block}{}
-		Ниже результаты моделирования: графики зависимости вероятность образования узла на одном шнурке в зависимости от его длины и времени вращения.
-	\end{block}
+%			\begin{figure}[H]
+%				\includegraphics[width=0.7\linewidth]{img/model_1.png}
+%				\caption{Необходимое число пересечений: 3}
+%			\end{figure}
+
 
 	\begin{columns}
 
 		\begin{column}{0.5\linewidth}
 			\begin{figure}[H]
-				\includegraphics[width=1\linewidth]{img/probability_3.png}
-				%\caption{Капля левитирует в восходящем потоке пара}
+				\includegraphics[width=1\linewidth]{img/time.png}
+				%\caption{Необходимое число пересечений: 3}
 			\end{figure}
 
 		\end{column}
 
 		\begin{column}{0.5\linewidth}
 			\begin{figure}[H]
-				\includegraphics[width=1\linewidth]{img/probobility_5.png}
-				%\caption{Капля левитирует в восходящем потоке пара}
+				\includegraphics[width=1\linewidth]{img/model_1.png}
+				Необходимое число пересечений: 3
 			\end{figure}
+			Аппроксимация точек:
+			$P = \frac{P_0}{1+(l/l_0)^b}$
+			где $P_0 = 0.8$, $b = -3$
 		\end{column}
+
+%		\begin{column}{0.5\linewidth}
+%			\begin{figure}[H]
+%				\includegraphics[width=1\linewidth]{img/model_7.png}
+%				\caption{Необходимое число пересечений: 7}
+%			\end{figure}
+%		\end{column}
 
 %		\begin{column}{0.5\linewidth}
 %
@@ -138,74 +211,68 @@
 
 \end{frame}
 
-\begin{frame}{Экспериментальная установка}
+\begin{frame}{Результаты моделирования}
+		\begin{block}{}
+			Графики зависимости вероятности образования узла на одном шнурке от его длины с разными условиями на число пересечений в модели для образования узла.
+		\end{block}
 
-	\begin{block}{}
-		comming soon.... (планируется проверсти эксперимент на основе Arduino с шаговым двигателем)
-	\end{block}
-
-	\begin{columns}
-
-		\begin{column}{1\linewidth}
-			\begin{figure}[H]
-				\includegraphics[width=1\linewidth]{img/experiment.png}
-				%\caption{Капля левитирует в восходящем потоке пара}
-			\end{figure}
-
-		\end{column}
-
-	\end{columns}
-
-%	\begin{columns}
-%
-%		\begin{column}{0.5\linewidth}
 %			\begin{figure}[H]
-%				\includegraphics[width=\linewidth]{img/setting_exp.pdf}
-%				\caption{Схема установки}
+%				\includegraphics[width=0.7\linewidth]{img/model_1.png}
+%				\caption{Необходимое число пересечений: 3}
 %			\end{figure}
-%
-%		\end{column}
-%
-%		\begin{column}{0.5\linewidth}
-%
-%			\begin{figure}[H]
-%				\includegraphics[width=0.8\linewidth]{img/new_prem.pdf}
-%				\caption{Фото узора из капель}
-%			\end{figure}
-%			\vspace{-0.5cm}
-%			\begin{figure}[H]
-%			\includegraphics[width=0.8\linewidth]{img/micro_ph.pdf}
-%			\caption{Фото через дальнофокусный микроскоп}
-%			\end{figure}
-%
-%		\end{column}
-%
-%	\end{columns}
 
-\end{frame}
-
-\begin{frame}{Сравнение со сатьей}
-
-	\begin{block}{}
-		В статье "doi/10.1073/pnas.0611320104" представлены следующие результаты
-	\end{block}
 
 	\begin{columns}
 
 		\begin{column}{0.5\linewidth}
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/model_55.png}
+				Необходимое число пересечений: 5
+			\end{figure}
+			Аппроксимация точек:
+			$P = \frac{P_0}{1+(l/l_0)^b}$
+			где $P_0 = 0.57$, $b = -3$
+		\end{column}
+
+		\begin{column}{0.5\linewidth}
+			\begin{figure}[H]
+				\includegraphics[width=1\linewidth]{img/model_7.png}
+				Необходимое число пересечений: 7
+			\end{figure}
+			Аппроксимация точек:
+			$P = \frac{P_0}{1+(l/l_0)^b}$
+			где $P_0 = 0.33$, $b = -3$
+		\end{column}
+	\end{columns}
+
+\end{frame}
+
+\begin{frame}{Сравнение со статьей}
+
+	\begin{block}{}
+		В статье "Spontaneous knotting of an agitated string". Dorian M. Raymer and Douglas E. Smith представлены следующие результаты
+	\end{block}
+
+	\begin{columns}
+
+		\begin{column}{0.4\linewidth}
 			\begin{figure}[H]
 				\includegraphics[width=1\linewidth]{img/knot_prob.png}
 				%\caption{Капля левитирует в восходящем потоке пара}
 			\end{figure}
-
+			$P = \frac{P_0}{1+(l/l_0)^b}$
+			\\где $P_0 = 0.55$, $b = -2.9$
 		\end{column}
 
-		\begin{column}{0.5\linewidth}
+		\begin{column}{0.6\linewidth}
 			\begin{figure}[H]
-				\includegraphics[width=1\linewidth]{img/kros_mean.png}
+				\includegraphics[width=1\linewidth]{img/both_7.png}
 				%\caption{Капля левитирует в восходящем потоке пара}
 			\end{figure}
+			$\, \, \, \, P = \frac{P_0}{1+(l/l_0)^b}$
+			где $P_0 = 0.33$, $b = -3$
 		\end{column}
+
 
 	\end{columns}
 
@@ -441,12 +508,12 @@
 
 \begin{frame}{Вывод}
 	\begin{itemize}
-		\item Качественно объяснена причина возникновения узлов
-		\item Рассмотрен механизм образования узлов на шнурках
-		\item Был промоделирован 1 шнурок и получено распределение вероятности узла
-		\item Поставлен эксперимент (?), сходимость/расхождение с моделью
-		\item Сравнены результаты со статьей (?)
-		\item НЕ сделано для нескольких шнурков
+		%\item Качественно объяснена причина возникновения узлов
+		%\item Рассмотрен механизм образования узлов на шнурках
+		\item Экспериментально измерена вероятность образования узла на одном шнурке $P=0.3$
+		\item Построена модель и полученная вероятность образования узла на одном шнурке $P=0.3$
+		%\item Полученные результаты не сходятся между собой и со статьей
+		\item В качестве доработки задачи можно рассмотреть распределения узлов между несколькими веревками, как модель случайного блуждания концов рядом с образовавшимися узлами на соседних веревках, распределенными равномерно по длине шнурка
 	\end{itemize}
 \end{frame}
 
@@ -454,11 +521,11 @@
 	Благодарим за внимание!
 \end{frame}
 
-\appendix
-
-\begin{frame}{Скрытые слайды}
-	Дальше будут скрытые слайды...
-\end{frame}
+%\appendix
+%
+%\begin{frame}{Скрытые слайды}
+%	Дальше будут скрытые слайды...
+%\end{frame}
 
 %\begin{frame}{Поправка}
 %

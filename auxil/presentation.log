@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  7 FEB 2025 04:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  18 FEB 2025 02:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1449,7 +1449,7 @@ Overfull \hbox (19.99998pt too wide) in paragraph at lines 18--18
 [][]  
  []
 
-<img/au-logo-shadow.pdf, id=22, 761.37949pt x 416.3796pt>
+<img/au-logo-shadow.pdf, id=18, 761.37949pt x 416.3796pt>
 File: img/au-logo-shadow.pdf Graphic file (type pdf)
 <use img/au-logo-shadow.pdf>
 Package pdftex.def Info: img/au-logo-shadow.pdf  used on input line 18.
@@ -1464,7 +1464,7 @@ Overfull \hbox (19.99998pt too wide) in paragraph at lines 32--32
 [][]  
  []
 
-<img/hnurki_logo.png, id=66, 491.8375pt x 499.8675pt>
+<img/hnurki_logo.png, id=62, 491.8375pt x 499.8675pt>
 File: img/hnurki_logo.png Graphic file (type png)
 <use img/hnurki_logo.png>
 Package pdftex.def Info: img/hnurki_logo.png  used on input line 32.
@@ -1498,7 +1498,7 @@ LaTeX Font Info:    Trying to load font information for U+esvect on input line
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-<img/hnurki_peracii.png, id=101, 388.45125pt x 392.46625pt>
+<img/hnurki_peracii.png, id=97, 388.45125pt x 392.46625pt>
 File: img/hnurki_peracii.png Graphic file (type png)
 <use img/hnurki_peracii.png>
 Package pdftex.def Info: img/hnurki_peracii.png  used on input line 58.
@@ -1508,111 +1508,105 @@ Package pdftex.def Info: img/hnurki_peracii.png  used on input line 58.
 [3
 
  <./img/hnurki_peracii.png>]
-Overfull \hbox (19.99998pt too wide) in paragraph at lines 96--96
+Overfull \hbox (19.99998pt too wide) in paragraph at lines 116--116
 [][]  
  []
 
-<img/hnurki_zaput.png, id=122, 295.1025pt x 324.21124pt>
-File: img/hnurki_zaput.png Graphic file (type png)
-<use img/hnurki_zaput.png>
-Package pdftex.def Info: img/hnurki_zaput.png  used on input line 96.
-(pdftex.def)             Requested size: 136.91603pt x 150.42522pt.
+<img/experiment.jpg, id=118, 3011.25pt x 4015.0pt>
+File: img/experiment.jpg Graphic file (type jpg)
+<use img/experiment.jpg>
+Package pdftex.def Info: img/experiment.jpg  used on input line 116.
+(pdftex.def)             Requested size: 136.91603pt x 182.50511pt.
+<img/exp_4.png, id=119, 937.5025pt x 627.34375pt>
+File: img/exp_4.png Graphic file (type png)
+<use img/exp_4.png>
+Package pdftex.def Info: img/exp_4.png  used on input line 116.
+(pdftex.def)             Requested size: 205.37926pt x 137.43213pt.
 
-Overfull \vbox (0.93944pt too high) detected at line 96
+Overfull \vbox (5.81932pt too high) detected at line 116
  []
 
 
 
 [4
 
- <./img/hnurki_zaput.png>]
-Overfull \hbox (19.99998pt too wide) in paragraph at lines 139--139
+ <./img/experiment.jpg> <./img/exp_4.png>]
+Overfull \hbox (19.99998pt too wide) in paragraph at lines 154--154
 [][]  
  []
 
-<img/probability_3.png, id=143, 867.24pt x 361.35pt>
-File: img/probability_3.png Graphic file (type png)
-<use img/probability_3.png>
-Package pdftex.def Info: img/probability_3.png  used on input line 139.
-(pdftex.def)             Requested size: 171.14764pt x 71.30933pt.
-<img/probobility_5.png, id=144, 584.1825pt x 588.1975pt>
-File: img/probobility_5.png Graphic file (type png)
-<use img/probobility_5.png>
-Package pdftex.def Info: img/probobility_5.png  used on input line 139.
-(pdftex.def)             Requested size: 171.14764pt x 172.32306pt.
+<img/hnurki_zaput.png, id=147, 295.1025pt x 324.21124pt>
+File: img/hnurki_zaput.png Graphic file (type png)
+<use img/hnurki_zaput.png>
+Package pdftex.def Info: img/hnurki_zaput.png  used on input line 154.
+(pdftex.def)             Requested size: 136.91603pt x 150.42522pt.
 
-Overfull \vbox (9.23727pt too high) detected at line 139
+Overfull \vbox (0.93944pt too high) detected at line 154
  []
 
 
 
 [5
 
- <./img/probability_3.png> <./img/probobility_5.png>]
-Overfull \hbox (19.99998pt too wide) in paragraph at lines 185--185
-[][]  
- []
-
-
-LaTeX Warning: File `img/experiment.png' not found on input line 185.
-
-
-presentation.tex:185: Package pdftex.def Error: File `img/experiment.png' not f
-ound: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-185.
-
-(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cy
-rillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Overfull \vbox (166.98077pt too high) detected at line 185
- []
-
-
-
-[6
-
-]
+ <./img/hnurki_zaput.png>]
 Overfull \hbox (19.99998pt too wide) in paragraph at lines 212--212
 [][]  
  []
 
-<img/knot_prob.png, id=186, 375.4025pt x 269.005pt>
-File: img/knot_prob.png Graphic file (type png)
-<use img/knot_prob.png>
-Package pdftex.def Info: img/knot_prob.png  used on input line 212.
-(pdftex.def)             Requested size: 171.14764pt x 122.64374pt.
-<img/kros_mean.png, id=187, 304.13625pt x 233.87375pt>
-File: img/kros_mean.png Graphic file (type png)
-<use img/kros_mean.png>
-Package pdftex.def Info: img/kros_mean.png  used on input line 212.
-(pdftex.def)             Requested size: 171.14764pt x 131.61073pt.
+<img/time.png, id=165, 488.5452pt x 379.4175pt>
+File: img/time.png Graphic file (type png)
+<use img/time.png>
+Package pdftex.def Info: img/time.png  used on input line 212.
+(pdftex.def)             Requested size: 171.14764pt x 132.91968pt.
+<img/model_1.png, id=166, 724.8681pt x 506.6127pt>
+File: img/model_1.png Graphic file (type png)
+<use img/model_1.png>
+Package pdftex.def Info: img/model_1.png  used on input line 212.
+(pdftex.def)             Requested size: 171.14764pt x 119.61057pt.
+
+
+[6
+
+ <./img/time.png> <./img/model_1.png>]
+Overfull \hbox (19.99998pt too wide) in paragraph at lines 248--248
+[][]  
+ []
+
+<img/model_55.png, id=188, 1040.688pt x 602.7318pt>
+File: img/model_55.png Graphic file (type png)
+<use img/model_55.png>
+Package pdftex.def Info: img/model_55.png  used on input line 248.
+(pdftex.def)             Requested size: 171.14764pt x 99.11536pt.
+<img/model_7.png, id=189, 1040.688pt x 602.7318pt>
+File: img/model_7.png Graphic file (type png)
+<use img/model_7.png>
+Package pdftex.def Info: img/model_7.png  used on input line 248.
+(pdftex.def)             Requested size: 171.14764pt x 99.11536pt.
 
 
 [7
 
- <./img/knot_prob.png> <./img/kros_mean.png>]
-Overfull \hbox (19.99998pt too wide) in paragraph at lines 451--451
+ <./img/model_55.png> <./img/model_7.png>]
+Overfull \hbox (19.99998pt too wide) in paragraph at lines 279--279
 [][]  
  []
 
+<img/knot_prob.png, id=209, 375.4025pt x 269.005pt>
+File: img/knot_prob.png Graphic file (type png)
+<use img/knot_prob.png>
+Package pdftex.def Info: img/knot_prob.png  used on input line 279.
+(pdftex.def)             Requested size: 136.91603pt x 98.11006pt.
+<img/both_7.png, id=210, 1040.688pt x 602.7318pt>
+File: img/both_7.png Graphic file (type png)
+<use img/both_7.png>
+Package pdftex.def Info: img/both_7.png  used on input line 279.
+(pdftex.def)             Requested size: 205.37926pt x 118.94395pt.
 
 
 [8
 
-]
-Overfull \hbox (19.99998pt too wide) in paragraph at lines 455--455
+ <./img/knot_prob.png> <./img/both_7.png>]
+Overfull \hbox (19.99998pt too wide) in paragraph at lines 518--518
 [][]  
  []
 
@@ -1621,48 +1615,7 @@ Overfull \hbox (19.99998pt too wide) in paragraph at lines 455--455
 [9
 
 ]
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRP' on input line 457.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 457.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 457.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 457.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 457.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrzh' on input line 457.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 457.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 457.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 457.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 457.
-
-
-Overfull \hbox (19.99998pt too wide) in paragraph at lines 461--461
+Overfull \hbox (19.99998pt too wide) in paragraph at lines 522--522
 [][]  
  []
 
@@ -1686,29 +1639,34 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 71AD3066F7569377C1605691E9B13B3D;188.
+(rerunfilecheck)             Checksum: DFB012A06892B154935EF06D358F5CE0;155.
  ) 
 Here is how much of TeX's memory you used:
- 29318 strings out of 473530
- 587657 string characters out of 5711865
- 937197 words of memory out of 5000000
- 51904 multiletter control sequences out of 15000+600000
- 569873 words of font info for 67 fonts, out of 8000000 for 9000
+ 29279 strings out of 473530
+ 586396 string characters out of 5711865
+ 938043 words of memory out of 5000000
+ 51870 multiletter control sequences out of 15000+600000
+ 569562 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  135i,15n,128p,692b,780s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/lh/lh-t2a/dpi600/latt1095.pk> </Users/drakanoy/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakan
+our/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0600.pk> </Users/drakan
 oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi
-600/larm0600.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
-a/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1095.pk> </Users/drakanoy/Library/Applic
-ation Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk><
-/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb>
+600/larm1095.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
+a/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk></Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Applica
+tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></L
+ibrary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texm
+fs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Suppor
+t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/presentation.
-pdf (10 pages, 2231103 bytes).
+pdf (10 pages, 5044327 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 393 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 429 words of extra memory for PDF output out of 10000 (max. 10000000)
 
