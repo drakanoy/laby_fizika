@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  18 FEB 2025 02:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  18 FEB 2025 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1517,11 +1517,11 @@ File: img/experiment.jpg Graphic file (type jpg)
 <use img/experiment.jpg>
 Package pdftex.def Info: img/experiment.jpg  used on input line 116.
 (pdftex.def)             Requested size: 136.91603pt x 182.50511pt.
-<img/exp_4.png, id=119, 937.5025pt x 627.34375pt>
-File: img/exp_4.png Graphic file (type png)
-<use img/exp_4.png>
-Package pdftex.def Info: img/exp_4.png  used on input line 116.
-(pdftex.def)             Requested size: 205.37926pt x 137.43213pt.
+<img/exp_er.png, id=119, 1040.688pt x 602.7318pt>
+File: img/exp_er.png Graphic file (type png)
+<use img/exp_er.png>
+Package pdftex.def Info: img/exp_er.png  used on input line 116.
+(pdftex.def)             Requested size: 205.37926pt x 118.94395pt.
 
 Overfull \vbox (5.81932pt too high) detected at line 116
  []
@@ -1530,7 +1530,7 @@ Overfull \vbox (5.81932pt too high) detected at line 116
 
 [4
 
- <./img/experiment.jpg> <./img/exp_4.png>]
+ <./img/experiment.jpg> <./img/exp_er.png>]
 Overfull \hbox (19.99998pt too wide) in paragraph at lines 154--154
 [][]  
  []
@@ -1558,35 +1558,35 @@ File: img/time.png Graphic file (type png)
 <use img/time.png>
 Package pdftex.def Info: img/time.png  used on input line 212.
 (pdftex.def)             Requested size: 171.14764pt x 132.91968pt.
-<img/model_1.png, id=166, 724.8681pt x 506.6127pt>
-File: img/model_1.png Graphic file (type png)
-<use img/model_1.png>
-Package pdftex.def Info: img/model_1.png  used on input line 212.
-(pdftex.def)             Requested size: 171.14764pt x 119.61057pt.
+<img/model_3_er.png, id=166, 1040.688pt x 602.7318pt>
+File: img/model_3_er.png Graphic file (type png)
+<use img/model_3_er.png>
+Package pdftex.def Info: img/model_3_er.png  used on input line 212.
+(pdftex.def)             Requested size: 171.14764pt x 99.11536pt.
 
 
 [6
 
- <./img/time.png> <./img/model_1.png>]
+ <./img/time.png> <./img/model_3_er.png>]
 Overfull \hbox (19.99998pt too wide) in paragraph at lines 248--248
 [][]  
  []
 
-<img/model_55.png, id=188, 1040.688pt x 602.7318pt>
-File: img/model_55.png Graphic file (type png)
-<use img/model_55.png>
-Package pdftex.def Info: img/model_55.png  used on input line 248.
+<img/model_5_er.png, id=188, 1040.688pt x 602.7318pt>
+File: img/model_5_er.png Graphic file (type png)
+<use img/model_5_er.png>
+Package pdftex.def Info: img/model_5_er.png  used on input line 248.
 (pdftex.def)             Requested size: 171.14764pt x 99.11536pt.
-<img/model_7.png, id=189, 1040.688pt x 602.7318pt>
-File: img/model_7.png Graphic file (type png)
-<use img/model_7.png>
-Package pdftex.def Info: img/model_7.png  used on input line 248.
+<img/model_7_er.png, id=189, 1040.688pt x 602.7318pt>
+File: img/model_7_er.png Graphic file (type png)
+<use img/model_7_er.png>
+Package pdftex.def Info: img/model_7_er.png  used on input line 248.
 (pdftex.def)             Requested size: 171.14764pt x 99.11536pt.
 
 
 [7
 
- <./img/model_55.png> <./img/model_7.png>]
+ <./img/model_5_er.png> <./img/model_7_er.png>]
 Overfull \hbox (19.99998pt too wide) in paragraph at lines 279--279
 [][]  
  []
@@ -1596,16 +1596,16 @@ File: img/knot_prob.png Graphic file (type png)
 <use img/knot_prob.png>
 Package pdftex.def Info: img/knot_prob.png  used on input line 279.
 (pdftex.def)             Requested size: 136.91603pt x 98.11006pt.
-<img/both_7.png, id=210, 1040.688pt x 602.7318pt>
-File: img/both_7.png Graphic file (type png)
-<use img/both_7.png>
-Package pdftex.def Info: img/both_7.png  used on input line 279.
+<img/both_7_er.png, id=210, 1040.688pt x 602.7318pt>
+File: img/both_7_er.png Graphic file (type png)
+<use img/both_7_er.png>
+Package pdftex.def Info: img/both_7_er.png  used on input line 279.
 (pdftex.def)             Requested size: 205.37926pt x 118.94395pt.
 
 
 [8
 
- <./img/knot_prob.png> <./img/both_7.png>]
+ <./img/knot_prob.png> <./img/both_7_er.png>]
 Overfull \hbox (19.99998pt too wide) in paragraph at lines 518--518
 [][]  
  []
@@ -1643,8 +1643,8 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  29279 strings out of 473530
- 586396 string characters out of 5711865
- 938043 words of memory out of 5000000
+ 586480 string characters out of 5711865
+ 938044 words of memory out of 5000000
  51870 multiletter control sequences out of 15000+600000
  569562 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1664,7 +1664,7 @@ nts/type1/public/amsfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texm
 fs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Suppor
 t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/presentation.
-pdf (10 pages, 5044327 bytes).
+pdf (10 pages, 4988289 bytes).
 PDF statistics:
  447 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
