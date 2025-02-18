@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  18 FEB 2025 14:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  19 FEB 2025 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1644,7 +1644,7 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 Here is how much of TeX's memory you used:
  29279 strings out of 473530
  586480 string characters out of 5711865
- 938044 words of memory out of 5000000
+ 938043 words of memory out of 5000000
  51870 multiletter control sequences out of 15000+600000
  569562 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1664,7 +1664,7 @@ nts/type1/public/amsfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texm
 fs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Suppor
 t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/presentation.
-pdf (10 pages, 4988289 bytes).
+pdf (10 pages, 4988541 bytes).
 PDF statistics:
  447 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
