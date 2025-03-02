@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.12.27)  28 JAN 2025 08:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  2 MAR 2025 03:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **./DZ_electro_dynamics.tex
 (DZ_electro_dynamics.tex
-LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
@@ -247,8 +247,8 @@ rillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2024/11/30 v24.14 The multilingual framework for pdfLaTeX, LuaLa
-TeX and XeLaTeX
+Package: babel 2025/01/25 v25.2 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
 \babel@savecnt=\count270
 \U@D=\dimen142
 \l@unhyphenated=\language79
@@ -442,7 +442,7 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 )
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/en
 umitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
+Package: enumitem 2025/01/19 v3.10 Customized lists
 \labelindent=\skip56
 \enit@outerparindent=\dimen165
 \enit@toks=\toks28
@@ -923,253 +923,261 @@ Package hyperref Info: Link coloring OFF on input line 25.
 \@outlinefile=\write4
 \openout4 = `DZ_electro_dynamics.out'.
 
-<photo_1.png, id=6, 820.06375pt x 173.64874pt>
+<photo_1.png, id=6, 887.315pt x 168.63pt>
 File: photo_1.png Graphic file (type png)
 <use photo_1.png>
 Package pdftex.def Info: photo_1.png  used on input line 37.
-(pdftex.def)             Requested size: 512.14963pt x 108.45335pt.
+(pdftex.def)             Requested size: 512.14963pt x 97.32944pt.
 
 Overfull \hbox (17.62482pt too wide) in paragraph at lines 37--41
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+<photo_11.jpg, id=8, 1446.40375pt x 1104.125pt>
+File: photo_11.jpg Graphic file (type jpg)
+<use photo_11.jpg>
+Package pdftex.def Info: photo_11.jpg  used on input line 43.
+(pdftex.def)             Requested size: 512.14963pt x 390.94785pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 43--44
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 4
-9.
+6.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/stmaryrd/Ustmry.f
 d)
-<photo_2.png, id=8, 829.0975pt x 237.88875pt>
+
+[1
+
+{/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
+x/pdftex.map} <./photo_1.png> <./photo_11.jpg>]
+<photo_2.png, id=23, 889.3225pt x 68.255pt>
 File: photo_2.png Graphic file (type png)
 <use photo_2.png>
-Package pdftex.def Info: photo_2.png  used on input line 85.
-(pdftex.def)             Requested size: 512.14963pt x 146.95226pt.
+Package pdftex.def Info: photo_2.png  used on input line 72.
+(pdftex.def)             Requested size: 512.14963pt x 39.30672pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 72--73
+[][] 
+ []
+
+<photo_21.jpg, id=24, 1278.7775pt x 998.73125pt>
+File: photo_21.jpg Graphic file (type jpg)
+<use photo_21.jpg>
+Package pdftex.def Info: photo_21.jpg  used on input line 77.
+(pdftex.def)             Requested size: 358.50317pt x 279.99335pt.
+<photo_22.jpg, id=25, 1415.2875pt x 1089.06876pt>
+File: photo_22.jpg Graphic file (type jpg)
+<use photo_22.jpg>
+Package pdftex.def Info: photo_22.jpg  used on input line 79.
+(pdftex.def)             Requested size: 358.50317pt x 275.85597pt.
+
+
+[2 <./photo_2.png> <./photo_21.jpg>]
+<photo_3.png, id=31, 893.3375pt x 77.28876pt>
+File: photo_3.png Graphic file (type png)
+<use photo_3.png>
+Package pdftex.def Info: photo_3.png  used on input line 85.
+(pdftex.def)             Requested size: 512.14963pt x 44.30977pt.
 
 Overfull \hbox (17.62482pt too wide) in paragraph at lines 85--86
 [][] 
  []
 
+<photo_31.jpg, id=32, 1508.63625pt x 1076.02pt>
+File: photo_31.jpg Graphic file (type jpg)
+<use photo_31.jpg>
+Package pdftex.def Info: photo_31.jpg  used on input line 88.
+(pdftex.def)             Requested size: 409.72125pt x 292.22041pt.
+<photo_32.jpg, id=33, 1537.745pt x 1162.3425pt>
+File: photo_32.jpg Graphic file (type jpg)
+<use photo_32.jpg>
+Package pdftex.def Info: photo_32.jpg  used on input line 90.
+(pdftex.def)             Requested size: 409.72125pt x 309.68648pt.
 
 
-[1
-
-{/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
-x/pdftex.map} <./photo_1.png> <./photo_2.png>]
-
-[2]
-<photo_3.png, id=37, 792.9625pt x 179.67125pt>
-File: photo_3.png Graphic file (type png)
-<use photo_3.png>
-Package pdftex.def Info: photo_3.png  used on input line 157.
-(pdftex.def)             Requested size: 512.14963pt x 116.0447pt.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 157--158
-[][] 
- []
-
-
-
-[3]
-Overfull \hbox (6.01445pt too wide) detected at line 171
-\OMS/cmsy/m/n/14.4 8\OML/cmm/m/it/14.4 ^^W \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14
-.4 f\OML/cmm/m/it/14.4 U[] \OMS/cmsy/m/n/14.4 2 \OT1/cmr/m/n/14.4 
- \OMS/cmsy/m/n/14.4 j \OML/cmm/m/it/14.4 i \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/it/1
-4.4 I \OT1/cmr/m/n/14.4 ;   [] \OML/cmm/m/it/14.4 U[] \OT1/cmr/m/n/14.4 = \OML/
-cmm/m/it/14.4 X\OMS/cmsy/m/n/14.4 g   9\OML/cmm/m/it/14.4 U[]\OT1/cmr/m/n/14.4 
-; \OML/cmm/m/it/14.4 :::\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 U[] \OMS/cmsy/m/
-n/14.4 2 \OML/cmm/m/it/14.4 ^^W    [] U[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.
-4 X \OMS/cmsy/m/n/14.4 ^^@ []
- []
-
-
-Overfull \hbox (11.43372pt too wide) detected at line 174
-\OMS/cmsy/m/n/14.4 8\OML/cmm/m/it/14.4 ^^Q \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14
-.4 f\OML/cmm/m/it/14.4 V[] \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 ^^F \OMS/cms
-y/m/n/14.4 j \OML/cmm/m/it/14.4 j \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 J \OT
-1/cmr/m/n/14.4 ;   [] \OML/cmm/m/it/14.4 V[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/
-14.4 Y\OMS/cmsy/m/n/14.4 g   9\OML/cmm/m/it/14.4 V[]\OT1/cmr/m/n/14.4 ; \OML/cm
-m/m/it/14.4 :::\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 V[] \OMS/cmsy/m/n/14.4 2 
-\OML/cmm/m/it/14.4 ^^W    [] V[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 Y \OMS/
-cmsy/m/n/14.4 ^^@ []
- []
-
-
-Overfull \hbox (31.75256pt too wide) detected at line 189
-\OMS/cmsy/m/n/14.4 ) \OML/cmm/m/it/14.4 ^^\ \OMS/cmsy/m/n/14.4 ^^[ \OML/cmm/m/i
-t/14.4 ^^\[] \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 W[] \OT
-1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 U[] \OMS/cmsy/m/n/14.4 ^^B \OML/cmm/m/it/14
-.4 V[] \OMS/cmsy/m/n/14.4 j \OML/cmm/m/it/14.4 i \OMS/cmsy/m/n/14.4 2 f\OT1/cmr
-/m/n/14.4 1; \OML/cmm/m/it/14.4 :::\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 n\OMS
-/cmsy/m/n/14.4 g\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 j \OMS/cmsy/m/n/14.4 2 f
-\OT1/cmr/m/n/14.4 1; \OML/cmm/m/it/14.4 :::\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14
-.4 m\OMS/cmsy/m/n/14.4 gg ^^@ []\OML/cmm/m/it/14.4 X \OMS/cmsy/m/n/14.4 ^^B \OM
-L/cmm/m/it/14.4 Y
- []
-
-<photo_4.png, id=48, 786.94pt x 121.45375pt>
+[3 <./photo_22.jpg> <./photo_3.png> <./photo_31.jpg>]
+<photo_4.png, id=39, 887.315pt x 142.5325pt>
 File: photo_4.png Graphic file (type png)
 <use photo_4.png>
-Package pdftex.def Info: photo_4.png  used on input line 213.
-(pdftex.def)             Requested size: 512.14963pt x 79.0422pt.
+Package pdftex.def Info: photo_4.png  used on input line 95.
+(pdftex.def)             Requested size: 512.14963pt x 82.26654pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 213--214
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 95--96
+[][] 
+ []
+
+<Oh.png, id=40, 600.2425pt x 369.38pt>
+File: Oh.png Graphic file (type png)
+<use Oh.png>
+Package pdftex.def Info: Oh.png  used on input line 108.
+(pdftex.def)             Requested size: 512.14963pt x 315.19191pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
 
 
-[4 <./photo_3.png>]
-<photo_5.png, id=57, 677.53125pt x 42.1575pt>
+[4 <./photo_32.jpg> <./photo_4.png>]
+<D_6h.png, id=47, 503.8825pt x 425.59pt>
+File: D_6h.png Graphic file (type png)
+<use D_6h.png>
+Package pdftex.def Info: D_6h.png  used on input line 121.
+(pdftex.def)             Requested size: 512.14963pt x 432.57645pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 121--122
+[][] 
+ []
+
+
+
+[5 <./Oh.png>]
+<Td.png, id=53, 629.35126pt x 192.72pt>
+File: Td.png Graphic file (type png)
+<use Td.png>
+Package pdftex.def Info: Td.png  used on input line 134.
+(pdftex.def)             Requested size: 512.14963pt x 156.8375pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 134--135
+[][] 
+ []
+
+
+
+[6 <./D_6h.png> <./Td.png>]
+<^^d0^^a1_6v.png, id=60, 505.89pt x 222.8325pt>
+File: ^^d0^^a1_6v.png Graphic file (type png)
+<use ^^d0^^a1_6v.png>
+Package pdftex.def Info: ^^d0^^a1_6v.png  used on input line 147.
+(pdftex.def)             Requested size: 512.14963pt x 225.59286pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 147--148
+[][] 
+ []
+
+<D_3.png, id=61, 570.13pt x 119.44624pt>
+File: D_3.png Graphic file (type png)
+<use D_3.png>
+Package pdftex.def Info: D_3.png  used on input line 160.
+(pdftex.def)             Requested size: 512.14963pt x 107.2983pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 160--161
+[][] 
+ []
+
+<photo_5.png, id=62, 912.40875pt x 155.58125pt>
 File: photo_5.png Graphic file (type png)
 <use photo_5.png>
-Package pdftex.def Info: photo_5.png  used on input line 282.
-(pdftex.def)             Requested size: 512.14963pt x 31.86826pt.
+Package pdftex.def Info: photo_5.png  used on input line 167.
+(pdftex.def)             Requested size: 512.14963pt x 87.33142pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 282--283
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 167--168
 [][] 
  []
 
 
 
-[5 <./photo_4.png>]
-<photo_6.png, id=63, 819.06pt x 385.44pt>
+[7 <./С_6v.png> <./D_3.png> <./photo_5.png>]
+<photo_6.png, id=71, 898.35625pt x 78.2925pt>
 File: photo_6.png Graphic file (type png)
 <use photo_6.png>
-Package pdftex.def Info: photo_6.png  used on input line 310.
-(pdftex.def)             Requested size: 512.14963pt x 241.0229pt.
+Package pdftex.def Info: photo_6.png  used on input line 211.
+(pdftex.def)             Requested size: 512.14963pt x 44.63554pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 310--311
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 211--212
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+euf on input line 312
-.
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
-Overfull \hbox (20.83269pt too wide) in paragraph at lines 312--316
-[]\T2A/cmr/m/n/14.4 ^^ce^^e1^^ee^^e7^^ed^^e0^^f7^^e8^^ec ^^e7^^e0 $\U/euf/m/n/1
-4.4 g \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 T[]G$ \T2A/cmr/m/n/14.4 ^^e0^^eb-^
-^e3^^e5^^e1-^^f0^^f3 ^^cb^^e8 ^^e2 ^^e5^^e4^^e8-^^ed^^e8-^^f6^^e5 $\OML/cmm/m/i
-t/14.4 e \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 G$ \T2A/cmr/m/n/14.4 ^^e8 ^^e2
-^^fb-^^e1^^e5-^^f0^^e5^^ec ^^e1^^e0-^^e7^^e8^^f1 $\OMS/cmsy/m/n/14.4 f\OML/cmm/
-m/it/14.4 X[]\OT1/cmr/m/n/14.4 ; [] ; \OML/cmm/m/it/14.4 X[]\OMS/cmsy/m/n/14.4 
-g ^^Z
- []
-
-
-
-[6 <./photo_5.png> <./photo_6.png>]
-<photo_7.png, id=71, 830.10126pt x 191.71625pt>
+<photo_7.png, id=72, 911.405pt x 346.29375pt>
 File: photo_7.png Graphic file (type png)
 <use photo_7.png>
-Package pdftex.def Info: photo_7.png  used on input line 357.
-(pdftex.def)             Requested size: 512.14963pt x 118.28654pt.
+Package pdftex.def Info: photo_7.png  used on input line 228.
+(pdftex.def)             Requested size: 512.14963pt x 194.59952pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 357--358
-[][] 
- []
-
-<photo_71.jpg, id=72, 1482.53876pt x 924.45375pt>
-File: photo_71.jpg Graphic file (type jpg)
-<use photo_71.jpg>
-Package pdftex.def Info: photo_71.jpg  used on input line 376.
-(pdftex.def)             Requested size: 512.14963pt x 319.36006pt.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 376--377
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 228--229
 [][] 
  []
 
 
 
-[7 <./photo_7.png>]
-<photo_72.jpg, id=79, 632.3625pt x 442.65375pt>
-File: photo_72.jpg Graphic file (type jpg)
-<use photo_72.jpg>
-Package pdftex.def Info: photo_72.jpg  used on input line 378.
-(pdftex.def)             Requested size: 512.14963pt x 358.5273pt.
+[8 <./photo_6.png>]
+<photo_8.png, id=83, 798.985pt x 136.51pt>
+File: photo_8.png Graphic file (type png)
+<use photo_8.png>
+Package pdftex.def Info: photo_8.png  used on input line 236.
+(pdftex.def)             Requested size: 512.14963pt x 87.50774pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 378--379
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 236--237
 [][] 
  []
 
 
 
-[8 <./photo_71.jpg> <./photo_72.jpg>]
-<photo_81.png, id=84, 667.49374pt x 448.67625pt>
-File: photo_81.png Graphic file (type png)
-<use photo_81.png>
-Package pdftex.def Info: photo_81.png  used on input line 391.
-(pdftex.def)             Requested size: 512.14963pt x 344.28369pt.
+[9 <./photo_7.png> <./photo_8.png>]
+<photo_9.png, id=90, 878.28125pt x 37.13875pt>
+File: photo_9.png Graphic file (type png)
+<use photo_9.png>
+Package pdftex.def Info: photo_9.png  used on input line 265.
+(pdftex.def)             Requested size: 512.14963pt x 21.65723pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 391--392
-[][] 
- []
-
-<photo_82.png, id=85, 651.43375pt x 104.39pt>
-File: photo_82.png Graphic file (type png)
-<use photo_82.png>
-Package pdftex.def Info: photo_82.png  used on input line 393.
-(pdftex.def)             Requested size: 512.14963pt x 82.07692pt.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 393--394
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 265--266
 [][] 
  []
 
 
 
-[9 <./photo_81.png> <./photo_82.png>]
+[10 <./photo_9.png>]
 (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.aux)
  ***********
-LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DZ_electro_dynamics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16663 strings out of 473650
- 279504 string characters out of 5715016
- 708376 words of memory out of 5000000
- 39451 multiletter control sequences out of 15000+600000
- 574063 words of font info for 83 fonts, out of 8000000 for 9000
+ 16661 strings out of 473530
+ 279559 string characters out of 5711865
+ 713419 words of memory out of 5000000
+ 39592 multiletter control sequences out of 15000+600000
+ 568004 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,8n,93p,515b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,6n,93p,341b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakanoy/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1440.pk> </Users/drak
-anoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/d
-pi600/labx1200.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
-ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakanoy/Library/Appl
-ication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk
-> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600/labx1440.pk> </Users/drakanoy/Library/Application Support/M
-iKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk></Library/Applic
-ation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX
-/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application 
-Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Librar
-y/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
-ype1/public/amsfonts/euler/eufm10.pfb></Library/Application Support/MiKTeX/texm
-fs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+our/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk> </Users/drakan
+oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi
+600/labx1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
+a/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk></Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Applica
+tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Su
+pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/A
+pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/DZ_electro_dy
-namics.pdf (9 pages, 1373565 bytes).
+namics.pdf (10 pages, 2693980 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
