@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  19 FEB 2025 01:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  6 MAR 2025 01:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1638,8 +1638,15 @@ Overfull \hbox (19.99998pt too wide) in paragraph at lines 522--522
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: DFB012A06892B154935EF06D358F5CE0;155.
+
+
+Package rerunfilecheck Warning: File `presentation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `presentation.out':
+(rerunfilecheck)             Before: 712D892E5F45FE2EFA54CAFA1C6D16EC;206
+(rerunfilecheck)             After:  DFB012A06892B154935EF06D358F5CE0;155.
  ) 
 Here is how much of TeX's memory you used:
  29279 strings out of 473530
@@ -1664,9 +1671,9 @@ nts/type1/public/amsfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texm
 fs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Suppor
 t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/presentation.
-pdf (10 pages, 4988541 bytes).
+pdf (10 pages, 4991693 bytes).
 PDF statistics:
- 447 PDF objects out of 1000 (max. 8388607)
+ 456 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
  429 words of extra memory for PDF output out of 10000 (max. 10000000)
 

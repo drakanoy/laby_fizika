@@ -1,0 +1,149 @@
+\include{preamble_def}
+
+\title{Problem No.9 Chaotic Shoelaces}
+\author{Presenter: Kononov Alexander}
+\institute{{\normalsize Team: Not in Class, Alferov University}}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+\tikz [remember picture,overlay]
+\node at
+([xshift=-2cm, yshift=2cm]current page.south east)
+%or: (current page.center)
+{\includegraphics[width=.3\textwidth,height=.2\textheight]{img/au-logo-shadow.pdf}};
+\titlepage
+\end{frame}
+
+\section{Problem Statement}
+
+\begin{frame}{Problem Statement}
+\begin{block}{Chaotic Shoelaces}
+If a sufficiently large number of shoelaces are rotated in a centrifuge with water, similar to a washing machine, the shoelaces become tangled. Investigate the number of knots on a single shoelace, as well as knots between shoelaces. Consider the longest rope resulting from each such experiment. Study the distribution of its length over a series of such experiments.
+%\textit{Hint: } This phenomenon is usually observed when using hard water for tea.
+\end{block}
+\begin{figure}
+\includegraphics[width=0.3\linewidth]{img/hnurki_logo.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{What is a Knot?}
+
+\begin{columns}
+\begin{column}{0.5\linewidth}
+\begin{block}{Definition of a Knot}
+A knot is defined as a closed 2D thread that remains unchanged under three types of transformations. That is, transformed threads are topologically equivalent.
+\end{block}
+
+\begin{block}{Topology}
+The topology of a knot is described using Jones polynomials.
+\end{block}
+\end{column}
+
+\begin{column}{0.5\linewidth}
+\includegraphics[height=1\linewidth]{img/hnurki_peracii.png}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Experimental Setup}
+
+\begin{block}{}
+The experimental setup consists of a cylinder with a length of $l_0 = 13$ cm and a motor rotating at a frequency of $\omega = 1$ Hz.
+\end{block}
+
+\begin{columns}
+\begin{column}{0.4\linewidth}
+\begin{figure}[H]
+\includegraphics[width=1\linewidth]{img/experiment.jpg}
+\end{figure}
+\end{column}
+
+\begin{column}{0.6\linewidth}
+\begin{figure}[H]
+\includegraphics[width=1\linewidth]{img/exp_er.png}
+\end{figure}
+Approximation of points using the dependency:
+$P = \frac{P_0}{1+(l/l_0)^b}$
+where $P_0 = 0.3$, $b = -3$
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Theoretical Modeling}
+
+\begin{block}{}
+The model is based on a Markov process of random walking of the shoelace end. The end of the shoelace has an equal probability of moving up or down over or under one of the shoelace parts per step. After random walking, a knot is formed.
+\end{block}
+
+\begin{columns}
+\begin{column}{0.4\linewidth}
+\begin{figure}[H]
+\includegraphics[width=1\linewidth]{img/hnurki_zaput.png}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Modeling Results}
+\begin{block}{}
+Graphs showing the probability of knot formation on a single shoelace depending on its length and walking time.
+\end{block}
+
+\begin{columns}
+\begin{column}{0.5\linewidth}
+\begin{figure}[H]
+\includegraphics[width=1\linewidth]{img/time.png}
+\end{figure}
+\end{column}
+
+\begin{column}{0.5\linewidth}
+\begin{figure}[H]
+\includegraphics[width=1\linewidth]{img/model_7_er.png}
+Required number of crossings: 3
+\end{figure}
+Approximation of points:
+$P = \frac{P_0}{1+(l/l_0)^b}$
+where $P_0 = 0.3$, $b = -3$
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Comparison with the Article}
+\begin{block}{}
+The article "Spontaneous knotting of an agitated string" by Dorian M. Raymer and Douglas E. Smith presents the following results:
+\end{block}
+
+\begin{columns}
+\begin{column}{0.4\linewidth}
+\begin{figure}[H]
+\includegraphics[width=1\linewidth]{img/knot_prob.png}
+\end{figure}
+$P = \frac{P_0}{1+(l/l_0)^b}$
+where $P_0 = 0.55$, $b = -2.9$
+\end{column}
+
+\begin{column}{0.6\linewidth}
+\begin{figure}[H]
+\includegraphics[width=1\linewidth]{img/both_7_er.png}
+\end{figure}
+$P = \frac{P_0}{1+(l/l_0)^b}$
+where $P_0 = 0.33$, $b = -3$
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Conclusion}
+\begin{itemize}
+\item Experimentally measured probability of knot formation on a single shoelace: $P=0.3$
+\item Built a model and obtained a knot formation probability on a single shoelace of $P=0.3$
+%\item For further improvement, the problem can be expanded to study knot distributions between multiple ropes as a model of random walking of ends near knots on adjacent ropes uniformly distributed along the shoelace length.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Thank You for Your Attention}
+Thank you for your attention!
+\end{frame}
+
+\end{document}
