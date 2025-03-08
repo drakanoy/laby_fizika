@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  25 FEB 2025 00:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.2.7)  8 MAR 2025 17:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -398,13 +398,13 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Info: Redefining \th on input line 9.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
 
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -414,52 +414,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
 x/pdftex.map}]
+Overfull \hbox (3.95486pt too wide) detected at line 78
+\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = [][] [] \OML/cmm/m/it
+/10 dr \OT1/cmr/m/n/10 = [] [][] [] = [] [][] = [] \OMS/cmsy/m/n/10 ^^A []\OML/
+cmm/m/it/10 :
+ []
 
-[2]
 
-[3]
 
-[4] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/main.aux)
+[2] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3491 strings out of 473530
- 52750 string characters out of 5711865
- 451432 words of memory out of 5000000
- 26701 multiletter control sequences out of 15000+600000
- 574458 words of font info for 80 fonts, out of 8000000 for 9000
+ 3447 strings out of 473530
+ 52221 string characters out of 5711865
+ 455432 words of memory out of 5000000
+ 26670 multiletter control sequences out of 15000+600000
+ 567006 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,8n,65p,376b,207s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,9n,65p,573b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/jknappen/ec/dpi600/tcrm1000.pk> </Users/drakanoy/Library/Application Suppor
-t/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk> </Users/drak
-anoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/d
-pi600/labx1200.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
-ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0700.pk> </Users/drakanoy/Library/Appl
-ication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk
-> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600/labx1440.pk></Library/Application Support/MiKTeX/texmfs/ins
-tall/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Library/Application Support/Mi
-KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Applica
-tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/t
-exmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Su
-pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Library/A
-pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmsy5.pfb></Library/Application Support/MiKTeX/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/main.pdf (4 p
-ages, 189264 bytes).
+our/lh/lh-t2a/dpi600/larm0700.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk> </Users/drakan
+oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi
+600/larm1000.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
+a/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk> </Users/drakanoy/Library/Applic
+ation Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk><
+/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application 
+Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Library
+/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb>
+Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/main.pdf (2 p
+ages, 124299 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
+ 190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
