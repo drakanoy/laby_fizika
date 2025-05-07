@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.5.5)  5 MAY 2025 03:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.5.5)  6 MAY 2025 03:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -411,95 +411,578 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (24.34967pt too wide) detected at line 42
+\OMS/cmsy/m/n/10 r ^^B r ^^B [] \OT1/cmr/m/n/10 = [] [] \OMS/cmsy/m/n/10 ^^@ []
+[][]
+ []
+
+
 
 [1
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
 x/pdftex.map}]
+Overfull \hbox (21.03291pt too wide) detected at line 108
+[]
+ []
+
+
+Overfull \hbox (23.51605pt too wide) detected at line 135
+[]
+ []
+
+
+Overfull \hbox (23.30438pt too wide) detected at line 145
+[]
+ []
+
+
 
 [2]
+main.tex:199: Undefined control sequence.
+l.199 \nabla \cdot \vec{V} = \frac{1}{r^2} \pdv
+                                               {r} (r^2 A_{lm} Y_{lm}) = \le...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:201: Undefined control sequence.
+l.201 ^^d0^^b3^^d0^^b4^^d0^^b5 \( A_{lm}' = \dv
+                                               {A_{lm}}{r} \).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:205: Undefined control sequence.
+l.205 ...a (\nabla \cdot \vec{V}) = \vec{e}_r \pdv
+                                                  {r} \left[ \left( \frac{2}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 
 [3]
+main.tex:233: Undefined control sequence.
+l.233 ..._{lm}) = B_{lm} \left( \frac{2}{r} + \pdv
+                                                  {r} \right) r \pdv{Y_{lm}}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:233: Undefined control sequence.
+l.233 ...eft( \frac{2}{r} + \pdv{r} \right) r \pdv
+                                                  {Y_{lm}}{r} + \text{^^d1^^...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+main.tex:296: Undefined control sequence.
+<argument>  \bm 
+                {Y}_{\ell m} &= Y_{\ell m}\,\hat {\bm e}_r, & \bm {\Psi }_{\...
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- []
+main.tex:296: Undefined control sequence.
+<recently read> \bm 
+                    
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+main.tex:296: Undefined control sequence.
+<argument> \bm 
+               e
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+main.tex:296: Undefined control sequence.
+<argument> ...= Y_{\ell m}\,\hat {\bm e}_r, & \bm 
+                                                  {\Psi }_{\ell m} &= r\,\na...
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- []
+main.tex:296: Undefined control sequence.
+<argument> ...l m} &= r\,\nabla Y_{\ell m}, & \bm 
+                                                  {\Phi }_{\ell m} &= \bm r ...
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+main.tex:296: Undefined control sequence.
+<argument> ...l m}, & \bm {\Phi }_{\ell m} &= \bm 
+                                                  r \times \nabla Y_{\ell m}...
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+main.tex:296: Undefined control sequence.
+<argument>  \bm 
+                {Y}_{\ell m} &= Y_{\ell m}\,\hat {\bm e}_r, & \bm {\Psi }_{\...
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- []
+main.tex:296: Undefined control sequence.
+<recently read> \bm 
+                    
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+main.tex:296: Undefined control sequence.
+<argument> \bm 
+               e
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+main.tex:296: Undefined control sequence.
+<argument> ...= Y_{\ell m}\,\hat {\bm e}_r, & \bm 
+                                                  {\Psi }_{\ell m} &= r\,\na...
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- []
+main.tex:296: Undefined control sequence.
+<argument> ...l m} &= r\,\nabla Y_{\ell m}, & \bm 
+                                                  {\Phi }_{\ell m} &= \bm r ...
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:296: Undefined control sequence.
+<argument> ...l m}, & \bm {\Phi }_{\ell m} &= \bm 
+                                                  r \times \nabla Y_{\ell m}...
+l.296 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument>  \nabla \times \bm 
+                              {Y}_{\ell m} &= -\frac {1}{r}\,\bm {\Phi }_{\e...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ... {Y}_{\ell m} &= -\frac {1}{r}\,\bm 
+                                                  {\Phi }_{\ell m}, \\ \nabl...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...hi }_{\ell m}, \\ \nabla \times \bm 
+                                                  {\Psi }_{\ell m} &= \frac ...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...Psi }_{\ell m} &= \frac {1}{r}\,\bm 
+                                                  {\Phi }_{\ell m}, \\ \nabl...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...hi }_{\ell m}, \\ \nabla \times \bm 
+                                                  {\Phi }_{\ell m} &= -\frac...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...ell m} &= -\frac {\lambda }{r}\,\bm 
+                                                  {Y}_{\ell m} -\frac {1}{r}...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...\bm {Y}_{\ell m} -\frac {1}{r}\,\bm 
+                                                  {\Psi }_{\ell m}. 
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument>  \nabla \times \bm 
+                              {Y}_{\ell m} &= -\frac {1}{r}\,\bm {\Phi }_{\e...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ... {Y}_{\ell m} &= -\frac {1}{r}\,\bm 
+                                                  {\Phi }_{\ell m}, \\ \nabl...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...hi }_{\ell m}, \\ \nabla \times \bm 
+                                                  {\Psi }_{\ell m} &= \frac ...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...Psi }_{\ell m} &= \frac {1}{r}\,\bm 
+                                                  {\Phi }_{\ell m}, \\ \nabl...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...hi }_{\ell m}, \\ \nabla \times \bm 
+                                                  {\Phi }_{\ell m} &= -\frac...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...ell m} &= -\frac {\lambda }{r}\,\bm 
+                                                  {Y}_{\ell m} -\frac {1}{r}...
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:305: Undefined control sequence.
+<argument> ...\bm {Y}_{\ell m} -\frac {1}{r}\,\bm 
+                                                  {\Psi }_{\ell m}. 
+l.305 \end{align}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:311: Undefined control sequence.
+\@svsechd ...mes \nabla \times \!\bigl [A(r)\,\bm 
+                                                  {Y}_{\ell m}\bigr ]\).}\cs...
+l.311 \begin{equation}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:311: Undefined control sequence.
+<argument> ...es \nabla \times \!\bigl [A(r)\,\bm 
+                                                  {Y}_{\ell m}\bigr ]\).}{\t...
+l.311 \begin{equation}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:312: Undefined control sequence.
+l.312 \nabla\times\nabla\times\!\bigl[A(r)\,\bm
+                                               {Y}_{\ell m}\bigr]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:313: Undefined control sequence.
+l.313   = -\frac{\lambda\,A(r)}{r^{2}}\;\bm
+                                           {Y}_{\ell m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:314: Undefined control sequence.
+l.314     +\frac{A'(r)}{r}\;\bm
+                               {\Psi}_{\ell m}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:319: Undefined control sequence.
+\@svsechd ...mes \nabla \times \!\bigl [B(r)\,\bm 
+                                                  {\Psi }_{\ell m}\bigr ]\)....
+l.319 \begin{equation}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:319: Undefined control sequence.
+<argument> ...es \nabla \times \!\bigl [B(r)\,\bm 
+                                                  {\Psi }_{\ell m}\bigr ]\)....
+l.319 \begin{equation}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:320: Undefined control sequence.
+l.320 \nabla\times\nabla\times\!\bigl[B(r)\,\bm
+                                               {\Psi}_{\ell m}\bigr]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:321: Undefined control sequence.
+l.321 ...{r}\!\left(B'(r)+\frac{B(r)}{r}\right)\bm
+                                                  {Y}_{\ell m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:322: Undefined control sequence.
+l.322     -\left(B''(r)+\frac{2B'(r)}{r}\right)\bm
+                                                  {\Psi}_{\ell m}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 
 [5]
+main.tex:327: Undefined control sequence.
+\@svsechd ...mes \nabla \times \!\bigl [C(r)\,\bm 
+                                                  {\Phi }_{\ell m}\bigr ]\)....
+l.327 \begin{equation}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[6]
+main.tex:327: Undefined control sequence.
+<argument> ...es \nabla \times \!\bigl [C(r)\,\bm 
+                                                  {\Phi }_{\ell m}\bigr ]\)....
+l.327 \begin{equation}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[7]
+main.tex:328: Undefined control sequence.
+l.328 \nabla\times\nabla\times\!\bigl[C(r)\,\bm
+                                               {\Phi}_{\ell m}\bigr]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[8]
+main.tex:330: Undefined control sequence.
+l.330          -C''(r)-\frac{2C'(r)}{r}\right)\bm
+                                                 {\Phi}_{\ell m}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[9]
+main.tex:337: Undefined control sequence.
+l.337 ... & \bigl(\nabla\times\nabla\times[C(r)\bm
+                                                  {\Phi}_{1m}]\bigr) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[10]
+main.tex:339: Undefined control sequence.
+l.339 \text{const} & \dfrac{2}{r^{2}}\bm
+                                        {\Phi}_{1m} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[11] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/main.aux)
+main.tex:341: Undefined control sequence.
+l.341 r^{2}        & -4\,\bm
+                            {\Phi}_{1m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[6] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3485 strings out of 469964
- 52525 string characters out of 5467029
- 441025 words of memory out of 5000000
- 30260 multiletter control sequences out of 15000+600000
- 644039 words of font info for 84 fonts, out of 8000000 for 9000
+ 3480 strings out of 469964
+ 52518 string characters out of 5467029
+ 449025 words of memory out of 5000000
+ 30258 multiletter control sequences out of 15000+600000
+ 641519 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,65p,650b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,11n,65p,503b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/lh/lh-t2a/dpi600/lati1000.pk> </Users/drakanoy/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm0700.pk> </Users/drakan
+our/lh/lh-t2a/dpi600/labx1000.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk> </Users/drakan
 oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
 pi600/tcrm1000.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
-ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk> </Users/drakanoy/Library/Appl
-ication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk
-> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakanoy/Library/Application Support/M
-iKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk></Library/Applic
-ation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Library/Application Support/MiKTeX
-/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Application 
-Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Librar
-y/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmr5.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/ins
-tall/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKT
-eX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Applicati
-on Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></Lib
+ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakanoy/Library/Appl
+ication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk
+></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiK
+TeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Applicati
+on Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Lib
 rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
-msy7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/main.pdf (11 
-pages, 277825 bytes).
+mr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/font
+s/type1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs
+/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Suppor
+t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/main.pdf (6 p
+ages, 171506 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
+ 249 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
