@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.5.5)  6 MAY 2025 03:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.5.5)  28 MAY 2025 18:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -400,21 +400,396 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Info: Redefining \th on input line 9.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
 
 
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+main.tex:353: LaTeX Error: Environment longtable undefined.
 
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (24.34967pt too wide) detected at line 42
-\OMS/cmsy/m/n/10 r ^^B r ^^B [] \OT1/cmr/m/n/10 = [] [] \OMS/cmsy/m/n/10 ^^@ []
-[][]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.353 \begin{longtable}
+                       {|p{4cm}|p{4cm}|p{2cm}|p{4cm}|}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+main.tex:354: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.354 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+main.tex:355: Misplaced alignment tab character &.
+l.355 ...d1^^81^^d0^^b8^^d1^^82^^d0^^b5^^d1^^82} &
+                                                   \textbf{^^d0^^9f^^d1^^80^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:355: Misplaced alignment tab character &.
+l.355 ...d1^^80^^d0^^b0^^d0^^bc^^d0^^bc^^d0^^b0} &
+                                                   \textbf{^^d0^^af^^d0^^b7^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:355: Misplaced alignment tab character &.
+l.355 ...extbf{^^d0^^af^^d0^^b7^^d1^^8b^^d0^^ba} &
+                                                   \textbf{^^d0^^a2^^d1^^80^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:356: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.356 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+
  []
+
+main.tex:357: Misplaced alignment tab character &.
+l.357 ...^d0^^b1^^d1^^80^^d0^^b8^^d0^^b4^^d0^^b6 &
+                                                   MASt in Theoretical Physi...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:357: Misplaced alignment tab character &.
+l.357 ... MASt in Theoretical Physics (Part III) &
+                                                   ^^d0^^90^^d0^^bd^^d0^^b3^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:357: Misplaced alignment tab character &.
+l.357 ...^d0^^b9^^d1^^81^^d0^^ba^^d0^^b8^^d0^^b9 &
+                                                   IELTS 7.0 (min 6.5) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:358: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.358 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+ []
+
+main.tex:359: Misplaced alignment tab character &.
+l.359 ...^d1^^81^^d1^^84^^d0^^be^^d1^^80^^d0^^b4 &
+                                                   MSc in Mathematical and T...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:359: Misplaced alignment tab character &.
+l.359 ...in Mathematical and Theoretical Physics &
+                                                   ^^d0^^90^^d0^^bd^^d0^^b3^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:359: Misplaced alignment tab character &.
+l.359 ...^d0^^b9^^d1^^81^^d0^^ba^^d0^^b8^^d0^^b9 &
+                                                   IELTS 7.5 ^^d0^^b8^^d0^^b...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:360: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.360 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+main.tex:361: Misplaced alignment tab character &.
+l.361 Imperial College London &
+                                MSc in Quantum Fields and Fundamental Forces...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:361: Misplaced alignment tab character &.
+l.361 ...n Quantum Fields and Fundamental Forces &
+                                                   ^^d0^^90^^d0^^bd^^d0^^b3^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:361: Misplaced alignment tab character &.
+l.361 ...^d0^^b9^^d1^^81^^d0^^ba^^d0^^b8^^d0^^b9 &
+                                                   IELTS 6.5 (min 6.0) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:362: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.362 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+main.tex:363: Misplaced alignment tab character &.
+l.363 King's College London &
+                              MSc in Theoretical Physics & ^^d0^^90^^d0^^bd^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:363: Misplaced alignment tab character &.
+l.363 ...ege London & MSc in Theoretical Physics &
+                                                   ^^d0^^90^^d0^^bd^^d0^^b3^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:363: Misplaced alignment tab character &.
+l.363 ...^d0^^b9^^d1^^81^^d0^^ba^^d0^^b8^^d0^^b9 &
+                                                   IELTS 6.5 (min 6.0) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:364: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.364 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
+
+ []
+
+main.tex:365: Misplaced alignment tab character &.
+l.365 Trinity College Dublin &
+                               MSc in Quantum Fields, Strings and Gravity & ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:365: Misplaced alignment tab character &.
+l.365 ... in Quantum Fields, Strings and Gravity &
+                                                   ^^d0^^90^^d0^^bd^^d0^^b3^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:365: Misplaced alignment tab character &.
+l.365 ...^d0^^b9^^d1^^81^^d0^^ba^^d0^^b8^^d0^^b9 &
+                                                   IELTS 6.5 (min 6.0) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:366: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.366 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+
+main.tex:367: LaTeX Error: \begin{document} ended by \end{longtable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \end{longtable}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.47485pt too wide) in paragraph at lines 369--371
+[]\T2A/cmr/m/n/10 ^^cf^^f0^^ee^^e3^^f0^^e0^^ec^^ec^^fb ^^e2 ^^fd^^f2^^e8^^f5 ^^
+f3^^ed^^e8-^^e2^^e5^^f0-^^f1^^e8-^^f2^^e5-^^f2^^e0^^f5 ^^e2^^ea^^eb^^fe-^^f7^^e
+0-^^fe^^f2 ^^f3^^e3^^eb^^f3^^e1-^^eb^^e5^^ed-^^ed^^fb^^e5 ^^ea^^f3^^f0-^^f1^^fb
+ ^^ef^^ee ^^ea^^e2^^e0^^ed-
+ []
+
+main.tex:372: Undefined control sequence.
+l.372 ...d1^^80^^d0^^b8^^d0^^b4^^d0^^b6 MASt: \url
+                                                  {https://www.maths.cam.ac....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:373: Undefined control sequence.
+l.373 ...^84^^d0^^be^^d1^^80^^d0^^b4 MSc MTP: \url
+                                                  {https://www.maths.ox.ac.u...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (14.22397pt too wide) in paragraph at lines 373--374
+[]\T2A/cmr/m/n/10 ^^ce^^ea^^f1^^f4^^ee^^f0^^e4 MSc MTP: https://www.maths.ox.ac
+.uk/study-here/postgraduate-
+ []
+
+main.tex:374: Undefined control sequence.
+l.374 \item Imperial QFFF: \url
+                               {https://www.imperial.ac.uk/physics/prospecti...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (44.05002pt too wide) in paragraph at lines 374--375
+[]\T2A/cmr/m/n/10 Imperial QFFF: https://www.imperial.ac.uk/physics/prospective
+/postgraduate/pg-
+ []
+
+main.tex:375: Undefined control sequence.
+l.375 \item King's College MSc: \url
+                                    {https://www.kcl.ac.uk/study/postgraduat...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (79.76685pt too wide) in paragraph at lines 375--376
+[]\T2A/cmr/m/n/10 King's College MSc: https://www.kcl.ac.uk/study/postgraduate-
+taught/courses/theoretical-
+ []
+
+main.tex:376: Undefined control sequence.
+l.376 \item Trinity College Dublin MSc: \url
+                                            {https://www.maths.tcd.ie/postgr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (5.06287pt too wide) in paragraph at lines 376--377
+[]\T2A/cmr/m/n/10 Trinity College Dublin MSc: https://www.maths.tcd.ie/postgrad
+uate/qfsg/ 
+ []
+
+
+main.tex:381: LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.381 \begin{longtable}
+                       {|p{4cm}|p{5cm}|p{2cm}|p{3cm}|}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+main.tex:382: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.382 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 
 
@@ -422,44 +797,395 @@ Overfull \hbox (24.34967pt too wide) detected at line 42
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
 x/pdftex.map}]
-Overfull \hbox (21.03291pt too wide) detected at line 108
-[]
+main.tex:383: Misplaced alignment tab character &.
+l.383 ...d1^^81^^d0^^b8^^d1^^82^^d0^^b5^^d1^^82} &
+                                                   \textbf{^^d0^^9f^^d1^^80^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:383: Misplaced alignment tab character &.
+l.383 ...d1^^80^^d0^^b0^^d0^^bc^^d0^^bc^^d0^^b0} &
+                                                   \textbf{^^d0^^a1^^d1^^82^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:383: Misplaced alignment tab character &.
+l.383 ...d1^^82^^d1^^80^^d0^^b0^^d0^^bd^^d0^^b0} &
+                                                   \textbf{^^d0^^90^^d0^^bd^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:384: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.384 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+ []
+
+main.tex:385: Misplaced alignment tab character &.
+l.385 ...^d0^^bf^^d1^^81^^d0^^b0^^d0^^bb^^d0^^b0 &
+                                                   MSc in Theoretical Physic...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:385: Misplaced alignment tab character &.
+l.385 ...cal Physics: Quantum Fields and Strings &
+                                                   ^^d0^^a8^^d0^^b2^^d0^^b5^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:385: Misplaced alignment tab character &.
+l.385 ...^d0^^b2^^d0^^b5^^d1^^86^^d0^^b8^^d1^^8f &
+                                                   IELTS 6.5 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:386: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.386 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+main.tex:387: Misplaced alignment tab character &.
+l.387 ...^d1^^80^^d0^^b4^^d0^^b0^^d0^^bc^^d0^^b0 &
+                                                   MSc in Theoretical Physic...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:387: Misplaced alignment tab character &.
+l.387 ...0 & MSc in Theoretical Physics (UvA+VU) &
+                                                   ^^d0^^9d^^d0^^b8^^d0^^b4^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:387: Misplaced alignment tab character &.
+l.387 ...^d0^^bb^^d0^^b0^^d0^^bd^^d0^^b4^^d1^^8b &
+                                                   IELTS 6.5 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:388: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.388 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+main.tex:389: Misplaced alignment tab character &.
+l.389 ...^d1^^83^^d0^^bd^^d0^^b4^^d0^^b8^^d0^^b8 &
+                                                   International MSc in Math...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:389: Misplaced alignment tab character &.
+l.389 ...ternational MSc in Mathematical Physics &
+                                                   ^^d0^^a4^^d1^^80^^d0^^b0^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:389: Misplaced alignment tab character &.
+l.389 ...^d0^^b0^^d0^^bd^^d1^^86^^d0^^b8^^d1^^8f &
+                                                   IELTS 6.0--6.5 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:390: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.390 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (2.55768pt too wide) in paragraph at lines 389--390
+[]\T2A/cmr/m/n/10 ^^d3^^ed^^e8^^e2^^e5^^f0^^f1^^e8^^f2^^e5^^f2 ^^c1^^f3^^f0-^^e
+3^^f3^^ed-^^e4^^e8^^e8  International MSc in Mathematical Physics  ^^d4^^f0^^e0
+^^ed-
  []
 
 
-Overfull \hbox (23.51605pt too wide) detected at line 135
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+main.tex:391: Misplaced alignment tab character &.
+l.391 ...^d0^^b1^^d1^^83^^d1^^80^^d0^^b3^^d0^^b0 &
+                                                   MSc in Physics (Particle ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:391: Misplaced alignment tab character &.
+l.391 ...rticle and Astroparticle Physics track) &
+                                                   ^^d0^^93^^d0^^b5^^d1^^80^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:391: Misplaced alignment tab character &.
+l.391 ...^d0^^bc^^d0^^b0^^d0^^bd^^d0^^b8^^d1^^8f &
+                                                   IELTS 6.0 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:392: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.392 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+main.tex:393: Misplaced alignment tab character &.
+l.393 IMAPP (TU Dortmund, Bologna, Clermont) &
+                                               Erasmus Mundus MSc in Particl...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:393: Misplaced alignment tab character &.
+l.393 ... Erasmus Mundus MSc in Particle Physics &
+                                                   ^^d0^^95^^d0^^a1 & B2+ \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:393: Misplaced alignment tab character &.
+l.393 ... in Particle Physics & ^^d0^^95^^d0^^a1 &
+                                                   B2+ \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+main.tex:394: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.394 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+
  []
 
 
-Overfull \hbox (23.30438pt too wide) detected at line 145
-[]
+main.tex:395: LaTeX Error: \begin{document} ended by \end{longtable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.395 \end{longtable}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+main.tex:401: Undefined control sequence.
+l.401 ...^bf^^d1^^81^^d0^^b0^^d0^^bb^^d0^^b0: \url
+                                                  {https://www.uu.se/en/admi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (54.96735pt too wide) in paragraph at lines 401--402
+[]\T2A/cmr/m/n/10 ^^d3^^ef^^ef^^f1^^e0^^eb^^e0: https://www.uu.se/en/admissions
+/master/selma/program/?pKod=TFY2M 
+ []
+
+main.tex:402: Undefined control sequence.
+l.402 \item UvA MSc: \url
+                         {https://www.uva.nl/en/programmes/masters/physics-a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (32.63837pt too wide) in paragraph at lines 402--403
+[]\T2A/cmr/m/n/10 UvA MSc: https://www.uva.nl/en/programmes/masters/physics-and
+-astronomy-
+ []
+
+main.tex:403: Undefined control sequence.
+l.403 \item IMAPP: \url
+                       {https://imapp.eu/}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:411: Undefined control sequence.
+l.411 ...^bd^^d1^^81^^d1^^82^^d0^^be^^d0^^bd: \url
+                                                  {https://phy.princeton.edu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:412: Undefined control sequence.
+l.412 ...^80^^d0^^b2^^d0^^b0^^d1^^80^^d0^^b4: \url
+                                                  {https://www.physics.harva...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:413: Undefined control sequence.
+l.413 \item Stanford SITP: \url
+                               {https://sitp.stanford.edu/}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:414: Undefined control sequence.
+l.414 \item Caltech Physics: \url
+                                 {https://www.pma.caltech.edu/physics}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:420: Undefined control sequence.
+l.420 ...imeter Scholars International (PSI): \url
+                                                  {https://perimeterinstitut...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (66.71115pt too wide) in paragraph at lines 420--421
+[]\T2A/cmr/m/n/10 Perimeter Scholars International (PSI): https://perimeterinst
+itute.ca/training/perimeter-
+ []
+
+main.tex:421: Undefined control sequence.
+l.421 \item University of Toronto Physics: \url
+                                               {https://www.physics.utoronto...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.61926pt too wide) in paragraph at lines 421--422
+[]\T2A/cmr/m/n/10 University of Toronto Physics: https://www.physics.utoronto.c
+a/graduate-
  []
 
 
 
 [2]
-main.tex:199: Undefined control sequence.
-l.199 \nabla \cdot \vec{V} = \frac{1}{r^2} \pdv
-                                               {r} (r^2 A_{lm} Y_{lm}) = \le...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:201: Undefined control sequence.
-l.201 ^^d0^^b3^^d0^^b4^^d0^^b5 \( A_{lm}' = \dv
-                                               {A_{lm}}{r} \).
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:205: Undefined control sequence.
-l.205 ...a (\nabla \cdot \vec{V}) = \vec{e}_r \pdv
-                                                  {r} \left[ \left( \frac{2}...
+main.tex:422: Undefined control sequence.
+l.422 \item University of British Columbia: \url
+                                                {https://www.phas.ubc.ca/gra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -467,20 +1193,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+Overfull \hbox (14.36615pt too wide) in paragraph at lines 422--423
+[]\T2A/cmr/m/n/10 University of British Columbia: https://www.phas.ubc.ca/gradu
+ate-programs 
+ []
 
-[3]
-main.tex:233: Undefined control sequence.
-l.233 ..._{lm}) = B_{lm} \left( \frac{2}{r} + \pdv
-                                                  {r} \right) r \pdv{Y_{lm}}...
+main.tex:428: Undefined control sequence.
+l.428 ...athematical and Theoretical Physics: \url
+                                                  {https://crei.skoltech.ru/...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-main.tex:233: Undefined control sequence.
-l.233 ...eft( \frac{2}{r} + \pdv{r} \right) r \pdv
-                                                  {Y_{lm}}{r} + \text{^^d1^^...
+
+Overfull \hbox (114.5628pt too wide) in paragraph at lines 428--429
+[]\T2A/cmr/m/n/10 Skoltech + ^^cc^^d4-^^d2^^c8 MSc in Mathematical and Theoreti
+cal Physics: https://crei.skoltech.ru/cdise/mtp 
+ []
+
+main.tex:429: Undefined control sequence.
+l.429 ...^b8^^d0^^b7^^d1^^84^^d0^^b0^^d0^^ba: \url
+                                                  {https://phys.msu.ru/rus/}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -489,500 +1224,32 @@ and I'll forget about whatever was undefined.
 
 
 
-[4]
-main.tex:296: Undefined control sequence.
-<argument>  \bm 
-                {Y}_{\ell m} &= Y_{\ell m}\,\hat {\bm e}_r, & \bm {\Psi }_{\...
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<recently read> \bm 
-                    
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<argument> \bm 
-               e
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<argument> ...= Y_{\ell m}\,\hat {\bm e}_r, & \bm 
-                                                  {\Psi }_{\ell m} &= r\,\na...
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<argument> ...l m} &= r\,\nabla Y_{\ell m}, & \bm 
-                                                  {\Phi }_{\ell m} &= \bm r ...
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<argument> ...l m}, & \bm {\Phi }_{\ell m} &= \bm 
-                                                  r \times \nabla Y_{\ell m}...
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<argument>  \bm 
-                {Y}_{\ell m} &= Y_{\ell m}\,\hat {\bm e}_r, & \bm {\Psi }_{\...
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<recently read> \bm 
-                    
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<argument> \bm 
-               e
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<argument> ...= Y_{\ell m}\,\hat {\bm e}_r, & \bm 
-                                                  {\Psi }_{\ell m} &= r\,\na...
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<argument> ...l m} &= r\,\nabla Y_{\ell m}, & \bm 
-                                                  {\Phi }_{\ell m} &= \bm r ...
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:296: Undefined control sequence.
-<argument> ...l m}, & \bm {\Phi }_{\ell m} &= \bm 
-                                                  r \times \nabla Y_{\ell m}...
-l.296 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument>  \nabla \times \bm 
-                              {Y}_{\ell m} &= -\frac {1}{r}\,\bm {\Phi }_{\e...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ... {Y}_{\ell m} &= -\frac {1}{r}\,\bm 
-                                                  {\Phi }_{\ell m}, \\ \nabl...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...hi }_{\ell m}, \\ \nabla \times \bm 
-                                                  {\Psi }_{\ell m} &= \frac ...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...Psi }_{\ell m} &= \frac {1}{r}\,\bm 
-                                                  {\Phi }_{\ell m}, \\ \nabl...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...hi }_{\ell m}, \\ \nabla \times \bm 
-                                                  {\Phi }_{\ell m} &= -\frac...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...ell m} &= -\frac {\lambda }{r}\,\bm 
-                                                  {Y}_{\ell m} -\frac {1}{r}...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...\bm {Y}_{\ell m} -\frac {1}{r}\,\bm 
-                                                  {\Psi }_{\ell m}. 
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument>  \nabla \times \bm 
-                              {Y}_{\ell m} &= -\frac {1}{r}\,\bm {\Phi }_{\e...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ... {Y}_{\ell m} &= -\frac {1}{r}\,\bm 
-                                                  {\Phi }_{\ell m}, \\ \nabl...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...hi }_{\ell m}, \\ \nabla \times \bm 
-                                                  {\Psi }_{\ell m} &= \frac ...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...Psi }_{\ell m} &= \frac {1}{r}\,\bm 
-                                                  {\Phi }_{\ell m}, \\ \nabl...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...hi }_{\ell m}, \\ \nabla \times \bm 
-                                                  {\Phi }_{\ell m} &= -\frac...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...ell m} &= -\frac {\lambda }{r}\,\bm 
-                                                  {Y}_{\ell m} -\frac {1}{r}...
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:305: Undefined control sequence.
-<argument> ...\bm {Y}_{\ell m} -\frac {1}{r}\,\bm 
-                                                  {\Psi }_{\ell m}. 
-l.305 \end{align}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:311: Undefined control sequence.
-\@svsechd ...mes \nabla \times \!\bigl [A(r)\,\bm 
-                                                  {Y}_{\ell m}\bigr ]\).}\cs...
-l.311 \begin{equation}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:311: Undefined control sequence.
-<argument> ...es \nabla \times \!\bigl [A(r)\,\bm 
-                                                  {Y}_{\ell m}\bigr ]\).}{\t...
-l.311 \begin{equation}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:312: Undefined control sequence.
-l.312 \nabla\times\nabla\times\!\bigl[A(r)\,\bm
-                                               {Y}_{\ell m}\bigr]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:313: Undefined control sequence.
-l.313   = -\frac{\lambda\,A(r)}{r^{2}}\;\bm
-                                           {Y}_{\ell m}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:314: Undefined control sequence.
-l.314     +\frac{A'(r)}{r}\;\bm
-                               {\Psi}_{\ell m}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:319: Undefined control sequence.
-\@svsechd ...mes \nabla \times \!\bigl [B(r)\,\bm 
-                                                  {\Psi }_{\ell m}\bigr ]\)....
-l.319 \begin{equation}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:319: Undefined control sequence.
-<argument> ...es \nabla \times \!\bigl [B(r)\,\bm 
-                                                  {\Psi }_{\ell m}\bigr ]\)....
-l.319 \begin{equation}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:320: Undefined control sequence.
-l.320 \nabla\times\nabla\times\!\bigl[B(r)\,\bm
-                                               {\Psi}_{\ell m}\bigr]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:321: Undefined control sequence.
-l.321 ...{r}\!\left(B'(r)+\frac{B(r)}{r}\right)\bm
-                                                  {Y}_{\ell m}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:322: Undefined control sequence.
-l.322     -\left(B''(r)+\frac{2B'(r)}{r}\right)\bm
-                                                  {\Psi}_{\ell m}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[5]
-main.tex:327: Undefined control sequence.
-\@svsechd ...mes \nabla \times \!\bigl [C(r)\,\bm 
-                                                  {\Phi }_{\ell m}\bigr ]\)....
-l.327 \begin{equation}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:327: Undefined control sequence.
-<argument> ...es \nabla \times \!\bigl [C(r)\,\bm 
-                                                  {\Phi }_{\ell m}\bigr ]\)....
-l.327 \begin{equation}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:328: Undefined control sequence.
-l.328 \nabla\times\nabla\times\!\bigl[C(r)\,\bm
-                                               {\Phi}_{\ell m}\bigr]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:330: Undefined control sequence.
-l.330          -C''(r)-\frac{2C'(r)}{r}\right)\bm
-                                                 {\Phi}_{\ell m}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:337: Undefined control sequence.
-l.337 ... & \bigl(\nabla\times\nabla\times[C(r)\bm
-                                                  {\Phi}_{1m}]\bigr) \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:339: Undefined control sequence.
-l.339 \text{const} & \dfrac{2}{r^{2}}\bm
-                                        {\Phi}_{1m} \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-main.tex:341: Undefined control sequence.
-l.341 r^{2}        & -4\,\bm
-                            {\Phi}_{1m}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[6] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/main.aux)
+[3] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3480 strings out of 469964
- 52518 string characters out of 5467029
- 449025 words of memory out of 5000000
- 30258 multiletter control sequences out of 15000+600000
- 641519 words of font info for 81 fonts, out of 8000000 for 9000
+ 3402 strings out of 469964
+ 51255 string characters out of 5467029
+ 437025 words of memory out of 5000000
+ 30204 multiletter control sequences out of 15000+600000
+ 632019 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,65p,503b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,6n,65p,925b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/lh/lh-t2a/dpi600/labx1000.pk> </Users/drakanoy/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk> </Users/drakan
-oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
-pi600/tcrm1000.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
+our/jknappen/ec/dpi600/tcrm1000.pk> </Users/drakanoy/Library/Application Suppor
+t/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk> </Users/drak
+anoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/d
+pi600/labx1200.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
 ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakanoy/Library/Appl
 ication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk
-></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiK
-TeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Applicati
-on Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Lib
-rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/font
-s/type1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs
-/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Suppor
-t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/main.pdf (6 p
-ages, 171506 bytes).
+>
+Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/main.pdf (3 p
+ages, 81825 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
+ 258 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
