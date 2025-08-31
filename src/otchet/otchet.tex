@@ -151,7 +151,7 @@
     \left| \psi_{in} \right> = e^{-\left| \alpha \right|^2 / 2} e^{\alpha \hat{b}^{\dag}_H} \left| 0 \right> = e^{-\left| \alpha \right|^2 / 2} \sum_n \frac{\alpha^n}{\sqrt{n!}}  \left| n_H \right>
 \end{equation}
 Где $ |\alpha|^2 = N $.
-\par При взаимодействие двух-уровневой системы с накачкой описывается оператором эволюции:
+\par Взаимодействие двух-уровневой системы с накачкой описывается оператором эволюции:
 \begin{equation}
     \hat{S_0} = \exp\left( -i \tau \hat{H} \right)
 \end{equation}
@@ -189,7 +189,7 @@
 \end{gather}
 где: $\theta = \tau g \sqrt{N}$ , $\delta = \frac{\tau g \alpha}{2 \sqrt{2N}}$
 
-Снова разложим до 1 порядка по $ \delta$, а так же учтем, что детектирование испущенных фотонов происходит в горизонтальной поляризации
+Снова разложим до 1 порядка по $ \delta$, а так же учтем, что детектирование испущенных фотонов происходит в вертикальной поляризации
 
 \begin{gather}
     \left| \psi_{out}^V \right> \approx \cos \left( \frac{\theta }{2} \right) \left| 0 \right> + \frac{i \delta - 1}{\sqrt{2}} \sin \left( \frac{\theta}{2} \right) \left| 1 \right> + \frac{i \delta}{2} \cos \left( \frac{\theta}{2} \right) \left| 2 \right>
@@ -200,7 +200,7 @@
 Рассчитаем вероятность обнаружить фотон:
 
 \begin{gather}
-    P_1 \left( t \right) = \sum_m \left| \left< m \left| \ \hat{a} \ \right| \psi_{out}^V \right> \right|^{2} = \frac{e^-\left| \alpha \right|^2}{2} \cdot \sum_m \frac{\alpha^{2m+2}}{\left( m+1 \right)!} \left( 1 - \cos \left( 2gt \sqrt{m+1} \right) \right)
+    P_1 \left( t \right) = \sum_m \left| \left< m \left| \ \hat{a} \ \right| \psi_{out}^V \right> \right|^{2} = \frac{e^{-\left| \alpha \right|^2}}{2} \cdot \sum_m \frac{\alpha^{2m+2}}{\left( m+1 \right)!} \left( 1 - \cos \left( 2gt \sqrt{m+1} \right) \right)
 \end{gather}
 
 \par
@@ -263,7 +263,7 @@ $g^{(2)}(0)$ фактор показывает вероятность обнар
     \left. + \left( \frac{i \gamma \sqrt{1+\delta_N^2} - 1 }{\sqrt{2}} \sin\frac{\theta}{2} + \frac{\delta_N \gamma}{\sqrt{2}} \cos\frac{\theta}{2} \right) \left| 1 \right> +  \frac{i\gamma}{2} \cos\frac{\theta}{2} \left| 2 \right> \right]
 \end{gather}
 
-\subsection{Расчет $g^{(2)}(0)$ фактора в двух-уровневой системе, совпадающей по энергии с частотой импульса}
+\subsection{Расчет $g^{(2)}(0)$ фактора в двух-уровневой системе, НЕ совпадающей по энергии с частотой импульса}
 
 \begin{gather}
     g^{(2)}(0) = \frac{ \left< \psi_{out}^V \left| \ \hat{n}^2 - \hat{n} \ \right| \psi_{out}^V \right>}{\left< \psi_{out}^V \left| \ \hat{n}^2 \ \right| \psi_{out}^V \right> ^2 } = \frac{2 \left( 1+\delta_N^2 \right) \gamma^2 \cos^2 \frac{\theta}{2} }{\left( \gamma^2 \left( 1 + \delta_N^2 \right) + \sin^2 \frac{\theta}{2} - \delta_N \gamma \sin \theta \right)^2}

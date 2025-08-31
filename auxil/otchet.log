@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.7)  31 AUG 2025 07:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.7)  1 SEP 2025 02:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -869,13 +869,6 @@ Package pdftex.def Info: plot2.png  used on input line 223.
 [6 <./plot1.png>]
 
 [7 <./plot2.png>]
-Overfull \hbox (2.42502pt too wide) in paragraph at lines 266--266
-[]\T2A/cmr/bx/n/17.28 ^^d0^^e0^^f1^^f7^^e5^^f2 $\OML/cmm/m/it/17.28 g[]\OT1/cmr
-/m/n/17.28 (0)$ \T2A/cmr/bx/n/17.28 ^^f4^^e0^^ea-^^f2^^ee-^^f0^^e0 ^^e2 ^^e4^^e
-2^^f3^^f5-^^f3^^f0^^ee^^e2^^ed^^e5^^e2^^ee^^e9 ^^f1^^e8-^^f1^^f2^^e5-^^ec^^e5, 
-^^f1^^ee^^e2-
- []
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 266.
@@ -924,7 +917,7 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
  ***********
 Package rerunfilecheck Info: File `otchet.out' has not changed.
-(rerunfilecheck)             Checksum: 7D93B712A52B24804DBBD7D465F52FA4;4505.
+(rerunfilecheck)             Checksum: 83E44F5A66494C2678B37598BAB7F76D;4529.
  ) 
 Here is how much of TeX's memory you used:
  13084 strings out of 468226
@@ -954,7 +947,7 @@ s/type1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs
 /install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Suppor
 t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/otchet.pdf (1
-3 pages, 482946 bytes).
+3 pages, 483064 bytes).
 PDF statistics:
  466 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
