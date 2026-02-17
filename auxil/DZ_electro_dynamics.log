@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.7)  27 JAN 2026 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.7)  18 FEB 2026 01:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -944,12 +944,19 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/stmaryrd/Ustmry.f
 d)
+<photo_1.jpg, id=6, 786.94pt x 654.445pt>
+File: photo_1.jpg Graphic file (type jpg)
+<use photo_1.jpg>
+Package pdftex.def Info: photo_1.jpg  used on input line 39.
+(pdftex.def)             Requested size: 256.07481pt x 212.95174pt.
+
 
 [1
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
-x/pdftex.map}]
-(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.aux)
+x/pdftex.map} <./photo_1.jpg>]
+
+[2] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
@@ -958,34 +965,31 @@ Package rerunfilecheck Info: File `DZ_electro_dynamics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16480 strings out of 468226
- 275653 string characters out of 5430086
- 719978 words of memory out of 5000000
- 44729 multiletter control sequences out of 15000+600000
- 635992 words of font info for 62 fonts, out of 8000000 for 9000
+ 16484 strings out of 468226
+ 275741 string characters out of 5430086
+ 717978 words of memory out of 5000000
+ 44734 multiletter control sequences out of 15000+600000
+ 634389 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,5n,93p,341b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,6n,93p,421b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
 our/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakanoy/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakan
+MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk> </Users/drakan
 oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi
-600/larm1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
-a/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk> </Users/drakanoy/Library/Applic
-ation Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk><
-/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTe
-X/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Application
- Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Libra
-ry/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb>
+600/labx1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
+a/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk></Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Applica
+tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application S
+upport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/DZ_electro_dy
-namics.pdf (1 page, 117060 bytes).
+namics.pdf (2 pages, 190010 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
