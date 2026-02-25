@@ -29,67 +29,93 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{18.02.2026}
+    \textbf{25.02.2026}
 \end{center}
 \par \textbf{Задача}:
 \par Условие:
-\par В среде с диэлектрической проницаемостью $\varepsilon$ (с показателем приломления $n$) колеблится диполь $d$ с частотой $\omega_0$.
-Найти темп убыли энергии и сравнить с результатом полученным на лекции.
+\par Решить уравнение на матрицу плотности для любого поля и найти коэфф затухания.
 \par
-\includegraphics[width=0.5\textwidth]{photo_1.jpg}
-\begin{center}
-\underline{Рисунок 1}:
-\end{center}
+%\includegraphics[width=0.5\textwidth]{photo_1.jpg}
+%\begin{center}
+%\underline{Рисунок 1}:
+%\end{center}
 \par \textbf{Решение}:
 %\par
 %\includegraphics[width=1\textwidth]{photo_11.jpg}
 %\par
-\par Из запаздывающего потенциала в волновой области пространства верны следующие соотношения на векторный потенциал и магнитное поле:
+\par Уравнение на матрицу плотности:
 \[
-    \vec{A} = \frac{\dot{\vec{d}}}{cR}
+    \frac{d \rho}{dt} = \frac{-i}{\hslash} \left[ H, \rho \right] + L(\rho)
+\]
+\par Учитывая $\rho_{ge}^{*} = \rho_{eg}$; $\rho_{ee} + \rho_{gg} = 1$, получим 2 линейно независимых уравнения на компоненты матрицы плотности
+\begin{eqnarray*}
+    \begin{cases}
+        \frac{d \rho_{ee}}{dt} = i U^* e^{i\omega t} \rho_{eg} - i U e^{-i\omega t} \rho_{ge} - \frac{\rho_{ee}}{T_1} \\
+        \frac{d \rho_{eg}}{dt} = -i\omega_0 \rho_{eg} - i U e^{-i\omega t} \left( 1 - 2 \rho_{ee} \right) - \frac{\rho_{eg}}{T_2}
+    \end{cases}
+\end{eqnarray*}
+\par Хотим стационарные решения при $t \rightarrow \infty$:
+\[
+    \frac{d \rho_{ee}}{dt} = 0 \,\,\, ; \,\,\, \frac{d \rho_{eg}}{dt} = -i \omega \rho_{eg}
+\]
+\par $\Gamma := \frac{1}{T_2}$, подставив все в систему - получаем:
+\[
+    \rho_{eg} = \frac{-i U e^{-i\omega t} \left( 1 - 2 \rho_{ee} \right)}{i\left( \omega_0 - \omega \right) + \Gamma}
 \]
 \[
-    \vec{H} = rot \vec{A} = \frac{1}{c} \left[ \dot{\vec{A}} \times \vec{n} \right]
+    \frac{\rho_{ee}}{T_1} = \left| U \right|^2 \left( 1 - 2 \rho_{ee} \right) \frac{2\Gamma}{\left( \omega_0 - \omega \right)^2 + \Gamma^2}
 \]
-где $\vec{n}$ - единичный вектор направления.
-\par Подставляем и получаем:
+\par Тогда:
 \[
-    \vec{A} = \frac{\omega_0 \cdot \cos\left( \omega_0 t \right)}{cR} \vec{d_0}
+    \rho_{ee} = \frac{2T_1 \Gamma \left| U \right|^2}{\left( \omega_0 - \omega \right)^2 + \Gamma^2 + 4T_1 \Gamma \left| U \right|^2}
 \]
 \[
-    \dot{\vec{A}} = -\frac{d_0 \omega_0^2 \cdot \sin\left( \omega_0 t \right)}{cR} \vec{e_z}
+    \rho_{eg} = \frac{-i U e^{-i\omega t}}{i\left( \omega_0 - \omega \right) + \Gamma} \left( \frac{\left( \omega_0 - \omega \right)^2 + \Gamma^2 }{\left( \omega_0 - \omega \right)^2 + \Gamma^2 + 4T_1 \Gamma \left| U \right|^2} \right)
 \]
-\par Посчитаем магнитное поле:
 \[
-    \vec{H} = \frac{d_0 \omega_0^2 \cdot \sin\left( \omega_0 t \right)}{c^2 R} \left[ \vec{n} \times \vec{e_z} \right] = -\frac{d_0 \omega_0^2 \cdot \sin\left( \omega_0 t \right)}{c^2 R} \sin\theta \cdot \vec{e_{\phi}}
+    \rho_{ge}^{*} = \rho_{eg}
 \]
-\par Интенсивность излучения в единице телесного угла:
 \[
-    dI = \left< \left| \vec{s} \right| \right>_t R^2 d\Omega = \frac{nc}{4\pi} \left< \vec{H}^2 \right>_t R^2 d\Omega
+    \rho_{gg} = 1 - \rho_{ee}
 \]
-\par Подставим магнитное поле сразу усреднив $\sin^2$ до $1/2$:
+\par Теперь найдем коэфф затухания:
 \[
-    dI = \frac{nc}{4\pi} \frac{\omega_0^4 d_0^2}{2c^4} \sin^2\theta d\Omega = \frac{n\omega_0^4 d_0^2}{8\pi c^3} \sin^2\theta d\Omega
+    \alpha = \frac{\rho_{ee}}{T_1} \frac{N_{QD}}{N} \frac{n}{c}
 \]
-\par Проинтегрировав по телесному углу, получим:
+\par Учитывая $\Gamma = \frac{1}{2\tau_0}$ и $\omega = \omega_0 $:
 \[
-    I = \frac{n\omega_0^4 d_0^2}{8\pi c^3} \cdot 2\pi \frac{4}{3} = \frac{n\omega_0^4 d_0^2}{3c^3}
+    \alpha = \frac{4 \left| U \right|^2 \tau_0 }{1 + 8 T_1 \left| U \right|^2 \tau_0} \frac{N_{QD}}{N} \frac{n}{c}
 \]
-\par Интенсивность излучения это убыль энергии в единицу времени. Считая что вся энергия высветилась в один фотон с частотой $\omega_0$ за время $\tau$, получим темп перехода:
+\par Подставляя $\left| U \right|^2 \tau_0 = \frac{3c A_0^2}{4n \omega_0 \hslash} $ и $ N = \frac{\omega_0 n^2 A_0^2}{2\pi \hslash c^2} $, получаем:
 \[
-    \frac{1}{\tau} = \frac{I}{E} = \frac{1}{\hslash \omega_0} \cdot \frac{n\omega_0^4 d_0^2}{3c^3} = \frac{n\omega_0^3 d_0^2}{3 \hslash c^3}
+    \alpha = \frac{6\pi N_{QD} \frac{c^2}{\omega_0^2 n^2}}{1+6T_1 \frac{c A_0^2}{\omega_0 n \hslash }}
 \]
-\par Получился тот же ответ, что и на лекциях с точностью до коэффициента 4.
-Это можно объяснить так: на лекциях мы для вектора Пойнтинга использовали формулу $<S> = \frac{nc}{2\pi}E^2$, когда как при решении задачи я использовал $<S> = \frac{nc}{4\pi}E^2$ - в 2 раза меньше.
-Вторую двойку можно объяснить тем, что по закону сохранения импульса диполь должен высветить 2 фотона в противоположные стороныБ что увеличит интенсивность в 2 раза и мы получим тот же ответ, что и на лекциях.
-%\par \textbf{Ответ}:
+\par Введем $q := \frac{n\omega_0}{c}$
+\[
+    \alpha = \frac{6\pi N_{QD} \frac{1}{q^2}}{1+6T_1 \frac{A_0^2}{q \hslash }}
+\]
+\par \textbf{Ответ}:
 %\par Возраст Земли, рассчитанный на основе долей разных изотопов урана, составил $T = 5,94 \cdot 10^9$ лет.
 %\includegraphics[width=1\textwidth]{photo_1.jpg}
 %\par
 %\begin{center}
 %\includegraphics[width=0.4\textwidth]{photo_1.jpg}
 %\end{center}
-
+\[
+    \rho_{ee} = \frac{2T_1 \Gamma \left| U \right|^2}{\left( \omega_0 - \omega \right)^2 + \Gamma^2 + 4T_1 \Gamma \left| U \right|^2}
+\]
+\[
+    \rho_{eg} = \frac{-i U e^{-i\omega t}}{i\left( \omega_0 - \omega \right) + \Gamma} \left( \frac{\left( \omega_0 - \omega \right)^2 + \Gamma^2 }{\left( \omega_0 - \omega \right)^2 + \Gamma^2 + 4T_1 \Gamma \left| U \right|^2} \right)
+\]
+\[
+    \rho_{ge}^{*} = \rho_{eg}
+\]
+\[
+    \rho_{gg} = 1 - \rho_{ee}
+\]
+\[
+    \alpha = \frac{6\pi N_{QD} \frac{1}{q^2}}{1+6T_1 \frac{A_0^2}{q \hslash }}
+\]
 \par
 \end{large}
 \end{document}
