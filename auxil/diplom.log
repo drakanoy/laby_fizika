@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.7)  4 MAR 2026 04:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.7)  4 MAR 2026 04:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**./DZ_electro_dynamics.tex
-(DZ_electro_dynamics.tex
+**./diplom.tex
+(diplom.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
@@ -832,12 +832,11 @@ LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 nd-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count329
-)
-(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.aux
+) (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/diplom.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
 (babel)             Reported  on input line 9.
 )
-\openout1 = `DZ_electro_dynamics.aux'.
+\openout1 = `diplom.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -922,49 +921,142 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 25.
-
-(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.out)
-(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.out)
+ (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/diplom.out)
+(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/diplom.out)
 \@outlinefile=\write4
-\openout4 = `DZ_electro_dynamics.out'.
+\openout4 = `diplom.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
 
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 4
-7.
+8.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/stmaryrd/Ustmry.f
 d)
+diplom.tex:62: Extra }, or forgotten \right.
+<template> }
+            $}\ifdim \wdz@ >\totwidth@ \global \totwidth@ \wdz@ \fi \endtemp...
+l.62 \end{gather*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+diplom.tex:62: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.62 \end{gather*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+diplom.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 \end{gather*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+diplom.tex:62: Extra }, or forgotten \right.
+<template> }
+            $}\calc@shift@gather \set@gather@field \endtemplate 
+l.62 \end{gather*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+diplom.tex:62: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.62 \end{gather*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+diplom.tex:62: Missing } inserted.
+<inserted text> 
+                }
+l.62 \end{gather*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (17.1165pt too wide) detected at line 99
+[] \OT1/cmr/m/n/14.4 = [](
+[]\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[] [] \OMS/cmsy/m/n/14.4 ^^@ \OML/cmm/
+m/it/14.4 i []\OT1/cmr/m/n/14.4 (
+[]\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[][] [] + \OML/cmm/m/it/14.4 gt i []\O
+T1/cmr/m/n/14.4 (
+[]\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[][] [] \OMS/cmsy/m/n/14.4 ^^@ \OML/cm
+m/m/it/14.4 gt  []\OT1/cmr/m/n/14.4 (
+[]\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[][][] []
+ []
+
+
+Overfull \hbox (20.82762pt too wide) detected at line 105
+[] \OT1/cmr/m/n/14.4 = [](
+[]\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[] [] \OMS/cmsy/m/n/14.4 ^^@ []\OT1/cm
+r/m/n/14.4 (
+[]\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[][] [] + \OML/cmm/m/it/14.4 gt i []\O
+T1/cmr/m/n/14.4 (
+[]\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[][] [] \OMS/cmsy/m/n/14.4 ^^@ \OML/cm
+m/m/it/14.4 igt  []\OT1/cmr/m/n/14.4 (
+[]\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[][][] []
+ []
+
+
 
 [1
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
 x/pdftex.map}]
-(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.aux)
+
+[2]
+
+[3] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/diplom.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
  ***********
-Package rerunfilecheck Info: File `DZ_electro_dynamics.out' has not changed.
+Package rerunfilecheck Info: File `diplom.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16476 strings out of 468226
- 275610 string characters out of 5430086
- 722978 words of memory out of 5000000
- 44727 multiletter control sequences out of 15000+600000
+ 16482 strings out of 468226
+ 275486 string characters out of 5430086
+ 735913 words of memory out of 5000000
+ 44731 multiletter control sequences out of 15000+600000
  634389 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,5n,93p,341b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,14n,93p,410b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
 our/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakanoy/Library/Application Support/
 MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk> </Users/drakan
@@ -981,11 +1073,11 @@ exmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Su
 pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/A
 pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
-onts/symbols/msbm10.pfb>
-Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/DZ_electro_dy
-namics.pdf (1 page, 122088 bytes).
+onts/cm/cmsy7.pfb>
+Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (3
+ pages, 134597 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 129 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

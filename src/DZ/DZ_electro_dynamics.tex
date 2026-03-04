@@ -29,11 +29,11 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{25.02.2026}
+    \textbf{4.03.2026}
 \end{center}
 \par \textbf{Задача}:
 \par Условие:
-\par Решить уравнение на матрицу плотности для любого поля и найти коэфф затухания.
+\par Найти коэфф поглощения для разрешенных переходов с учетом фактора Зоммерфельда.
 \par
 %\includegraphics[width=0.5\textwidth]{photo_1.jpg}
 %\begin{center}
@@ -43,79 +43,48 @@
 %\par
 %\includegraphics[width=1\textwidth]{photo_11.jpg}
 %\par
-\par Уравнение на матрицу плотности:
+\par Матричный элемент:
 \[
-    \frac{d \rho}{dt} = \frac{-i}{\hslash} \left[ H, \rho \right] + L(\rho)
-\]
-\par Учитывая $\rho_{ge}^{*} = \rho_{eg}$; $\rho_{ee} + \rho_{gg} = 1$, получим 2 линейно независимых уравнения на компоненты матрицы плотности
-\begin{eqnarray*}
-    \begin{cases}
-        \frac{d \rho_{ee}}{dt} = i U^* e^{i\omega t} \rho_{eg} - i U e^{-i\omega t} \rho_{ge} - \frac{\rho_{ee}}{T_1} \\
-        \frac{d \rho_{eg}}{dt} = -i\omega_0 \rho_{eg} - i U e^{-i\omega t} \left( 1 - 2 \rho_{ee} \right) - \frac{\rho_{eg}}{T_2}
-    \end{cases}
-\end{eqnarray*}
-\par Хотим стационарные решения при $t \rightarrow \infty$:
-\[
-    \frac{d \rho_{ee}}{dt} = 0 \,\,\, ; \,\,\, \frac{d \rho_{eg}}{dt} = -i \omega \rho_{eg}
-\]
-\par $\Gamma := \frac{1}{T_2}$, подставив все в систему - получаем:
-\[
-    \rho_{eg} = \frac{-i U e^{-i\omega t} \left( 1 - 2 \rho_{ee} \right)}{i\left( \omega_0 - \omega \right) + \Gamma}
+    A = \sqrt{\frac{2\pi c^2 \hslash}{V \omega n^2}}
 \]
 \[
-    \frac{\rho_{ee}}{T_1} = \left| U \right|^2 \left( 1 - 2 \rho_{ee} \right) \frac{2\Gamma}{\left( \omega_0 - \omega \right)^2 + \Gamma^2}
+    M_{cv} = \frac{e}{m_0 c} A p_{cv} = \frac{ep_{cv}}{m_0 c} \sqrt{\frac{2\pi c^2 \hslash}{V \omega n^2}}
 \]
-\par Тогда:
+\par Скорость переходов:
 \[
-    \rho_{ee} = \frac{2T_1 \Gamma \left| U \right|^2}{\left( \omega_0 - \omega \right)^2 + \Gamma^2 + 4T_1 \Gamma \left| U \right|^2}
-\]
-\[
-    \rho_{eg} = \frac{-i U e^{-i\omega t}}{i\left( \omega_0 - \omega \right) + \Gamma} \left( \frac{\left( \omega_0 - \omega \right)^2 + \Gamma^2 }{\left( \omega_0 - \omega \right)^2 + \Gamma^2 + 4T_1 \Gamma \left| U \right|^2} \right)
+    W = \frac{2\pi}{\hslash} \sum_k \left| M_{cv} \right|^2 \delta \left( E_g + \frac{\hslash^2 k^2}{2\mu} -\hslash \omega \right) =
 \]
 \[
-    \rho_{ge}^{*} = \rho_{eg}
+    = \frac{2\pi}{\hslash} \frac{V}{(2\pi)^3} \int 4\pi k^2 dk \frac{e^2 p^2_{cv}}{m_0^2 c^2} \frac{2\pi c^2 \hslash}{V \omega n^2}  \delta \left( E_g + \frac{\hslash^2 k^2}{2\mu} -\hslash \omega \right) =
 \]
 \[
-    \rho_{gg} = 1 - \rho_{ee}
+    = \frac{e^2 p_{cv}^2}{m_0^2 \omega n^2} \left( \frac{2\mu}{\hslash^2} \right)^{3/2} \sqrt{\hslash \omega - E_g}
 \]
-\par Теперь найдем коэфф затухания:
+\par Коэфф поглощения:
 \[
-    \alpha = \frac{\rho_{ee}}{T_1} \frac{N_{QD}}{N} \frac{n}{c}
+    \alpha_0 = W \frac{n}{c} = \frac{e^2 p_{cv}^2}{m_0^2 \omega c n} \left( \frac{2\mu}{\hslash^2} \right)^{3/2} \sqrt{\hslash \omega - E_g}
 \]
-\par Учитывая $\Gamma = \frac{1}{2\tau_0}$ и $\omega = \omega_0 $:
 \[
-    \alpha = \frac{4 \left| U \right|^2 \tau_0 }{1 + 8 T_1 \left| U \right|^2 \tau_0} \frac{N_{QD}}{N} \frac{n}{c}
+    \alpha = \alpha_0 f = W \frac{n}{c} = \frac{e^2 p_{cv}^2}{m_0^2 \omega c n} \left( \frac{2\mu}{\hslash^2} \right)^{3/2} \sqrt{\hslash \omega - E_g} \pi \frac{z e^z}{\sinh(z)}
 \]
-\par Подставляя $\left| U \right|^2 \tau_0 = \frac{3c A_0^2}{4n \omega_0 \hslash} $ и $ N = \frac{\omega_0 n^2 A_0^2}{2\pi \hslash c^2} $, получаем:
+\par $\hslash \omega \rightarrow E_g \Rightarrow f \rightarrow 2z $:
 \[
-    \alpha = \frac{6\pi N_{QD} \frac{c^2}{\omega_0^2 n^2}}{1+6T_1 \frac{c A_0^2}{\omega_0 n \hslash }}
+    \alpha = \frac{2\pi e^2 p_{cv}^2}{\hslash^3 c m_0^2 \omega n } (2\mu)^{3/2} \sqrt{E_b}
 \]
-\par Введем $q := \frac{n\omega_0}{c}$
+\par Подставив $ E_b = \frac{e^2}{2n^2 a_B^2}$; $ \omega = E_g/\hslash$; $a_B = \frac{\hslash^2 n^2}{\mu e^2}$:
 \[
-    \alpha = \frac{6\pi N_{QD} \frac{1}{q^2}}{1+6T_1 \frac{A_0^2}{q \hslash }}
+    \alpha = \frac{4\pi r_{cv}^2 \hslash n}{c E_g m_0^2 a_B^2}
 \]
-\par \textbf{Ответ}:
+\par Ответ полностью совпадает с полученным на лекции для поглощения на экситонах
+
+%\par \textbf{Ответ}:
 %\par Возраст Земли, рассчитанный на основе долей разных изотопов урана, составил $T = 5,94 \cdot 10^9$ лет.
 %\includegraphics[width=1\textwidth]{photo_1.jpg}
 %\par
 %\begin{center}
 %\includegraphics[width=0.4\textwidth]{photo_1.jpg}
 %\end{center}
-\[
-    \rho_{ee} = \frac{2T_1 \Gamma \left| U \right|^2}{\left( \omega_0 - \omega \right)^2 + \Gamma^2 + 4T_1 \Gamma \left| U \right|^2}
-\]
-\[
-    \rho_{eg} = \frac{-i U e^{-i\omega t}}{i\left( \omega_0 - \omega \right) + \Gamma} \left( \frac{\left( \omega_0 - \omega \right)^2 + \Gamma^2 }{\left( \omega_0 - \omega \right)^2 + \Gamma^2 + 4T_1 \Gamma \left| U \right|^2} \right)
-\]
-\[
-    \rho_{ge}^{*} = \rho_{eg}
-\]
-\[
-    \rho_{gg} = 1 - \rho_{ee}
-\]
-\[
-    \alpha = \frac{6\pi N_{QD} \frac{1}{q^2}}{1+6T_1 \frac{A_0^2}{q \hslash }}
-\]
+
 \par
 \end{large}
 \end{document}

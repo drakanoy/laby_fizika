@@ -25,7 +25,7 @@
 \begin{document}
 \begin{large}
 \begin{center}
-\LARGE \textbf{Оптика Полупроводников}
+\LARGE \textbf{Диплом}
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
@@ -33,64 +33,17 @@
 \end{center}
 \par \textbf{Задача}:
 \par Условие:
-\par В среде с диэлектрической проницаемостью $\varepsilon$ (с показателем приломления $n$) колеблится диполь $d$ с частотой $\omega_0$.
-Найти темп убыли энергии и сравнить с результатом полученным на лекции.
 \par
-\includegraphics[width=0.5\textwidth]{photo_1.jpg}
-\begin{center}
-\underline{Рисунок 1}:
-\end{center}
+\par
+%\includegraphics[width=0.5\textwidth]{photo_1.jpg}
+%\begin{center}
+%\underline{Рисунок 1}:
+%\end{center}
 \par \textbf{Решение}:
 %\par
 %\includegraphics[width=1\textwidth]{photo_11.jpg}
 %\par
-\par Из запаздывающего потенциала в волновой области пространства верны следующие соотношения на векторный потенциал и магнитное поле:
-\[
-    \vec{A} = \frac{\dot{\vec{d}}}{cR}
-\]
-\[
-    \vec{H} = rot \vec{A} = \frac{1}{c} \left[ \dot{\vec{A}} \times \vec{n} \right]
-\]
-где $\vec{n}$ - единичный вектор направления.
-\par Подставляем и получаем:
-\[
-    \vec{A} = \frac{\omega_0 \cdot \cos\left( \omega_0 t \right)}{cR} \vec{d_0}
-\]
-\[
-    \dot{\vec{A}} = -\frac{d_0 \omega_0^2 \cdot \sin\left( \omega_0 t \right)}{cR} \vec{e_z}
-\]
-\par Посчитаем магнитное поле:
-\[
-    \vec{H} = \frac{d_0 \omega_0^2 \cdot \sin\left( \omega_0 t \right)}{c^2 R} \left[ \vec{n} \times \vec{e_z} \right] = -\frac{d_0 \omega_0^2 \cdot \sin\left( \omega_0 t \right)}{c^2 R} \sin\theta \cdot \vec{e_{\phi}}
-\]
-\par Интенсивность излучения в единице телесного угла:
-\[
-    dI = \left< \left| \vec{s} \right| \right>_t R^2 d\Omega = \frac{nc}{4\pi} \left< \vec{H}^2 \right>_t R^2 d\Omega
-\]
-\par Подставим магнитное поле сразу усреднив $\sin^2$ до $1/2$:
-\[
-    dI = \frac{nc}{4\pi} \frac{\omega_0^4 d_0^2}{2c^4} \sin^2\theta d\Omega = \frac{n\omega_0^4 d_0^2}{8\pi c^3} \sin^2\theta d\Omega
-\]
-\par Проинтегрировав по телесному углу, получим:
-\[
-    I = \frac{n\omega_0^4 d_0^2}{8\pi c^3} \cdot 2\pi \frac{4}{3} = \frac{n\omega_0^4 d_0^2}{3c^3}
-\]
-\par Интенсивность излучения это убыль энергии в единицу времени. Считая что вся энергия высветилась в один фотон с частотой $\omega_0$ за время $\tau$, получим темп перехода:
-\[
-    \frac{1}{\tau} = \frac{I}{E} = \frac{1}{\hslash \omega_0} \cdot \frac{n\omega_0^4 d_0^2}{3c^3} = \frac{n\omega_0^3 d_0^2}{3 \hslash c^3}
-\]
-\par Получился тот же ответ, что и на лекциях с точностью до коэффициента 4.
-Это можно объяснить так: на лекциях мы для вектора Пойнтинга использовали формулу $<S> = \frac{nc}{2\pi}E^2$, когда как при решении задачи я использовал $<S> = \frac{nc}{4\pi}E^2$ - в 2 раза меньше.
-Вторую двойку можно объяснить тем, что по закону сохранения импульса диполь должен высветить 2 фотона в противоположные стороныБ что увеличит интенсивность в 2 раза и мы получим тот же ответ, что и на лекциях.
-%\par \textbf{Ответ}:
-%\par Возраст Земли, рассчитанный на основе долей разных изотопов урана, составил $T = 5,94 \cdot 10^9$ лет.
-%\includegraphics[width=1\textwidth]{photo_1.jpg}
-%\par
-%\begin{center}
-%\includegraphics[width=0.4\textwidth]{photo_1.jpg}
-%\end{center}
 
-\newpage
 
 \[
     \hat{H} = g \left( \hat{b}^\dag_{-} \hat{a}_{+} + \hat{b}_{-} \hat{a}^\dag_{+} \right)
@@ -112,7 +65,7 @@
     \left| \psi_{out}^V \right> \approx \cos \left( \frac{\theta }{2} \right) \left| 0 \right> + \frac{i \delta - 1}{\sqrt{2}} \sin \left( \frac{\theta}{2} \right) \left| 1 \right> + \frac{i \delta}{2} \cos \left( \frac{\theta}{2} \right) \left| 2 \right>
 \]
 \[
-    \left| \psi_{out} \right> = \hat{S_0} \left| \psi_{in} \right> =  e^{\alpha \hat{b}^{\dag}_{+} / \sqrt{2}} \ \hat{S_0}  \ e^{\alpha \hat{b}^{\dag}_{-} / \sqrt{2}} \ \left| 0 \right>
+    \left| \psi_{out} \right> = \exp\left( -i \hat{H} t \right)  =  e^{\alpha \hat{b}^{\dag}_{+} / \sqrt{2}} \ \hat{S_0}  \ e^{\alpha \hat{b}^{\dag}_{-} / \sqrt{2}} \ \left| 0 \right>
 \]
 \[
     i \frac{\partial \hat{\rho}_{HV} }{\partial t} = \left[ \hat{H} ; \hat{\rho}_{HV} \right]
@@ -132,7 +85,137 @@
 \[
     g << \Omega_R^{H}
 \]
-
+\[
+    \left| \psi_{out} \right> = \cos(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \left| 0 \right>  -i\sin(\Omega_R t) \hat{d}^{\dag}_{\uparrow} \left| 0 \right> + gt \, i\sin(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right> - gt \, \cos(\Omega_R t) \hat{d}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right>
+\]
+\[
+    \hat{d}^{\dag}_{\uparrow}
+\]
+\[
+    \hat{b}^{\dag}_{- t} \hat{a}^{\dag}_{\uparrow}
+\]
+\[
+    \left| \psi_{out} \right> = \cos(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \left| 0 \right>  -i\sin(\Omega_R t) \hat{b}^{\dag}_{\uparrow t} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> + gt \, i\sin(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right> - gt \, \cos(\Omega_R t) \hat{b}^{\dag}_{\uparrow t} \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right>
+\]
+\[
+    -i \hat{b}^{\dag}_{V t} \hat{a}^{\dag}_{\uparrow}
+\]
+\[
+    \left| \psi_{out} \right> = \cos(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \left| 0 \right>  - \sin(\Omega_R t) \hat{b}^{\dag}_{V t} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> + gt \, i\sin(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right> - i gt \, \cos(\Omega_R t)  \hat{b}^{\dag}_{V} \hat{b}^{\dag}_{V t} \hat{a}^{\dag}_{\uparrow} \left| 0 \right>
+\]
+\[
+    \left| \psi_{out} \right> = \cos(\Omega_R t) \left| 0 \right>  + (i gt -1) \sin(\Omega_R t) \left| 1 \right> + i gt \, \cos(\Omega_R t)  \left| 2 \right>
+\]
+\[
+    \hat{H}_{+} = E_t \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow}
+    + \Omega_R \left( e^{-i \omega_L t} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
+    +  e^{-i \omega_L t} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
+    + g \left( \hat{b}_{+} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
+    +  \hat{b}^{\dag}_{+} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
+    + E_t \hat{b}^{\dag}_{+} \hat{b}_{+}
+\]
+\[
+    \hat{H}_{+} = \Delta \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} + \Delta \hat{b}^{\dag}_{+} \hat{b}_{+}
+    + \Omega_R \left( \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
+    +  \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
+    + g \left( \hat{b}_{+} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
+    +  \hat{b}^{\dag}_{+} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
+\]
+\[
+    \hat{H}_{-} = \Delta \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow} + \Delta \hat{b}^{\dag}_{-} \hat{b}_{-}
+    + \Omega_R \left( \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
+    +  \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right)
+    + g \left( \hat{b}_{-} \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
+    +  \hat{b}^{\dag}_{-} \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right)
+\]
+\[
+    \hat{H}_{B} = \alpha B_x \left( \hat{a}^{\dag}_{\downarrow} \hat{a}_{\uparrow} + \hat{a}^{\dag}_{\uparrow} \hat{a}_{\downarrow}  \right)
+    + \alpha B_z \left( \hat{a}^{\dag}_{\uparrow} \hat{a}_{\uparrow} - \hat{a}^{\dag}_{\downarrow} \hat{a}_{\downarrow}  \right)
+    + \beta B_z \left( \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} - \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow}  \right)
+\]
+\[
+    \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{a}^{\dag}_{\downarrow} \left| 0 \right> \, ; \, \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{d}^{\dag}_{\downarrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{+} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{-} \hat{a}^{\dag}_{\downarrow} \left| 0 \right> \, ;
+    \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\downarrow} \left| 0 \right> \,
+\]
+\[
+    \hat{b}^{\dag}_{-} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{+} \hat{a}^{\dag}_{\downarrow} \left| 0 \right> \, ;
+    \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\downarrow} \left| 0 \right>
+\]
+\[
+    \left| \uparrow \right> + \left| \downarrow \right> \rightarrow \left| \uparrow R \right> + \left| \downarrow L \right>
+\]
+\[
+    \left| \uparrow \right> + \left| \downarrow \right> \rightarrow \left( \left| \uparrow \right> + \left| \downarrow \right> \right) \left| R \right> + \left(  -\left| \uparrow \right> + \left| \downarrow \right> \right) \left| L \right>
+\]
+\[
+    \left| \uparrow \right> - \left| \downarrow \right> \rightarrow \left| +_1 +_2 \right> - \left| -_1 -_2 \right>
+\]
+\[
+    \Omega^H_R \sim g \sqrt{N}
+\]
+\[
+     \frac{\partial \hat{\rho} }{\partial t} = -i \left[ \hat{H} ; \hat{\rho} \right] - \hat{L}(\hat{\rho})
+\]
+\[
+    \hat{L}(\hat{\rho}) = \gamma_{PD} \left( \hat{\rho} - \hat{\sigma}_z \hat{\rho} \hat{\sigma}_z \right)
+\]
+\[
+    \hat{\rho}_{in}
+\]
+\[
+    \hat{\rho}_{out} = \hat{S}_{\tau} \left( \hat{\rho}_{in} \right)
+\]
+\[
+    \hat{\rho}_{ph} = \hat{M}_{spin \,\, relax} \left(  \hat{\rho}_{out}  \right)
+\]
+\[
+    = f_{+x}\left( B/T \right) \left< x \right| \hat{\rho}_{out} \left| x \right> + f_{-x}\left( B/T \right) \left< -x \right| \hat{\rho}_{out} \left| -x \right>
+\]
+\[
+    f_{+x}\left( B/T \right) = \frac{e^{B/T}}{e^{B/T} + e^{-B/T}}
+\]
+\[
+    f_{-x}\left( B/T \right) = \frac{e^{-B/T}}{e^{B/T} + e^{-B/T}}
+\]
+\[
+    = f_{+x}\left( B/T \right) \left| x \right> \left< x \right|  + f_{-x}\left( B/T \right)  \left| -x \right> \left< -x \right|
+\]
+\[
+    \sqrt{P}
+\]
+\[
+    \left| 000 \right> + \left| 001 \right> + \left| 010 \right> - \left| 011 \right> + \left| 100 \right> + \left| 101 \right> - \left| 100 \right> + \left| 111 \right>
+\]
+\[
+    F =\left( \left< +_1 +_2 \right| + \left< -_1 -_2 \right| \right) \hat{\rho}_{out}  \left( \left| +_1 +_2 \right> + \left| -_1 -_2 \right> \right)
+\]
+\[
+    \hat{\rho}_{ph} = \hat{\rho}_{0} + \hat{\rho}_{1} + \hat{\rho}_{2}
+\]
+\[
+    p_1 = Tr\left( \hat{\rho}_{1} \right) \, \, \, ; \, \, \, p_2 = Tr\left( \hat{\rho}_{2} \right)
+\]
+\begin{gather*}
+    \hat{\rho}^{(2\pi)}_2 \approx \left( g \tau \right)^2 \left( \frac{ \Omega_R^2}{ \Omega_R^2 + \Delta^2} \right)^2
+\begin{pmatrix}
+    1 & 0 & 0 & \tanh^2\left( B/T \right) \\
+    0 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 \\
+    \tanh^2\left( B/T \right) & 0 & 0 & 1
+\end{pmatrix}
+\end{gather*}
+\[
+    g^{(2)}(0) = \frac{2\left| \delta \right| \cos^2(\theta/2)}{\left( \sin^2(\theta/2) + \left| \delta \right|^2 \right)^2}
+\]
+\[
+    \left| 0 \right> = \left| H \right>
+\]
+\[
+    \left| 1 \right> = \left| V \right>
+\]
+\[
+    \phi_{ab}^+ = \frac{1}{\sqrt{2}} \left(  H_a H_b +  V_a V_b \right)
+\]
 \par
 \end{large}
 \end{document}
