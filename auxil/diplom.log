@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.7)  4 MAR 2026 04:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.7)  5 MAR 2026 01:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -942,10 +942,10 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 4
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/stmaryrd/Ustmry.f
 d)
-diplom.tex:62: Extra }, or forgotten \right.
+diplom.tex:65: Extra }, or forgotten \right.
 <template> }
             $}\ifdim \wdz@ >\totwidth@ \global \totwidth@ \wdz@ \fi \endtemp...
-l.62 \end{gather*}
+l.65 \end{gather*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -953,10 +953,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-diplom.tex:62: Missing \right. inserted.
+diplom.tex:65: Missing \right. inserted.
 <inserted text> 
                 \right .
-l.62 \end{gather*}
+l.65 \end{gather*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -964,10 +964,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-diplom.tex:62: Missing } inserted.
+diplom.tex:65: Missing } inserted.
 <inserted text> 
                 }
-l.62 \end{gather*}
+l.65 \end{gather*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -975,10 +975,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-diplom.tex:62: Extra }, or forgotten \right.
+diplom.tex:65: Extra }, or forgotten \right.
 <template> }
             $}\calc@shift@gather \set@gather@field \endtemplate 
-l.62 \end{gather*}
+l.65 \end{gather*}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -986,10 +986,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-diplom.tex:62: Missing \right. inserted.
+diplom.tex:65: Missing \right. inserted.
 <inserted text> 
                 \right .
-l.62 \end{gather*}
+l.65 \end{gather*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -997,10 +997,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-diplom.tex:62: Missing } inserted.
+diplom.tex:65: Missing } inserted.
 <inserted text> 
                 }
-l.62 \end{gather*}
+l.65 \end{gather*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1009,7 +1009,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (17.1165pt too wide) detected at line 99
+Overfull \hbox (17.1165pt too wide) detected at line 102
 [] \OT1/cmr/m/n/14.4 = [](
 []\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[] [] \OMS/cmsy/m/n/14.4 ^^@ \OML/cmm/
 m/it/14.4 i []\OT1/cmr/m/n/14.4 (
@@ -1021,7 +1021,7 @@ m/m/it/14.4 gt  []\OT1/cmr/m/n/14.4 (
  []
 
 
-Overfull \hbox (20.82762pt too wide) detected at line 105
+Overfull \hbox (20.82762pt too wide) detected at line 108
 [] \OT1/cmr/m/n/14.4 = [](
 []\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )[] [] \OMS/cmsy/m/n/14.4 ^^@ []\OT1/cm
 r/m/n/14.4 (
@@ -1052,7 +1052,7 @@ Package rerunfilecheck Info: File `diplom.out' has not changed.
 Here is how much of TeX's memory you used:
  16482 strings out of 468226
  275486 string characters out of 5430086
- 735913 words of memory out of 5000000
+ 734913 words of memory out of 5000000
  44731 multiletter control sequences out of 15000+600000
  634389 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1075,7 +1075,7 @@ pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
 onts/cm/cmsy7.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (3
- pages, 134597 bytes).
+ pages, 135074 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)

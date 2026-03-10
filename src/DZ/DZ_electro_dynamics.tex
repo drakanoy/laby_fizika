@@ -29,11 +29,11 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{4.03.2026}
+    \textbf{10.03.2026}
 \end{center}
 \par \textbf{Задача}:
 \par Условие:
-\par Найти коэфф поглощения для разрешенных переходов с учетом фактора Зоммерфельда.
+\par Найти коэфф поглощения для квантовой ямы для $n >> 1$.
 \par
 %\includegraphics[width=0.5\textwidth]{photo_1.jpg}
 %\begin{center}
@@ -43,40 +43,34 @@
 %\par
 %\includegraphics[width=1\textwidth]{photo_11.jpg}
 %\par
-\par Матричный элемент:
+\par Коэф поглощения:
 \[
-    A = \sqrt{\frac{2\pi c^2 \hslash}{V \omega n^2}}
+    \mathcal{A} = \frac{\pi \mu }{n c \omega} \left( \frac{2 e p_{cv}}{m_0 \hslash} \right)^2 \sum_{n = 1}^{\infty} \Theta \left( \hslash \omega -E_g -\frac{1}{2\mu} \left( \frac{\pi n \hslash}{a} \right)^2\right)
+\]
+\par Так как $n >> 1$ - заменим сумму на интеграл:
+\[
+    \mathcal{A} = \frac{\pi \mu }{n c \omega} \left( \frac{2 e p_{cv}}{m_0 \hslash} \right)^2 \int_{1}^{\infty} dn \Theta \left( \hslash \omega -E_g -\frac{1}{2\mu} \left( \frac{\pi n \hslash}{a} \right)^2\right)
+\]
+\par Тета функция выдаст 1 только на пределах интегрирования до $\widetilde{n}$, получаемого из условия:
+\[
+    \hslash \omega -E_g -\frac{1}{2\mu} \left( \frac{\pi \widetilde{n} \hslash}{a} \right)^2 \geq 0
 \]
 \[
-    M_{cv} = \frac{e}{m_0 c} A p_{cv} = \frac{ep_{cv}}{m_0 c} \sqrt{\frac{2\pi c^2 \hslash}{V \omega n^2}}
-\]
-\par Скорость переходов:
-\[
-    W = \frac{2\pi}{\hslash} \sum_k \left| M_{cv} \right|^2 \delta \left( E_g + \frac{\hslash^2 k^2}{2\mu} -\hslash \omega \right) =
-\]
-\[
-    = \frac{2\pi}{\hslash} \frac{V}{(2\pi)^3} \int 4\pi k^2 dk \frac{e^2 p^2_{cv}}{m_0^2 c^2} \frac{2\pi c^2 \hslash}{V \omega n^2}  \delta \left( E_g + \frac{\hslash^2 k^2}{2\mu} -\hslash \omega \right) =
-\]
-\[
-    = \frac{e^2 p_{cv}^2}{m_0^2 \omega n^2} \left( \frac{2\mu}{\hslash^2} \right)^{3/2} \sqrt{\hslash \omega - E_g}
+    \widetilde{n} \leq \frac{a}{\pi \hslash} \sqrt{2\mu \left( \hslash \omega - E_g \right)}
 \]
 \par Коэфф поглощения:
 \[
-    \alpha_0 = W \frac{n}{c} = \frac{e^2 p_{cv}^2}{m_0^2 \omega c n} \left( \frac{2\mu}{\hslash^2} \right)^{3/2} \sqrt{\hslash \omega - E_g}
+    \mathcal{A} =  \frac{\pi \mu }{n c \omega} \left( \frac{2 e p_{cv}}{m_0 \hslash} \right)^2 \int_1^{\widetilde{n}} dn = \frac{\pi \mu }{n c \omega} \left( \frac{2 e p_{cv}}{m_0 \hslash} \right)^2 \left( \widetilde{n} - 1 \right)
 \]
+\par Так как $\widetilde{n} >> 1$:
 \[
-    \alpha = \alpha_0 f = W \frac{n}{c} = \frac{e^2 p_{cv}^2}{m_0^2 \omega c n} \left( \frac{2\mu}{\hslash^2} \right)^{3/2} \sqrt{\hslash \omega - E_g} \pi \frac{z e^z}{\sinh(z)}
+    \mathcal{A} \approx \frac{\pi \mu }{n c \omega} \left( \frac{2 e p_{cv}}{m_0 \hslash} \right)^2 \widetilde{n} = \frac{\pi \mu }{n c \omega} \left( \frac{2 e p_{cv}}{m_0 \hslash} \right)^2 \frac{a}{\pi \hslash} \sqrt{2\mu \left( \hslash \omega - E_g \right)}
 \]
-\par $\hslash \omega \rightarrow E_g \Rightarrow f \rightarrow 2z $:
+\par Сравним с 3d (сколько букв а вы хотите?):
 \[
-    \alpha = \frac{2\pi e^2 p_{cv}^2}{\hslash^3 c m_0^2 \omega n } (2\mu)^{3/2} \sqrt{E_b}
+    \mathcal{A} = a \alpha
 \]
-\par Подставив $ E_b = \frac{e^2}{2n^2 a_B^2}$; $ \omega = E_g/\hslash$; $a_B = \frac{\hslash^2 n^2}{\mu e^2}$:
-\[
-    \alpha = \frac{4\pi r_{cv}^2 \hslash n}{c E_g m_0^2 a_B^2}
-\]
-\par Ответ полностью совпадает с полученным на лекции для поглощения на экситонах
-
+\par Физически это значит, что квантовая яма поглащает как объемный полупроводник с шириной $a$ (при $n >> 1$).
 %\par \textbf{Ответ}:
 %\par Возраст Земли, рассчитанный на основе долей разных изотопов урана, составил $T = 5,94 \cdot 10^9$ лет.
 %\includegraphics[width=1\textwidth]{photo_1.jpg}
