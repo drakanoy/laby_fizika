@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  25 MAR 2026 01:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  25 MAR 2026 01:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -945,7 +945,7 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/stmaryrd/Ustmry.f
 d)
-Overfull \hbox (37.74461pt too wide) detected at line 61
+Overfull \hbox (48.94464pt too wide) detected at line 61
 \OML/cmm/m/it/14.4 E \OMS/cmsy/m/n/14.4 
  \OML/cmm/m/it/14.4 E \OT1/cmr/m/n/14.4 = [] []
  []
@@ -986,7 +986,7 @@ blic/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/
 fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/t
 exmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/DZ_electro_dy
-namics.pdf (1 page, 96686 bytes).
+namics.pdf (1 page, 96692 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
