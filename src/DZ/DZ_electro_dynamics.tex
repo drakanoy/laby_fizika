@@ -29,11 +29,11 @@
 \par
 \LARGE \textbf{Кононов Александр Михайлович}
 \par
-    \textbf{25.03.2026}
+    \textbf{29.03.2026}
 \end{center}
 \par \textbf{Задача}:
 \par Условие:
-\par Найти Гамильтониан орбитального взаимодействия (линейный по $K$) для группы $T_d$.
+\par Найти тензор связи между $\varepsilon_{\alpha \beta}$ и $u_{\alpha \beta}$ в группе $T_d$ из соображений симметрии.
 \par
 %\includegraphics[width=0.5\textwidth]{photo_1.jpg}
 %\begin{center}
@@ -43,94 +43,31 @@
 %\par
 %\includegraphics[width=1\textwidth]{photo_11.jpg}
 %\par
-\par В самом общем случае Гамильтониан выглядит вот так:
+\par Оба тензора преобразуются по представлению $F_2 \otimes F_2$:
 \[
-    H_{so} = C_1 J_{\alpha} K_{\beta} + C_2 J_{\alpha} J_{\beta} K_{\gamma} + C_3 J_{\alpha} J_{\beta} J_{\gamma} K_{\delta}
+    F_2 \otimes F_2 = (A_1 \oplus E \oplus F_1 \oplus F_2)
 \]
-\par Слагаемого с $C_1$ не может быть так как их произведение не содержит скалярного неприводимого представления $A_1$, а слагаемого с $C_2$ не может быть по инверсии времени:
+\par Так как $\varepsilon_{\alpha \beta} = \varepsilon_{ \beta \alpha}$ и $u_{\alpha \beta} = u_{ \beta \alpha}$ то $F_1$ обнуляется.
 \[
-    H_{so} = C_3 J_{\alpha} J_{\beta} J_{\gamma} K_{\delta}
+    A_1 \oplus E \oplus F_2
 \]
-\par Теперь рассмотрим как раскладывается представление с $C_3$:
+\par Величины с одинаковым представлением должны быть пропорциональны:
 \[
-    F_1 \otimes F_1 \otimes F_1 \otimes F_2 = (F_1 \otimes F_1) \otimes (F_1 \otimes F_2) = (A_1 \oplus E \oplus F_1 \oplus F_2) \otimes (A_2 \oplus E \oplus F_1 \oplus F_2) =
-\]
-\par Нам интересны только $(E \oplus E)$, $(F_1 \oplus F_1)$ и $(F_2 \oplus F_2)$, потому что только эти умножения содержат представление $A_1$. Распишим их:
-\[
-    E \otimes E = \left[ \sqrt{3} (J_x^2 - J_y^2) + (2J_z^2 - J_x^2 - J_y^2) \right] \left[ -\sqrt{3} (J_x K_x - J_y K_y) + (2J_z K_z - J_x K_x - J_y K_y) \right]
-\]
-\par Выделяем представление $A_1$:
-\[
-    \Rightarrow -3 (J_x^2 - J_y^2) (J_x K_x - J_y K_y) + (2J_z^2 - J_x^2 - J_y^2) (2J_z K_z - J_x K_x - J_y K_y)
+    A_1: Tr\hat{\varepsilon} = C_1 Tr\hat{u}
 \]
 \[
-    F_1 \otimes F_1 = \left[ \vec{J} \times \vec{J} \right] \left[ \vec{J} \times \vec{K} \right] \Rightarrow 0
+    E: \{ \sqrt{3} \left( \varepsilon_{xx} - \varepsilon_{yy} \right) ; 2\varepsilon_{zz} - \varepsilon_{xx} - \varepsilon_{yy} \} = C_2 \{ \sqrt{3} \left( u_{xx} - u_{yy} \right) ; 2u_{zz} - u_{xx} - u_{yy} \}
 \]
 \[
-    F_2 \otimes F_2 = \left[ \{ J_x ; J_y \}_s + \{ J_y ; J_z \}_s + \{ J_z ; J_x \}_s \right] \left[ J_x K_y + J_y K_z+ J_z K_x \right]
+    F_2: \{ \varepsilon_{yz} ; \varepsilon_{zx} ; \varepsilon_{xy} \} = C_3 \{ u_{yz} ; u_{zx} ; u_{xy} \}
+\]
+\par Тогда тензор связывающий их выглядит вот так:
+\[
+    \varepsilon_{\alpha \beta } = a_{\alpha \beta \gamma \delta } u_{\gamma \delta }
 \]
 \[
-    \Rightarrow \{ J_x ; J_y \}_s J_x K_y + \{ J_y ; J_z \}_s J_y K_z + \{ J_z ; J_x \}_s J_z K_x
+    a_{\alpha \beta \gamma \delta } = C_1 \delta_{\alpha \beta} \delta_{\gamma \delta} \frac{1}{3} + C_2 \delta_{\alpha \beta} \delta_{\gamma \delta} \left( \delta_{\alpha \gamma} - \frac{1}{3} \right) + C_3 \left( 1 - \delta_{\alpha \beta} \right) \delta_{\alpha \gamma} \delta_{\beta \delta}
 \]
-\par Таким образом Гамильтониан:
-\[
-    H_{so} = C_3 \left[ -3 (J_x^2 - J_y^2) (J_x K_x - J_y K_y) + (2J_z^2 - J_x^2 - J_y^2) (2J_z K_z - J_x K_x - J_y K_y) + \right.
-\]
-\[
-    \left. + \{ J_x ; J_y \}_s J_x K_y + \{ J_y ; J_z \}_s J_y K_z + \{ J_z ; J_x \}_s J_z K_x \right]
-\]
-\par Учтем, что $\{J_x,J_y\}_s=\frac{J_xJ_y+J_yJ_x}{2}$, раскроем скобки:
-
-\begin{gather*}
-H_{so}=C_3\Big[-3J_x^3K_x +3J_x^2J_yK_y +3J_y^2J_xK_x -3J_y^3K_y
-\\
-+4J_z^3K_z -2J_z^2J_xK_x -2J_z^2J_yK_y -2J_x^2J_zK_z +J_x^3K_x +J_x^2J_yK_y
-\\
--2J_y^2J_zK_z +J_y^2J_xK_x +J_y^3K_y
-\\
-+\frac12 J_xJ_yJ_xK_y +\frac12 J_yJ_x^2K_y +\frac12 J_yJ_zJ_yK_z +\frac12 J_zJ_y^2K_z
-\\
-+\frac12 J_zJ_xJ_zK_x +\frac12 J_xJ_z^2K_x \Big]
-\end{gather*}
-
-\par Соберем с одинаковыми $K$ выражения:
-
-\begin{gather*}
-H_{so}=C_3\Big[\Big(4J_y^2J_x -2J_z^2J_x +\tfrac12 J_xJ_z^2 -2J_x^3 +\tfrac12 J_zJ_xJ_z \Big)K_x
-\\
-+\Big(4J_x^2J_y -2J_z^2J_y +\tfrac12 J_yJ_x^2 -2J_y^3 +\tfrac12 J_xJ_yJ_x \Big)K_y
-\\
-+\Big(-2J_x^2J_z -2J_y^2J_z +\tfrac12 J_zJ_y^2 +4J_z^3 +\tfrac12 J_yJ_zJ_y \Big)K_z\Big]
-\end{gather*}
-
-\par Теперь сделаем наш Гамильтониан эрмитовым:
-
-\begin{gather*}
-H^{\dag}_{so}=C_3\Big[\Big(4J_xJ_y^2 -2J_xJ_z^2 +\tfrac12 J_z^2J_x -2J_x^3 +\tfrac12 J_zJ_xJ_z \Big)K_x
-\\
-+\Big(4J_yJ_x^2 -2J_yJ_z^2 +\tfrac12 J_x^2J_y -2J_y^3 +\tfrac12 J_xJ_yJ_x \Big)K_y
-\\
-+\Big(-2J_zJ_x^2 -2J_zJ_y^2 +\tfrac12 J_y^2J_z +4J_z^3 +\tfrac12 J_yJ_zJ_y \Big)K_z\Big]
-\end{gather*}
-
-\par Сложим их $H^{true}_{so} = H_{so} + H^{\dag}_{so}$:
-
-\begin{gather*}
-H^{true}_{so}=C_3\Big[\Big(4 \left(J_y^2J_x + J_xJ_y^2 \right)  -2\left(J_z^2J_x + J_xJ_z^2 \right) +\tfrac12 \left(J_xJ_z^2 + J_z^2J_x \right)  -4J_x^3 +J_zJ_xJ_z \Big)K_x
-\\
-+\Big(4\left(J_x^2J_y + J_yJ_x^2 \right) -2\left(J_z^2J_y + J_yJ_z^2 \right) +\tfrac12 \left(J_yJ_x^2 + J_x^2J_y \right) -4J_y^3 +J_xJ_yJ_x \Big)K_y
-\\
-+\Big(-2\left(J_x^2J_z + J_zJ_x^2 \right) -2\left(J_y^2J_z + J_zJ_y^2 \right) +\tfrac12 \left(J_y^2J_z + J_zJ_y^2 \right) +8J_z^3 +J_yJ_zJ_y \Big)K_z\Big]
-\end{gather*}
-
-\par Чуть упростим:
-\begin{gather*}
-H^{true}_{so}=C_3\Big[\Big(4 \left(J_y^2J_x + J_xJ_y^2 \right) -\tfrac32 \left(J_xJ_z^2 + J_z^2J_x \right)  -4J_x^3 +J_zJ_xJ_z \Big)K_x
-\\
-+\Big( -2\left(J_z^2J_y + J_yJ_z^2 \right) +\tfrac92 \left(J_yJ_x^2 + J_x^2J_y \right) -4J_y^3 +J_xJ_yJ_x \Big)K_y
-\\
-+\Big(-2\left(J_x^2J_z + J_zJ_x^2 \right) -\tfrac32 \left(J_y^2J_z + J_zJ_y^2 \right) +8J_z^3 +J_yJ_zJ_y \Big)K_z\Big]
-\end{gather*}
 %\par \textbf{Ответ}:
 %\par Возраст Земли, рассчитанный на основе долей разных изотопов урана, составил $T = 5,94 \cdot 10^9$ лет.
 %\includegraphics[width=1\textwidth]{photo_1.jpg}

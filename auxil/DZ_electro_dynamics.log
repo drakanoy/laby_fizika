@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  29 MAR 2026 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  29 MAR 2026 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -945,24 +945,12 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/stmaryrd/Ustmry.f
 d)
-Overfull \hbox (48.94464pt too wide) detected at line 61
-\OML/cmm/m/it/14.4 E \OMS/cmsy/m/n/14.4 
- \OML/cmm/m/it/14.4 E \OT1/cmr/m/n/14.4 = [] []
- []
-
-
 
 [1
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
 x/pdftex.map}]
-Overfull \hbox (21.2872pt too wide) detected at line 124
-[]
- []
-
-
-
-[2] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.aux)
+(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -971,13 +959,13 @@ Package rerunfilecheck Info: File `DZ_electro_dynamics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16516 strings out of 467870
- 276345 string characters out of 5415476
- 742122 words of memory out of 5000000
- 45121 multiletter control sequences out of 15000+600000
+ 16513 strings out of 467870
+ 276281 string characters out of 5415476
+ 723122 words of memory out of 5000000
+ 45119 multiletter control sequences out of 15000+600000
  635285 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,12n,93p,350b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,5n,93p,348b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
 our/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakanoy/Library/Application Support/
 MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk> </Users/drakan
@@ -988,14 +976,13 @@ KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Applica
 tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
 m/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/t
-exmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Su
-pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+blic/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/DZ_electro_dy
-namics.pdf (2 pages, 112480 bytes).
+namics.pdf (1 page, 94234 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
