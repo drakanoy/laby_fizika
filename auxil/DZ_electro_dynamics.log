@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  25 MAR 2026 01:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  29 MAR 2026 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,27 +840,27 @@ Package babel Info: 'russian' activates 'russian' shorthands.
 )
 \openout1 = `DZ_electro_dynamics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Info: Redefining \th on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Info: Redefining \th on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -922,32 +922,41 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 -sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 22.
 
 (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.out)
 (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.out)
 \@outlinefile=\write4
 \openout4 = `DZ_electro_dynamics.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
 
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
-6.
+5.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/stmaryrd/Ustmry.f
 d)
-Overfull \hbox (48.94464pt too wide) detected at line 61
-\OML/cmm/m/it/14.4 E \OMS/cmsy/m/n/14.4 
- \OML/cmm/m/it/14.4 E \OT1/cmr/m/n/14.4 = [] []
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+53.
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cy
+rillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Overfull \hbox (7.48419pt too wide) in paragraph at lines 56--57
+[]\T2A/cmtt/m/n/14.4 inverse_gauss(a) \T2A/cmr/m/n/14.4 --- ^^e2^^fb-^^f7^^e8^^
+f1-^^eb^^e5-^^ed^^e8^^e5 ^^ee^^e1-^^f0^^e0^^f2-^^ed^^ee^^e9 ^^ec^^e0^^f2-^^f0^^
+e8-^^f6^^fb ^^ec^^e5-^^f2^^ee-^^e4^^ee^^ec ^^c3^^e0^^f3^^f1^^f1^^e0--^^c6^^ee^^
+f0^^e4^^e0^^ed^^e0
  []
 
 
@@ -956,7 +965,31 @@ Overfull \hbox (48.94464pt too wide) detected at line 61
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
 x/pdftex.map}]
-(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.aux)
+
+[2]
+LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 146.
+
+Overfull \hbox (26.34152pt too wide) in paragraph at lines 144--155
+ [] 
+ []
+
+
+
+[3]
+
+[4]
+Overfull \hbox (31.36804pt too wide) in paragraph at lines 316--333
+ [] 
+ []
+
+
+
+[5]
+
+[6]
+
+[7] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/DZ_electro_dynamics.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -965,30 +998,46 @@ Package rerunfilecheck Info: File `DZ_electro_dynamics.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16513 strings out of 467870
- 276281 string characters out of 5415476
+ 16620 strings out of 467870
+ 278081 string characters out of 5415476
  729122 words of memory out of 5000000
- 45119 multiletter control sequences out of 15000+600000
- 635285 words of font info for 60 fonts, out of 8000000 for 9000
+ 45180 multiletter control sequences out of 15000+600000
+ 647008 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,5n,93p,350b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,15n,93p,952b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakanoy/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk> </Users/drakan
+our/lh/lh-t2a/dpi600/labx0800.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakan
 oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi
-600/labx1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
-a/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk></Library/Application Support/Mi
-KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Applica
-tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/t
-exmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+600/larm1095.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
+a/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1095.pk> </Users/drakanoy/Library/Applic
+ation Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1095.pk> 
+</Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour
+/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakanoy/Library/Application Support/MiK
+TeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1440.pk> </Users/drakanoy/
+Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi6
+00/tcrm1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data
+/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk> </Users/drakanoy/Library/Applica
+tion Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk> <
+/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/
+lh/lh-t2a/dpi600/labx2074.pk></Library/Application Support/MiKTeX/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTe
+X/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Applicatio
+n Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Lib
+rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/font
+s/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmf
+s/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support
+/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Appl
+ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
+ublic/amsfonts/symbols/msam10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/DZ_electro_dy
-namics.pdf (1 page, 96692 bytes).
+namics.pdf (7 pages, 234356 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
