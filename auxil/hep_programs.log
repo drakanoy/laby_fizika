@@ -1,0 +1,3763 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.5.5)  28 MAY 2025 18:39
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**./hep_programs.tex
+(hep_programs.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-03-26>
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen146
+)
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ge
+ometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.s
+ty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.st
+y
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count271
+\Gm@cntv=\count272
+\c@Gm@tempcnt=\count273
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks18
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ge
+ometry/geometry.cfg))
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref
+.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kv
+setkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftexcmds/pdft
+excmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hy
+color/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/nameref.
+sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/re
+fcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kv
+options/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count274
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox
+.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count275
+)
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen155
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.d
+ef
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count278
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.de
+f
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count279
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen156
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count280
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atbegshi-ltx
+.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.
+def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atveryend-lt
+x.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count284
+\c@bookmark@seq@number=\count285
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/re
+runfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
+uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip51
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.s
+ty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count286
+\LTcapwidth=\dimen159
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count287
+\LT@rows=\count288
+\c@LT@tables=\count289
+\c@LT@chunks=\count290
+\LT@p@ftn=\toks21
+)
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ti
+tlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box58
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen160
+\ttl@minus=\dimen161
+\ttl@toksa=\toks22
+\titlewidth=\dimen162
+\titlewidthlast=\dimen163
+\titlewidthfirst=\dimen164
+)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
+nd-pdftex.def
+File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count291
+)
+(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/hep_programs.aux)
+\openout1 = `hep_programs.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 14.
+(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/hep_programs.out)
+(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/hep_programs.out)
+\@outlinefile=\write3
+\openout3 = `hep_programs.out'.
+
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^9e (U+041E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b1 (U+0431)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b7 (U+0437)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^9c (U+041C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b3 (U+0433)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^82 (U+0442)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^85 (U+0445)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^9f (U+041F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b3 (U+0433)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^bf (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^a4 (U+0424)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b7 (U+0437)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^92 (U+0412)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^8b (U+044B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^85 (U+0445)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^ad (U+042D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b3 (U+0433)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b9 (U+0439)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^a2 (U+0422)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^82 (U+0442)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^87 (U+0447)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b9 (U+0439)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^a4 (U+0424)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b7 (U+0437)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 17.
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^a1 (U+0421)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^82 (U+0442)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b2 (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^bb (U+043B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^bf (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^bf (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d1^^89 (U+0449)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^9c (U+041C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:17: LaTeX Error: Unicode character ^^d0^^b9 (U+0439)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 
+     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:18: LaTeX Error: Unicode character ^^d0^^92 (U+0412)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...5^^d0^^b4^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:18: LaTeX Error: Unicode character ^^d0^^b2 (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...5^^d0^^b4^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:18: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...5^^d0^^b4^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:18: LaTeX Error: Unicode character ^^d0^^b4 (U+0434)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...5^^d0^^b4^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:18: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...5^^d0^^b4^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:18: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...5^^d0^^b4^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:18: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...5^^d0^^b4^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:18: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...5^^d0^^b4^^d0^^b5^^d0^^bd^^d0^^b8^^d0^^b5}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^92 (U+0412)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ^^d0^^92
+              ^^d0^^b4^^d0^^b0^^d0^^bd^^d0^^bd^^d0^^be^^d0^^bc ^^d0^^b4^^d0^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b4 (U+0434)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ^^d0^^92 ^^d0^^b4
+                      ^^d0^^b0^^d0^^bd^^d0^^bd^^d0^^be^^d0^^bc ^^d0^^b4^^d0^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ^^d0^^92 ^^d0^^b4^^d0^^b0
+                              ^^d0^^bd^^d0^^bd^^d0^^be^^d0^^bc ^^d0^^b4^^d0^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ^^d0^^92 ^^d0^^b4^^d0^^b0^^d0^^bd
+                                      ^^d0^^bd^^d0^^be^^d0^^bc ^^d0^^b4^^d0^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ^^d0^^92 ^^d0^^b4^^d0^^b0^^d0^^bd^^d0^^bd
+                                              ^^d0^^be^^d0^^bc ^^d0^^b4^^d0^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...2 ^^d0^^b4^^d0^^b0^^d0^^bd^^d0^^bd^^d0^^be
+                                                  ^^d0^^bc ^^d0^^b4^^d0^^be^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b4^^d0^^b0^^d0^^bd^^d0^^bd^^d0^^be^^d0^^bc
+                                                   ^^d0^^b4^^d0^^be^^d0^^ba^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b4 (U+0434)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...0^^d0^^bd^^d0^^bd^^d0^^be^^d0^^bc ^^d0^^b4
+                                                  ^^d0^^be^^d0^^ba^^d1^^83^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...d^^d0^^bd^^d0^^be^^d0^^bc ^^d0^^b4^^d0^^be
+                                                  ^^d0^^ba^^d1^^83^^d0^^bc^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...d^^d0^^be^^d0^^bc ^^d0^^b4^^d0^^be^^d0^^ba
+                                                  ^^d1^^83^^d0^^bc^^d0^^b5^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^83 (U+0443)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...e^^d0^^bc ^^d0^^b4^^d0^^be^^d0^^ba^^d1^^83
+                                                  ^^d0^^bc^^d0^^b5^^d0^^bd^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...c ^^d0^^b4^^d0^^be^^d0^^ba^^d1^^83^^d0^^bc
+                                                  ^^d0^^b5^^d0^^bd^^d1^^82^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b4^^d0^^be^^d0^^ba^^d1^^83^^d0^^bc^^d0^^b5
+                                                  ^^d0^^bd^^d1^^82^^d0^^b5 ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...be^^d0^^ba^^d1^^83^^d0^^bc^^d0^^b5^^d0^^bd
+                                                  ^^d1^^82^^d0^^b5 ^^d0^^bf^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^82 (U+0442)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...ba^^d1^^83^^d0^^bc^^d0^^b5^^d0^^bd^^d1^^82
+                                                  ^^d0^^b5 ^^d0^^bf^^d1^^80^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...83^^d0^^bc^^d0^^b5^^d0^^bd^^d1^^82^^d0^^b5
+                                                   ^^d0^^bf^^d1^^80^^d0^^b5^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bf (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...c^^d0^^b5^^d0^^bd^^d1^^82^^d0^^b5 ^^d0^^bf
+                                                  ^^d1^^80^^d0^^b5^^d0^^b4^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...5^^d0^^bd^^d1^^82^^d0^^b5 ^^d0^^bf^^d1^^80
+                                                  ^^d0^^b5^^d0^^b4^^d1^^81^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...d^^d1^^82^^d0^^b5 ^^d0^^bf^^d1^^80^^d0^^b5
+                                                  ^^d0^^b4^^d1^^81^^d1^^82^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b4 (U+0434)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...2^^d0^^b5 ^^d0^^bf^^d1^^80^^d0^^b5^^d0^^b4
+                                                  ^^d1^^81^^d1^^82^^d0^^b0^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...5 ^^d0^^bf^^d1^^80^^d0^^b5^^d0^^b4^^d1^^81
+                                                  ^^d1^^82^^d0^^b0^^d0^^b2^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^82 (U+0442)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bf^^d1^^80^^d0^^b5^^d0^^b4^^d1^^81^^d1^^82
+                                                  ^^d0^^b0^^d0^^b2^^d0^^bb^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...80^^d0^^b5^^d0^^b4^^d1^^81^^d1^^82^^d0^^b0
+                                                  ^^d0^^b2^^d0^^bb^^d0^^b5^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b2 (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b5^^d0^^b4^^d1^^81^^d1^^82^^d0^^b0^^d0^^b2
+                                                  ^^d0^^bb^^d0^^b5^^d0^^bd ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bb (U+043B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b4^^d1^^81^^d1^^82^^d0^^b0^^d0^^b2^^d0^^bb
+                                                  ^^d0^^b5^^d0^^bd ^^d0^^be^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...81^^d1^^82^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5
+                                                  ^^d0^^bd ^^d0^^be^^d0^^b1^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...82^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd
+                                                   ^^d0^^be^^d0^^b1^^d1^^88^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd ^^d0^^be
+                                                  ^^d0^^b1^^d1^^88^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b1 (U+0431)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...2^^d0^^bb^^d0^^b5^^d0^^bd ^^d0^^be^^d0^^b1
+                                                  ^^d1^^88^^d0^^b8^^d1^^80^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^88 (U+0448)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b^^d0^^b5^^d0^^bd ^^d0^^be^^d0^^b1^^d1^^88
+                                                  ^^d0^^b8^^d1^^80^^d0^^bd^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...5^^d0^^bd ^^d0^^be^^d0^^b1^^d1^^88^^d0^^b8
+                                                  ^^d1^^80^^d0^^bd^^d1^^8b^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...d ^^d0^^be^^d0^^b1^^d1^^88^^d0^^b8^^d1^^80
+                                                  ^^d0^^bd^^d1^^8b^^d0^^b9 ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...be^^d0^^b1^^d1^^88^^d0^^b8^^d1^^80^^d0^^bd
+                                                  ^^d1^^8b^^d0^^b9 ^^d1^^81^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8b (U+044B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b1^^d1^^88^^d0^^b8^^d1^^80^^d0^^bd^^d1^^8b
+                                                  ^^d0^^b9 ^^d1^^81^^d0^^bf^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b9 (U+0439)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...88^^d0^^b8^^d1^^80^^d0^^bd^^d1^^8b^^d0^^b9
+                                                   ^^d1^^81^^d0^^bf^^d0^^b8^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8^^d1^^80^^d0^^bd^^d1^^8b^^d0^^b9 ^^d1^^81
+                                                  ^^d0^^bf^^d0^^b8^^d1^^81^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bf (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...0^^d0^^bd^^d1^^8b^^d0^^b9 ^^d1^^81^^d0^^bf
+                                                  ^^d0^^b8^^d1^^81^^d0^^be^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...d^^d1^^8b^^d0^^b9 ^^d1^^81^^d0^^bf^^d0^^b8
+                                                  ^^d1^^81^^d0^^be^^d0^^ba ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b^^d0^^b9 ^^d1^^81^^d0^^bf^^d0^^b8^^d1^^81
+                                                  ^^d0^^be^^d0^^ba ^^d0^^bc^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...9 ^^d1^^81^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be
+                                                  ^^d0^^ba ^^d0^^bc^^d0^^b0^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...81^^d0^^bf^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba
+                                                   ^^d0^^bc^^d0^^b0^^d0^^b3^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...f^^d0^^b8^^d1^^81^^d0^^be^^d0^^ba ^^d0^^bc
+                                                  ^^d0^^b0^^d0^^b3^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8^^d1^^81^^d0^^be^^d0^^ba ^^d0^^bc^^d0^^b0
+                                                  ^^d0^^b3^^d0^^b8^^d1^^81^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b3 (U+0433)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...1^^d0^^be^^d0^^ba ^^d0^^bc^^d0^^b0^^d0^^b3
+                                                  ^^d0^^b8^^d1^^81^^d1^^82^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...e^^d0^^ba ^^d0^^bc^^d0^^b0^^d0^^b3^^d0^^b8
+                                                  ^^d1^^81^^d1^^82^^d0^^b5^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...a ^^d0^^bc^^d0^^b0^^d0^^b3^^d0^^b8^^d1^^81
+                                                  ^^d1^^82^^d0^^b5^^d1^^80^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^82 (U+0442)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bc^^d0^^b0^^d0^^b3^^d0^^b8^^d1^^81^^d1^^82
+                                                  ^^d0^^b5^^d1^^80^^d1^^81^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b0^^d0^^b3^^d0^^b8^^d1^^81^^d1^^82^^d0^^b5
+                                                  ^^d1^^80^^d1^^81^^d0^^ba^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b3^^d0^^b8^^d1^^81^^d1^^82^^d0^^b5^^d1^^80
+                                                  ^^d1^^81^^d0^^ba^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b8^^d1^^81^^d1^^82^^d0^^b5^^d1^^80^^d1^^81
+                                                  ^^d0^^ba^^d0^^b8^^d1^^85 ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...81^^d1^^82^^d0^^b5^^d1^^80^^d1^^81^^d0^^ba
+                                                  ^^d0^^b8^^d1^^85 ^^d0^^b8 ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...82^^d0^^b5^^d1^^80^^d1^^81^^d0^^ba^^d0^^b8
+                                                  ^^d1^^85 ^^d0^^b8 PhD ^^d0...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^85 (U+0445)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b5^^d1^^80^^d1^^81^^d0^^ba^^d0^^b8^^d1^^85
+                                                   ^^d0^^b8 PhD ^^d0^^bf^^d1...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...0^^d1^^81^^d0^^ba^^d0^^b8^^d1^^85 ^^d0^^b8
+                                                   PhD ^^d0^^bf^^d1^^80^^d0^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bf (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^ba^^d0^^b8^^d1^^85 ^^d0^^b8 PhD ^^d0^^bf
+                                                  ^^d1^^80^^d0^^be^^d0^^b3^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^b8^^d1^^85 ^^d0^^b8 PhD ^^d0^^bf^^d1^^80
+                                                  ^^d0^^be^^d0^^b3^^d1^^80^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^85 ^^d0^^b8 PhD ^^d0^^bf^^d1^^80^^d0^^be
+                                                  ^^d0^^b3^^d1^^80^^d0^^b0^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b3 (U+0433)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...0^^b8 PhD ^^d0^^bf^^d1^^80^^d0^^be^^d0^^b3
+                                                  ^^d1^^80^^d0^^b0^^d0^^bc^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...D ^^d0^^bf^^d1^^80^^d0^^be^^d0^^b3^^d1^^80
+                                                  ^^d0^^b0^^d0^^bc^^d0^^bc ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bf^^d1^^80^^d0^^be^^d0^^b3^^d1^^80^^d0^^b0
+                                                  ^^d0^^bc^^d0^^bc ^^d0^^b2 ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...80^^d0^^be^^d0^^b3^^d1^^80^^d0^^b0^^d0^^bc
+                                                  ^^d0^^bc ^^d0^^b2 ^^d1^^83...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...be^^d0^^b3^^d1^^80^^d0^^b0^^d0^^bc^^d0^^bc
+                                                   ^^d0^^b2 ^^d1^^83^^d0^^bd...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b2 (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...3^^d1^^80^^d0^^b0^^d0^^bc^^d0^^bc ^^d0^^b2
+                                                   ^^d1^^83^^d0^^bd^^d0^^b8^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^83 (U+0443)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^b0^^d0^^bc^^d0^^bc ^^d0^^b2 ^^d1^^83
+                                                  ^^d0^^bd^^d0^^b8^^d0^^b2^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^bc^^d0^^bc ^^d0^^b2 ^^d1^^83^^d0^^bd
+                                                  ^^d0^^b8^^d0^^b2^^d0^^b5^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^bc ^^d0^^b2 ^^d1^^83^^d0^^bd^^d0^^b8
+                                                  ^^d0^^b2^^d0^^b5^^d1^^80^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b2 (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ... ^^d0^^b2 ^^d1^^83^^d0^^bd^^d0^^b8^^d0^^b2
+                                                  ^^d0^^b5^^d1^^80^^d1^^81^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...2 ^^d1^^83^^d0^^bd^^d0^^b8^^d0^^b2^^d0^^b5
+                                                  ^^d1^^80^^d1^^81^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...83^^d0^^bd^^d0^^b8^^d0^^b2^^d0^^b5^^d1^^80
+                                                  ^^d1^^81^^d0^^b8^^d1^^82^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bd^^d0^^b8^^d0^^b2^^d0^^b5^^d1^^80^^d1^^81
+                                                  ^^d0^^b8^^d1^^82^^d0^^b5^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b8^^d0^^b2^^d0^^b5^^d1^^80^^d1^^81^^d0^^b8
+                                                  ^^d1^^82^^d0^^b5^^d1^^82^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^82 (U+0442)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b2^^d0^^b5^^d1^^80^^d1^^81^^d0^^b8^^d1^^82
+                                                  ^^d0^^b5^^d1^^82^^d0^^b0^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b5^^d1^^80^^d1^^81^^d0^^b8^^d1^^82^^d0^^b5
+                                                  ^^d1^^82^^d0^^b0^^d1^^85 ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^82 (U+0442)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...80^^d1^^81^^d0^^b8^^d1^^82^^d0^^b5^^d1^^82
+                                                  ^^d0^^b0^^d1^^85 ^^d0^^95^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...81^^d0^^b8^^d1^^82^^d0^^b5^^d1^^82^^d0^^b0
+                                                  ^^d1^^85 ^^d0^^95^^d0^^b2^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^85 (U+0445)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b8^^d1^^82^^d0^^b5^^d1^^82^^d0^^b0^^d1^^85
+                                                   ^^d0^^95^^d0^^b2^^d1^^80^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^95 (U+0415)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...2^^d0^^b5^^d1^^82^^d0^^b0^^d1^^85 ^^d0^^95
+                                                  ^^d0^^b2^^d1^^80^^d0^^be^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b2 (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...5^^d1^^82^^d0^^b0^^d1^^85 ^^d0^^95^^d0^^b2
+                                                  ^^d1^^80^^d0^^be^^d0^^bf^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...2^^d0^^b0^^d1^^85 ^^d0^^95^^d0^^b2^^d1^^80
+                                                  ^^d0^^be^^d0^^bf^^d1^^8b, ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...0^^d1^^85 ^^d0^^95^^d0^^b2^^d1^^80^^d0^^be
+                                                  ^^d0^^bf^^d1^^8b, ^^d0^^a1...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bf (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...5 ^^d0^^95^^d0^^b2^^d1^^80^^d0^^be^^d0^^bf
+                                                  ^^d1^^8b, ^^d0^^a1^^d0^^a8...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8b (U+044B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...95^^d0^^b2^^d1^^80^^d0^^be^^d0^^bf^^d1^^8b
+                                                  , ^^d0^^a1^^d0^^a8^^d0^^90...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^a1 (U+0421)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d1^^80^^d0^^be^^d0^^bf^^d1^^8b, ^^d0^^a1
+                                                  ^^d0^^a8^^d0^^90 ^^d0^^b8 ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^a8 (U+0428)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^be^^d0^^bf^^d1^^8b, ^^d0^^a1^^d0^^a8
+                                                  ^^d0^^90 ^^d0^^b8 ^^d0^^9a...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^90 (U+0410)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^bf^^d1^^8b, ^^d0^^a1^^d0^^a8^^d0^^90
+                                                   ^^d0^^b8 ^^d0^^9a^^d0^^b0...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^d1^^8b, ^^d0^^a1^^d0^^a8^^d0^^90 ^^d0^^b8
+                                                   ^^d0^^9a^^d0^^b0^^d0^^bd^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^9a (U+041A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^a1^^d0^^a8^^d0^^90 ^^d0^^b8 ^^d0^^9a
+                                                  ^^d0^^b0^^d0^^bd^^d0^^b0^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^a8^^d0^^90 ^^d0^^b8 ^^d0^^9a^^d0^^b0
+                                                  ^^d0^^bd^^d0^^b0^^d0^^b4^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^90 ^^d0^^b8 ^^d0^^9a^^d0^^b0^^d0^^bd
+                                                  ^^d0^^b0^^d0^^b4^^d1^^8b, ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ... ^^d0^^b8 ^^d0^^9a^^d0^^b0^^d0^^bd^^d0^^b0
+                                                  ^^d0^^b4^^d1^^8b, ^^d0^^bf...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b4 (U+0434)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8 ^^d0^^9a^^d0^^b0^^d0^^bd^^d0^^b0^^d0^^b4
+                                                  ^^d1^^8b, ^^d0^^bf^^d0^^be...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8b (U+044B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...9a^^d0^^b0^^d0^^bd^^d0^^b0^^d0^^b4^^d1^^8b
+                                                  , ^^d0^^bf^^d0^^be^^d1^^81...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bf (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^bd^^d0^^b0^^d0^^b4^^d1^^8b, ^^d0^^bf
+                                                  ^^d0^^be^^d1^^81^^d0^^b2^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^b0^^d0^^b4^^d1^^8b, ^^d0^^bf^^d0^^be
+                                                  ^^d1^^81^^d0^^b2^^d1^^8f^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^b4^^d1^^8b, ^^d0^^bf^^d0^^be^^d1^^81
+                                                  ^^d0^^b2^^d1^^8f^^d1^^89^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b2 (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d1^^8b, ^^d0^^bf^^d0^^be^^d1^^81^^d0^^b2
+                                                  ^^d1^^8f^^d1^^89^^d1^^91^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8f (U+044F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ..., ^^d0^^bf^^d0^^be^^d1^^81^^d0^^b2^^d1^^8f
+                                                  ^^d1^^89^^d1^^91^^d0^^bd^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^89 (U+0449)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bf^^d0^^be^^d1^^81^^d0^^b2^^d1^^8f^^d1^^89
+                                                  ^^d1^^91^^d0^^bd^^d0^^bd^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^91 (U+0451)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...be^^d1^^81^^d0^^b2^^d1^^8f^^d1^^89^^d1^^91
+                                                  ^^d0^^bd^^d0^^bd^^d1^^8b^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...81^^d0^^b2^^d1^^8f^^d1^^89^^d1^^91^^d0^^bd
+                                                  ^^d0^^bd^^d1^^8b^^d1^^85 ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b2^^d1^^8f^^d1^^89^^d1^^91^^d0^^bd^^d0^^bd
+                                                  ^^d1^^8b^^d1^^85 ^^d1^^81^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8b (U+044B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8f^^d1^^89^^d1^^91^^d0^^bd^^d0^^bd^^d1^^8b
+                                                  ^^d1^^85 ^^d1^^81^^d0^^bb^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^85 (U+0445)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...89^^d1^^91^^d0^^bd^^d0^^bd^^d1^^8b^^d1^^85
+                                                   ^^d1^^81^^d0^^bb^^d0^^b5^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...1^^d0^^bd^^d0^^bd^^d1^^8b^^d1^^85 ^^d1^^81
+                                                  ^^d0^^bb^^d0^^b5^^d0^^b4^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bb (U+043B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...d^^d0^^bd^^d1^^8b^^d1^^85 ^^d1^^81^^d0^^bb
+                                                  ^^d0^^b5^^d0^^b4^^d1^^83^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...d^^d1^^8b^^d1^^85 ^^d1^^81^^d0^^bb^^d0^^b5
+                                                  ^^d0^^b4^^d1^^83^^d1^^8e^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b4 (U+0434)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b^^d1^^85 ^^d1^^81^^d0^^bb^^d0^^b5^^d0^^b4
+                                                  ^^d1^^83^^d1^^8e^^d1^^89^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^83 (U+0443)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...5 ^^d1^^81^^d0^^bb^^d0^^b5^^d0^^b4^^d1^^83
+                                                  ^^d1^^8e^^d1^^89^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8e (U+044E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...81^^d0^^bb^^d0^^b5^^d0^^b4^^d1^^83^^d1^^8e
+                                                  ^^d1^^89^^d0^^b8^^d0^^bc ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^89 (U+0449)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bb^^d0^^b5^^d0^^b4^^d1^^83^^d1^^8e^^d1^^89
+                                                  ^^d0^^b8^^d0^^bc ^^d0^^bd^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b5^^d0^^b4^^d1^^83^^d1^^8e^^d1^^89^^d0^^b8
+                                                  ^^d0^^bc ^^d0^^bd^^d0^^b0^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b4^^d1^^83^^d1^^8e^^d1^^89^^d0^^b8^^d0^^bc
+                                                   ^^d0^^bd^^d0^^b0^^d0^^bf^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...3^^d1^^8e^^d1^^89^^d0^^b8^^d0^^bc ^^d0^^bd
+                                                  ^^d0^^b0^^d0^^bf^^d1^^80^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...e^^d1^^89^^d0^^b8^^d0^^bc ^^d0^^bd^^d0^^b0
+                                                  ^^d0^^bf^^d1^^80^^d0^^b0^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bf (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...9^^d0^^b8^^d0^^bc ^^d0^^bd^^d0^^b0^^d0^^bf
+                                                  ^^d1^^80^^d0^^b0^^d0^^b2^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8^^d0^^bc ^^d0^^bd^^d0^^b0^^d0^^bf^^d1^^80
+                                                  ^^d0^^b0^^d0^^b2^^d0^^bb^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...c ^^d0^^bd^^d0^^b0^^d0^^bf^^d1^^80^^d0^^b0
+                                                  ^^d0^^b2^^d0^^bb^^d0^^b5^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b2 (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bd^^d0^^b0^^d0^^bf^^d1^^80^^d0^^b0^^d0^^b2
+                                                  ^^d0^^bb^^d0^^b5^^d0^^bd^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bb (U+043B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b0^^d0^^bf^^d1^^80^^d0^^b0^^d0^^b2^^d0^^bb
+                                                  ^^d0^^b5^^d0^^bd^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bf^^d1^^80^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5
+                                                  ^^d0^^bd^^d0^^b8^^d1^^8f^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...80^^d0^^b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd
+                                                  ^^d0^^b8^^d1^^8f^^d0^^bc: ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b0^^d0^^b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^b8
+                                                  ^^d1^^8f^^d0^^bc: ^^d1^^84...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8f (U+044F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b2^^d0^^bb^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^8f
+                                                  ^^d0^^bc: ^^d1^^84^^d0^^b8...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bb^^d0^^b5^^d0^^bd^^d0^^b8^^d1^^8f^^d0^^bc
+                                                  : ^^d1^^84^^d0^^b8^^d0^^b7...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^84 (U+0444)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^bd^^d0^^b8^^d1^^8f^^d0^^bc: ^^d1^^84
+                                                  ^^d0^^b8^^d0^^b7^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^b8^^d1^^8f^^d0^^bc: ^^d1^^84^^d0^^b8
+                                                  ^^d0^^b7^^d0^^b8^^d0^^ba^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b7 (U+0437)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d1^^8f^^d0^^bc: ^^d1^^84^^d0^^b8^^d0^^b7
+                                                  ^^d0^^b8^^d0^^ba^^d0^^b0 ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^bc: ^^d1^^84^^d0^^b8^^d0^^b7^^d0^^b8
+                                                  ^^d0^^ba^^d0^^b0 ^^d0^^b2^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...: ^^d1^^84^^d0^^b8^^d0^^b7^^d0^^b8^^d0^^ba
+                                                  ^^d0^^b0 ^^d0^^b2^^d1^^8b^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...84^^d0^^b8^^d0^^b7^^d0^^b8^^d0^^ba^^d0^^b0
+                                                   ^^d0^^b2^^d1^^8b^^d1^^81^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b2 (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8^^d0^^b7^^d0^^b8^^d0^^ba^^d0^^b0 ^^d0^^b2
+                                                  ^^d1^^8b^^d1^^81^^d0^^be^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8b (U+044B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...7^^d0^^b8^^d0^^ba^^d0^^b0 ^^d0^^b2^^d1^^8b
+                                                  ^^d1^^81^^d0^^be^^d0^^ba^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^81 (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8^^d0^^ba^^d0^^b0 ^^d0^^b2^^d1^^8b^^d1^^81
+                                                  ^^d0^^be^^d0^^ba^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^be (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...a^^d0^^b0 ^^d0^^b2^^d1^^8b^^d1^^81^^d0^^be
+                                                  ^^d0^^ba^^d0^^b8^^d1^^85 ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...0 ^^d0^^b2^^d1^^8b^^d1^^81^^d0^^be^^d0^^ba
+                                                  ^^d0^^b8^^d1^^85 ^^d1^^8d^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...b2^^d1^^8b^^d1^^81^^d0^^be^^d0^^ba^^d0^^b8
+                                                  ^^d1^^85 ^^d1^^8d^^d0^^bd^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^85 (U+0445)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8b^^d1^^81^^d0^^be^^d0^^ba^^d0^^b8^^d1^^85
+                                                   ^^d1^^8d^^d0^^bd^^d0^^b5^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8d (U+044D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...1^^d0^^be^^d0^^ba^^d0^^b8^^d1^^85 ^^d1^^8d
+                                                  ^^d0^^bd^^d0^^b5^^d1^^80^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bd (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...e^^d0^^ba^^d0^^b8^^d1^^85 ^^d1^^8d^^d0^^bd
+                                                  ^^d0^^b5^^d1^^80^^d0^^b3^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...a^^d0^^b8^^d1^^85 ^^d1^^8d^^d0^^bd^^d0^^b5
+                                                  ^^d1^^80^^d0^^b3^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^80 (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8^^d1^^85 ^^d1^^8d^^d0^^bd^^d0^^b5^^d1^^80
+                                                  ^^d0^^b3^^d0^^b8^^d0^^b9, ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b3 (U+0433)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...5 ^^d1^^8d^^d0^^bd^^d0^^b5^^d1^^80^^d0^^b3
+                                                  ^^d0^^b8^^d0^^b9, ^^d1^^84...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8d^^d0^^bd^^d0^^b5^^d1^^80^^d0^^b3^^d0^^b8
+                                                  ^^d0^^b9, ^^d1^^84^^d0^^b8...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b9 (U+0439)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...bd^^d0^^b5^^d1^^80^^d0^^b3^^d0^^b8^^d0^^b9
+                                                  , ^^d1^^84^^d0^^b8^^d0^^b7...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^84 (U+0444)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d1^^80^^d0^^b3^^d0^^b8^^d0^^b9, ^^d1^^84
+                                                  ^^d0^^b8^^d0^^b7^^d0^^b8^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^b3^^d0^^b8^^d0^^b9, ^^d1^^84^^d0^^b8
+                                                  ^^d0^^b7^^d0^^b8^^d0^^ba^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b7 (U+0437)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^b8^^d0^^b9, ^^d1^^84^^d0^^b8^^d0^^b7
+                                                  ^^d0^^b8^^d0^^ba^^d0^^b0 ^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b8 (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...^^d0^^b9, ^^d1^^84^^d0^^b8^^d0^^b7^^d0^^b8
+                                                  ^^d0^^ba^^d0^^b0 ^^d1^^8d^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^ba (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ..., ^^d1^^84^^d0^^b8^^d0^^b7^^d0^^b8^^d0^^ba
+                                                  ^^d0^^b0 ^^d1^^8d^^d0^^bb^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b0 (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...84^^d0^^b8^^d0^^b7^^d0^^b8^^d0^^ba^^d0^^b0
+                                                   ^^d1^^8d^^d0^^bb^^d0^^b5^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d1^^8d (U+044D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8^^d0^^b7^^d0^^b8^^d0^^ba^^d0^^b0 ^^d1^^8d
+                                                  ^^d0^^bb^^d0^^b5^^d0^^bc^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bb (U+043B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...7^^d0^^b8^^d0^^ba^^d0^^b0 ^^d1^^8d^^d0^^bb
+                                                  ^^d0^^b5^^d0^^bc^^d0^^b5^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^b5 (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...8^^d0^^ba^^d0^^b0 ^^d1^^8d^^d0^^bb^^d0^^b5
+                                                  ^^d0^^bc^^d0^^b5^^d0^^bd^^...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+hep_programs.tex:19: LaTeX Error: Unicode character ^^d0^^bc (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...a^^d0^^b0 ^^d1^^8d^^d0^^bb^^d0^^b5^^d0^^bc
+                                                  ^^d0^^b5^^d0^^bd^^d1^^82^^...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 8537 strings out of 469964
+ 135603 string characters out of 5467029
+ 525203 words of memory out of 5000000
+ 35275 multiletter control sequences out of 15000+600000
+ 628642 words of font info for 46 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,6n,79p,933b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+hep_programs.tex:19:  ==> Fatal error occurred, no output PDF file produced!
