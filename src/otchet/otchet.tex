@@ -43,7 +43,7 @@
 отчет в письменной форме\\
 Дата выдачи задания: 01.07.2025\\
 Задание для прохождения производственной практики (НИР):
-Расчет когерентной суперпозиции испускаемых и резонансно рассеянных фотонов в двухуровневой системе, управляемой импульсным полем. \\
+Управление многофотонными состояниями, испускаемыми двухуровневой системой\\
 С заданием ознакомлен \\
  
 Оценка \\
@@ -73,7 +73,7 @@
 
     {\bf Весенний семестр 2024/2025 учебного года}
 
-    {\bf Тема: Расчет когерентной суперпозиции испускаемых и резонансно рассеянных фотонов в двухуровневой системе, управляемой импульсным полем.}
+    {\bf Тема: Управление многофотонными состояниями, испускаемыми двухуровневой системой .}
 
 \end{center}
 
@@ -92,19 +92,47 @@
 
 \section{Введение}
 \subsection{Актуальность}
+%
+%Источники одиночных фотонов являются ключевыми компонентами квантовых фотонных процессоров, лежащих в основе таких прикладных направлений,
+%как линейно-оптические квантовые вычисления и квантовая криптография.
+%Для успешной реализации этих технологий необходимы источники,
+%максимально приближенные к «идеальному»: быть детерминированными (они должны обеспечивать строго один фотон по запросу пользователя),
+%иметь высокую вероятность генерации фотона (близкую к 100 \%),
+%минимальную вероятность генерации многофотонных событий (двух и более фотонов),
+%производить фотоны с высокой степенью неразличимости, а также обладать высокой скоростью генерации.
+%
+%Подобные структуры изучаются методом кросс-поляризации.
+%Мы предлагаем подход который позваляет получать запуанные состояния фотонов исразу из одного источника,
+%при этом не используя метод крос поляризации, использую полуризацию в качестве запутаности.
+%
+%Мы представляем результаты о наблюдении группы фотонов в состояниях,
+%содержащих $\sim$ 3 фотона в нескольких поляризациях, представляющих собой когерентную суперпозицию
+%излученных и резонансно рассеянных лазерных фотонов. Данное явление
+%возникает при возбуждении двухуровневой системы — заряженной квантовой
+%точки в микроровезонаторе — импульсами с площадью, кратной 2$\pi$.
+%Возникновение явления обусловлено тем,
+%используя отстройку в накачке от энергии экситона и фильтруя лазерные состояния по частоте, а не поляризации.
+%Подобный пучок фотонов является состоянием высшего порядка в
+%Фоковском пространстве и перспективен для применения в квантовых
+%технологиях.
 
-Мы представляем результаты о наблюдении группы фотонов в состояниях,
-содержащих $\sim$ 3 фотона, представляющих собой когерентную суперпозицию
-излученных и резонансно рассеянных лазерных фотонов. Данное явление
-возникает при возбуждении двухуровневой системы — заряженной квантовой
-точки в микроровезонаторе — импульсами с площадью, кратной 2$\pi$.
-Возникновение явления обусловлено тем, что возбуждающий лазерный импульс
-содержит несколько десятков фотонов, чье амплитудное квантовое
-распределение формирует такую суперпозицию, а поляризация рассеянных
-фотонов изменяется в результате взаимодействия с заряженной резонансной
-системой. Подобный пучок фотонов является состоянием высшего порядка в
-Фоковском пространстве и перспективен для применения в квантовых
-технологиях.
+Источники одиночных фотонов являются ключевыми элементами квантовых фотонных процессоров, лежащих в основе таких направлений,
+как линейно-оптические квантовые вычисления и квантовая криптография.
+Для практической реализации этих технологий требуются источники, максимально приближенные к идеальным:
+детерминированные (генерирующие строго один фотон по запросу), с высокой вероятностью излучения, низкой вероятностью многофотонных событий,
+высокой степенью неразличимости фотонов и высокой скоростью генерации.
+
+В данной работе рассматривается подход к формированию и детектированию запутанных фотонных состояний в нескольких поляризациях, испускаемых двухуровневой системой.
+В отличие от традиционных методов, основанных на кросс-поляризационной фильтрации, предложенный подход использует отстройку частоты накачки относительно энергии экситона,
+что позволяет эффективно подавлять вклад лазерного излучения без применения поляризационной фильтрации.
+
+Представлены результаты наблюдения групп фотонов, содержащих порядка трёх фотонов,
+находящихся в различных поляризационных состояниях и образующих когерентную суперпозицию излучённых и резонансно рассеянных лазерных фотонов.
+Данное явление возникает при возбуждении двухуровневой системы, реализованной в виде заряженной квантовой точки в микрорезонаторе,
+импульсами с площадью, кратной $2\pi$. Формирование таких состояний обусловлено взаимодействием лазерного импульса, содержащего множество фотонов, с резонансной системой,
+что приводит к изменению поляризации рассеянного излучения.
+
+Получаемые состояния представляют собой высокопорядковые состояния в фоковском пространстве и являются перспективными для применения в квантовых технологиях, включая задачи генерации и детектирования запутанных фотонных состояний.
 %{\color{blue} Так окрашивается текст}
 \subsection{Цель и задачи практики}
 
@@ -126,105 +154,132 @@
 
 \section{Ход выполнения задания}
 
-\subsection{Нахождение волновой функции выходного состояния двух-уровневой системы, совпадающей по энергии с частотой импульса}
-Гамельтониан описывающий двух-уровневою систему имеет вид:
+%\subsection{Нахождение волновой функции выходного состояния двух-уровневой системы, совпадающей по энергии с частотой импульса}
+%Гамельтониан описывающий двух-уровневою систему имеет вид:
+%\begin{equation}
+%    \hat{H} = E_0 \ \hat{a}^{\dag}_{+} \hat{a}_{+} + \omega_0 \ \hat{b}^{\dag}_{-} \hat{b}_{-} +  g \left( \hat{a}^{\dag}_{+} \hat{b}_{-} + \hat{a}_{+} \hat{b}^{\dag}_{-} \right)
+%\end{equation}
+%Заметим, что гамельтониан взаимодействует с Фоковским пространством через 2-мерные подпространства с базисом $ \left|  0; N \right>$ и $ \left| 1; N-1 \right>$.
+%\begin{equation}
+%    \hat{H} =
+%\begin{pmatrix}
+%    \omega_0 N & g\sqrt{N} \\
+%    g\sqrt{N} & E_0 + \omega_0 (N-1)
+%\end{pmatrix}
+%\end{equation}
+%Найдем собственные числа и вектора, учтя что $E_0$ и $\omega_0$ равны:
+%\begin{gather}
+%    \varepsilon^{\pm}_{N} = \omega_0 N \pm g\sqrt{N} \\
+%    v_{\pm} = \frac{1}{\sqrt{2}} \left( \left|  0; N \right> \pm \left| 1; N-1 \right> \right)
+%\end{gather}
+%Двух-уровневая система накачивалась когерентным лазерным излучением с горизонтальной поляризацией.
+%Волновая функция такой накачки следующая:
+%
+%\begin{equation}
+%    \left| \psi_{in} \right> = e^{-\left| \alpha \right|^2 / 2} e^{\alpha \hat{b}^{\dag}_H} \left| 0 \right> = e^{-\left| \alpha \right|^2 / 2} \sum_n \frac{\alpha^n}{\sqrt{n!}}  \left| n_H \right>
+%\end{equation}
+%Где $ |\alpha|^2 = N $.
+%\par Взаимодействие двух-уровневой системы с накачкой описывается оператором эволюции:
+%\begin{equation}
+%    \hat{S_0} = \exp\left( -i \tau \hat{H} \right)
+%\end{equation}
+%Где $ \tau $ - это время взаимодейтсвия между трионом и ипульсом.
+%Так как:
+%\begin{equation}
+%    \hat{b}^{\dag}_{\pm} = \left( \hat{b}^{\dag}_{H} \pm i \hat{b}^{\dag}_{V} \right) / \sqrt{2}
+%\end{equation}
+%то
+%\begin{gather}
+%    \left| \psi_{out} \right> = \hat{S_0} \left| \psi_{in} \right> = e^{-\left| \alpha \right|^2 / 2} \ e^{\alpha \hat{b}^{\dag}_{+} / \sqrt{2}} \ \hat{S_0}  \ e^{\alpha \hat{b}^{\dag}_{-}} \ \left| 0 \right>
+%\end{gather}
+%
+%Воспользуемся свойством собственных векторов и разложением по базису:
+%
+%\begin{gather}
+%    \exp\left( -i \tau \hat{H} \right) \ \left| \psi_{n} \right> = \exp\left( -i \tau E_n \right) \ \left| \psi_{n} \right> \\
+%    v_{\pm} = \frac{1}{\sqrt{2}} \left( \left|  0; N \right> \pm \left| 1; N-1 \right> \right)
+%\end{gather}
+%получим:
+%
+%\begin{gather} \nonumber
+%    \left| \psi_{out} \right> = \frac{e^{-\left| \alpha \right|^2 / 2} \ e^{\alpha \hat{b}^{\dag}_{H}}}{2} \sum_n e^{-\alpha \hat{b}^{\dag}_{-} / \sqrt{2}} \left[ \left( \frac{ \left( \frac{\alpha}{\sqrt{2}} \ e^{-i \tau \omega_0 } \ e^{-i \frac{\tau g}{2\sqrt{N}}} \right)^n}{n!}  \ e^{-i \tau g \sqrt{N} / 2} \right. \right. + \\ \nonumber
+%    +  \left. \frac{ \left( \frac{\alpha}{\sqrt{2}} \ e^{-i \tau \omega_0 } \ e^{i \frac{\tau g}{2\sqrt{N}}} \right)^n }{n!} \ e^{i \tau g \sqrt{N} / 2} \right) \hat{b}^{\dag \ n}_{-} + \\ \nonumber
+%    + \left( \frac{ \left( \frac{\alpha}{\sqrt{2}} \ e^{-i \tau \omega_0 } \ e^{-i \frac{\tau g}{2\sqrt{N}}} \right)^{n-1}}{\sqrt{n!} \sqrt{\left( n-1 \right)!} }  \ e^{-i \tau g \sqrt{N} / 2}  \right. - \\
+%    - \left. \left. \frac{ \left( \frac{\alpha}{\sqrt{2}} \ e^{-i \tau \omega_0 } \ e^{i \frac{\tau g}{2\sqrt{N}}} \right)^{n-1}}{\sqrt{n!} \sqrt{\left( n-1 \right)!} }  \ e^{i \tau g \sqrt{N} / 2} \right) \hat{b}^{\dag \ n-1}_{-} \ \hat{a}^{\dag}_{+}\right] \left| 0 \right>
+%\end{gather}
+%В этом уравнении мы разложили $\sqrt{n}$ до линейного порядка вокруг $N$, для большого среднего значения числа фотонов $\left( N >> 1 \right)$
+%
+%Так как: $\tau g << 1$, $ |\alpha|^2 = N $ то:
+%
+%\begin{gather} \nonumber
+%    \left| \psi_{out} \right> = \frac{e^{-\left| \alpha \right|^2 / 2} \ e^{\alpha \hat{b}^{\dag}_{H}}}{2}  \left[ \left( e^{-i \delta \hat{b}^{\dag}_{-} } \ e^{-i \theta / 2} + e^{i \delta \hat{b}^{\dag}_{-} } \ e^{i \theta / 2} \right) \right. + \\
+%    + \left. \left( e^{-i \delta \hat{b}^{\dag}_{-} } \ e^{-i \theta / 2} - e^{i \delta \hat{b}^{\dag}_{-} } \ e^{i \theta / 2} \right) \hat{a}^{\dag}_{+} \right] \left| 0 \right>
+%\end{gather}
+%где: $\theta = \tau g \sqrt{N}$ , $\delta = \frac{\tau g \alpha}{2 \sqrt{2N}}$
+%
+% Снова разложим до 1 порядка по $ \delta$, а так же учтем, что детектирование испущенных фотонов происходит в вертикальной поляризации
+\subsection{Новый подход к старой задче}
+В рамках предыдущих работ и точного вычисления было показано, что у двухуровневой системы, описываемой Гамельтонианом:
 \begin{equation}
     \hat{H} = E_0 \ \hat{a}^{\dag}_{+} \hat{a}_{+} + \omega_0 \ \hat{b}^{\dag}_{-} \hat{b}_{-} +  g \left( \hat{a}^{\dag}_{+} \hat{b}_{-} + \hat{a}_{+} \hat{b}^{\dag}_{-} \right)
 \end{equation}
-Заметим, что гамельтониан взаимодействует с Фоковским пространством через 2-мерные подпространства с базисом $ \left|  0; N \right>$ и $ \left| 1; N-1 \right>$.
-\begin{equation}
-    \hat{H} =
-\begin{pmatrix}
-    \omega_0 N & g\sqrt{N} \\
-    g\sqrt{N} & E_0 + \omega_0 (N-1)
-\end{pmatrix}
-\end{equation}
-Найдем собственные числа и вектора, учтя что $E_0$ и $\omega_0$ равны:
-\begin{gather}
-    \varepsilon^{\pm}_{N} = \omega_0 N \pm g\sqrt{N} \\
-    v_{\pm} = \frac{1}{\sqrt{2}} \left( \left|  0; N \right> \pm \left| 1; N-1 \right> \right)
-\end{gather}
-Двух-уровневая система накачивалась когерентным лазерным излучением с горизонтальной поляризацией.
-Волновая функция такой накачки следующая:
-
+накаченной лазерным когерентным импульсом, в поляризации $H$, с волновой функцией:
 \begin{equation}
     \left| \psi_{in} \right> = e^{-\left| \alpha \right|^2 / 2} e^{\alpha \hat{b}^{\dag}_H} \left| 0 \right> = e^{-\left| \alpha \right|^2 / 2} \sum_n \frac{\alpha^n}{\sqrt{n!}}  \left| n_H \right>
 \end{equation}
-Где $ |\alpha|^2 = N $.
-\par Взаимодействие двух-уровневой системы с накачкой описывается оператором эволюции:
-\begin{equation}
-    \hat{S_0} = \exp\left( -i \tau \hat{H} \right)
-\end{equation}
-Где $ \tau $ - это время взаимодейтсвия между трионом и ипульсом.
-Так как:
-\begin{equation}
-    \hat{b}^{\dag}_{\pm} = \left( \hat{b}^{\dag}_{H} \pm i \hat{b}^{\dag}_{V} \right) / \sqrt{2}
-\end{equation}
-то
-\begin{gather}
-    \left| \psi_{out} \right> = \hat{S_0} \left| \psi_{in} \right> = e^{-\left| \alpha \right|^2 / 2} \ e^{\alpha \hat{b}^{\dag}_{+} / \sqrt{2}} \ \hat{S_0}  \ e^{\alpha \hat{b}^{\dag}_{-}} \ \left| 0 \right>
-\end{gather}
-
-Воспользуемся свойством собственных векторов и разложением по базису:
-
-\begin{gather}
-    \exp\left( -i \tau \hat{H} \right) \ \left| \psi_{n} \right> = \exp\left( -i \tau E_n \right) \ \left| \psi_{n} \right> \\
-    v_{\pm} = \frac{1}{\sqrt{2}} \left( \left|  0; N \right> \pm \left| 1; N-1 \right> \right)
-\end{gather}
-получим:
-
-\begin{gather} \nonumber
-    \left| \psi_{out} \right> = \frac{e^{-\left| \alpha \right|^2 / 2} \ e^{\alpha \hat{b}^{\dag}_{H}}}{2} \sum_n e^{-\alpha \hat{b}^{\dag}_{-} / \sqrt{2}} \left[ \left( \frac{ \left( \frac{\alpha}{\sqrt{2}} \ e^{-i \tau \omega_0 } \ e^{-i \frac{\tau g}{2\sqrt{N}}} \right)^n}{n!}  \ e^{-i \tau g \sqrt{N} / 2} \right. \right. + \\ \nonumber
-    +  \left. \frac{ \left( \frac{\alpha}{\sqrt{2}} \ e^{-i \tau \omega_0 } \ e^{i \frac{\tau g}{2\sqrt{N}}} \right)^n }{n!} \ e^{i \tau g \sqrt{N} / 2} \right) \hat{b}^{\dag \ n}_{-} + \\ \nonumber
-    + \left( \frac{ \left( \frac{\alpha}{\sqrt{2}} \ e^{-i \tau \omega_0 } \ e^{-i \frac{\tau g}{2\sqrt{N}}} \right)^{n-1}}{\sqrt{n!} \sqrt{\left( n-1 \right)!} }  \ e^{-i \tau g \sqrt{N} / 2}  \right. - \\
-    - \left. \left. \frac{ \left( \frac{\alpha}{\sqrt{2}} \ e^{-i \tau \omega_0 } \ e^{i \frac{\tau g}{2\sqrt{N}}} \right)^{n-1}}{\sqrt{n!} \sqrt{\left( n-1 \right)!} }  \ e^{i \tau g \sqrt{N} / 2} \right) \hat{b}^{\dag \ n-1}_{-} \ \hat{a}^{\dag}_{+}\right] \left| 0 \right>
-\end{gather}
-В этом уравнении мы разложили $\sqrt{n}$ до линейного порядка вокруг $N$, для большого среднего значения числа фотонов $\left( N >> 1 \right)$
-
-Так как: $\tau g << 1$, $ |\alpha|^2 = N $ то:
-
-\begin{gather} \nonumber
-    \left| \psi_{out} \right> = \frac{e^{-\left| \alpha \right|^2 / 2} \ e^{\alpha \hat{b}^{\dag}_{H}}}{2}  \left[ \left( e^{-i \delta \hat{b}^{\dag}_{-} } \ e^{-i \theta / 2} + e^{i \delta \hat{b}^{\dag}_{-} } \ e^{i \theta / 2} \right) \right. + \\
-    + \left. \left( e^{-i \delta \hat{b}^{\dag}_{-} } \ e^{-i \theta / 2} - e^{i \delta \hat{b}^{\dag}_{-} } \ e^{i \theta / 2} \right) \hat{a}^{\dag}_{+} \right] \left| 0 \right>
-\end{gather}
-где: $\theta = \tau g \sqrt{N}$ , $\delta = \frac{\tau g \alpha}{2 \sqrt{2N}}$
-
-Снова разложим до 1 порядка по $ \delta$, а так же учтем, что детектирование испущенных фотонов происходит в вертикальной поляризации
-
+волновая функция выходного состояния, в поляризации $V$, имела вид:
 \begin{gather}
     \left| \psi_{out}^V \right> \approx \cos \left( \frac{\theta }{2} \right) \left| 0 \right> + \frac{i \delta - 1}{\sqrt{2}} \sin \left( \frac{\theta}{2} \right) \left| 1 \right> + \frac{i \delta}{2} \cos \left( \frac{\theta}{2} \right) \left| 2 \right>
 \end{gather}
-
-\subsection{Расчет $g^{(2)}(0)$ фактора в двух-уровневой системе, совпадающей по энергии с частотой импульса}
-%\newpage
-Рассчитаем вероятность обнаружить фотон:
-
+и расчет $g^{(2)}(0)$ на этом состоянии:
 \begin{gather}
-    P_1 \left( t \right) = \sum_m \left| \left< m \left| \ \hat{a} \ \right| \psi_{out}^V \right> \right|^{2} = \frac{e^{-\left| \alpha \right|^2}}{2} \cdot \sum_m \frac{\alpha^{2m+2}}{\left( m+1 \right)!} \left( 1 - \cos \left( 2gt \sqrt{m+1} \right) \right)
+    g^{(2)}(0) = \frac{ \left< \psi_{out}^V \left| \ \hat{n}^2 - \hat{n} \ \right| \psi_{out}^V \right>}{\left< \psi_{out}^V \left| \ \hat{n}^2 \ \right| \psi_{out}^V \right> ^2 } = \frac{2\left| \delta \right|^2 \cos^2 \left( \frac{\theta}{2} \right) }{\left( \sin^2 \left( \frac{\theta}{2}\right) + \left| \delta \right|^2 \right)^2}
 \end{gather}
 
-\par
-\begin{center}
-\includegraphics[scale = 0.75]{plot1.png}
-\par
-    \underline{Рисунок 1}: $P_1 \left( t \right)$ - вероятность обнаружить фотон
-\end{center}
-\par
+%\subsection{Расчет $g^{(2)}(0)$ фактора в двух-уровневой системе, совпадающей по энергии с частотой импульса}
+%%\newpage
+%Рассчитаем вероятность обнаружить фотон:
+%
+%\begin{gather}
+%    P_1 \left( t \right) = \sum_m \left| \left< m \left| \ \hat{a} \ \right| \psi_{out}^V \right> \right|^{2} = \frac{e^{-\left| \alpha \right|^2}}{2} \cdot \sum_m \frac{\alpha^{2m+2}}{\left( m+1 \right)!} \left( 1 - \cos \left( 2gt \sqrt{m+1} \right) \right)
+%\end{gather}
+%
+%\par
+%\begin{center}
+%%\includegraphics[scale = 0.75]{plot1.png}
+%\par
+%    \underline{Рисунок 1}: $P_1 \left( t \right)$ - вероятность обнаружить фотон
+%\end{center}
+%\par
+%
+%$g^{(2)}(0)$ фактор показывает вероятность обнаружить 2 когерентных фотона одновременно. Он считается следующим образом:
+%
+%\begin{gather}
+%    g^{(2)}(0) = \frac{ \left< \psi_{out}^V \left| \ \hat{n}^2 - \hat{n} \ \right| \psi_{out}^V \right>}{\left< \psi_{out}^V \left| \ \hat{n}^2 \ \right| \psi_{out}^V \right> ^2 } = \frac{2\left| \delta \right|^2 \cos^2 \left( \frac{\theta}{2} \right) }{\sin^2 \left( \frac{\theta}{2}\right) + \left| \delta \right|^2}
+%\end{gather}
+%\par
+%\begin{center}
+%%\includegraphics[scale = 1]{plot2.png}
+%\par
+%    \underline{Рисунок 2}: $g^{(2)}(0)$
+%\end{center}
+%\par Видно, что $g^{(2)}(0)$ становится равным 0 при нечетных площадях импульса $(\pi, 3\pi, \dots)$ и имеет максимум при нечетных площадях импульса $(2\pi, 4\pi, \dots)$
 
-$g^{(2)}(0)$ фактор показывает вероятность обнаружить 2 когерентных фотона одновременно. Он считается следующим образом:
-
+В рамках предыдущего подхода мы считали взаимодействие всех гармоник когерентного импульса с двухуровневой системой.
+Считали эволюцию состояний в обеих поляризациях и лишь в конце отсекали эти состояния детектором.
 \begin{gather}
-    g^{(2)}(0) = \frac{ \left< \psi_{out}^V \left| \ \hat{n}^2 - \hat{n} \ \right| \psi_{out}^V \right>}{\left< \psi_{out}^V \left| \ \hat{n}^2 \ \right| \psi_{out}^V \right> ^2 } = \frac{2\left| \delta \right|^2 \cos^2 \left( \frac{\theta}{2} \right) }{\sin^2 \left( \frac{\theta}{2}\right) + \left| \delta \right|^2}
+        i \frac{\partial \hat{\rho}_{HV} }{\partial t} = \left[ \hat{H} ; \hat{\rho}_{HV} \right]
+\end{gather}
+
+В рамках нового подхода мы в силу большого числа фотонов в поляризации $H \left( N >> 1 \right) $,
+мы будем считать это поле классическим и считать динамику будем только в $V$ поляризации:
+
+\par Тогда матрица плотности описывающая систему имеет вид:
+\begin{gather}
+        i \frac{\partial \hat{\rho}_{HV} }{\partial t} = \left[ \hat{H} ; \hat{\rho}_{HV} \right]
 \end{gather}
 
 
-\par
-\begin{center}
-\includegraphics[scale = 1]{plot2.png}
-\par
-    \underline{Рисунок 2}: $g^{(2)}(0)$
-\end{center}
-\par Видно, что $g^{(2)}(0)$ становится равным 0 при нечетных площадях импульса $(\pi, 3\pi, \dots)$ и имеет максимум при нечетных площадях импульса $(2\pi, 4\pi, \dots)$
 
 \subsection{Нахождение волновой функции выходного состояния двух-уровневой системы, НЕ совпадающей по энергии с частотой импульса}
 В этой задачи условия похожи, однако теперь $E_0 \neq \omega_0 $.
@@ -266,7 +321,7 @@ $g^{(2)}(0)$ фактор показывает вероятность обнар
 \subsection{Расчет $g^{(2)}(0)$ фактора в двух-уровневой системе, НЕ совпадающей по энергии с частотой импульса}
 
 \begin{gather}
-    g^{(2)}(0) = \frac{ \left< \psi_{out}^V \left| \ \hat{n}^2 - \hat{n} \ \right| \psi_{out}^V \right>}{\left< \psi_{out}^V \left| \ \hat{n}^2 \ \right| \psi_{out}^V \right> ^2 } = \frac{2 \left( 1+\delta_N^2 \right) \gamma^2 \cos^2 \frac{\theta}{2} }{\left( \gamma^2 \left( 1 + \delta_N^2 \right) + \sin^2 \frac{\theta}{2} - \delta_N \gamma \sin \theta \right)^2}
+    g^{(2)}(0) = \frac{ \left< \psi_{out}^V \left| \ \hat{n}^2 - \hat{n} \ \right| \psi_{out}^V \right>}{\left< \psi_{out}^V \left| \ \hat{n} \ \right| \psi_{out}^V \right> ^2 } = \frac{2 \left( 1+\delta_N^2 \right) \gamma^2 \cos^2 \frac{\theta}{2} }{\left( \gamma^2 \left( 1 + \delta_N^2 \right) + \sin^2 \frac{\theta}{2} - \delta_N \gamma \sin \theta \right)^2}
 \end{gather}
 
 Видим, что при $ \delta_N  \rightarrow \infty \Rightarrow g^{(2)}(0) \rightarrow 0 $. Это хороший и логичный результат, означающий что при большой разности энергий взаимодействие не происходит.
@@ -274,25 +329,25 @@ $g^{(2)}(0)$ фактор показывает вероятность обнар
 Построим зависимость $g^{(2)}(0)$ от $\delta_N$ при разных площадях импульса $\theta$:
 \par
 \begin{center}
-\includegraphics[scale = 0.8]{plot3.png}
+%\includegraphics[scale = 0.8]{plot3.png}
 \par
     \underline{Рисунок 3}: $g^{(2)}(0)$ при $\theta = \pi/2$
 \end{center}
 \par
 \begin{center}
-\includegraphics[scale = 0.8]{plot4.png}
+%\includegraphics[scale = 0.8]{plot4.png}
 \par
     \underline{Рисунок 4}: $g^{(2)}(0)$ при $\theta = \pi$
 \end{center}
 \par
 \begin{center}
-\includegraphics[scale = 0.8]{plot5.png}
+%\includegraphics[scale = 0.8]{plot5.png}
 \par
     \underline{Рисунок 5}: $g^{(2)}(0)$ при $\theta = 3\pi/2$
 \end{center}
 \par
 \begin{center}
-\includegraphics[scale = 0.8]{plot6.png}
+%\includegraphics[scale = 0.8]{plot6.png}
 \par
     \underline{Рисунок 6}: $g^{(2)}(0)$ при $\theta = 2\pi$
 \end{center}

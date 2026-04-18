@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  7 APR 2026 00:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  19 APR 2026 00:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -957,39 +957,32 @@ Package hyperref Info: Link coloring OFF on input line 22.
 \openout4 = `lab3_report.out'.
 
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-36.
+31.
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cy
 rillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Overfull \hbox (30.27998pt too wide) in paragraph at lines 36--37
-[]\T2A/cmr/m/n/14.4 ^^ed^^e0^^e9^^f2^^e8 ^^ec^^e8-^^ed^^e8-^^ec^^f3^^ec ^^e8^^e
-7 ^^f0^^e0^^e7-^^ed^^fb^^f5 ^^ed^^e0-^^f7^^e0^^eb^^fc-^^ed^^fb^^f5 ^^f2^^ee-^^f
-7^^e5^^ea ^^f1 ^^ef^^ee-^^ec^^ee-^^f9^^fc^^fe \T2A/cmtt/m/n/14.4 scipy.optimize
-.minimize
+Overfull \hbox (115.49013pt too wide) in paragraph at lines 43--44
+\T2A/cmr/m/n/14.4 ^^e0^^ed^^e0-^^eb^^e8-^^f2^^e8-^^f7^^e5-^^f1^^ea^^e8^^e5 ^^f4
+^^ee^^f0-^^ec^^f3-^^eb^^fb ^^e4^^eb^^ff ^^e3^^f0^^e0-^^e4^^e8-^^e5^^ed-^^f2^^ee
+^^e2 ^^e8 ^^e3^^e5^^f1-^^f1^^e8-^^e0-^^ed^^ee^^e2, ^^e5^^e4^^e8-^^ed^^e0^^ff ^^
+ee^^e1^^bc^^f0^^f2-^^ea^^e0 ^^ed^^e0^^e4 \T2A/cmtt/m/n/14.4 scipy.optimize.mini
+mize\T2A/cmr/m/n/14.4 ,
  []
 
-
-Overfull \hbox (6.48425pt too wide) in paragraph at lines 46--47
-[]\T2A/cmr/m/n/14.4 ^^c4^^eb^^ff ^^e2^^fb-^^ef^^ee^^eb-^^ed^^e5-^^ed^^e8^^ff ^^
-eb^^e0-^^e1^^ee-^^f0^^e0-^^f2^^ee^^f0-^^ed^^ee^^e9 ^^f0^^e0-^^e1^^ee-^^f2^^fb ^
-^e1^^fb^^eb ^^ef^^ee^^e4-^^e3^^ee-^^f2^^ee^^e2-^^eb^^e5^^ed Python-^^f1^^ea^^f0
-^^e8^^ef^^f2 \T2A/cmtt/m/n/14.4 lab3.py\T2A/cmr/m/n/14.4 .
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 5
-8.
+9.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/stmaryrd/Ustmry.f
 d)
@@ -998,9 +991,7 @@ d)
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
 x/pdftex.map}]
-
-[2]
-Overfull \hbox (2.11945pt too wide) detected at line 123
+Overfull \hbox (2.11945pt too wide) detected at line 104
 \OT1/cmr/m/n/14.4 (3\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 2)\OML/cmm/m/it/14.4
  ;  \OT1/cmr/m/n/14.4 (\OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 2\OML/cmm/m/it/1
 4.4 :\OT1/cmr/m/n/14.4 805118\OML/cmm/m/it/14.4 ;  \OT1/cmr/m/n/14.4 3\OML/cmm/
@@ -1014,83 +1005,154 @@ t/14.4 ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-[]|\T2A/cmr/bx/n/10.95 ^^cd^^e0^^e9^^e4^^e5^^ed^^ed^^e0^^ff
- []
 
-
-Overfull \hbox (15.47574pt too wide) in paragraph at lines 185--185
+[2]
+Overfull \hbox (15.47574pt too wide) in paragraph at lines 149--149
 []|\T2A/cmr/bx/n/10.95 ^^c8^^f2^^e5^^f0^^e0^^f6^^e8^^e8| 
  []
 
 
-Overfull \hbox (5.19527pt too wide) in paragraph at lines 185--185
+Overfull \hbox (5.19527pt too wide) in paragraph at lines 149--149
 []|\T2A/cmr/bx/n/10.95 ^^c2^^fb^^e7^^ee^^e2^^fb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-[]|\T2A/cmr/bx/n/10.95 ^^cd^^e0^^e9^^e4^^e5^^ed^^ed^^e0^^ff
- []
-
-
-Overfull \hbox (15.47574pt too wide) in paragraph at lines 189--189
-[]|\T2A/cmr/bx/n/10.95 ^^c8^^f2^^e5^^f0^^e0^^f6^^e8^^e8| 
- []
-
-
-Overfull \hbox (5.19527pt too wide) in paragraph at lines 189--189
-[]|\T2A/cmr/bx/n/10.95 ^^c2^^fb^^e7^^ee^^e2^^fb
- []
-
-
-Overfull \hbox (13.80011pt too wide) in paragraph at lines 192--192
+Overfull \hbox (8.10965pt too wide) in paragraph at lines 151--151
 []|$\OT1/cmr/m/n/10.95 (1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 000000\OML/cmm
 /m/it/10.95 ;  \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 0000
 00)$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 []|$\OT1/cmr/m/n/10.95 4\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 861 \OMS/cmsy/m
 /n/10.95 ^^A
  []
 
 
-Overfull \hbox (13.80011pt too wide) in paragraph at lines 194--194
+Overfull \hbox (8.10965pt too wide) in paragraph at lines 153--153
+[]|$\OT1/cmr/m/n/10.95 (1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 000000\OML/cmm
+/m/it/10.95 ;  \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 0000
+00)$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|$\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 882 \OMS/cmsy/m
+/n/10.95 ^^A
+ []
+
+
+Overfull \hbox (8.10965pt too wide) in paragraph at lines 155--155
 []|$\OT1/cmr/m/n/10.95 (0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 033878\OML/cmm
 /m/it/10.95 ;  \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 0006
 79)$| 
  []
 
 
-Overfull \hbox (13.80011pt too wide) in paragraph at lines 196--196
+Overfull \hbox (8.10965pt too wide) in paragraph at lines 157--157
 []|$\OT1/cmr/m/n/10.95 (1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 000000\OML/cmm
 /m/it/10.95 ;  \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 0000
 00)$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []|$\OT1/cmr/m/n/10.95 4\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 125 \OMS/cmsy/m
 /n/10.95 ^^A
  []
 
+<lab3_outputs/lab3_report_assets/rosenbrock_contour_A.png, id=28, 678.681pt x 5
+32.827pt>
+File: lab3_outputs/lab3_report_assets/rosenbrock_contour_A.png Graphic file (ty
+pe png)
+<use lab3_outputs/lab3_report_assets/rosenbrock_contour_A.png>
+Package pdftex.def Info: lab3_outputs/lab3_report_assets/rosenbrock_contour_A.p
+ng  used on input line 166.
+(pdftex.def)             Requested size: 419.96643pt x 329.7233pt.
 
 
 [3]
-<lab3_report_assets/rosenbrock_contour_A.png, id=46, 578.16pt x 433.62pt>
-File: lab3_report_assets/rosenbrock_contour_A.png Graphic file (type png)
-<use lab3_report_assets/rosenbrock_contour_A.png>
-Package pdftex.def Info: lab3_report_assets/rosenbrock_contour_A.png  used on i
-nput line 205.
-(pdftex.def)             Requested size: 419.96643pt x 314.97186pt.
-<lab3_report_assets/rosenbrock_conv_A.png, id=48, 578.16pt x 361.35pt>
-File: lab3_report_assets/rosenbrock_conv_A.png Graphic file (type png)
-<use lab3_report_assets/rosenbrock_conv_A.png>
-Package pdftex.def Info: lab3_report_assets/rosenbrock_conv_A.png  used on inpu
-t line 211.
-(pdftex.def)             Requested size: 399.47607pt x 249.6681pt.
+<lab3_outputs/lab3_report_assets/rosenbrock_conv_A.png, id=43, 677.367pt x 409.
+968pt>
+File: lab3_outputs/lab3_report_assets/rosenbrock_conv_A.png Graphic file (type 
+png)
+<use lab3_outputs/lab3_report_assets/rosenbrock_conv_A.png>
+Package pdftex.def Info: lab3_outputs/lab3_report_assets/rosenbrock_conv_A.png 
+ used on input line 172.
+(pdftex.def)             Requested size: 399.47607pt x 241.78519pt.
+
+Overfull \hbox (15.47574pt too wide) in paragraph at lines 182--182
+[]|\T2A/cmr/bx/n/10.95 ^^c8^^f2^^e5^^f0^^e0^^f6^^e8^^e8| 
+ []
+
+
+Overfull \hbox (5.19527pt too wide) in paragraph at lines 182--182
+[]|\T2A/cmr/bx/n/10.95 ^^c2^^fb^^e7^^ee^^e2^^fb
+ []
+
+
+Overfull \hbox (16.62634pt too wide) in paragraph at lines 184--184
+[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/i
+t/10.95 :\OT1/cmr/m/n/10.95 805118\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 3\O
+ML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 131313)$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|$\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 810 \OMS/cmsy/m
+/n/10.95 ^^A
+ []
+
+
+Overfull \hbox (16.62634pt too wide) in paragraph at lines 186--186
+[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/i
+t/10.95 :\OT1/cmr/m/n/10.95 805118\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 3\O
+ML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 131313)$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|$\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 907 \OMS/cmsy/m
+/n/10.95 ^^A
+ []
+
+
+Overfull \hbox (16.62634pt too wide) in paragraph at lines 188--188
+[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/i
+t/10.95 :\OT1/cmr/m/n/10.95 805118\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 3\O
+ML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 131313)$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+[]|$\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 848 \OMS/cmsy/m
+/n/10.95 ^^A
+ []
+
+
+Overfull \hbox (16.62634pt too wide) in paragraph at lines 190--190
+[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/i
+t/10.95 :\OT1/cmr/m/n/10.95 805118\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 3\O
+ML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 131313)$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|$\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 703 \OMS/cmsy/m
+/n/10.95 ^^A
+ []
+
+
+lab3_report.tex:192: Infinite glue shrinkage found in box being split.
+<argument> Infinite shrink error above ignored ! 
+                                                 
+l.192 \end{longtable}
+                     
+The box you are \vsplitting contains some infinitely
+shrinkable glue, e.g., `\vss' or `\vskip 0pt minus 1fil'.
+Such glue doesn't belong there; but you can safely proceed,
+since the offensive shrinkability has been made finite.
 
 
 [4
@@ -1098,165 +1160,156 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.214 
-       <./lab3_report_assets/rosenbrock_contour_A.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
-[]|\T2A/cmr/bx/n/10.95 ^^cd^^e0^^e9^^e4^^e5^^ed^^ed^^e0^^ff
- []
-
-
-Overfull \hbox (15.47574pt too wide) in paragraph at lines 222--222
-[]|\T2A/cmr/bx/n/10.95 ^^c8^^f2^^e5^^f0^^e0^^f6^^e8^^e8| 
- []
-
-
-Overfull \hbox (5.19527pt too wide) in paragraph at lines 222--222
-[]|\T2A/cmr/bx/n/10.95 ^^c2^^fb^^e7^^ee^^e2^^fb
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
-[]|\T2A/cmr/bx/n/10.95 ^^cd^^e0^^e9^^e4^^e5^^ed^^ed^^e0^^ff
- []
-
-
-Overfull \hbox (15.47574pt too wide) in paragraph at lines 226--226
-[]|\T2A/cmr/bx/n/10.95 ^^c8^^f2^^e5^^f0^^e0^^f6^^e8^^e8| 
- []
-
-
-Overfull \hbox (5.19527pt too wide) in paragraph at lines 226--226
-[]|\T2A/cmr/bx/n/10.95 ^^c2^^fb^^e7^^ee^^e2^^fb
- []
-
-
-Overfull \hbox (22.3168pt too wide) in paragraph at lines 229--229
-[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/i
-t/10.95 :\OT1/cmr/m/n/10.95 805118\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 3\O
-ML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 131313)$| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
-[]|$\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 810 \OMS/cmsy/m
-/n/10.95 ^^A
- []
-
-
-Overfull \hbox (22.3168pt too wide) in paragraph at lines 231--231
-[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/i
-t/10.95 :\OT1/cmr/m/n/10.95 805118\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 3\O
-ML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 131313)$| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
-[]|$\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 848 \OMS/cmsy/m
-/n/10.95 ^^A
- []
-
-
-Overfull \hbox (22.3168pt too wide) in paragraph at lines 233--233
-[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/i
-t/10.95 :\OT1/cmr/m/n/10.95 805118\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 3\O
-ML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 131313)$| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
-[]|$\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 703 \OMS/cmsy/m
-/n/10.95 ^^A
- []
-
-<lab3_report_assets/himmelblau_contour_B.png, id=57, 578.16pt x 433.62pt>
-File: lab3_report_assets/himmelblau_contour_B.png Graphic file (type png)
-<use lab3_report_assets/himmelblau_contour_B.png>
-Package pdftex.def Info: lab3_report_assets/himmelblau_contour_B.png  used on i
-nput line 242.
-(pdftex.def)             Requested size: 419.96643pt x 314.97186pt.
-
-
-[5
+l.192 \end{longtable}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.245 
-       <./lab3_report_assets/rosenbrock_conv_A.png>]
-<lab3_report_assets/himmelblau_conv_B.png, id=65, 578.16pt x 361.35pt>
-File: lab3_report_assets/himmelblau_conv_B.png Graphic file (type png)
-<use lab3_report_assets/himmelblau_conv_B.png>
-Package pdftex.def Info: lab3_report_assets/himmelblau_conv_B.png  used on inpu
-t line 248.
-(pdftex.def)             Requested size: 399.47607pt x 249.6681pt.
+l.192 \end{longtable}
+                      <./lab3_outputs/lab3_report_assets/rosenbrock_contour_A.p
+ng> <./lab3_outputs/lab3_report_assets/rosenbrock_conv_A.png>]
+<lab3_outputs/lab3_report_assets/himmelblau_contour_B.png, id=53, 678.3525pt x 
+532.827pt>
+File: lab3_outputs/lab3_report_assets/himmelblau_contour_B.png Graphic file (ty
+pe png)
+<use lab3_outputs/lab3_report_assets/himmelblau_contour_B.png>
+Package pdftex.def Info: lab3_outputs/lab3_report_assets/himmelblau_contour_B.p
+ng  used on input line 199.
+(pdftex.def)             Requested size: 419.96643pt x 329.86964pt.
+<lab3_outputs/lab3_report_assets/himmelblau_conv_B.png, id=54, 678.024pt x 409.
+968pt>
+File: lab3_outputs/lab3_report_assets/himmelblau_conv_B.png Graphic file (type 
+png)
+<use lab3_outputs/lab3_report_assets/himmelblau_conv_B.png>
+Package pdftex.def Info: lab3_outputs/lab3_report_assets/himmelblau_conv_B.png 
+ used on input line 205.
+(pdftex.def)             Requested size: 399.47607pt x 241.54747pt.
 
-Overfull \hbox (15.47574pt too wide) in paragraph at lines 259--259
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.208 
+       <./lab3_outputs/lab3_report_assets/himmelblau_contour_B.png>]
+Overfull \hbox (15.47574pt too wide) in paragraph at lines 215--215
 []|\T2A/cmr/bx/n/10.95 ^^c8^^f2^^e5^^f0^^e0^^f6^^e8^^e8| 
  []
 
 
-Overfull \hbox (5.19527pt too wide) in paragraph at lines 259--259
+Overfull \hbox (5.19527pt too wide) in paragraph at lines 215--215
 []|\T2A/cmr/bx/n/10.95 ^^c2^^fb^^e7^^ee^^e2^^fb
  []
 
 
-Overfull \hbox (15.47574pt too wide) in paragraph at lines 263--263
-[]|\T2A/cmr/bx/n/10.95 ^^c8^^f2^^e5^^f0^^e0^^f6^^e8^^e8| 
+Overfull \hbox (44.00137pt too wide) in paragraph at lines 217--217
+[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 311439\OML/cm
+m/m/it/10.95 :\OT1/cmr/m/n/10.95 166474\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.9
+5 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 000003)$| 
  []
 
 
-Overfull \hbox (5.19527pt too wide) in paragraph at lines 263--263
-[]|\T2A/cmr/bx/n/10.95 ^^c2^^fb^^e7^^ee^^e2^^fb
+Overfull \hbox (27.57635pt too wide) in paragraph at lines 219--219
+[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 384\OML/cmm/m
+/it/10.95 :\OT1/cmr/m/n/10.95 921300\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 1
+\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 002569)$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
-[]|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 3\OML/cmm/m/i
-t/10.95 :\OT1/cmr/m/n/10.95 114 \OMS/cmsy/m/n/10.95 ^^A
- []
-
-
-Overfull \hbox (8.10965pt too wide) in paragraph at lines 268--268
+Overfull \hbox (8.10965pt too wide) in paragraph at lines 221--221
 []|$\OT1/cmr/m/n/10.95 (2\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 667276\OML/cmm
 /m/it/10.95 ;  \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 4038
 23)$| 
  []
 
 
-Overfull \hbox (27.57635pt too wide) in paragraph at lines 270--270
+Overfull \hbox (27.57635pt too wide) in paragraph at lines 223--223
 []|$\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 201\OML/cmm/m
 /it/10.95 :\OT1/cmr/m/n/10.95 380058\OML/cmm/m/it/10.95 ;  \OT1/cmr/m/n/10.95 1
 \OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 004900)$| 
  []
 
+<lab3_outputs/lab3_report_assets/beale_contour_B.png, id=61, 678.681pt x 532.82
+7pt>
+File: lab3_outputs/lab3_report_assets/beale_contour_B.png Graphic file (type pn
+g)
+<use lab3_outputs/lab3_report_assets/beale_contour_B.png>
+Package pdftex.def Info: lab3_outputs/lab3_report_assets/beale_contour_B.png  u
+sed on input line 232.
+(pdftex.def)             Requested size: 419.96643pt x 329.7233pt.
 
 
 [6
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.272 \end{longtable}
-                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.272 \end{longtable}
-                      <./lab3_report_assets/himmelblau_contour_B.png> <./lab3_r
-eport_assets/himmelblau_conv_B.png>]
-<lab3_report_assets/beale_contour_B.png, id=74, 578.16pt x 433.62pt>
-File: lab3_report_assets/beale_contour_B.png Graphic file (type png)
-<use lab3_report_assets/beale_contour_B.png>
-Package pdftex.def Info: lab3_report_assets/beale_contour_B.png  used on input 
-line 279.
-(pdftex.def)             Requested size: 419.96643pt x 314.97186pt.
-<lab3_report_assets/beale_conv_B.png, id=75, 578.16pt x 361.35pt>
-File: lab3_report_assets/beale_conv_B.png Graphic file (type png)
-<use lab3_report_assets/beale_conv_B.png>
-Package pdftex.def Info: lab3_report_assets/beale_conv_B.png  used on input lin
-e 285.
-(pdftex.def)             Requested size: 399.47607pt x 249.6681pt.
+l.235 
+       <./lab3_outputs/lab3_report_assets/himmelblau_conv_B.png>]
+<lab3_outputs/lab3_report_assets/beale_conv_B.png, id=69, 678.024pt x 409.968pt
+>
+File: lab3_outputs/lab3_report_assets/beale_conv_B.png Graphic file (type png)
+<use lab3_outputs/lab3_report_assets/beale_conv_B.png>
+Package pdftex.def Info: lab3_outputs/lab3_report_assets/beale_conv_B.png  used
+ on input line 238.
+(pdftex.def)             Requested size: 399.47607pt x 241.54747pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
+[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
+\T2A/cmr/bx/n/10.95 ^^e8^^f2^^e5-^^f0^^e0-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
+[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
+\T2A/cmr/bx/n/10.95 ^^e2^^fb-^^e7^^ee-^^e2^^fb
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
+[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
+ []
+
+
+Overfull \hbox (2.0888pt too wide) in paragraph at lines 250--250
+[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\T2A/cmr/bx/n/10.95 ^^f0^^e0^^f1-^^f1^^f2^^ee-^^ff-^^ed^^e8^^e5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+[]|\T2A/cmr/m/n/10.95 Gradient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T2A/cmr/m/n/10.95 Gradient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
+[]|\T2A/cmr/m/n/10.95 Gradient
+ []
+
 
 
 [7
@@ -1264,117 +1317,104 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.288 
-       <./lab3_report_assets/beale_contour_B.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-\T2A/cmr/bx/n/10.95 ^^e8^^f2^^e5-^^f0^^e0-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-\T2A/cmr/bx/n/10.95 ^^e2^^fb-^^e7^^ee-^^e2^^fb
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Overfull \hbox (2.0888pt too wide) in paragraph at lines 300--300
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-\T2A/cmr/bx/n/10.95 ^^f0^^e0^^f1-^^f1^^f2^^ee-^^ff-^^ed^^e8^^e5
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-\T2A/cmr/bx/n/10.95 ^^e8^^f2^^e5-^^f0^^e0-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-\T2A/cmr/bx/n/10.95 ^^e2^^fb-^^e7^^ee-^^e2^^fb
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Overfull \hbox (2.0888pt too wide) in paragraph at lines 304--304
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
-[]|\T2A/cmr/bx/n/10.95 ^^d1^^f0^^e5^^e4^^ed.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
-\T2A/cmr/bx/n/10.95 ^^f0^^e0^^f1-^^f1^^f2^^ee-^^ff-^^ed^^e8^^e5
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[]|\T2A/cmr/m/n/10.95 Gradient
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
-[]|\T2A/cmr/m/n/10.95 Gradient
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[]|\T2A/cmr/m/n/10.95 Gradient
- []
-
-
-
-[8
+l.276 \end{longtable}
+                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.336 
-       <./lab3_report_assets/beale_conv_B.png>]
+l.276 \end{longtable}
+                      <./lab3_outputs/lab3_report_assets/beale_contour_B.png> <
+./lab3_outputs/lab3_report_assets/beale_conv_B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\T2A/cmr/bx/n/8 ^^cb^^f3^^f7^^f8^^e5^^e5
+ []
 
-[9]
 
-[10]
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\T2A/cmr/bx/n/8 ^^c1^^e0^^e7.
+ []
 
-[11] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/lab3_report.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\T2A/cmr/bx/n/8 ^^cb^^f3^^f7.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\T2A/cmr/bx/n/8 ^^c1^^e0^^e7.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+[]|\T2A/cmr/bx/n/8 ^^cb^^f3^^f7.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]|$\OT1/cmr/m/n/8 4\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 861 \OMS/cmsy/m/n/8 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]|$\OT1/cmr/m/n/8 1\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 949 \OMS/cmsy/m/n/8 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]|$\OT1/cmr/m/n/8 4\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 673 \OMS/cmsy/m/n/8 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+[]|$\OT1/cmr/m/n/8 3\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 005 \OMS/cmsy/m/n/8 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]|\T2A/cmr/m/n/8 gtol=9.88e-06, maxiter=715, norm=2,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]|$\OT1/cmr/m/n/8 5\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 882 \OMS/cmsy/m/n/8 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]|$\OT1/cmr/m/n/8 5\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 414 \OMS/cmsy/m/n/8 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]|$\OT1/cmr/m/n/8 5\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 427 \OMS/cmsy/m/n/8 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+[]|$\OT1/cmr/m/n/8 5\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 207 \OMS/cmsy/m/n/8 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\T2A/cmr/m/n/8 lr0=0.0412, gamma=0.9841,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+\T2A/cmr/m/n/8 max_iter=3840, armijo_c=1.03e-03,
+ []
+
+
+Overfull \hbox (17.0866pt too wide) in alignment at lines 297--307
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+
+[8]
+
+[9] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/lab3_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1383,16 +1423,16 @@ Package rerunfilecheck Info: File `lab3_report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16854 strings out of 467870
- 282682 string characters out of 5415476
- 744413 words of memory out of 5000000
- 45398 multiletter control sequences out of 15000+600000
- 651320 words of font info for 102 fonts, out of 8000000 for 9000
+ 16846 strings out of 467870
+ 283142 string characters out of 5415476
+ 763541 words of memory out of 5000000
+ 45397 multiletter control sequences out of 15000+600000
+ 648218 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,8n,93p,1046b,661s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,93p,1127b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
 our/lh/lh-t2a/dpi600/larm0800.pk> </Users/drakanoy/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/lati1200.pk> </Users/drakan
+MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx0800.pk> </Users/drakan
 oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi
 600/labx1200.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
 a/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1200.pk> </Users/drakanoy/Library/Applic
@@ -1401,32 +1441,32 @@ ation Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 ur/lh/lh-t2a/dpi600/larm1095.pk> </Users/drakanoy/Library/Application Support/M
 iKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1095.pk> </Users/drakano
 y/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi6
-00/larm1000.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data
-/fonts/pk/ljfour/lh/lh-t2a/dpi600/lati1440.pk> </Users/drakanoy/Library/Applica
-tion Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1200.pk> <
-/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/
-jknappen/ec/dpi600/tcrm1440.pk> </Users/drakanoy/Library/Application Support/Mi
-KTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1440.pk> </Users/drakanoy
+00/larm1200.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data
+/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1440.pk> </Users/drakanoy/Library/Appli
+cation Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1440.pk>
+ </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfou
+r/lh/lh-t2a/dpi600/larm1440.pk> </Users/drakanoy/Library/Application Support/Mi
+KTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk> </Users/drakanoy
 /Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi60
-0/larm1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/
-fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk> </Users/drakanoy/Library/Applicat
-ion Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk></L
-ibrary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/t
-exmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Library/Application Su
-pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/
-Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/ins
-tall/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Library/Application Support/MiK
-TeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+0/labx2074.pk></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTe
+X/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Library/Application
+ Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Libra
+ry/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiK
+TeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Li
+brary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/lab3_report.p
-df (11 pages, 1353303 bytes).
+df (9 pages, 1825136 bytes).
 PDF statistics:
- 658 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 636 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

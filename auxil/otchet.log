@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.7)  1 SEP 2025 02:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  16 APR 2026 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **./otchet.tex
 (otchet.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-06-09>
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size11.clo
@@ -30,7 +30,7 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@posthook=\toks18
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cy
 rillic/t2aenc.def
@@ -247,23 +247,23 @@ rillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaT
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
 \babel@savecnt=\count283
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2043.
+ne 2078.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2045.
+ne 2080.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2047.
+e 2082.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2048.
+e 2083.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2049.
+on input line 2084.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2051.
+on input line 2086.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2076.
+on input line 2111.
 \U@D=\dimen149
 \l@unhyphenated=\language79
 
@@ -271,6 +271,9 @@ on input line 2076.
 def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count284
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4206.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -280,15 +283,16 @@ def)
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/en
+/babel-english.tex)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/ru
+/babel-russian.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4330.
+
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-english/eng
 lish.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/en
-/babel-english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-)
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
@@ -296,16 +300,13 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )
+Package babel Info: Importing font and identification data for russian
+(babel)             from babel-ru.ini. Reported on input line 4330.
+
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ba
 bel-russian/russianb.ldf
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/ru
-/babel-russian.tex
-Package babel Info: Importing font and identification data for russian
-(babel)             from babel-ru.ini. Reported on input line 11.
-)
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
 ))
@@ -376,7 +377,7 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdft
 ex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
@@ -418,7 +419,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.s
 ty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
@@ -487,12 +488,12 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks26
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref
 .sty
-Package: hyperref 2025-06-21 v7.01n Hypertext links for LaTeX
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kv
 setkeys/kvsetkeys.sty
@@ -529,7 +530,7 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/nameref.
 sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/re
 fcount/refcount.sty
@@ -547,7 +548,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox
 .sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count301
 )
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
@@ -561,7 +562,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.d
 ef
-File: pd1enc.def 2025-06-21 v7.01n Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -573,24 +574,24 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.de
 f
-File: puenc.def 2025-06-21 v7.01n Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 3146.
-Package hyperref Info: Hyper figures OFF on input line 4181.
-Package hyperref Info: Link nesting OFF on input line 4186.
-Package hyperref Info: Hyper index ON on input line 4189.
-Package hyperref Info: Plain pages OFF on input line 4196.
-Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Option `unicode' set `true' on input line 3166.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4448.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count305
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4787.
+LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen170
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
@@ -605,13 +606,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count306
 \Field@Width=\dimen171
 \Fld@charsize=\dimen172
-Package hyperref Info: Hyper figures OFF on input line 6066.
-Package hyperref Info: Link nesting OFF on input line 6071.
-Package hyperref Info: Hyper index ON on input line 6074.
-Package hyperref Info: backreferencing OFF on input line 6081.
-Package hyperref Info: Link coloring OFF on input line 6086.
-Package hyperref Info: Link coloring with OCG OFF on input line 6091.
-Package hyperref Info: PDF/A mode OFF on input line 6096.
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count307
 \c@Item=\count308
 \c@Hfootnote=\count309
@@ -620,7 +621,7 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.
 def
-File: hpdftex.def 2025-06-21 v7.01n Hyperref driver for pdfTeX
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count310
 \c@bookmark@seq@number=\count311
 
@@ -639,11 +640,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
 nd-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count312
 ) (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/otchet.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported  on input line 8.
+(babel)             Reported on input line 8.
 )
 \openout1 = `otchet.aux'.
 
@@ -794,14 +795,6 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (33.59375pt too wide) in paragraph at lines 6--6
- [][] [][]\T2A/cmr/m/n/14.4 ^^cd^^e0^^f5^^ee^^e6^^e4^^e5^^ed^^e8^^e5 ^^e2^^ee^^
-eb-^^ed^^ee-^^e2^^ee^^e9 ^^f4^^f3^^ed^^ea-^^f6^^e8^^e8 ^^e2^^fb-^^f5^^ee^^e4-^^
-ed^^ee-^^e3^^ee ^^f1^^ee-^^f1^^f2^^ee-^^ff-^^ed^^e8^^ff ^^e4^^e2^^f3^^f5-^^f3^^
-f0^^ee^^e2^^ed^^e5^^e2^^ee^^e9 
- []
-
-
 Overfull \hbox (33.59375pt too wide) in paragraph at lines 8--8
  [][] [][]\T2A/cmr/m/n/14.4 ^^cd^^e0^^f5^^ee^^e6^^e4^^e5^^ed^^e8^^e5 ^^e2^^ee^^
 eb-^^ed^^ee-^^e2^^ee^^e9 ^^f4^^f3^^ed^^ea-^^f6^^e8^^e8 ^^e2^^fb-^^f5^^ee^^e4-^^
@@ -822,20 +815,16 @@ been already used, duplicate ignored
                    \relax 
 l.91 \newpage
               [1]
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
 
-[2]
-
 [3]
-
-[4]
-
-[5]
-Overfull \hbox (2.42502pt too wide) in paragraph at lines 198--198
+Overfull \hbox (2.42502pt too wide) in paragraph at lines 239--239
 []\T2A/cmr/bx/n/17.28 ^^d0^^e0^^f1^^f7^^e5^^f2 $\OML/cmm/m/it/17.28 g[]\OT1/cmr
 /m/n/17.28 (0)$ \T2A/cmr/bx/n/17.28 ^^f4^^e0^^ea-^^f2^^ee-^^f0^^e0 ^^e2 ^^e4^^e
 2^^f3^^f5-^^f3^^f0^^ee^^e2^^ed^^e5^^e2^^ee^^e9 ^^f1^^e8-^^f1^^f2^^e5-^^ec^^e5, 
@@ -844,89 +833,53 @@ Overfull \hbox (2.42502pt too wide) in paragraph at lines 198--198
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 198.
+(hyperref)                removing `math shift' on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 198.
+(hyperref)                removing `superscript' on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 198.
-
-<plot1.png, id=113, 473.77pt x 284.06125pt>
-File: plot1.png Graphic file (type png)
-<use plot1.png>
-Package pdftex.def Info: plot1.png  used on input line 208.
-(pdftex.def)             Requested size: 355.32663pt x 213.0454pt.
-<plot2.png, id=115, 462.528pt x 346.896pt>
-File: plot2.png Graphic file (type png)
-<use plot2.png>
-Package pdftex.def Info: plot2.png  used on input line 223.
-(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+(hyperref)                removing `math shift' on input line 239.
 
 
-[6 <./plot1.png>]
 
-[7 <./plot2.png>]
+[4]
+
+[5]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 266.
+(hyperref)                removing `math shift' on input line 307.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 266.
+(hyperref)                removing `superscript' on input line 307.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 266.
+(hyperref)                removing `math shift' on input line 307.
 
 
 
-[8]
-<plot3.png, id=140, 462.528pt x 346.896pt>
-File: plot3.png Graphic file (type png)
-<use plot3.png>
-Package pdftex.def Info: plot3.png  used on input line 277.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
-<plot4.png, id=141, 462.528pt x 346.896pt>
-File: plot4.png Graphic file (type png)
-<use plot4.png>
-Package pdftex.def Info: plot4.png  used on input line 283.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
-<plot5.png, id=142, 462.528pt x 346.896pt>
-File: plot5.png Graphic file (type png)
-<use plot5.png>
-Package pdftex.def Info: plot5.png  used on input line 289.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+[6]
 
-
-[9 <./plot3.png> <./plot4.png>]
-<plot6.png, id=149, 462.528pt x 346.896pt>
-File: plot6.png Graphic file (type png)
-<use plot6.png>
-Package pdftex.def Info: plot6.png  used on input line 295.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
-
-
-[10 <./plot5.png> <./plot6.png>]
-
-[11] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/otchet.aux)
+[7] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/otchet.aux)
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-06-09>
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `otchet.out' has not changed.
-(rerunfilecheck)             Checksum: 83E44F5A66494C2678B37598BAB7F76D;4529.
+(rerunfilecheck)             Checksum: BCDD61EDE4E2AD3F975C7D1DA9528338;3839.
  ) 
 Here is how much of TeX's memory you used:
- 13084 strings out of 468226
- 205599 string characters out of 5430086
- 630622 words of memory out of 5000000
- 41389 multiletter control sequences out of 15000+600000
- 638842 words of font info for 72 fonts, out of 8000000 for 9000
+ 13063 strings out of 467870
+ 205418 string characters out of 5415476
+ 637399 words of memory out of 5000000
+ 41736 multiletter control sequences out of 15000+600000
+ 639738 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,1035b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1035b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
 our/jknappen/ec/dpi600/tcrm1440.pk> </Users/drakanoy/Library/Application Suppor
 t/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1728.pk> </Users/drak
@@ -946,10 +899,10 @@ mr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public
 s/type1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs
 /install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Suppor
 t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/otchet.pdf (1
-3 pages, 483064 bytes).
+Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/otchet.pdf (9
+ pages, 299045 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
