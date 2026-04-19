@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  7 APR 2026 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  19 APR 2026 04:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -811,67 +811,69 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<mass_radius_temperatures.png, id=3, 505.89pt x 361.35pt>
-File: mass_radius_temperatures.png Graphic file (type png)
-<use mass_radius_temperatures.png>
-Package pdftex.def Info: mass_radius_temperatures.png  used on input line 90.
-(pdftex.def)             Requested size: 419.96643pt x 299.98108pt.
-
 
 [1
 
 {/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
 x/pdftex.map}]
-<mass_radius_coulomb.png, id=21, 505.89pt x 361.35pt>
-File: mass_radius_coulomb.png Graphic file (type png)
-<use mass_radius_coulomb.png>
-Package pdftex.def Info: mass_radius_coulomb.png  used on input line 98.
+<mass_radius_temperatures.png, id=19, 505.89pt x 361.35pt>
+File: mass_radius_temperatures.png Graphic file (type png)
+<use mass_radius_temperatures.png>
+Package pdftex.def Info: mass_radius_temperatures.png  used on input line 117.
 (pdftex.def)             Requested size: 419.96643pt x 299.98108pt.
 
 
-[2
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.101 
-       <./mass_radius_temperatures.png>]
-<central_density_dependence.png, id=28, 505.89pt x 361.35pt>
-File: central_density_dependence.png Graphic file (type png)
-<use central_density_dependence.png>
-Package pdftex.def Info: central_density_dependence.png  used on input line 106
-.
+[2]
+<mass_radius_coulomb.png, id=25, 505.89pt x 361.35pt>
+File: mass_radius_coulomb.png Graphic file (type png)
+<use mass_radius_coulomb.png>
+Package pdftex.def Info: mass_radius_coulomb.png  used on input line 125.
 (pdftex.def)             Requested size: 419.96643pt x 299.98108pt.
 
 
 [3
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.109 
-       <./mass_radius_coulomb.png>]
-<radius_vs_temperature.png, id=35, 505.89pt x 361.35pt>
-File: radius_vs_temperature.png Graphic file (type png)
-<use radius_vs_temperature.png>
-Package pdftex.def Info: radius_vs_temperature.png  used on input line 114.
+l.128 
+       <./mass_radius_temperatures.png>]
+<central_density_dependence.png, id=32, 505.89pt x 361.35pt>
+File: central_density_dependence.png Graphic file (type png)
+<use central_density_dependence.png>
+Package pdftex.def Info: central_density_dependence.png  used on input line 133
+.
 (pdftex.def)             Requested size: 419.96643pt x 299.98108pt.
 
 
 [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.136 
+       <./mass_radius_coulomb.png>]
+<radius_vs_temperature.png, id=39, 505.89pt x 361.35pt>
+File: radius_vs_temperature.png Graphic file (type png)
+<use radius_vs_temperature.png>
+Package pdftex.def Info: radius_vs_temperature.png  used on input line 141.
+(pdftex.def)             Requested size: 419.96643pt x 299.98108pt.
+
+
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.117 
+l.144 
        <./central_density_dependence.png>]
 
-[5
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.141 \end{document}
+l.168 \end{document}
                      <./radius_vs_temperature.png>]
 (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/white_dwarf_report.aux)
  ***********
@@ -882,13 +884,13 @@ Package rerunfilecheck Info: File `white_dwarf_report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13931 strings out of 467870
- 220688 string characters out of 5415476
- 645811 words of memory out of 5000000
+ 13932 strings out of 467870
+ 220694 string characters out of 5415476
+ 646811 words of memory out of 5000000
  42615 multiletter control sequences out of 15000+600000
  639020 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1069b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1069b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
 our/lh/lh-t2a/dpi600/larm1200.pk> </Users/drakanoy/Library/Application Support/
 MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk> </Users/drakan
@@ -904,9 +906,9 @@ fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/t
 exmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application S
 upport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/white_dwarf_r
-eport.pdf (5 pages, 495051 bytes).
+eport.pdf (6 pages, 521895 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
