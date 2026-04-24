@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  16 APR 2026 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  23 APR 2026 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -736,7 +736,7 @@ Package hyperref Info: Link coloring OFF on input line 18.
 \@outlinefile=\write3
 \openout3 = `otchet.out'.
 
-<alf4.JPG, id=43, 1082.54437pt x 182.93344pt>
+<alf4.JPG, id=35, 1082.54437pt x 182.93344pt>
 File: alf4.JPG Graphic file (type jpg)
 <use alf4.JPG>
 Package pdftex.def Info: alf4.JPG  used on input line 21.
@@ -794,15 +794,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (33.59375pt too wide) in paragraph at lines 8--8
- [][] [][]\T2A/cmr/m/n/14.4 ^^cd^^e0^^f5^^ee^^e6^^e4^^e5^^ed^^e8^^e5 ^^e2^^ee^^
-eb-^^ed^^ee-^^e2^^ee^^e9 ^^f4^^f3^^ed^^ea-^^f6^^e8^^e8 ^^e2^^fb-^^f5^^ee^^e4-^^
-ed^^ee-^^e3^^ee ^^f1^^ee-^^f1^^f2^^ee-^^ff-^^ed^^e8^^ff ^^e4^^e2^^f3^^f5-^^f3^^
-f0^^ee^^e2^^ed^^e5^^e2^^ee^^e9 
- []
-
-)
+))
 \tf@toc=\write4
 \openout4 = `otchet.toc'.
 
@@ -815,94 +807,55 @@ been already used, duplicate ignored
                    \relax 
 l.91 \newpage
               [1]
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+
+ []
+
+
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-
- []
-
-
 
 [3]
-Overfull \hbox (2.42502pt too wide) in paragraph at lines 239--239
-[]\T2A/cmr/bx/n/17.28 ^^d0^^e0^^f1^^f7^^e5^^f2 $\OML/cmm/m/it/17.28 g[]\OT1/cmr
-/m/n/17.28 (0)$ \T2A/cmr/bx/n/17.28 ^^f4^^e0^^ea-^^f2^^ee-^^f0^^e0 ^^e2 ^^e4^^e
-2^^f3^^f5-^^f3^^f0^^ee^^e2^^ed^^e5^^e2^^ee^^e9 ^^f1^^e8-^^f1^^f2^^e5-^^ec^^e5, 
-^^f1^^ee^^e2-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 239.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 239.
-
-
 
 [4]
 
-[5]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 307.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 307.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 307.
-
-
-
-[6]
-
-[7] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/otchet.aux)
+[5] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/otchet.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `otchet.out' has not changed.
-(rerunfilecheck)             Checksum: BCDD61EDE4E2AD3F975C7D1DA9528338;3839.
+(rerunfilecheck)             Checksum: 78EDD0FB23FDAB09E8E4FD6DF356F5C5;1389.
  ) 
 Here is how much of TeX's memory you used:
- 13063 strings out of 467870
- 205418 string characters out of 5415476
- 637399 words of memory out of 5000000
- 41736 multiletter control sequences out of 15000+600000
- 639738 words of font info for 72 fonts, out of 8000000 for 9000
+ 13038 strings out of 467870
+ 205050 string characters out of 5415476
+ 632399 words of memory out of 5000000
+ 41718 multiletter control sequences out of 15000+600000
+ 636306 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,79p,1035b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,79p,450b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/jknappen/ec/dpi600/tcrm1440.pk> </Users/drakanoy/Library/Application Suppor
-t/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1728.pk> </Users/drak
-anoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/d
-pi600/labx2074.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
-ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk> </Users/drakanoy/Library/Appl
-ication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk
-></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiK
-TeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Applicati
-on Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Lib
-rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmr17.pfb></Library/Application Support/MiKTeX/texmfs/install/font
-s/type1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs
-/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Suppor
-t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/otchet.pdf (9
- pages, 299045 bytes).
+our/lh/lh-t2a/dpi600/labx1728.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk> </Users/drakan
+oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi
+600/labx1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
+a/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk></Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Applica
+tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Su
+pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/A
+pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb>
+Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/otchet.pdf (7
+ pages, 266981 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
