@@ -291,6 +291,129 @@ $\Omega_R^{H} \sim g \sqrt{N} $, и так как фотонов в лазерн
 \end{gather}
 
 Снова зафиксируем базис, ограничившись одним фотоном в Фоковском пространстве:
+\begin{gather}
+    \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{a}^{\dag}_{\downarrow} \left| 0 \right> \, ; \, \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{d}^{\dag}_{\downarrow} \left| 0 \right> \, ; \\ \nonumber
+    \hat{b}^{\dag}_{+} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{-} \hat{a}^{\dag}_{\downarrow} \left| 0 \right> \, ; \,
+    \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\downarrow} \left| 0 \right> \, ; \\ \nonumber
+    \hat{b}^{\dag}_{-} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{+} \hat{a}^{\dag}_{\downarrow} \left| 0 \right> \, ; \,
+    \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\downarrow} \left| 0 \right>
+\end{gather}
+В этом базисе тогда, наш Гамильтониан переписываться как:
+\begin{gather}
+    \hat{H} =
+\begin{pmatrix}
+    \hat{H}_0 & \hat{g} & 0  \\
+    \hat{g}^{\dag} & \hat{H}_0 + \hat{\Delta} & \alpha\hat{B}_x \\
+    0 & \alpha \hat{B}_x^{\dag} & \hat{H}_0 + \hat{\Delta}
+\end{pmatrix}
+\end{gather}
+
+Где:
+\begin{gather}
+    \hat{H}_{0} =
+\begin{pmatrix}
+    \alpha B_z & \alpha B_x & \Omega_R & 0 \\
+    \alpha B_x & -\alpha B_z & 0 & \Omega_R \\
+    \Omega_R & 0 & \beta B_z + \Delta & 0 \\
+    0 & \Omega_R & 0 & -\beta B_z + \Delta
+\end{pmatrix}
+\\ \nonumber
+    \hat{\Delta} =
+\begin{pmatrix}
+    \Delta & 0 & 0 & 0 \\
+    0 & \Delta & 0 & 0 \\
+    0 & 0 & \Delta & 0 \\
+    0 & 0 & 0 & \Delta
+\end{pmatrix}
+\\ \nonumber
+    \hat{g} =
+\begin{pmatrix}
+    0 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 \\
+    g & 0 & 0 & 0 \\
+    0 & g & 0 & 0
+\end{pmatrix}
+\\ \nonumber
+    \alpha \hat{B}_x =
+\begin{pmatrix}
+    0 & \alpha B_x & 0 & 0 \\
+    \alpha B_x & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0
+\end{pmatrix}
+\end{gather}
+
+Решая задачу этим же методом по теории возмущений, но численно,
+учитывая спиновую поляризацию триона по тепловому распределению:
+\begin{gather}
+    \hat{\rho}_{in} = f_{+x}\left( B/T \right) \left| x \right> \left< x \right|  + f_{-x}\left( B/T \right)  \left| -x \right> \left< -x \right|
+\end{gather}
+где
+\begin{gather}
+    f_{+x}\left( B/T \right) = \frac{e^{B/T}}{e^{B/T} + e^{-B/T}} \\ \nonumber
+    f_{-x}\left( B/T \right) = \frac{e^{-B/T}}{e^{B/T} + e^{-B/T}}
+\end{gather}
+Уравнение эволюции на матрицу плотности учитывает фононы по механизму сбоя фазы:
+\begin{gather}
+    \frac{\partial \hat{\rho} }{\partial t} = -i \left[ \hat{H} ; \hat{\rho} \right] - \hat{L}(\hat{\rho}) \\ \nonumber
+    \hat{L}(\hat{\rho}) = \gamma_{PD} \left( \hat{\rho} - \hat{\sigma}_z \hat{\rho} \hat{\sigma}_z \right) \\ \nonumber
+    \hat{\rho}_{out} = \hat{S}_{\tau} \left( \hat{\rho}_{in} \right)
+\end{gather}
+Выделяя компоненты матрицы плотности, связанные с фотонными состояниями,
+необходимо учитывать спиновую релаксацию электрона в магнитном поле.
+\begin{gather}
+    \hat{\rho}_{ph} = \hat{M}_{spin \,\, relax} \left(  \hat{\rho}_{out}  \right) = \\ \nonumber
+    = f_{+x}\left( B/T \right) \left< x \right| \hat{\rho}_{out} \left| x \right> + f_{-x}\left( B/T \right) \left< -x \right| \hat{\rho}_{out} \left| -x \right>
+\end{gather}
+Матрица плотности содержит 3 типа фотонных состояний: с 0, 1 или 2 фотонами.
+\begin{gather}
+    \hat{\rho}_{ph} = \hat{\rho}_{0} + \hat{\rho}_{1} + \hat{\rho}_{2} \\ \nonumber
+     p_1 = Tr\left( \hat{\rho}_{1} \right) \, \, \, ; \, \, \, p_2 = Tr\left( \hat{\rho}_{2} \right)
+\end{gather}
+Схематично 2-х фотонные сектор при $2\pi$ накачке выглядит следующим образом:
+
+\begin{gather}
+    \hat{\rho}^{(2\pi)}_2 \approx \left( g \tau \right)^2 \left( \frac{ \Omega_R^2}{ \Omega_R^2 + \Delta^2} \right)^2
+\begin{pmatrix}
+    1 & 0 & 0 & \tanh^2\left( B/T \right) \\
+    0 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 \\
+    \tanh^2\left( B/T \right) & 0 & 0 & 1
+\end{pmatrix}
+\end{gather}
+
+Точный расчет дает следующие зависимости:
+
+\begin{center}
+\includegraphics[scale = 0.8]{rabi.png}
+\par
+    \underline{Рисунок 3}: картинка
+\end{center}
+\par
+\begin{center}
+\includegraphics[scale = 0.8]{cuncurrence.png}
+\par
+    \underline{Рисунок 4}: картинка
+\end{center}
+\par
+\begin{center}
+\includegraphics[scale = 0.8]{g20.png}
+\par
+    \underline{Рисунок 5}: картинка
+\end{center}
+\par
+\begin{center}
+\includegraphics[scale = 0.8]{cuncurrence_ot_B.png}
+\par
+    \underline{Рисунок 6}: картинка
+\end{center}
+\par
+\begin{center}
+\includegraphics[scale = 0.8]{fidelity.png}
+\par
+    \underline{Рисунок 7}: картинка
+\end{center}
+\par
 
 
 \section{Заключение}

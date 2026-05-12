@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  12 MAY 2026 03:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  12 MAY 2026 04:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -644,7 +644,7 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count312
 ) (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/diplom.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 9.
+(babel)             Reported on input line 8.
 )
 \openout1 = `diplom.aux'.
 
@@ -736,7 +736,7 @@ Package hyperref Info: Link coloring OFF on input line 18.
 \@outlinefile=\write3
 \openout3 = `diplom.out'.
 
-<alf4.JPG, id=3, 1082.54437pt x 182.93344pt>
+<alf4.JPG, id=51, 1082.54437pt x 182.93344pt>
 File: alf4.JPG Graphic file (type jpg)
 <use alf4.JPG>
 Package pdftex.def Info: alf4.JPG  used on input line 21.
@@ -785,7 +785,16 @@ been already used, duplicate ignored
                    \relax 
 l.88 \end{titlepage}
                      [1]
-No file diplom.toc.
+(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/diplom.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `diplom.toc'.
 
@@ -805,29 +814,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
 
 [2]
-<scheme_old.png, id=27, 433.62pt x 393.47pt>
+<scheme_old.png, id=84, 433.62pt x 393.47pt>
 File: scheme_old.png Graphic file (type png)
 <use scheme_old.png>
 Package pdftex.def Info: scheme_old.png  used on input line 138.
 (pdftex.def)             Requested size: 346.89647pt x 314.77641pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 140
-.
 
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 140
-.
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 [3 <./scheme_old.png>]
 
 [4]
 
 [5]
-<scheme_new.png, id=70, 499.8675pt x 468.75125pt>
+<scheme_new.png, id=121, 499.8675pt x 468.75125pt>
 File: scheme_new.png Graphic file (type png)
 <use scheme_new.png>
 Package pdftex.def Info: scheme_new.png  used on input line 276.
@@ -838,29 +837,58 @@ Package pdftex.def Info: scheme_new.png  used on input line 276.
 
 [7 <./scheme_new.png>]
 
-[8] (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/diplom.aux)
+[8]
+
+[9]
+<rabi.png, id=153, 378.41376pt x 292.09125pt>
+File: rabi.png Graphic file (type png)
+<use rabi.png>
+Package pdftex.def Info: rabi.png  used on input line 388.
+(pdftex.def)             Requested size: 302.73141pt x 233.6733pt.
+<cuncurrence.png, id=154, 394.47375pt x 280.04625pt>
+File: cuncurrence.png Graphic file (type png)
+<use cuncurrence.png>
+Package pdftex.def Info: cuncurrence.png  used on input line 394.
+(pdftex.def)             Requested size: 315.57942pt x 224.0373pt.
+<g20.png, id=155, 384.43625pt x 281.05pt>
+File: g20.png Graphic file (type png)
+<use g20.png>
+Package pdftex.def Info: g20.png  used on input line 400.
+(pdftex.def)             Requested size: 307.54941pt x 224.84029pt.
+
+
+[10 <./rabi.png> <./cuncurrence.png>]
+<cuncurrence_ot_B.png, id=163, 497.86pt x 284.06125pt>
+File: cuncurrence_ot_B.png Graphic file (type png)
+<use cuncurrence_ot_B.png>
+Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 406.
+(pdftex.def)             Requested size: 398.28853pt x 227.24928pt.
+<fidelity.png, id=164, 427.5975pt x 296.10625pt>
+File: fidelity.png Graphic file (type png)
+<use fidelity.png>
+Package pdftex.def Info: fidelity.png  used on input line 412.
+(pdftex.def)             Requested size: 342.07846pt x 236.88531pt.
+
+
+[11 <./g20.png> <./cuncurrence_ot_B.png>]
+
+[12 <./fidelity.png>]
+(/Users/drakanoy/PycharmProjects/laby_fizika/auxil/diplom.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-Package rerunfilecheck Warning: File `diplom.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `diplom.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  B6C3694C34C545BE3F9F2DB9AEDAF6F5;2209.
+Package rerunfilecheck Info: File `diplom.out' has not changed.
+(rerunfilecheck)             Checksum: B6C3694C34C545BE3F9F2DB9AEDAF6F5;2209.
  ) 
 Here is how much of TeX's memory you used:
- 13059 strings out of 467870
- 205288 string characters out of 5415476
- 634397 words of memory out of 5000000
- 41724 multiletter control sequences out of 15000+600000
+ 13121 strings out of 467870
+ 206365 string characters out of 5415476
+ 639404 words of memory out of 5000000
+ 41771 multiletter control sequences out of 15000+600000
  636306 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,450b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,79p,450b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
 our/lh/lh-t2a/dpi600/labx1728.pk> </Users/drakanoy/Library/Application Support/
 MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk> </Users/drakan
@@ -879,9 +907,9 @@ pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
 onts/cm/cmsy7.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (1
-0 pages, 349177 bytes).
+4 pages, 601802 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
