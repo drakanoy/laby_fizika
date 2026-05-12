@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  12 MAY 2026 04:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  12 MAY 2026 17:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -736,7 +736,7 @@ Package hyperref Info: Link coloring OFF on input line 18.
 \@outlinefile=\write3
 \openout3 = `diplom.out'.
 
-<alf4.JPG, id=51, 1082.54437pt x 182.93344pt>
+<alf4.JPG, id=50, 1082.54437pt x 182.93344pt>
 File: alf4.JPG Graphic file (type jpg)
 <use alf4.JPG>
 Package pdftex.def Info: alf4.JPG  used on input line 21.
@@ -807,94 +807,178 @@ been already used, duplicate ignored
                    \relax 
 l.91 \newpage
               [1]
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
-
+Overfull \hbox (72.00816pt too wide) in paragraph at lines 120--125
+[]\T2A/cmr/m/n/14.4 ^^cf^^f0^^e8^^ed^^f6^^e8^^ef^^e8^^e0^^eb^^fc^^ed^^fb^^ec ^^
+ee^^e3^^f0^^e0-^^ed^^e8-^^f7^^e5-^^ed^^e8-^^e5^^ec ^^f2^^e0-^^ea^^ee^^e9 ^^f1^^
+f5^^e5-^^ec^^fb ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^f2^^ee, ^^f7^^f2^^ee ^^ea
+^^f0^^ee^^f1^^f1-^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^ee^^ed^^ed^^e0^^ff
  []
 
 
 
 [2]
-<scheme_old.png, id=84, 433.62pt x 393.47pt>
-File: scheme_old.png Graphic file (type png)
-<use scheme_old.png>
-Package pdftex.def Info: scheme_old.png  used on input line 138.
-(pdftex.def)             Requested size: 346.89647pt x 314.77641pt.
+Overfull \hbox (2.51605pt too wide) in paragraph at lines 140--144
+\T2A/cmr/m/n/14.4 ^^ed^^ee-^^e3^^ee ^^ef^^ee-^^eb^^ff, ^^e8 ^^e8^^f1-^^f1^^eb^^
+e5-^^e4^^ee-^^e2^^e0^^f2^^fc ^^e2^^ee^^e7-^^ec^^ee^^e6-^^ed^^ee^^f1^^f2^^fc ^^e
+3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^
+ee^^ed^^ed^^ee-^^e7^^e0^^ef^^f3^^f2^^e0^^ed^^ed^^fb^^f5
+ []
 
 
-[3 <./scheme_old.png>]
+
+[3]
 
 [4]
+Overfull \hbox (13.85411pt too wide) in paragraph at lines 164--164
+[]\T2A/cmr/bx/n/17.28 ^^cc^^ee^^f2^^e8^^e2^^e0^^f6^^e8^^ff: ^^e3^^e5-^^ed^^e5-^
+^f0^^e0-^^f6^^e8^^ff ^^ea^^eb^^e0-^^f1^^f2^^e5^^f0-^^ed^^fb^^f5 ^^f1^^ee-^^f1^^
+f2^^ee-^^ff-^^ed^^e8^^e9 ^^e8^^e7 ^^ea^^e2^^e0^^ed-
+ []
+
+
 
 [5]
-<scheme_new.png, id=121, 499.8675pt x 468.75125pt>
-File: scheme_new.png Graphic file (type png)
-<use scheme_new.png>
-Package pdftex.def Info: scheme_new.png  used on input line 276.
-(pdftex.def)             Requested size: 399.89453pt x 375.0015pt.
+<scheme_old.png, id=114, 433.62pt x 393.47pt>
+File: scheme_old.png Graphic file (type png)
+<use scheme_old.png>
+Package pdftex.def Info: scheme_old.png  used on input line 232.
+(pdftex.def)             Requested size: 303.53192pt x 275.42711pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\pi' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 259.
+
 
 
 [6]
 
-[7 <./scheme_new.png>]
+[7 <./scheme_old.png>]
 
 [8]
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 318.
+
+
+
 [9]
-<rabi.png, id=153, 378.41376pt x 292.09125pt>
+
+[10]
+Overfull \hbox (0.22934pt too wide) in paragraph at lines 423--429
+[]\T2A/cmr/m/n/14.4 ^^dd^^f2^^ee^^f2 ^^f0^^e5-^^e7^^f3^^eb^^fc-^^f2^^e0^^f2 ^^e
+f^^ee^^eb-^^ed^^ee-^^f1^^f2^^fc^^fe ^^e2^^ee^^f1-^^ef^^f0^^ee-^^e8^^e7-^^e2^^ee
+-^^e4^^e8^^f2 ^^ee^^f2-^^e2^^e5^^f2, ^^ef^^ee-^^eb^^f3-^^f7^^e5^^ed-^^ed^^fb^^e
+9 ^^f2^^ee^^f7-^^ed^^fb^^ec ^^ea^^e2^^e0^^ed-
+ []
+
+
+
+[11]
+<scheme_new.png, id=174, 499.8675pt x 468.75125pt>
+File: scheme_new.png Graphic file (type png)
+<use scheme_new.png>
+Package pdftex.def Info: scheme_new.png  used on input line 583.
+(pdftex.def)             Requested size: 349.90486pt x 328.12363pt.
+
+
+[12 <./scheme_new.png>]
+
+[13]
+
+[14]
+<rabi.png, id=195, 378.41376pt x 292.09125pt>
 File: rabi.png Graphic file (type png)
 <use rabi.png>
-Package pdftex.def Info: rabi.png  used on input line 388.
-(pdftex.def)             Requested size: 302.73141pt x 233.6733pt.
-<cuncurrence.png, id=154, 394.47375pt x 280.04625pt>
+Package pdftex.def Info: rabi.png  used on input line 706.
+(pdftex.def)             Requested size: 264.88782pt x 204.46246pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<cuncurrence.png, id=196, 394.47375pt x 280.04625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
-Package pdftex.def Info: cuncurrence.png  used on input line 394.
-(pdftex.def)             Requested size: 315.57942pt x 224.0373pt.
-<g20.png, id=155, 384.43625pt x 281.05pt>
+Package pdftex.def Info: cuncurrence.png  used on input line 716.
+(pdftex.def)             Requested size: 276.12973pt x 196.03102pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<g20.png, id=197, 384.43625pt x 281.05pt>
 File: g20.png Graphic file (type png)
 <use g20.png>
-Package pdftex.def Info: g20.png  used on input line 400.
-(pdftex.def)             Requested size: 307.54941pt x 224.84029pt.
+Package pdftex.def Info: g20.png  used on input line 726.
+(pdftex.def)             Requested size: 269.10353pt x 196.73364pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10 <./rabi.png> <./cuncurrence.png>]
-<cuncurrence_ot_B.png, id=163, 497.86pt x 284.06125pt>
+<cuncurrence_ot_B.png, id=198, 497.86pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
-Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 406.
-(pdftex.def)             Requested size: 398.28853pt x 227.24928pt.
-<fidelity.png, id=164, 427.5975pt x 296.10625pt>
+Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 739.
+(pdftex.def)             Requested size: 348.49962pt x 198.84149pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fidelity.png, id=199, 427.5975pt x 296.10625pt>
 File: fidelity.png Graphic file (type png)
 <use fidelity.png>
-Package pdftex.def Info: fidelity.png  used on input line 412.
-(pdftex.def)             Requested size: 342.07846pt x 236.88531pt.
+Package pdftex.def Info: fidelity.png  used on input line 752.
+(pdftex.def)             Requested size: 299.31621pt x 207.27295pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-[11 <./g20.png> <./cuncurrence_ot_B.png>]
 
-[12 <./fidelity.png>]
+[15]
+
+[16 <./rabi.png>]
+
+[17 <./cuncurrence.png>]
+
+[18 <./g20.png>]
+
+[19 <./cuncurrence_ot_B.png> <./fidelity.png>]
 (/Users/drakanoy/PycharmProjects/laby_fizika/auxil/diplom.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `diplom.out' has not changed.
-(rerunfilecheck)             Checksum: B6C3694C34C545BE3F9F2DB9AEDAF6F5;2209.
+(rerunfilecheck)             Checksum: 6BA461224F31727A58F9439261B57B08;3873.
  ) 
 Here is how much of TeX's memory you used:
- 13121 strings out of 467870
- 206365 string characters out of 5415476
- 639404 words of memory out of 5000000
- 41771 multiletter control sequences out of 15000+600000
- 636306 words of font info for 59 fonts, out of 8000000 for 9000
+ 13180 strings out of 467870
+ 207194 string characters out of 5415476
+ 646000 words of memory out of 5000000
+ 41812 multiletter control sequences out of 15000+600000
+ 641537 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,450b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,79p,2547b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/lh/lh-t2a/dpi600/labx1728.pk> </Users/drakanoy/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk> </Users/drakan
-oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi
-600/labx1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
-a/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk></Library/Application Support/Mi
+our/lh/lh-t2a/dpi600/lati1440.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1440.pk> </Users/drak
+anoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/d
+pi600/labx1728.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
+ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk> </Users/drakanoy/Library/Appl
+ication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk
+> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600/larm1440.pk></Library/Application Support/MiKTeX/texmfs/ins
+tall/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/Mi
 KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Applica
 tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
@@ -902,14 +986,17 @@ m/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
 blic/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/
 fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/t
 exmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Su
-pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/A
-pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb>
-Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (1
-4 pages, 601802 bytes).
+pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Library/
+Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/ins
+tall/fonts/type1/public/amsfonts/symbols/msam10.pfb></Library/Application Suppo
+rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (2
+1 pages, 680169 bytes).
 PDF statistics:
- 485 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
+ 621 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
