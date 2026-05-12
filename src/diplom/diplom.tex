@@ -1,227 +1,311 @@
-%! Author = drakanoy
-%! Date = 10.09.2024
-
-% Preamble
-\documentclass[12pt]{article}
-
-% Packages
-\usepackage[utf8]{inputenc}
-\usepackage[T2A]{fontenc}
-\usepackage[english, russian]{babel}
-\usepackage[a4paper, includefoot, left=1.5cm, right=1.5cm, top=1cm, bottom=1.5cm, headsep=1cm, footskip=1cm]{geometry}
-\usepackage{makecell}
-\usepackage{amsmath}
+\documentclass[11pt]{article}    % тип дока
+\usepackage[utf8]{inputenc}   % используемые языки
+\usepackage[T2A]{fontenc}   % используемые языки
+\usepackage[english, russian]{babel}   % используемые языки
+\usepackage[14pt]{extsizes}   % размер шрифта 14pt
+\usepackage[a4paper, left=3cm, right=1cm, top=2cm , bottom=2cm]{geometry}
+\usepackage{indentfirst}   % красная строка даже в первом абзаце
 \usepackage{graphicx}
-\usepackage{enumitem}
-\usepackage{svg}
-\usepackage{multirow}
-\usepackage{hyperref}
-\usepackage{mathtools}
+\usepackage{xcolor} % пакет для работы с цветами
 \usepackage{amssymb}
-\usepackage{textcomp}
-\usepackage{stmaryrd}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+%\usepackage{stmaryrd}
+\linespread{1.5}   % межстрочный интервал 1.5
 
-% Document
+
 \begin{document}
-\begin{large}
+
+\begin{titlepage}
+    \includegraphics[scale = 0.43]{alf4.JPG}
+    \\
+
+НАПРАВЛЕНИЕ 03.03.01 Прикладные математика и физика
+\par ПРОФИЛЬ Теоретическая Физика\\
+
 \begin{center}
-\LARGE \textbf{Диплом}
-\par
-\LARGE \textbf{Кононов Александр Михайлович}
-\par
-    \textbf{18.02.2026}
+\begin{bf}
+     ЗАДАНИЕ\\ 
+     о прохождении производственной практики (НИР)
+\end{bf}
+  
+
+
+студента Кононова Александра Михайловича \\
+
+Курс 3 Группа 301.3
 \end{center}
-\par \textbf{Задача}:
-\par Условие:
-\par
-\par
-%\includegraphics[width=0.5\textwidth]{photo_1.jpg}
-%\begin{center}
-%\underline{Рисунок 1}:
-%\end{center}
-\par \textbf{Решение}:
-%\par
-%\includegraphics[width=1\textwidth]{photo_11.jpg}
-%\par
 
+Форма обучения: очная \\
+Сроки прохождения практики с 01.07.2025 по 14.08.2025 \\
+Форма представления на кафедру выполненного задания: 
+отчет в письменной форме\\
+Дата выдачи задания: 01.07.2025\\
+Задание для прохождения производственной практики (НИР):
+Управление многофотонными состояниями, испускаемыми двухуровневой системой\\
+С заданием ознакомлен \\
+ 
+Оценка \\
+Руководитель практики Крайнов И.В.\\
+(Ф.И.О. полностью, должность, звание, подпись).
 
-\[
-    \hat{H} = g \left( \hat{b}^\dag_{-} \hat{a}_{+} + \hat{b}_{-} \hat{a}^\dag_{+} \right)
-\]
-\[
+\end{titlepage}
+
+\begin{titlepage}
+
+\includegraphics[scale = 0.43]{alf4.JPG}
+
+\
+
+\
+
+\
+
+\
+
+\
+
+\
+
+\begin{center}
+    {\bf ОТЧЕТ по производственной практике (НИР)}
+
+    {\bf Весенний семестр 2024/2025 учебного года}
+
+    {\bf Тема: Управление многофотонными состояниями, испускаемыми двухуровневой системой .}
+
+\end{center}
+
+    {\bf Студент: Кононов Александр Михайлович}
+
+    {\bf Руководитель практики: Крайнов Игорь Вадимович}
+
+    {\bf Должность, звание:}
+
+    {\bf Оценка:}
+
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Введение}
+\subsection{Актуальность}
+%Источники одиночных фотонов являются ключевыми элементами квантовых фотонных процессоров, лежащих в основе таких направлений,
+%как линейно-оптические квантовые вычисления и квантовая криптография.
+%Для практической реализации этих технологий требуются источники, максимально приближенные к идеальным:
+%детерминированные (генерирующие строго один фотон по запросу), с высокой вероятностью излучения, низкой вероятностью многофотонных событий,
+%высокой степенью неразличимости фотонов и высокой скоростью генерации.
+%
+%В данной работе рассматривается подход к формированию и детектированию запутанных фотонных состояний в нескольких поляризациях, испускаемых двухуровневой системой.
+%В отличие от традиционных методов, основанных на кросс-поляризационной фильтрации, предложенный подход использует отстройку частоты накачки относительно энергии экситона,
+%что позволяет эффективно подавлять вклад лазерного излучения без применения поляризационной фильтрации.
+%
+%Представлены результаты наблюдения групп фотонов, содержащих порядка трёх фотонов,
+%находящихся в различных поляризационных состояниях и образующих когерентную суперпозицию излучённых и резонансно рассеянных лазерных фотонов.
+%Данное явление возникает при возбуждении двухуровневой системы, реализованной в виде заряженной квантовой точки в микрорезонаторе,
+%импульсами с площадью, кратной $2\pi$. Формирование таких состояний обусловлено взаимодействием лазерного импульса, содержащего множество фотонов, с резонансной системой,
+%что приводит к изменению поляризации рассеянного излучения.
+%
+%Получаемые состояния представляют собой высокопорядковые состояния в фоковском пространстве и являются перспективными для применения в квантовых технологиях, включая задачи генерации и детектирования запутанных фотонных состояний.
+%{\color{blue} Так окрашивается текст}
+\subsection{Цель и задачи работы}
+
+{\bfЦель:} 
+\\
+
+{\bfЗадачи:} 
+%\begin{itemize}
+%    \item Найти волновую функции выходного состояния двух-уровневой системы, совпадающей по энергии с частотой импульса
+%    \item Найти $g^{(2)}(0)$ фактор в двух-уровневой системе, совпадающей по энергии с частотой импульса
+%    \item Найти волновую функции выходного состояния двух-уровневой системы, НЕ совпадающей по энергии с частотой импульса
+%    \item Найти $g^{(2)}(0)$ фактор в двух-уровневой системе, НЕ совпадающей по энергии с частотой импульса
+%\end{itemize}
+
+\newpage
+
+\section{Обзор литературы}
+
+\subsection{Запутанные состояния}
+здесь про запутанные состояния, полученные с помощью двух уровневой системы
+про [6]
+\subsection{Двухцветовая накачка}
+здесь описать [7]
+\subsection{Про старую задачу}
+здесь описать про [1]
+\begin{center}
+\includegraphics[scale = 0.8]{scheme_old.png}
+\par
+    \underline{Рисунок 1}: картинка
+\end{center}
+
+\newpage
+
+\section{Теоретическая часть}
+
+\subsection{Новый подход к старой задаче}
+В рамках предыдущих работ и точного вычисления было показано, что у двухуровневой системы, описываемой Гамильтонианом:
+\begin{equation}
+    \hat{H} = E_0 \ \hat{a}^{\dag}_{+} \hat{a}_{+} + \omega_0 \ \hat{b}^{\dag}_{-} \hat{b}_{-} +  g \left( \hat{a}^{\dag}_{+} \hat{b}_{-} + \hat{a}_{+} \hat{b}^{\dag}_{-} \right)
+\end{equation}
+накаченной лазерным когерентным импульсом, в поляризации $H$, с волновой функцией:
+\begin{equation}
     \left| \psi_{in} \right> = e^{-\left| \alpha \right|^2 / 2} e^{\alpha \hat{b}^{\dag}_H} \left| 0 \right> = e^{-\left| \alpha \right|^2 / 2} \sum_n \frac{\alpha^n}{\sqrt{n!}}  \left| n_H \right>
-\]
-\[
-    \left| \psi_{in}^H \right> =  e^{\alpha \hat{b}^{\dag}_H} \left| 0 \right> = \sum_n \frac{\alpha^n}{\sqrt{n!}}  \left| n_H \right>
-\]
-\[
-    \left| \psi_{out} \right> =  e^{-i\hat{H}t} \sum_n \frac{\alpha^n}{\sqrt{n!}} \left| n_H \right> = e^{\alpha \hat{b}^{\dag}_{+} / \sqrt{2}} \ \hat{S_0}  \ e^{\alpha \hat{b}^{\dag}_{-} / \sqrt{2}} \ \left| 0 \right>
-\]
-
-
-\begin{gather*}
-    \left| \psi_{out} \right> = \frac{e^{-\left| \alpha \right|^2 / 2} \ e^{\alpha \hat{b}^{\dag}_{H}}}{2}  \left[ e^{-i \theta / 2 } \ e^{-i \gamma \hat{b}^{\dag}_{-} } + e^{i \theta / 2 } \ e^{i \gamma \hat{b}^{\dag}_{-} } + \\
-    + \left. \left( e^{-i \theta / 2 } \ e^{-i \gamma \hat{b}^{\dag}_{-} } - e^{i \theta / 2 } \ e^{i \gamma \hat{b}^{\dag}_{-} } \right) \hat{a}^{\dag}_{+} \right] \left| 0 \right>
-\end{gather*}
-
-\[
+\end{equation}
+волновая функция выходного состояния, в поляризации $V$, имела вид:
+\begin{gather}
     \left| \psi_{out}^V \right> \approx \cos \left( \frac{\theta }{2} \right) \left| 0 \right> + \frac{i \delta - 1}{\sqrt{2}} \sin \left( \frac{\theta}{2} \right) \left| 1 \right> + \frac{i \delta}{2} \cos \left( \frac{\theta}{2} \right) \left| 2 \right>
-\]
-\[
-    \left| \psi_{out} \right> = \exp\left( -i \hat{H} t \right)  =  e^{\alpha \hat{b}^{\dag}_{+} / \sqrt{2}} \ \hat{S_0}  \ e^{\alpha \hat{b}^{\dag}_{-} / \sqrt{2}} \ \left| 0 \right>
-\]
-\[
+\end{gather}
+и расчет $g^{(2)}(0)$ на этом состоянии:
+\begin{gather}
+    g^{(2)}(0) = \frac{ \left< \psi_{out}^V \left| \ \hat{n}^2 - \hat{n} \ \right| \psi_{out}^V \right>}{\left< \psi_{out}^V \left| \ \hat{n} \ \right| \psi_{out}^V \right> ^2 } = \frac{2\left| \delta \right|^2 \cos^2 \left( \frac{\theta}{2} \right) }{\left( \sin^2 \left( \frac{\theta}{2}\right) + \left| \delta \right|^2 \right)^2}
+\end{gather}
+
+
+В рамках предыдущего подхода мы считали взаимодействие всех гармоник когерентного импульса с двухуровневой системой.
+Считали эволюцию состояний в обеих поляризациях и лишь в конце отсекали эти состояния детектором.
+\begin{gather}
     i \frac{\partial \hat{\rho}_{HV} }{\partial t} = \left[ \hat{H} ; \hat{\rho}_{HV} \right]
-\]
-\[
-     \hat{\rho}_{HV} = e^{\alpha \hat{b}^{\dag}_{H}}  \hat{\rho}_{V}  e^{\alpha^{*} \hat{b}_{H}}
-\]
-\[
-    i \frac{\partial \hat{\rho}_{V} }{\partial t} = \left[ \hat{H}_V ; \hat{\rho}_{V} \right]
-\]
-\[
+\end{gather}
+
+В рамках нового подхода мы в силу большого числа фотонов в поляризации $H \left( N >> 1 \right) $,
+мы будем считать это поле классическим и считать динамику будем только в $V$ поляризации:
+
+\par Тогда матрица плотности описывающая систему имеет вид:
+\begin{gather}
+    \hat{\rho}_{HV} = e^{\alpha \hat{b}^{\dag}_{H}}  \hat{\rho}_{V}  e^{\alpha^{*} \hat{b}_{H}}
+\end{gather}
+
+\par Просуммировав по всем состояниям в поляризации $H$ (посчитаем $Tr_{H}$ по этим состояниям),
+мы можем писать только эволюцию на состояния с поляризацией $V$.
+\begin{gather}
+    i \frac{\partial \hat{\rho}_{V} }{\partial t} = \left[ \hat{H}_{V} ; \hat{\rho}_{V} \right]
+\end{gather}
+
+\par Тогда Гамильтониан, описывающий эволюцию системы, будет иметь вид:
+\begin{gather}
     \hat{H}_V = \Omega_R^{H} \left( \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
     + \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
     + ig \left( \hat{b}_{V} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
     - \hat{b}^{\dag}_{V} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
-\]
-\[
-    g << \Omega_R^{H}
-\]
-\[
-    \left| \psi_{out} \right> = \cos(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \left| 0 \right>  -i\sin(\Omega_R t) \hat{d}^{\dag}_{\uparrow} \left| 0 \right> + gt \, i\sin(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right> - gt \, \cos(\Omega_R t) \hat{d}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right>
-\]
-\[
-    \hat{d}^{\dag}_{\uparrow}
-\]
-\[
-    \hat{b}^{\dag}_{- t} \hat{a}^{\dag}_{\uparrow}
-\]
-\[
-    \left| \psi_{out} \right> = \cos(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \left| 0 \right>  -i\sin(\Omega_R t) \hat{b}^{\dag}_{\uparrow t} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> + gt \, i\sin(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right> - gt \, \cos(\Omega_R t) \hat{b}^{\dag}_{\uparrow t} \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right>
-\]
-\[
-    -i \hat{b}^{\dag}_{V t} \hat{a}^{\dag}_{\uparrow}
-\]
-\[
-    \left| \psi_{out} \right> = \cos(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \left| 0 \right>  - \sin(\Omega_R t) \hat{b}^{\dag}_{V t} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> + gt \, i\sin(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right> - i gt \, \cos(\Omega_R t)  \hat{b}^{\dag}_{V} \hat{b}^{\dag}_{V t} \hat{a}^{\dag}_{\uparrow} \left| 0 \right>
-\]
-\[
-    \left| \psi_{out} \right> = \cos(\Omega_R t) \left| 0 \right>  + (i gt -1) \sin(\Omega_R t) \left| 1 \right> + i gt \, \cos(\Omega_R t)  \left| 2 \right>
-\]
-\[
-    \hat{H}_{+} = E_t \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow}
-    + \Omega_R \left( e^{-i \omega_L t} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
-    +  e^{-i \omega_L t} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
-    + g \left( \hat{b}_{+} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
-    +  \hat{b}^{\dag}_{+} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
-    + E_t \hat{b}^{\dag}_{+} \hat{b}_{+}
-\]
-\[
-    \hat{H}_{+} = \Delta \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} + \Delta \hat{b}^{\dag}_{+} \hat{b}_{+}
-    + \Omega_R \left( \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
-    +  \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
-    + g \left( \hat{b}_{+} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
-    +  \hat{b}^{\dag}_{+} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right)
-\]
-\[
-    \hat{H}_{-} = \Delta \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow} + \Delta \hat{b}^{\dag}_{-} \hat{b}_{-}
-    + \Omega_R \left( \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
-    +  \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right)
-    + g \left( \hat{b}_{-} \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
-    +  \hat{b}^{\dag}_{-} \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right)
-\]
-\[
-    \hat{H}_{B} = \alpha B_x \left( \hat{a}^{\dag}_{\downarrow} \hat{a}_{\uparrow} + \hat{a}^{\dag}_{\uparrow} \hat{a}_{\downarrow}  \right)
-    + \alpha B_z \left( \hat{a}^{\dag}_{\uparrow} \hat{a}_{\uparrow} - \hat{a}^{\dag}_{\downarrow} \hat{a}_{\downarrow}  \right)
-    + \beta B_z \left( \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} - \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow}  \right)
-\]
-\[
-    \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{a}^{\dag}_{\downarrow} \left| 0 \right> \, ; \, \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{d}^{\dag}_{\downarrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{+} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{-} \hat{a}^{\dag}_{\downarrow} \left| 0 \right> \, ;
-    \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\downarrow} \left| 0 \right> \,
-\]
-\[
-    \hat{b}^{\dag}_{-} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{+} \hat{a}^{\dag}_{\downarrow} \left| 0 \right> \, ;
-    \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\downarrow} \left| 0 \right>
-\]
-\[
-    \left| \uparrow \right> + \left| \downarrow \right> \rightarrow \left| \uparrow R \right> + \left| \downarrow L \right>
-\]
-\[
-    \left| \uparrow \right> + \left| \downarrow \right> \rightarrow \left( \left| \uparrow \right> + \left| \downarrow \right> \right) \left| R \right> + \left(  -\left| \uparrow \right> + \left| \downarrow \right> \right) \left| L \right>
-\]
-\[
-    \left| \uparrow \right> - \left| \downarrow \right> \rightarrow \left| +_1 +_2 \right> - \left| -_1 -_2 \right>
-\]
-\[
-    \Omega^H_R \sim g \sqrt{N}
-\]
-\[
-     \frac{\partial \hat{\rho} }{\partial t} = -i \left[ \hat{H} ; \hat{\rho} \right] - \hat{L}(\hat{\rho})
-\]
-\[
-    \hat{L}(\hat{\rho}) = \gamma_{PD} \left( \hat{\rho} - \hat{\sigma}_z \hat{\rho} \hat{\sigma}_z \right)
-\]
-\[
-    \hat{\rho}_{in}
-\]
-\[
-    \hat{\rho}_{out} = \hat{S}_{\tau} \left( \hat{\rho}_{in} \right)
-\]
-\[
-    \hat{\rho}_{ph} = \hat{M}_{spin \,\, relax} \left(  \hat{\rho}_{out}  \right)
-\]
-\[
-    = f_{+x}\left( B/T \right) \left< x \right| \hat{\rho}_{out} \left| x \right> + f_{-x}\left( B/T \right) \left< -x \right| \hat{\rho}_{out} \left| -x \right>
-\]
-\[
-    f_{+x}\left( B/T \right) = \frac{e^{B/T}}{e^{B/T} + e^{-B/T}}
-\]
-\[
-    f_{-x}\left( B/T \right) = \frac{e^{-B/T}}{e^{B/T} + e^{-B/T}}
-\]
-\[
-    = f_{+x}\left( B/T \right) \left| x \right> \left< x \right|  + f_{-x}\left( B/T \right)  \left| -x \right> \left< -x \right|
-\]
-\[
-    \sqrt{P}
-\]
-\[
-    \left| 000 \right> + \left| 001 \right> + \left| 010 \right> - \left| 011 \right> + \left| 100 \right> + \left| 101 \right> - \left| 110 \right> + \left| 111 \right>
-\]
-\[
-    F =\left( \left< +_1 +_2 \right| + \left< -_1 -_2 \right| \right) \hat{\rho}_{out}  \left( \left| +_1 +_2 \right> + \left| -_1 -_2 \right> \right)
-\]
-\[
-    \hat{\rho}_{ph} = \hat{\rho}_{0} + \hat{\rho}_{1} + \hat{\rho}_{2}
-\]
-\[
-    p_1 = Tr\left( \hat{\rho}_{1} \right) \, \, \, ; \, \, \, p_2 = Tr\left( \hat{\rho}_{2} \right)
-\]
-\begin{gather*}
-    \hat{\rho}^{(2\pi)}_2 \approx \left( g \tau \right)^2 \left( \frac{ \Omega_R^2}{ \Omega_R^2 + \Delta^2} \right)^2
+\end{gather}
+Где: $\Omega_R^{H} $ - частота осцилляций Раби, вызванных классическим $H$- поляризованным полем.
+$\Omega_R^{H} \sim g \sqrt{N} $, и так как фотонов в лазерном импульсе много $N >> 1 \Rightarrow \Omega_R^{H} >>  g $,
+Тогда фоковское пространоство можно сократить до состояний $ \left| 0 \right> $ и $ \hat{b}^{\dag}_{V} \left| 0 \right> $,
+с 0 и 1 фотоном соответсвенно.
+
+\par Тогда базисные состояния нашей системы это:
+\begin{gather}
+    \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{d}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{V} \hat{a}^{\dag}_{\uparrow} \left| 0 \right> \, ; \, \hat{b}^{\dag}_{V} \hat{d}^{\dag}_{\uparrow} \left| 0 \right>
+\end{gather}
+В этом базисе Гамильтониан будет записан как:
+\begin{gather}
+    \hat{H} =
 \begin{pmatrix}
-    1 & 0 & 0 & \tanh^2\left( B/T \right) \\
-    0 & 0 & 0 & 0 \\
-    0 & 0 & 0 & 0 \\
-    \tanh^2\left( B/T \right) & 0 & 0 & 1
+    0 & \Omega_R & 0 & 0 \\
+    \Omega_R & 0 & ig & 0 \\
+    0 & -ig & 0 & \Omega_R \\
+    0 & 0 & \Omega_R & 0
 \end{pmatrix}
-\end{gather*}
-\[
-    g^{(2)}(0) = \frac{2\left| \delta \right|^2 \cos^2(\theta/2)}{\left( \sin^2(\theta/2) + \left| \delta \right|^2 \right)^2}
-\]
-\[
-    \left| 0 \right> = \left| H \right>
-\]
-\[
-    \left| 1 \right> = \left| V \right>
-\]
-\[
-    \phi_{ab}^+ = \frac{1}{\sqrt{2}} \left(  H_a H_b +  V_a V_b \right)
-\]
-\[
-    \frac{\mu g B}{T}
-\]
+\end{gather}
+И если выделить в нем блоки по фотонным состояниям:
+\begin{gather}
+    \hat{H} =
+\begin{pmatrix}
+    \hat{H_0} & \hat{V} \\
+    \hat{V}^{\dag} & \hat{H_0}
+\end{pmatrix}
+\end{gather}
+Теперь если переписать эту задачу в представлении взаимодействия, то получим:
+\begin{gather}
+    -i \frac{\partial}{\partial t } \left| \chi \right> =
+\begin{pmatrix}
+    0 &  \hat{V_t} \\
+     \hat{V_t}^{\dag} & 0
+\end{pmatrix}
+    \left| \chi \right> \end{gather}
+Где:
+\begin{gather}
+    \hat{V_t} = e^{i\hat{H_0}t} \hat{V} e^{-i\hat{H_0}t} \\ \nonumber
+    \left| \psi \right> =
+\begin{pmatrix}
+    e^{-i\hat{H_0}t} & 0 \\
+    0 & e^{-i\hat{H_0}t}
+\end{pmatrix}
+    \left| \chi \right> \\ \nonumber
+    \left| \chi(0) \right> = \left| \psi(0) \right> = \hat{a}^{\dag}_{\uparrow} \left| 0 \right>
+\end{gather}
+Решая эту задачу по теории возмущений в первом порядке по $g$, получаем ответ на $\left| \chi \right>$:
+\begin{gather}
+    \left| \chi \right> \approx \left( \hat{I} -i \int^t_0 d\tau
+\begin{pmatrix}
+    0 &  \hat{V_t} \\
+     \hat{V_t}^{\dag} & 0
+\end{pmatrix}
+    \right) \left| \chi(0) \right>
+\end{gather}
+Так как:
+\begin{gather}
+    -i \int^t_0 d\tau \hat{V_t}
+\approx
+\frac{gt}{2}
+\begin{pmatrix}
+    0 & 1 \\
+    1 & 0
+\end{pmatrix}
+\end{gather}
+То можно получить финальное выражение для $\left| \psi_{out} \right>$
+\begin{gather}
+    \left| \psi_{out} \right> = \cos(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \left| 0 \right>  -i\sin(\Omega_R t) \hat{d}^{\dag}_{\uparrow} \left| 0 \right> + gt \, i\sin(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right> - \\ \nonumber
+    - gt \, \cos(\Omega_R t) \hat{d}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right>
+\end{gather}
+После того как трион высвечивается, а на детекторе мы регистрируем фотоны в $V$-поляризации, то:
+\begin{gather}
+    \left| \psi_{out} \right> = \cos(\Omega_R t) \left| 0 \right>  + \frac{i gt -1}{\sqrt{2}} \sin(\Omega_R t) \left| 1 \right> + \frac{i gt}{2} \, \cos(\Omega_R t)  \left| 2 \right>
+\end{gather}
+
+Как видим, этот ответ полностью совпадает с ответом полученным в [1],
+и поэтому мы будем использовать этот подход дальше в задачах.
+
+\subsection{Новый подход}
+\par В рамках нового подхода будем возбуждать систему нерезонансным лазерным возмущением.
+Это позволит отсекать выходное состояние по частотам в узком диапазоне, без лазерной засветки,
+во всех поляризациях.
+\begin{center}
+\includegraphics[scale = 0.8]{scheme_new.png}
 \par
-\end{large}
+    \underline{Рисунок 2}: картинка
+\end{center}
+\par
+Такая система будет теперь описываться Гамильтонианом учитывающим обе поляризации излучения, а так же взаимодействие с магнитным полем.
+\begin{gather}
+    \hat{H}_{+} = \Delta \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} + \Delta \hat{b}^{\dag}_{+} \hat{b}_{+} + \Omega_R \left( \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
+    +  \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right) + g \left( \hat{b}_{+} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
+    +  \hat{b}^{\dag}_{+} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right) \\ \nonumber
+    \hat{H}_{-} = \Delta \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow} + \Delta \hat{b}^{\dag}_{-} \hat{b}_{-} + \Omega_R \left( \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
+    +  \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right) + g \left( \hat{b}_{-} \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
+    +  \hat{b}^{\dag}_{-} \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right) \\ \nonumber
+    \hat{H}_{B} = \alpha B_x \left( \hat{a}^{\dag}_{\downarrow} \hat{a}_{\uparrow} + \hat{a}^{\dag}_{\uparrow} \hat{a}_{\downarrow}  \right) + \alpha B_z \left( \hat{a}^{\dag}_{\uparrow} \hat{a}_{\uparrow} - \hat{a}^{\dag}_{\downarrow} \hat{a}_{\downarrow}  \right) + \beta B_z \left( \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} - \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow}  \right) \\ \nonumber
+    \hat{H} = \hat{H}_{+} + \hat{H}_{-} + \hat{H}_{B} \nonumber
+\end{gather}
+
+Снова зафиксируем базис, ограничившись одним фотоном в Фоковском пространстве:
+
+
+\section{Заключение}
+\par
+
+\section{Список литературы}
+
+   \begin{enumerate}
+       \item Krainov I.V., 'Coherent superposition of emitted and resonantly scattered photons from a two-level system driven by an even-$\pi$ pulse', Mesoscale and Nanoscale Physics (2025)
+       \item Marlian O. Scully and M. Suhail Zubairy, 'Quantum optics' (1996)
+       \item Bonch-Bruevich V.L., 'Physics of Semiconductors' (1965)
+       \item Anselm A.I., Introduction to Semiconductor Theory (1963)
+       \item M.V. Rakhlin, A.I. Galimov, et. al. and T.V. Shubina, A.A. Toropov, Journal of Luminescence 253, 119496 (2023)
+       \item Netanel H. Lindner, Terry Rudolph, physical review letters 103, 113602 (2009)
+       \item Yu-Ming He, Hui Wang, et.al., Nature Phys, 15, 941 (2019)
+   \end{enumerate}
+
 \end{document}
