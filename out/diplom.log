@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.3.11)  18 MAY 2026 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  19 MAY 2026 01:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **/Users/drakanoy/PycharmProjects/laby_fizika/src/diplom/diplom.tex
 (/Users/drakanoy/PycharmProjects/laby_fizika/src/diplom/diplom.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
+L3 programming layer <2026-03-20>
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size11.clo
@@ -22,7 +22,7 @@ File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \c@table=\count282
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
+\bibindent=\dimen150
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -247,7 +247,7 @@ rillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
+Package: babel 2026/04/15 v26.6 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
 \babel@savecnt=\count283
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -264,7 +264,7 @@ LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?)
 on input line 2086.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
 on input line 2111.
-\U@D=\dimen149
+\U@D=\dimen151
 \l@unhyphenated=\language79
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.
@@ -325,7 +325,7 @@ File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ))
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ge
 ometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+Package: geometry 2026/03/07 v6.0 Page Geometry
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.s
 ty
@@ -342,14 +342,14 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@cnth=\count285
 \Gm@cntv=\count286
 \c@Gm@tempcnt=\count287
-\Gm@bindingoffset=\dimen150
-\Gm@wd@mp=\dimen151
-\Gm@odd@mp=\dimen152
-\Gm@even@mp=\dimen153
-\Gm@layoutwidth=\dimen154
-\Gm@layoutheight=\dimen155
-\Gm@layouthoffset=\dimen156
-\Gm@layoutvoffset=\dimen157
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks20
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ge
@@ -379,8 +379,8 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 ex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -432,12 +432,12 @@ Package: amstext 2024/11/17 v2.01 AMS text
 y
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
-\ex@=\dimen160
+\ex@=\dimen162
 ))
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.st
 y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen161
+\pmbraise@=\dimen163
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.st
 y
@@ -460,7 +460,7 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen162
+\big@size=\dimen164
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
 \macc@depth=\count293
@@ -478,12 +478,12 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \column@=\count298
 \maxfields@=\count299
 \andhelp@=\toks24
-\eqnshift@=\dimen163
-\alignsep@=\dimen164
-\tagshift@=\dimen165
-\tagwidth@=\dimen166
-\totwidth@=\dimen167
-\lineht@=\dimen168
+\eqnshift@=\dimen165
+\alignsep@=\dimen166
+\tagshift@=\dimen167
+\tagwidth@=\dimen168
+\totwidth@=\dimen169
+\lineht@=\dimen170
 \@envbody=\toks25
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -493,7 +493,7 @@ LaTeX Info: Redefining \] on input line 2951.
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref
 .sty
-Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kv
 setkeys/kvsetkeys.sty
@@ -556,13 +556,13 @@ stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen169
+\@linkdim=\dimen171
 \Hy@linkcounter=\count302
 \Hy@pagecounter=\count303
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.d
 ef
-File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -574,25 +574,25 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.de
 f
-File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 3166.
-Package hyperref Info: Hyper figures OFF on input line 4201.
-Package hyperref Info: Link nesting OFF on input line 4206.
-Package hyperref Info: Hyper index ON on input line 4209.
-Package hyperref Info: Plain pages OFF on input line 4216.
-Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Option `unicode' set `true' on input line 3164.
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4468.
+Package hyperref Info: Bookmarks ON on input line 4466.
 \c@Hy@tempcnt=\count305
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4807.
-\XeTeXLinkMargin=\dimen170
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen172
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
 bitset/bitset.sty
@@ -604,15 +604,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count306
-\Field@Width=\dimen171
-\Fld@charsize=\dimen172
-Package hyperref Info: Hyper figures OFF on input line 6084.
-Package hyperref Info: Link nesting OFF on input line 6089.
-Package hyperref Info: Hyper index ON on input line 6092.
-Package hyperref Info: backreferencing OFF on input line 6099.
-Package hyperref Info: Link coloring OFF on input line 6104.
-Package hyperref Info: Link coloring with OCG OFF on input line 6109.
-Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Field@Width=\dimen173
+\Fld@charsize=\dimen174
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
 \Hy@abspage=\count307
 \c@Item=\count308
 \c@Hfootnote=\count309
@@ -621,7 +621,7 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.
 def
-File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
 \Fld@listcount=\count310
 \c@bookmark@seq@number=\count311
 
@@ -645,14 +645,14 @@ Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/caption/caption3.
 sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen173
-\captionmargin=\dimen174
-\caption@leftmargin=\dimen175
-\caption@rightmargin=\dimen176
-\caption@width=\dimen177
-\caption@indent=\dimen178
-\caption@parindent=\dimen179
-\caption@hangindent=\dimen180
+\caption@tempdima=\dimen175
+\captionmargin=\dimen176
+\caption@leftmargin=\dimen177
+\caption@rightmargin=\dimen178
+\caption@width=\dimen179
+\caption@indent=\dimen180
+\caption@parindent=\dimen181
+\caption@hangindent=\dimen182
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count312
@@ -661,7 +661,7 @@ Package caption Info: hyperref package is loaded.
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
 nd-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 ) (/Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
@@ -730,13 +730,13 @@ LaTeX Info: Redefining \th on input line 18.
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count315
-\scratchdimen=\dimen181
+\scratchdimen=\dimen183
 \scratchbox=\box55
 \nofMPsegments=\count316
 \nofMParguments=\count317
 \everyMPshowfont=\toks27
 \MPscratchCnt=\count318
-\MPscratchDim=\dimen182
+\MPscratchDim=\dimen184
 \MPnumerator=\count319
 \makeMPintoPDFobject=\count320
 \everyMPtoPDFconversion=\toks28
@@ -839,7 +839,7 @@ l.91 \newpage
 [2]
 
 [3]
-Overfull \hbox (72.00816pt too wide) in paragraph at lines 183--188
+Overfull \hbox (72.00816pt too wide) in paragraph at lines 190--195
 []\T2A/cmr/m/n/14.4 ^^cf^^f0^^e8^^ed^^f6^^e8^^ef^^e8^^e0^^eb^^fc^^ed^^fb^^ec ^^
 ee^^e3^^f0^^e0-^^ed^^e8-^^f7^^e5-^^ed^^e8-^^e5^^ec ^^f2^^e0-^^ea^^ee^^e9 ^^f1^^
 f5^^e5-^^ec^^fb ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^f2^^ee, ^^f7^^f2^^ee ^^ea
@@ -849,7 +849,7 @@ f5^^e5-^^ec^^fb ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^f2^^ee, ^^f7^^f2^^ee ^^ea
 
 
 [4]
-Overfull \hbox (2.51605pt too wide) in paragraph at lines 203--207
+Overfull \hbox (2.51605pt too wide) in paragraph at lines 210--214
 \T2A/cmr/m/n/14.4 ^^ed^^ee-^^e3^^ee ^^ef^^ee-^^eb^^ff, ^^e8 ^^e8^^f1-^^f1^^eb^^
 e5-^^e4^^ee-^^e2^^e0^^f2^^fc ^^e2^^ee^^e7-^^ec^^ee^^e6-^^ed^^ee^^f1^^f2^^fc ^^e
 3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^
@@ -859,7 +859,7 @@ ee^^ed^^ed^^ee-^^e7^^e0^^ef^^f3^^f2^^e0^^ed^^ed^^fb^^f5
 
 
 [5]
-Overfull \hbox (13.85411pt too wide) in paragraph at lines 227--227
+Overfull \hbox (13.85411pt too wide) in paragraph at lines 234--234
 []\T2A/cmr/bx/n/17.28 ^^cc^^ee^^f2^^e8^^e2^^e0^^f6^^e8^^ff: ^^e3^^e5-^^ed^^e5-^
 ^f0^^e0-^^f6^^e8^^ff ^^ea^^eb^^e0-^^f1^^f2^^e5^^f0-^^ed^^fb^^f5 ^^f1^^ee-^^f1^^
 f2^^ee-^^ff-^^ed^^e8^^e9 ^^e8^^e7 ^^ea^^e2^^e0^^ed-
@@ -868,15 +868,15 @@ f2^^ee-^^ff-^^ed^^e8^^e9 ^^e8^^e7 ^^ea^^e2^^e0^^ed-
 
 
 [6]
-<scheme_old.png, id=136, 433.62pt x 393.47pt>
+<scheme_old.png, id=135, 433.62pt x 393.47pt>
 File: scheme_old.png Graphic file (type png)
 <use scheme_old.png>
-Package pdftex.def Info: scheme_old.png  used on input line 294.
+Package pdftex.def Info: scheme_old.png  used on input line 301.
 (pdftex.def)             Requested size: 314.40001pt x 285.30347pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 298.
+(caption)                particular \caption on input line 305.
 See the caption package documentation for explanation.
 
 
@@ -884,15 +884,15 @@ See the caption package documentation for explanation.
 [7 <./scheme_old.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 321.
+(hyperref)                removing `math shift' on input line 328.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 321.
+(hyperref)                removing `\pi' on input line 328.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 321.
+(hyperref)                removing `math shift' on input line 328.
 
 
 
@@ -901,14 +901,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 380.
+(hyperref)                removing `\@ifnextchar' on input line 387.
 
 
 
 [10]
 
 [11]
-Overfull \hbox (0.22934pt too wide) in paragraph at lines 485--491
+Overfull \hbox (0.22934pt too wide) in paragraph at lines 492--498
 []\T2A/cmr/m/n/14.4 ^^dd^^f2^^ee^^f2 ^^f0^^e5-^^e7^^f3^^eb^^fc-^^f2^^e0^^f2 ^^e
 f^^ee^^eb-^^ed^^ee-^^f1^^f2^^fc^^fe ^^e2^^ee^^f1-^^ef^^f0^^ee-^^e8^^e7-^^e2^^ee
 -^^e4^^e8^^f2 ^^ee^^f2-^^e2^^e5^^f2, ^^ef^^ee-^^eb^^f3-^^f7^^e5^^ed-^^ed^^fb^^e
@@ -918,15 +918,15 @@ f^^ee^^eb-^^ed^^ee-^^f1^^f2^^fc^^fe ^^e2^^ee^^f1-^^ef^^f0^^ee-^^e8^^e7-^^e2^^ee
 
 
 [12]
-<scheme_new.png, id=195, 499.8675pt x 468.75125pt>
+<scheme_new.png, id=194, 499.8675pt x 468.75125pt>
 File: scheme_new.png Graphic file (type png)
 <use scheme_new.png>
-Package pdftex.def Info: scheme_new.png  used on input line 644.
+Package pdftex.def Info: scheme_new.png  used on input line 651.
 (pdftex.def)             Requested size: 314.40001pt x 294.83562pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 649.
+(caption)                particular \caption on input line 656.
 See the caption package documentation for explanation.
 
 
@@ -936,67 +936,67 @@ See the caption package documentation for explanation.
 [14]
 
 [15]
-<rabi.png, id=216, 378.41376pt x 292.09125pt>
+<rabi.png, id=215, 378.41376pt x 292.09125pt>
 File: rabi.png Graphic file (type png)
 <use rabi.png>
-Package pdftex.def Info: rabi.png  used on input line 766.
+Package pdftex.def Info: rabi.png  used on input line 773.
 (pdftex.def)             Requested size: 348.26233pt x 268.82079pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 770.
+(caption)                particular \caption on input line 777.
 See the caption package documentation for explanation.
 
 
 
 [16]
-<cuncurrence.png, id=226, 394.47375pt x 280.04625pt>
+<cuncurrence.png, id=225, 394.47375pt x 280.04625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
-Package pdftex.def Info: cuncurrence.png  used on input line 775.
+Package pdftex.def Info: cuncurrence.png  used on input line 782.
 (pdftex.def)             Requested size: 348.26233pt x 247.24052pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 779.
+(caption)                particular \caption on input line 786.
 See the caption package documentation for explanation.
 
 
 
 [17 <./rabi.png> <./cuncurrence.png>]
-<g20.png, id=235, 384.43625pt x 281.05pt>
+<g20.png, id=234, 384.43625pt x 281.05pt>
 File: g20.png Graphic file (type png)
 <use g20.png>
-Package pdftex.def Info: g20.png  used on input line 784.
+Package pdftex.def Info: g20.png  used on input line 791.
 (pdftex.def)             Requested size: 348.26233pt x 254.61945pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 791.
+(caption)                particular \caption on input line 798.
 See the caption package documentation for explanation.
 
-<cuncurrence_ot_B.png, id=236, 497.86pt x 284.06125pt>
+<cuncurrence_ot_B.png, id=235, 497.86pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
-Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 796.
+Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 803.
 (pdftex.def)             Requested size: 348.26233pt x 198.71147pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 803.
+(caption)                particular \caption on input line 810.
 See the caption package documentation for explanation.
 
 
 
 [18 <./g20.png> <./cuncurrence_ot_B.png>]
-<fidelity.png, id=245, 427.5975pt x 296.10625pt>
+<fidelity.png, id=244, 427.5975pt x 296.10625pt>
 File: fidelity.png Graphic file (type png)
 <use fidelity.png>
-Package pdftex.def Info: fidelity.png  used on input line 808.
+Package pdftex.def Info: fidelity.png  used on input line 815.
 (pdftex.def)             Requested size: 348.26233pt x 241.16858pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 815.
+(caption)                particular \caption on input line 822.
 See the caption package documentation for explanation.
 
 
@@ -1004,7 +1004,7 @@ See the caption package documentation for explanation.
 [19 <./fidelity.png>]
 
 [20]
-Underfull \hbox (badness 2809) in paragraph at lines 1036--1039
+Underfull \hbox (badness 2809) in paragraph at lines 1043--1046
 \T2A/cmr/m/it/14.4 entangled cluster state with solid-state quantum emitters in
  photonic
  []
@@ -1016,22 +1016,22 @@ Underfull \hbox (badness 2809) in paragraph at lines 1036--1039
 [22] (/Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
+L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `diplom.out' has not changed.
 (rerunfilecheck)             Checksum: 6BA461224F31727A58F9439261B57B08;3873.
  ) 
 Here is how much of TeX's memory you used:
- 14503 strings out of 467870
- 232843 string characters out of 5415476
- 668388 words of memory out of 5000000
- 43121 multiletter control sequences out of 15000+600000
+ 14540 strings out of 467694
+ 234528 string characters out of 5412129
+ 672789 words of memory out of 5000000
+ 43333 multiletter control sequences out of 15000+600000
  641537 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,2600b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
-our/jknappen/ec/dpi600/tcrm1440.pk> </Users/drakanoy/Library/Application Suppor
-t/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/lati1440.pk> </Users/drak
+our/lh/lh-t2a/dpi600/lati1440.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1440.pk> </Users/drak
 anoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/d
 pi600/labx1728.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
 ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk> </Users/drakanoy/Library/Appl
@@ -1054,9 +1054,9 @@ e1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/ins
 tall/fonts/type1/public/amsfonts/symbols/msam10.pfb></Library/Application Suppo
 rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (2
-4 pages, 703691 bytes).
+4 pages, 691378 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
+ 658 PDF objects out of 1000 (max. 8388607)
  81 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
