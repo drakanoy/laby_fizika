@@ -335,9 +335,9 @@ $|\!\downarrow\rangle$ со спином $s = -1/2$.
 Тяжёлая дырка в валентной зоне имеет угловой момент $s = \pm 3/2$,
 и трионный переход для каждого из двух начальных спиновых состояний
 электрона реализуется с одной и той же энергией:
-\begin{equation}
+\begin{gather}
     \hbar\omega_{\uparrow} = \hbar\omega_{\downarrow} \equiv E_t.
-\end{equation}
+\end{gather}
 Это равенство обусловлено симметрией структуры InAs/GaAs относительно
 обращения времени (теорема Крамерса) \cite{yugova2009}.
 Оба оптических перехода являются вырожденными по энергии,
@@ -347,15 +347,14 @@ $|\!\downarrow\rangle$ со спином $s = -1/2$.
 точки и соответствующие оптические переходы.
 
 % TODO: вставить рисунок с зонной диаграммой КТ (уровни электрона, дырки, трионные переходы)
-\begin{figure}[h]
-    \centering
-    % \includegraphics[width=0.55\textwidth]{trion_levels.png}
-    \captionof{figure}{Зонная диаграмма заряженной квантовой точки.
-    Резидентный электрон со спином $\uparrow$ ($\downarrow$) образует трион
-    при поглощении $\sigma_+$ ($\sigma_-$)-поляризованного фотона.
-    Оба перехода вырождены по энергии: $\hbar\omega_\uparrow = \hbar\omega_\downarrow = E_t$.}
-    \label{fig:trion_levels}
-\end{figure}
+\begin{center}
+\includegraphics[width=0.65\textwidth]{trion_levels.png}
+\captionof{figure}{Зонная диаграмма заряженной квантовой точки.
+Резидентный электрон со спином $\uparrow$ ($\downarrow$) образует трион
+при поглощении $\sigma_+$ ($\sigma_-$)-поляризованного фотона.
+Оба перехода вырождены по энергии: $\hbar\omega_\uparrow = \hbar\omega_\downarrow = E_t$.}
+\label{fig:trion_levels}
+\end{center}
 
 \medskip
 \noindent\textbf{Некогерентная суперпозиция спина и независимость каналов взаимодействия.}
@@ -385,7 +384,7 @@ $\sigma_+$.
 Соответственно, рекомбинация в канале $|\!\downarrow\rangle$ (переход с
 момента дырки $-3/2$ на уровень электрона $-1/2$) даёт $\Delta m = +1$ и
 сопровождается испусканием $\sigma_-$-поляризованного фотона \cite{yugova2009}:
-\begin{equation}
+\begin{gather}
     |\!\uparrow\rangle \xrightarrow{\;\sigma_+\text{-накачка}\;}
     |X^-_{\uparrow}\rangle \xrightarrow{\;\text{рекомбинация}\;}
     |\!\uparrow\rangle + \gamma_{\sigma_-},
@@ -393,7 +392,7 @@ $\sigma_+$.
     |\!\downarrow\rangle \xrightarrow{\;\sigma_-\text{-накачка}\;}
     |X^-_{\downarrow}\rangle \xrightarrow{\;\text{рекомбинация}\;}
     |\!\downarrow\rangle + \gamma_{\sigma_+}.
-\end{equation}
+\end{gather}
 Таким образом, поляризация испущенного фотона однозначно запутана
 с проекцией спина резидентного электрона: измерение поляризации фотона
 коллапсирует спиновое состояние электрона в определённое направление,
@@ -424,11 +423,11 @@ $\theta = \Omega_R \tau_p$ составляла $\pi$.
 тогда как канал детектирования настроен на вертикальную поляризацию ($V$-поляризация).
 
 Линейно поляризованное ($H$) поле раскладывается по циркулярному базису:
-\begin{equation}
+\begin{gather}
     \mathbf{e}_H = \frac{\boldsymbol{\sigma}_+ + \boldsymbol{\sigma}_-}{\sqrt{2}},
     \qquad
     \mathbf{e}_V = \frac{\boldsymbol{\sigma}_+ - \boldsymbol{\sigma}_-}{\sqrt{2}\,i}.
-\end{equation}
+\end{gather}
 Следовательно, $H$-поляризованный лазерный импульс возбуждает оба спиновых
 канала ($\uparrow$ и $\downarrow$) одновременно и с одинаковой амплитудой.
 После возбуждения каждый канал высвечивается, испуская фотон соответствующей
