@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  21 MAY 2026 02:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  24 MAY 2026 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -787,6 +787,14 @@ x/pdftex.map} <./logo.png>]
 
 
 [2]
+Overfull \hbox (6.89093pt too wide) in paragraph at lines 182--197
+[]\T2A/cmr/bx/n/14.4 ^^d0^^e5^^e7^^ee^^ed^^e0^^ed^^f1^^ed^^ee^^e5 ^^e2^^ee^^e7-
+^^e1^^f3^^e6-^^e4^^e5-^^ed^^e8^^e5 $\OML/cmm/m/it/14.4 ^^Y$\T2A/cmr/m/n/14.4 -^
+^e8^^ec^^ef^^f3^^eb^^fc^^f1^^ee^^ec ^^f1 ^^ea^^f0^^ee^^f1^^f1-^^ef^^ee^^eb^^ff^
+^f0^^e8^^e7^^e0^^f6^^e8^^ee^^ed^^ed^^ee^^e9 ^^f4^^e8^^eb^^fc-
+ []
+
+
 
 [3]
 
@@ -801,7 +809,7 @@ f5^^e5-^^ec^^fb ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^f2^^ee, ^^f7^^f2^^ee ^^ea
  []
 
 
-Overfull \hbox (2.51605pt too wide) in paragraph at lines 293--297
+Overfull \hbox (2.51605pt too wide) in paragraph at lines 292--296
 \T2A/cmr/m/n/14.4 ^^ed^^ee-^^e3^^ee ^^ef^^ee-^^eb^^ff, ^^e8 ^^e8^^f1-^^f1^^eb^^
 e5-^^e4^^ee-^^e2^^e0^^f2^^fc ^^e2^^ee^^e7-^^ec^^ee^^e6-^^ed^^ee^^f1^^f2^^fc ^^e
 3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^
@@ -813,22 +821,34 @@ ee^^ed^^ed^^ee-^^e7^^e0^^ef^^f3^^f2^^e0^^ed^^ed^^fb^^f5
 [6]
 
 [7]
-Overfull \hbox (3.28748pt too wide) in paragraph at lines 318--318
+Overfull \hbox (3.28748pt too wide) in paragraph at lines 317--317
 []\T2A/cmr/bx/n/17.28 ^^ca^^f0^^ee^^f1^^f1-^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6
 ^^e8^^ee^^ed^^ed^^e0^^ff ^^f1^^f5^^e5-^^ec^^e0 ^^f0^^e5-^^e7^^ee-^^ed^^e0^^ed^^
 f1-^^ed^^ee-^^e3^^ee ^^e2^^ee^^e7-^^e1^^f3^^e6-
  []
 
+<trion_levels.png, id=142, 1175.39125pt x 693.59125pt>
+File: trion_levels.png Graphic file (type png)
+<use trion_levels.png>
+Package pdftex.def Info: trion_levels.png  used on input line 350.
+(pdftex.def)             Requested size: 314.40001pt x 185.52588pt.
 
-Underfull \hbox (badness 1655) in paragraph at lines 356--356
-[]\T2A/cmr/m/n/14.4 ^^d0^^e8^^f1. 1: |^^c7^^ee^^ed-^^ed^^e0^^ff ^^e4^^e8^^e0-^^
-e3^^f0^^e0^^ec-^^ec^^e0 ^^e7^^e0-^^f0^^ff-^^e6^^e5^^ed-^^ed^^ee^^e9 ^^ea^^e2^^e
-0^^ed-^^f2^^ee-^^e2^^ee^^e9 ^^f2^^ee^^f7-^^ea^^e8. ^^d0^^e5-^^e7^^e8-^^e4^^e5^^
-ed^^f2-^^ed^^fb^^e9
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 354.
+See the caption package documentation for explanation.
+
+
+
+[8]
+Underfull \hbox (badness 1655) in paragraph at lines 354--354
+[]\T2A/cmr/m/n/14.4 ^^d0^^e8^^f1. 1: |[]^^c7^^ee^^ed^^ed^^e0^^ff ^^e4^^e8^^e0-^
+^e3^^f0^^e0^^ec-^^ec^^e0 ^^e7^^e0-^^f0^^ff-^^e6^^e5^^ed-^^ed^^ee^^e9 ^^ea^^e2^^
+e0^^ed-^^f2^^ee-^^e2^^ee^^e9 ^^f2^^ee^^f7-^^ea^^e8. ^^d0^^e5-^^e7^^e8-^^e4^^e5^
+^ed^^f2-^^ed^^fb^^e9
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 356--356
+Underfull \hbox (badness 2073) in paragraph at lines 354--354
 \T2A/cmr/m/n/14.4 ^^fd^^eb^^e5^^ea-^^f2^^f0^^ee^^ed ^^f1^^ee ^^f1^^ef^^e8-^^ed^
 ^ee^^ec $\OMS/cmsy/m/n/14.4 "$ \T2A/cmr/m/n/14.4 ($\OMS/cmsy/m/n/14.4 #$\T2A/cm
 r/m/n/14.4 ) ^^ee^^e1-^^f0^^e0-^^e7^^f3-^^e5^^f2 ^^f2^^f0^^e8-^^ee^^ed ^^ef^^f0
@@ -837,22 +857,17 @@ A/cmr/m/n/14.4 ($\OML/cmm/m/it/14.4 ^^[[]$\T2A/cmr/m/n/14.4 )-
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[8]
-Overfull \hbox (70.06042pt too wide) detected at line 396
-[][][]\OMS/cmsy/m/n/14.4 j  "i [] j\OML/cmm/m/it/14.4 X[]\OMS/cmsy/m/n/14.4 i [
-] j  "i \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 ^^M[];  \OMS/cmsy/m/n/14.4 j  #i
- [] j\OML/cmm/m/it/14.4 X[]\OMS/cmsy/m/n/14.4 i [] j  #i \OT1/cmr/m/n/14.4 + \O
-ML/cmm/m/it/14.4 ^^M[]:
+Overfull \hbox (4.31192pt too wide) in paragraph at lines 359--373
+[]\T2A/cmr/bx/n/14.4 ^^cd^^e5^^ea^^ee^^e3^^e5^^f0^^e5^^ed^^f2^^ed^^e0^^ff ^^f1^
+^f3-^^ef^^e5^^f0-^^ef^^ee-^^e7^^e8-^^f6^^e8^^ff ^^f1^^ef^^e8-^^ed^^e0 ^^e8 ^^ed
+^^e5^^e7^^e0-^^e2^^e8-^^f1^^e8-^^ec^^ee^^f1^^f2^^fc ^^ea^^e0-^^ed^^e0-^^eb^^ee^
+^e2 ^^e2^^e7^^e0-
  []
 
 
 
-[9]
-Overfull \hbox (23.0081pt too wide) in paragraph at lines 419--425
+[9 <./trion_levels.png>]
+Overfull \hbox (23.0081pt too wide) in paragraph at lines 417--424
 \T2A/cmr/m/n/14.4 ^^ea^^e0-^^ed^^e0^^eb ^^e4^^e5-^^f2^^e5^^ea-^^f2^^e8-^^f0^^ee
 -^^e2^^e0-^^ed^^e8^^ff ^^ed^^e0-^^f1^^f2^^f0^^ee-^^e5^^ed ^^ed^^e0 ^^e2^^e5^^f0
 -^^f2^^e8-^^ea^^e0^^eb^^fc-^^ed^^f3^^fe ^^ef^^ee-^^eb^^ff-^^f0^^e8-^^e7^^e0-^^f
@@ -863,15 +878,9 @@ Overfull \hbox (23.0081pt too wide) in paragraph at lines 419--425
 
 
 [10]
-Overfull \hbox (6.92752pt too wide) in paragraph at lines 452--463
-\T2A/cmr/m/n/14.4 ^^ef^^f0^^e8^^ed-^^f6^^e8-^^ef^^e8-^^e0^^eb^^fc-^^ed^^fb-^^ec
-^^e8 ^^ee^^e3^^f0^^e0-^^ed^^e8-^^f7^^e5-^^ed^^e8-^^ff-^^ec^^e8. ^^c2^^ee-^^ef^^
-e5^^f0^^e2^^fb^^f5, ^^ef^^ee-^^eb^^ff-^^f0^^e8-^^e7^^e0-^^f6^^e8-^^ee^^ed-^^ed^
-^fb^^e9 ^^f1^^e2^^e5-^^f2^^ee-^^f4^^e8^^eb^^fc^^f2^^f0
- []
 
-
-Overfull \hbox (13.85411pt too wide) in paragraph at lines 468--468
+[11]
+Overfull \hbox (13.85411pt too wide) in paragraph at lines 467--467
 []\T2A/cmr/bx/n/17.28 ^^cc^^ee^^f2^^e8^^e2^^e0^^f6^^e8^^ff: ^^e3^^e5-^^ed^^e5-^
 ^f0^^e0-^^f6^^e8^^ff ^^ea^^eb^^e0-^^f1^^f2^^e5^^f0-^^ed^^fb^^f5 ^^f1^^ee-^^f1^^
 f2^^ee-^^ff-^^ed^^e8^^e9 ^^e8^^e7 ^^ea^^e2^^e0^^ed-
@@ -879,18 +888,16 @@ f2^^ee-^^ff-^^ed^^e8^^e9 ^^e8^^e7 ^^ea^^e2^^e0^^ed-
 
 
 
-[11]
-
 [12]
 <scheme_old.png, id=194, 433.62pt x 393.47pt>
 File: scheme_old.png Graphic file (type png)
 <use scheme_old.png>
-Package pdftex.def Info: scheme_old.png  used on input line 535.
+Package pdftex.def Info: scheme_old.png  used on input line 534.
 (pdftex.def)             Requested size: 314.40001pt x 285.30347pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 539.
+(caption)                particular \caption on input line 538.
 See the caption package documentation for explanation.
 
 
@@ -898,15 +905,15 @@ See the caption package documentation for explanation.
 [13 <./scheme_old.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 561.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 562.
+(hyperref)                removing `\pi' on input line 561.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 561.
 
 
 
@@ -915,14 +922,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [15]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 621.
+(hyperref)                removing `\@ifnextchar' on input line 620.
 
 
 
 [16]
 
 [17]
-Overfull \hbox (0.22934pt too wide) in paragraph at lines 726--732
+Overfull \hbox (0.22934pt too wide) in paragraph at lines 725--731
 []\T2A/cmr/m/n/14.4 ^^dd^^f2^^ee^^f2 ^^f0^^e5-^^e7^^f3^^eb^^fc-^^f2^^e0^^f2 ^^e
 f^^ee^^eb-^^ed^^ee-^^f1^^f2^^fc^^fe ^^e2^^ee^^f1-^^ef^^f0^^ee-^^e8^^e7-^^e2^^ee
 -^^e4^^e8^^f2 ^^ee^^f2-^^e2^^e5^^f2, ^^ef^^ee-^^eb^^f3-^^f7^^e5^^ed-^^ed^^fb^^e
@@ -932,15 +939,15 @@ f^^ee^^eb-^^ed^^ee-^^f1^^f2^^fc^^fe ^^e2^^ee^^f1-^^ef^^f0^^ee-^^e8^^e7-^^e2^^ee
 
 
 [18]
-<scheme_new.png, id=248, 499.8675pt x 468.75125pt>
+<scheme_new.png, id=249, 499.8675pt x 468.75125pt>
 File: scheme_new.png Graphic file (type png)
 <use scheme_new.png>
-Package pdftex.def Info: scheme_new.png  used on input line 885.
+Package pdftex.def Info: scheme_new.png  used on input line 884.
 (pdftex.def)             Requested size: 314.40001pt x 294.83562pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 890.
+(caption)                particular \caption on input line 889.
 See the caption package documentation for explanation.
 
 
@@ -950,67 +957,67 @@ See the caption package documentation for explanation.
 [20]
 
 [21]
-<rabi.png, id=270, 378.41376pt x 292.09125pt>
+<rabi.png, id=271, 378.41376pt x 292.09125pt>
 File: rabi.png Graphic file (type png)
 <use rabi.png>
-Package pdftex.def Info: rabi.png  used on input line 1007.
+Package pdftex.def Info: rabi.png  used on input line 1006.
 (pdftex.def)             Requested size: 348.26233pt x 268.82079pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1011.
+(caption)                particular \caption on input line 1010.
 See the caption package documentation for explanation.
 
 
 
 [22]
-<cuncurrence.png, id=279, 394.47375pt x 280.04625pt>
+<cuncurrence.png, id=280, 394.47375pt x 280.04625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
-Package pdftex.def Info: cuncurrence.png  used on input line 1016.
+Package pdftex.def Info: cuncurrence.png  used on input line 1015.
 (pdftex.def)             Requested size: 348.26233pt x 247.24052pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1020.
+(caption)                particular \caption on input line 1019.
 See the caption package documentation for explanation.
 
 
 
 [23 <./rabi.png> <./cuncurrence.png>]
-<g20.png, id=287, 384.43625pt x 281.05pt>
+<g20.png, id=288, 384.43625pt x 281.05pt>
 File: g20.png Graphic file (type png)
 <use g20.png>
-Package pdftex.def Info: g20.png  used on input line 1025.
+Package pdftex.def Info: g20.png  used on input line 1024.
 (pdftex.def)             Requested size: 348.26233pt x 254.61945pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1032.
+(caption)                particular \caption on input line 1031.
 See the caption package documentation for explanation.
 
-<cuncurrence_ot_B.png, id=288, 497.86pt x 284.06125pt>
+<cuncurrence_ot_B.png, id=289, 497.86pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
-Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1037.
+Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1036.
 (pdftex.def)             Requested size: 348.26233pt x 198.71147pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1044.
+(caption)                particular \caption on input line 1043.
 See the caption package documentation for explanation.
 
 
 
 [24 <./g20.png> <./cuncurrence_ot_B.png>]
-<fidelity.png, id=297, 427.5975pt x 296.10625pt>
+<fidelity.png, id=298, 427.5975pt x 296.10625pt>
 File: fidelity.png Graphic file (type png)
 <use fidelity.png>
-Package pdftex.def Info: fidelity.png  used on input line 1049.
+Package pdftex.def Info: fidelity.png  used on input line 1048.
 (pdftex.def)             Requested size: 348.26233pt x 241.16858pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1056.
+(caption)                particular \caption on input line 1055.
 See the caption package documentation for explanation.
 
 
@@ -1018,7 +1025,7 @@ See the caption package documentation for explanation.
 [25 <./fidelity.png>]
 
 [26]
-Underfull \hbox (badness 2809) in paragraph at lines 1277--1280
+Underfull \hbox (badness 2809) in paragraph at lines 1276--1279
 \T2A/cmr/m/it/14.4 entangled cluster state with solid-state quantum emitters in
  photonic
  []
@@ -1036,13 +1043,13 @@ Package rerunfilecheck Info: File `diplom.out' has not changed.
 (rerunfilecheck)             Checksum: F62A1D3BD691DEB31F88FC50817917D3;4344.
  ) 
 Here is how much of TeX's memory you used:
- 14576 strings out of 467694
- 234958 string characters out of 5412129
- 673269 words of memory out of 5000000
- 43349 multiletter control sequences out of 15000+600000
+ 14581 strings out of 467694
+ 235054 string characters out of 5412129
+ 673367 words of memory out of 5000000
+ 43354 multiletter control sequences out of 15000+600000
  645590 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,2547b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,18n,79p,2547b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
 our/lh/lh-t2a/dpi600/lati1440.pk> </Users/drakanoy/Library/Application Support/
 MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakan
@@ -1071,9 +1078,9 @@ ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 /symbols/msam10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (2
-8 pages, 796789 bytes).
+8 pages, 834572 bytes).
 PDF statistics:
- 764 PDF objects out of 1000 (max. 8388607)
+ 752 PDF objects out of 1000 (max. 8388607)
  95 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
