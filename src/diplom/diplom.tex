@@ -1255,12 +1255,18 @@ $g$ --- константа связи с резонатором.
 
 %В отличие от предыдущей задачи, была рассмотрена более общая система с двумя
 %проекциями спина $\uparrow, \downarrow$.
-В рамках данной системы базисные состояния:
+Ограничившись этими состояниями фоковского пространства, для ветви
+спина $\uparrow$ можно зафиксировать конечный базис из четырёх
+состояний:
 \begin{gather}
     \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{d}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{b}^{\dag}_{V} \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{b}^{\dag}_{V} \hat{d}^{\dag}_{\uparrow} \left| 0 \right\rangle
 \end{gather}
-Базис соответствует спину $\uparrow$; аналогичный набор строится для $\downarrow$.
-В этом базисе Гамильтониан записывается как:
+Эти состояния отвечают соответственно резидентному электрону,
+триону, электрону с одним резонансно рассеянным $V$-фотоном и
+триону с одним резонансно рассеянным $V$-фотоном;
+для ветви спина $\downarrow$ строится
+аналогичный базис.
+В таком базисе Гамильтониан записывается как:
 \begin{gather}
     \hat{H} =
 \begin{pmatrix}
@@ -1269,16 +1275,13 @@ $g$ --- константа связи с резонатором.
     0 & -ig & 0 & \Omega_R \\
     0 & 0 & \Omega_R & 0
 \end{pmatrix}
-\end{gather}
-И если выделить в нем блоки по фотонным состояниям:
-\begin{gather}
-    \hat{H} =
+     =
 \begin{pmatrix}
     \hat{H_0} & \hat{V} \\
     \hat{V}^{\dag} & \hat{H_0}
 \end{pmatrix}
 \end{gather}
-Теперь если переписать эту задачу в представлении взаимодействия, то получим:
+Для решения этой задачи перейдем в представление взаимодействия:
 \begin{gather}
     -i \frac{\partial}{\partial t } \left| \chi \right\rangle =
 \begin{pmatrix}
@@ -1288,35 +1291,39 @@ $g$ --- константа связи с резонатором.
     \left| \chi \right\rangle \end{gather}
 Где:
 \begin{gather}
-    \hat{V_t} = e^{i\hat{H_0}t} \hat{V} e^{-i\hat{H_0}t} \\ \nonumber
+    \hat{V_t} = e^{i\hat{H_0}t} \hat{V} e^{-i\hat{H_0}t} \, ; \quad
     \left| \psi \right\rangle =
 \begin{pmatrix}
     e^{-i\hat{H_0}t} & 0 \\
     0 & e^{-i\hat{H_0}t}
 \end{pmatrix}
-    \left| \chi \right\rangle \\ \nonumber
-    \left| \chi(0) \right\rangle = \left| \psi(0) \right\rangle = \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle
+    \left| \chi \right\rangle
+%    \left| \chi(0) \right\rangle = \left| \psi(0) \right\rangle = \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle
 \end{gather}
-Решая эту задачу по теории возмущений в первом порядке по $g$, получаем ответ на $\left| \chi \right\rangle$:
+Решая эту задачу по теории возмущений в первом порядке по $g$,
+с начальным условием
+$\left| \chi(0) \right\rangle = \left| \psi(0) \right\rangle = \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle$
+получаем ответ для $\left| \chi \right\rangle$:
 \begin{gather}
-    \left| \chi \right\rangle \approx \left( \hat{I} -i \int^t_0 d\tau
+    \left| \chi \right\rangle \approx \left( \hat{I} -i \int^\tau_0 dt
 \begin{pmatrix}
     0 &  \hat{V_t} \\
      \hat{V_t}^{\dag} & 0
 \end{pmatrix}
     \right) \left| \chi(0) \right\rangle
 \end{gather}
-Так как:
-\begin{gather}
-    -i \int^t_0 d\tau \hat{V_t}
-\approx
-\frac{gt}{2}
-\begin{pmatrix}
-    0 & 1 \\
-    1 & 0
-\end{pmatrix}
-\end{gather}
-То можно получить финальное выражение для $\left| \psi_{out} \right\rangle$:
+%Так как:
+%\begin{gather}
+%    -i \int^\tau_0 dt \hat{V_t}
+%\approx
+%\frac{gt}{2}
+%\begin{pmatrix}
+%    0 & 1 \\
+%    1 & 0
+%\end{pmatrix}
+%\end{gather}
+Итоговое выражение для волновой функции системы
+$\left| \psi_{out} \right\rangle$, после окончания действия импульса:
 \begin{gather}
     \left| \psi_{out} \right\rangle = \cos(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle  -i\sin(\Omega_R t) \hat{d}^{\dag}_{\uparrow} \left| 0 \right\rangle + gt \, i\sin(\Omega_R t) \hat{a}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right\rangle - \\ \nonumber
     - gt \, \cos(\Omega_R t) \hat{d}^{\dag}_{\uparrow} \hat{b}^{\dag}_{V} \left| 0 \right\rangle
