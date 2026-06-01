@@ -1120,6 +1120,7 @@ $V$-поляризационную моду, что и порождает мно
 
 \section{Теоретическая часть}
 \subsection{Воспроизведение результатов \cite{krainov2025} методом классического поля}
+\label{sec:classical_field}
 
 В работе \cite{krainov2025} рассматривается взаимодействие трионной
 моды с когерентным лазерным импульсом накачки. Решение точно
@@ -1354,25 +1355,27 @@ $\left| 2 \right\rangle = \left| 1_t, 1_{rs} \right\rangle$ - двухфотон
 
 \subsection{Нерезонансная накачка и магнитное поле}
 
-%Дальнейшие расчёты выполняются именно этим методом, поскольку он допускает
-%прямое обобщение на задачу с поперечным магнитным полем и нерезонансной накачкой.
+Дальнейшие расчёты выполнены методом классического поля, развитым в
+разделе \ref{sec:classical_field}.
 
-\par В рамках нового подхода система возбуждается нерезонансным %\emph{нерезонансным}
-лазерным
-импульсом с отстройкой $\Delta = \omega_L - E_0 \neq 0$.
-Кроме того, к системе приложено поперечное (по отношению к оси роста КТ) магнитное поле
-$\mathbf{B} = B_x \hat{x}$ (геометрия Фойгта).
+Целью настоящего раздела является генерация поляризационно-запутанных
+многофотонных состояний с помощью одиночного импульса накачки. В
+отличие от \cite{krainov2025}, система возбуждается нерезонансным
+лазерным импульсом с отстройкой $\Delta = \omega_L - E_0 \neq 0$, а к
+квантовой точке прикладывается поперечное магнитное поле,
+необходимое для обеспечения запутанности выходных фотонов, как будет
+показано далее.
 
-Это принципиально меняет физику задачи по сравнению с \cite{krainov2025}:
+Ключевые особенности предлагаемой схемы:
 \begin{itemize}
-    \item Отстройка $\Delta$ обеспечивает спектральное %\emph{спектральное}
+    \item Лазерная накачка с отстройкой $\Delta$ обеспечивает спектральное %\emph{спектральное}
     отделение испущенных
     фотонов от лазерного фона, что позволяет \textbf{детектировать выходное поле
-    во всех поляризациях} (а не только в $V$).
-    \item Поперечное магнитное поле $B_x$ смешивает спиновые состояния
-    $\left|\uparrow\right\rangle \leftrightarrow \left|\downarrow\right\rangle$ и
-    $\left|\uparrow\uparrow\downarrow\right\rangle \leftrightarrow \left|\downarrow\downarrow\uparrow\right\rangle$,
-    создавая связь между двумя кругово-поляризованными модами ($\sigma_+$ и $\sigma_-$).
+    во всех поляризациях}.
+    \item Поперечное магнитное поле смешивает спиновые состояния
+    $\left|\uparrow\right\rangle \leftrightarrow \left|\downarrow\right\rangle$,
+    %и $\left|\uparrow\uparrow\downarrow\right\rangle \leftrightarrow \left|\downarrow\downarrow\uparrow\right\rangle$,
+    создавая связь между двумя циркулярно-поляризованными модами $\sigma_+$ и $\sigma_-$.
     \item Совместное действие этих факторов приводит к тому, что двухфотонное
     выходное состояние оказывается \textbf{поляризационно-запутанным}:
     два испущенных фотона запутаны по своим поляризациям.
@@ -1393,14 +1396,16 @@ $\omega_0$ --- частота резонатора, $\Gamma$ --- ширина м
 \par
 Такая система теперь описывается Гамильтонианом, учитывающим обе поляризации излучения, а также взаимодействие с магнитным полем:
 \begin{gather}
+    \hat{H} = \hat{H}_{+} + \hat{H}_{-} + \hat{H}_{B} \\ \nonumber
     \hat{H}_{+} = \Delta \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} + \Delta \hat{b}^{\dag}_{+} \hat{b}_{+} + \Omega_R \left( \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
     +  \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right) + g \left( \hat{b}_{+} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
     +  \hat{b}^{\dag}_{+} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right) \\ \nonumber
     \hat{H}_{-} = \Delta \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow} + \Delta \hat{b}^{\dag}_{-} \hat{b}_{-} + \Omega_R \left( \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
     +  \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right) + g \left( \hat{b}_{-} \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
     +  \hat{b}^{\dag}_{-} \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right) \\ \nonumber
-    \hat{H}_{B} = \alpha B_x \left( \hat{a}^{\dag}_{\downarrow} \hat{a}_{\uparrow} + \hat{a}^{\dag}_{\uparrow} \hat{a}_{\downarrow}  \right) + \alpha B_z \left( \hat{a}^{\dag}_{\uparrow} \hat{a}_{\uparrow} - \hat{a}^{\dag}_{\downarrow} \hat{a}_{\downarrow}  \right) + \beta B_z \left( \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} - \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow}  \right) \\ \nonumber
-    \hat{H} = \hat{H}_{+} + \hat{H}_{-} + \hat{H}_{B} \nonumber
+    \hat{H}_{B} = \alpha B_x \left( \hat{a}^{\dag}_{\downarrow} \hat{a}_{\uparrow} + \hat{a}^{\dag}_{\uparrow} \hat{a}_{\downarrow}  \right)
+    + \alpha B_z \left( \hat{a}^{\dag}_{\uparrow} \hat{a}_{\uparrow} - \hat{a}^{\dag}_{\downarrow} \hat{a}_{\downarrow}  \right)
+    + \beta B_z \left( \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} - \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow}  \right) \nonumber
 \end{gather}
 
 Снова зафиксируем базис, ограничившись одним фотоном в Фоковском пространстве:
