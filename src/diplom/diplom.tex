@@ -1406,15 +1406,27 @@ $\omega_0$ --- частота резонатора, $\Gamma$ --- ширина м
     \hat{H}_{B} = \alpha B_x \left( \hat{a}^{\dag}_{\downarrow} \hat{a}_{\uparrow} + \hat{a}^{\dag}_{\uparrow} \hat{a}_{\downarrow}  \right) \nonumber
 \end{gather}
 
-Снова зафиксируем базис, ограничившись одним фотоном в Фоковском пространстве:
+Как было показано ранее, можно ограничиться одним фотонным состоянием
+в фоковском пространстве; тогда базис системы образуют следующие
+двенадцать состояний:
 \begin{gather}
-    \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{a}^{\dag}_{\downarrow} \left| 0 \right\rangle \, ; \, \hat{d}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{d}^{\dag}_{\downarrow} \left| 0 \right\rangle \, ; \\ \nonumber
+    \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{a}^{\dag}_{\downarrow} \left| 0 \right\rangle \, ; \, \hat{d}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{d}^{\dag}_{\downarrow} \left| 0 \right\rangle \, ; \label{eq:basis_vac} \\
     \hat{b}^{\dag}_{+} \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{b}^{\dag}_{-} \hat{a}^{\dag}_{\downarrow} \left| 0 \right\rangle \, ; \,
-    \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\downarrow} \left| 0 \right\rangle \, ; \\ \nonumber
+    \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\downarrow} \left| 0 \right\rangle \, ; \label{eq:basis_co} \\
     \hat{b}^{\dag}_{-} \hat{a}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{b}^{\dag}_{+} \hat{a}^{\dag}_{\downarrow} \left| 0 \right\rangle \, ; \,
-    \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\downarrow} \left| 0 \right\rangle
+    \hat{b}^{\dag}_{-} \hat{d}^{\dag}_{\uparrow} \left| 0 \right\rangle \, ; \, \hat{b}^{\dag}_{+} \hat{d}^{\dag}_{\downarrow} \left| 0 \right\rangle \label{eq:basis_cross}
 \end{gather}
-В этом базисе наш Гамильтониан переписывается в блочном виде:
+Первая строка (\ref{eq:basis_vac}) отвечает состояниям без фотона ---
+резидентному электрону и триону обеих спиновых проекций; вторая строка
+(\ref{eq:basis_co}) --- состояниям с одним фотоном, поляризация которого
+сонаправлена с активным оптическим переходом данной спиновой ветви
+($\sigma_+$ для $\uparrow$ и $\sigma_-$ для $\downarrow$); третья строка
+(\ref{eq:basis_cross}) --- состояниям с фотоном противоположной
+поляризации.
+
+В этом базисе гамильтониан приобретает блочную структуру $3\times 3$,
+где каждый блок --- матрица $4\times 4$, действующая в одном из трёх
+четырёхмерных подпространств (\ref{eq:basis_vac})--(\ref{eq:basis_cross}):
 \begin{gather}
     \hat{H} =
 \begin{pmatrix}
@@ -1423,8 +1435,16 @@ $\omega_0$ --- частота резонатора, $\Gamma$ --- ширина м
     0 & \alpha \hat{B}_x^{\dag} & \hat{H}_0 + \hat{\Delta}
 \end{pmatrix}
 \end{gather}
-
-Где:
+Диагональный блок $\hat{H}_0$ записан в базисе (\ref{eq:basis_vac}) и
+описывает динамику внутри каждого из подпространств: смешивание спинов
+электрона поперечным магнитным полем и осциляции Раби между
+электронным и трионным состояниями. Недиагональный блок $\hat{g}$
+связывает бесфотонное подпространство (\ref{eq:basis_vac}) с однофотонным
+подпространством (\ref{eq:basis_co}). Блок $\alpha\hat{B}_x$ связывает два однофотонных
+подпространства (\ref{eq:basis_co}) и (\ref{eq:basis_cross}), описывая
+перемешивание циркулярных поляризаций
+$\sigma_+ \leftrightarrow \sigma_-$, индуцированное смешиванием
+электронных спинов в поперечном поле. Явный вид блоков:
 \begin{gather}
     \hat{H}_{0} =
 \begin{pmatrix}
@@ -1432,24 +1452,21 @@ $\omega_0$ --- частота резонатора, $\Gamma$ --- ширина м
     \alpha B_x & 0 & 0 & \Omega_R \\
     \Omega_R & 0 & \Delta & 0 \\
     0 & \Omega_R & 0 & \Delta
-\end{pmatrix}
-\\ \nonumber
+\end{pmatrix} \, ; \quad
     \hat{\Delta} =
 \begin{pmatrix}
     \Delta & 0 & 0 & 0 \\
     0 & \Delta & 0 & 0 \\
     0 & 0 & \Delta & 0 \\
     0 & 0 & 0 & \Delta
-\end{pmatrix}
-\\ \nonumber
+\end{pmatrix} \\ \nonumber
     \hat{g} =
 \begin{pmatrix}
     0 & 0 & 0 & 0 \\
     0 & 0 & 0 & 0 \\
     g & 0 & 0 & 0 \\
     0 & g & 0 & 0
-\end{pmatrix}
-\\ \nonumber
+\end{pmatrix} \, ; \quad
     \alpha \hat{B}_x =
 \begin{pmatrix}
     0 & \alpha B_x & 0 & 0 \\
