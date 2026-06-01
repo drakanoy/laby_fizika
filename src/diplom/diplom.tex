@@ -1394,7 +1394,23 @@ $\omega_0$ --- частота резонатора, $\Gamma$ --- ширина м
 \end{center}
 
 \par
-Такая система теперь описывается Гамильтонианом, учитывающим обе поляризации излучения, а также взаимодействие с магнитным полем:
+Полная динамика системы описывается уравнением Линдблада на матрицу
+плотности:
+\begin{gather}
+    \partial_t \hat{\rho} = -i \left[ \hat{H} ; \hat{\rho} \right] - \hat{L}(\hat{\rho})
+    % = \hat{S} \hat{\rho}
+    \label{eq:lindblad}
+\end{gather}
+где $\hat{H}$ --- гамильтониан, описывающий когерентную динамику системы,
+а лимбладиан $\hat{L}(\hat{\rho})$ учитывает процессы сбоя фазы.
+Учёт сбоя фазы необходимы: при
+резонансном возбуждении в системе присутствует затухание, и его
+последовательный учёт позволяет добиться согласия результатов расчёта с
+экспериментом. Ниже мы рассматриваем когерентную и диссипативную части
+уравнения (\ref{eq:lindblad}) последовательно.
+
+Когерентная часть системы описывается гамильтонианом, учитывающим обе
+поляризации излучения, а также взаимодействие с магнитным полем:
 \begin{gather}
     \hat{H} = \hat{H}_{+} + \hat{H}_{-} + \hat{H}_{B} \\ \nonumber
     \hat{H}_{+} = \Delta \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} + \Delta \hat{b}^{\dag}_{+} \hat{b}_{+} + \Omega_R \left( \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
@@ -1476,22 +1492,46 @@ $\sigma_+ \leftrightarrow \sigma_-$, индуцированное смешива
 \end{pmatrix}
 \end{gather}
 
-Решая задачу этим же методом по теории возмущений, но численно,
-учитывая спиновую поляризацию электрона по тепловому распределению:
+Как было показано в разделе \ref{sec:classical_field}, когерентная
+часть динамики не приводит к затуханию: осцилляции заселённости
+трионного состояния, а вместе с ними и осцилляции вероятности
+двухфотонного выхода, остаются незатухающими. Между тем в эксперименте
+наблюдается их затухание с ростом мощности накачки
+\cite{krainov2025, ramsay2010}, что требует выхода за рамки чисто
+когерентного описания.
+
+Основным механизмом затухания в полупроводниковых квантовых точках
+является взаимодействие трионного перехода с акустическими фононами
+\cite{ramsay2010, nazir2016, glassl2013}. Как показано в
+\cite{nazir2016, ramsay2010b}, в режиме слабой связи это взаимодействие
+может быть учтено по механизму сбоя фазы, при
+котором фононы разрушают когерентность между основным и трионным
+состояниями, не вызывая релаксации заселённостей. Соответствующий
+лимбладиан имеет вид:
 \begin{gather}
-    \hat{\rho}_{in} = f_{+x}\left( B/T \right) \left| x \right\rangle \left\langle x \right|  + f_{-x}\left( B/T \right)  \left| -x \right\rangle \left\langle -x \right|
+    \hat{L}(\hat{\rho}) = \gamma_{PD} \left( \hat{V}^{\dag} \hat{V} \hat{\rho} + \hat{\rho} \hat{V}^{\dag} \hat{V} - 2 \hat{V} \hat{\rho} \hat{V}^{\dag} \right)
+    \label{eq:lindbladian}
 \end{gather}
-где
+где $\gamma_{PD}$ --- скорость сбоя фазы, а оператор $\hat{V}$
+в полном базисе (\ref{eq:basis_vac})--(\ref{eq:basis_cross}) имеет
+блочно-диагональную структуру:
 \begin{gather}
-    f_{+x}\left( B/T \right) = \frac{e^{B/T}}{e^{B/T} + e^{-B/T}} \\ \nonumber
-    f_{-x}\left( B/T \right) = \frac{e^{-B/T}}{e^{B/T} + e^{-B/T}}
+    \hat{V} =
+\begin{pmatrix}
+    \hat{\Sigma}_{PD} & 0 & 0 \\
+    0 & \hat{\Sigma}_{PD} & 0 \\
+    0 & 0 & \hat{\Sigma}_{PD}
+\end{pmatrix} \, ; \quad
+    \hat{\Sigma}_{PD} =
+\begin{pmatrix}
+    1 & 0 & 0 & 0 \\
+    0 & 1 & 0 & 0 \\
+    0 & 0 & -1 & 0 \\
+    0 & 0 & 0 & -1
+\end{pmatrix}
 \end{gather}
-Уравнение эволюции на матрицу плотности учитывает фононы по механизму сбоя фазы:
-\begin{gather}
-    \frac{\partial \hat{\rho} }{\partial t} = -i \left[ \hat{H} ; \hat{\rho} \right] - \hat{L}(\hat{\rho}) \\ \nonumber
-    \hat{L}(\hat{\rho}) = \gamma_{PD} \left( \hat{\rho} - \hat{\sigma}_z \hat{\rho} \hat{\sigma}_z \right) \\ \nonumber
-    \hat{\rho}_{out} = \hat{S}_{\tau} \left( \hat{\rho}_{in} \right)
-\end{gather}
+Блок $\hat{\Sigma}_{PD}$ приписывает противоположные знаки электронным
+и трионным состояниям, что соответствует сбою относительной фазы между ними.
 Выделяя компоненты матрицы плотности, связанные с фотонными состояниями,
 необходимо учитывать спиновую релаксацию электрона в магнитном поле.
 \begin{gather}
@@ -1974,6 +2014,21 @@ Nature Nanotechnology, \textbf{11}, 857--860 (2016).
 Gl\"assl M., Barth A. M., Axt V. M.
 \textit{Proposed robust and high-fidelity preparation of excitons and biexcitons in semiconductor quantum dots making active use of phonons}.
 Physical Review Letters, \textbf{110}, 147401 (2013).
+
+\bibitem{ramsay2010}
+Ramsay A. J., Gopal A. V., Gauger E. M., Nazir A., Lovett B. W., Fox A. M., Skolnick M. S.
+\textit{Damping of exciton Rabi rotations by acoustic phonons in optically excited InGaAs/GaAs quantum dots}.
+Physical Review Letters, \textbf{104}, 017402 (2010).
+
+\bibitem{ramsay2010b}
+Ramsay A. J., Godden T. M., Boyle S. J., Gauger E. M., Nazir A., Lovett B. W., Fox A. M., Skolnick M. S.
+\textit{Phonon-induced Rabi-frequency renormalization of optically driven single InGaAs/GaAs quantum dots}.
+Physical Review Letters, \textbf{105}, 177402 (2010).
+
+\bibitem{nazir2016}
+Nazir A., McCutcheon D. P. S.
+\textit{Modelling exciton--phonon interactions in optically driven quantum dots}.
+Journal of Physics: Condensed Matter, \textbf{28}, 103002 (2016).
 
 \end{thebibliography}
 
