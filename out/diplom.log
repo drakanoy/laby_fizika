@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  1 JUN 2026 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  1 JUN 2026 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1037,11 +1037,11 @@ e3^^ee ^^f0^^e0^^e7-^^e4^^e5-^^eb^^e0 ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^e3^
 
 
 [32]
-<scheme_new.png, id=383, 499.8675pt x 468.75125pt>
-File: scheme_new.png Graphic file (type png)
-<use scheme_new.png>
-Package pdftex.def Info: scheme_new.png  used on input line 1387.
-(pdftex.def)             Requested size: 314.40001pt x 294.83562pt.
+<scheme_new1.png, id=383, 925.4575pt x 867.24pt>
+File: scheme_new1.png Graphic file (type png)
+<use scheme_new1.png>
+Package pdftex.def Info: scheme_new1.png  used on input line 1387.
+(pdftex.def)             Requested size: 314.40001pt x 294.6195pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1050,7 +1050,7 @@ See the caption package documentation for explanation.
 
 
 
-[33 <./scheme_new.png>]
+[33 <./scheme_new1.png>]
 
 [34]
 
@@ -1152,7 +1152,7 @@ Package rerunfilecheck Info: File `diplom.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  14658 strings out of 467694
- 236231 string characters out of 5412129
+ 236238 string characters out of 5412129
  675138 words of memory out of 5000000
  43391 multiletter control sequences out of 15000+600000
  645590 words of font info for 86 fonts, out of 8000000 for 9000
@@ -1186,7 +1186,7 @@ ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 /symbols/msam10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (4
-2 pages, 1228936 bytes).
+2 pages, 1259178 bytes).
 PDF statistics:
  914 PDF objects out of 1000 (max. 8388607)
  135 named destinations out of 1000 (max. 500000)
