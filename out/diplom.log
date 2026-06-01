@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  1 JUN 2026 03:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  1 JUN 2026 03:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1025,25 +1025,17 @@ Overfull \hbox (4.99402pt too wide) detected at line 1340
  []
 
 
-Overfull \hbox (0.22934pt too wide) in paragraph at lines 1346--1352
-[]\T2A/cmr/m/n/14.4 ^^dd^^f2^^ee^^f2 ^^f0^^e5-^^e7^^f3^^eb^^fc-^^f2^^e0^^f2 ^^e
-f^^ee^^eb-^^ed^^ee-^^f1^^f2^^fc^^fe ^^e2^^ee^^f1-^^ef^^f0^^ee-^^e8^^e7-^^e2^^ee
--^^e4^^e8^^f2 ^^ee^^f2-^^e2^^e5^^f2, ^^ef^^ee-^^eb^^f3-^^f7^^e5^^ed-^^ed^^fb^^e
-9 ^^f2^^ee^^f7-^^ed^^fb^^ec ^^ea^^e2^^e0^^ed-
- []
-
-
 
 [31]
 <scheme_new.png, id=378, 499.8675pt x 468.75125pt>
 File: scheme_new.png Graphic file (type png)
 <use scheme_new.png>
-Package pdftex.def Info: scheme_new.png  used on input line 1383.
+Package pdftex.def Info: scheme_new.png  used on input line 1384.
 (pdftex.def)             Requested size: 314.40001pt x 294.83562pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1388.
+(caption)                particular \caption on input line 1389.
 See the caption package documentation for explanation.
 
 
@@ -1058,22 +1050,22 @@ See the caption package documentation for explanation.
 <rabi.png, id=406, 378.41376pt x 292.09125pt>
 File: rabi.png Graphic file (type png)
 <use rabi.png>
-Package pdftex.def Info: rabi.png  used on input line 1505.
+Package pdftex.def Info: rabi.png  used on input line 1506.
 (pdftex.def)             Requested size: 348.26233pt x 268.82079pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1509.
+(caption)                particular \caption on input line 1510.
 See the caption package documentation for explanation.
 
 <cuncurrence.png, id=407, 394.47375pt x 280.04625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
-Package pdftex.def Info: cuncurrence.png  used on input line 1514.
+Package pdftex.def Info: cuncurrence.png  used on input line 1515.
 (pdftex.def)             Requested size: 348.26233pt x 247.24052pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1518.
+(caption)                particular \caption on input line 1519.
 See the caption package documentation for explanation.
 
 
@@ -1082,12 +1074,12 @@ See the caption package documentation for explanation.
 <g20.png, id=415, 384.43625pt x 281.05pt>
 File: g20.png Graphic file (type png)
 <use g20.png>
-Package pdftex.def Info: g20.png  used on input line 1523.
+Package pdftex.def Info: g20.png  used on input line 1524.
 (pdftex.def)             Requested size: 348.26233pt x 254.61945pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1530.
+(caption)                particular \caption on input line 1531.
 See the caption package documentation for explanation.
 
 
@@ -1096,22 +1088,22 @@ See the caption package documentation for explanation.
 <cuncurrence_ot_B.png, id=424, 497.86pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
-Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1535.
+Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1536.
 (pdftex.def)             Requested size: 348.26233pt x 198.71147pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1542.
+(caption)                particular \caption on input line 1543.
 See the caption package documentation for explanation.
 
 <fidelity.png, id=425, 427.5975pt x 296.10625pt>
 File: fidelity.png Graphic file (type png)
 <use fidelity.png>
-Package pdftex.def Info: fidelity.png  used on input line 1547.
+Package pdftex.def Info: fidelity.png  used on input line 1548.
 (pdftex.def)             Requested size: 348.26233pt x 241.16858pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1554.
+(caption)                particular \caption on input line 1555.
 See the caption package documentation for explanation.
 
 
@@ -1121,13 +1113,13 @@ See the caption package documentation for explanation.
 [39 <./fidelity.png>]
 
 [40]
-Underfull \hbox (badness 4940) in paragraph at lines 1888--1891
+Underfull \hbox (badness 4940) in paragraph at lines 1889--1892
 []\T2A/cmr/m/n/14.4 Browne D.E., Rudolph T. \T2A/cmr/m/it/14.4 Resource-efficie
 nt linear optical quantum
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 1908--1911
+Underfull \hbox (badness 2050) in paragraph at lines 1909--1912
 []\T2A/cmr/m/n/14.4 Senellart P., Solomon G., White A. \T2A/cmr/m/it/14.4 High-
 performance semiconductor
  []
@@ -1135,7 +1127,7 @@ performance semiconductor
 
 
 [41]
-Underfull \hbox (badness 2809) in paragraph at lines 1918--1921
+Underfull \hbox (badness 2809) in paragraph at lines 1919--1922
 \T2A/cmr/m/it/14.4 entangled cluster state with solid-state quantum emitters in
  photonic
  []
@@ -1186,7 +1178,7 @@ ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 /symbols/msam10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (4
-2 pages, 1228855 bytes).
+2 pages, 1228691 bytes).
 PDF statistics:
  913 PDF objects out of 1000 (max. 8388607)
  135 named destinations out of 1000 (max. 500000)
