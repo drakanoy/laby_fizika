@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  2 JUN 2026 16:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  2 JUN 2026 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -801,15 +801,7 @@ Overfull \hbox (6.89093pt too wide) in paragraph at lines 182--197
 [4]
 
 [5]
-Overfull \hbox (72.00816pt too wide) in paragraph at lines 269--274
-[]\T2A/cmr/m/n/14.4 ^^cf^^f0^^e8^^ed^^f6^^e8^^ef^^e8^^e0^^eb^^fc^^ed^^fb^^ec ^^
-ee^^e3^^f0^^e0-^^ed^^e8-^^f7^^e5-^^ed^^e8-^^e5^^ec ^^f2^^e0-^^ea^^ee^^e9 ^^f1^^
-f5^^e5-^^ec^^fb ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^f2^^ee, ^^f7^^f2^^ee ^^ea
-^^f0^^ee^^f1^^f1-^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^ee^^ed^^ed^^e0^^ff
- []
-
-
-Overfull \hbox (2.51605pt too wide) in paragraph at lines 292--296
+Overfull \hbox (2.51605pt too wide) in paragraph at lines 291--295
 \T2A/cmr/m/n/14.4 ^^ed^^ee-^^e3^^ee ^^ef^^ee-^^eb^^ff, ^^e8 ^^e8^^f1-^^f1^^eb^^
 e5-^^e4^^ee-^^e2^^e0^^f2^^fc ^^e2^^ee^^e7-^^ec^^ee^^e6-^^ed^^ee^^f1^^f2^^fc ^^e
 3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^
@@ -821,7 +813,7 @@ ee^^ed^^ed^^ee-^^e7^^e0^^ef^^f3^^f2^^e0^^ed^^ed^^fb^^f5
 [6]
 
 [7]
-Overfull \hbox (3.28748pt too wide) in paragraph at lines 317--317
+Overfull \hbox (3.28748pt too wide) in paragraph at lines 316--316
 []\T2A/cmr/bx/n/17.28 ^^ca^^f0^^ee^^f1^^f1-^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6
 ^^e8^^ee^^ed^^ed^^e0^^ff ^^f1^^f5^^e5-^^ec^^e0 ^^f0^^e5-^^e7^^ee-^^ed^^e0^^ed^^
 f1-^^ed^^ee-^^e3^^ee ^^e2^^ee^^e7-^^e1^^f3^^e6-
@@ -895,7 +887,7 @@ Overfull \hbox (0.87222pt too wide) in paragraph at lines 468--468
 [14]
 
 [15]
-<two_color_scheme.png, id=232, 419.5675pt x 586.19pt>
+<two_color_scheme.png, id=233, 419.5675pt x 586.19pt>
 File: two_color_scheme.png Graphic file (type png)
 <use two_color_scheme.png>
 Package pdftex.def Info: two_color_scheme.png  used on input line 688.
@@ -918,7 +910,7 @@ Overfull \hbox (1.49948pt too wide) in paragraph at lines 713--718
 eb^^fc-^^ed^^ee ^^e1^^ee^^eb^^fc-^^f8^^e5^^e9, ^^f7^^e5^^ec ^^e5^^f1^^f2^^e5-
  []
 
-<cavity_spectrum.png, id=250, 848.16875pt x 648.4225pt>
+<cavity_spectrum.png, id=251, 848.16875pt x 648.4225pt>
 File: cavity_spectrum.png Graphic file (type png)
 <use cavity_spectrum.png>
 Package pdftex.def Info: cavity_spectrum.png  used on input line 732.
@@ -931,7 +923,7 @@ See the caption package documentation for explanation.
 
 
 [18 <./cavity_spectrum.png>]
-<rabi_two_color.png, id=261, 702.625pt x 724.7075pt>
+<rabi_two_color.png, id=262, 702.625pt x 724.7075pt>
 File: rabi_two_color.png Graphic file (type png)
 <use rabi_two_color.png>
 Package pdftex.def Info: rabi_two_color.png  used on input line 772.
@@ -947,7 +939,7 @@ See the caption package documentation for explanation.
 [19]
 
 [20 <./rabi_two_color.png>]
-<sideband_only.png, id=280, 720.6925pt x 814.04124pt>
+<sideband_only.png, id=281, 720.6925pt x 814.04124pt>
 File: sideband_only.png Graphic file (type png)
 <use sideband_only.png>
 Package pdftex.def Info: sideband_only.png  used on input line 807.
@@ -1037,7 +1029,7 @@ e3^^ee ^^f0^^e0^^e7-^^e4^^e5-^^eb^^e0 ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^e3^
 
 
 [32]
-<scheme_new1.png, id=383, 925.4575pt x 867.24pt>
+<scheme_new1.png, id=384, 925.4575pt x 867.24pt>
 File: scheme_new1.png Graphic file (type png)
 <use scheme_new1.png>
 Package pdftex.def Info: scheme_new1.png  used on input line 1390.
@@ -1059,7 +1051,7 @@ See the caption package documentation for explanation.
 [36]
 
 [37]
-<rabi.png, id=451, 378.41376pt x 292.09125pt>
+<rabi.png, id=452, 378.41376pt x 292.09125pt>
 File: rabi.png Graphic file (type png)
 <use rabi.png>
 Package pdftex.def Info: rabi.png  used on input line 1652.
@@ -1073,7 +1065,7 @@ See the caption package documentation for explanation.
 
 
 [38]
-<g20.png, id=460, 384.43625pt x 281.05pt>
+<g20.png, id=461, 384.43625pt x 281.05pt>
 File: g20.png Graphic file (type png)
 <use g20.png>
 Package pdftex.def Info: g20.png  used on input line 1672.
@@ -1089,7 +1081,7 @@ See the caption package documentation for explanation.
 [39 <./rabi.png>]
 
 [40 <./g20.png>]
-<cuncurrence.png, id=478, 394.47375pt x 280.04625pt>
+<cuncurrence.png, id=479, 394.47375pt x 280.04625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
 Package pdftex.def Info: cuncurrence.png  used on input line 1702.
@@ -1100,7 +1092,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1706.
 See the caption package documentation for explanation.
 
-<fidelity.png, id=481, 427.5975pt x 296.10625pt>
+<fidelity.png, id=482, 427.5975pt x 296.10625pt>
 File: fidelity.png Graphic file (type png)
 <use fidelity.png>
 Package pdftex.def Info: fidelity.png  used on input line 1725.
@@ -1113,7 +1105,7 @@ See the caption package documentation for explanation.
 
 
 [41 <./cuncurrence.png>]
-<cuncurrence_ot_B.png, id=494, 497.86pt x 284.06125pt>
+<cuncurrence_ot_B.png, id=495, 497.86pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
 Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1745.
@@ -1181,10 +1173,10 @@ Package rerunfilecheck Info: File `diplom.out' has not changed.
 (rerunfilecheck)             Checksum: B704DFE0060CEAF987FADA98CB9FD8E7;3777.
  ) 
 Here is how much of TeX's memory you used:
- 14689 strings out of 467694
- 236597 string characters out of 5412129
- 675041 words of memory out of 5000000
- 43403 multiletter control sequences out of 15000+600000
+ 14690 strings out of 467694
+ 236614 string characters out of 5412129
+ 675165 words of memory out of 5000000
+ 43404 multiletter control sequences out of 15000+600000
  645590 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,79p,3159b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1216,9 +1208,9 @@ ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 /symbols/msam10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (4
-8 pages, 1288018 bytes).
+8 pages, 1288309 bytes).
 PDF statistics:
- 999 PDF objects out of 1000 (max. 8388607)
+ 1000 PDF objects out of 1000 (max. 8388607)
  154 named destinations out of 1000 (max. 500000)
  165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
