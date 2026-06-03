@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  4 JUN 2026 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  4 JUN 2026 01:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,11 +1081,11 @@ See the caption package documentation for explanation.
 [39 <./rabi.png>]
 
 [40 <./g20.png>]
-<cuncurrence.png, id=494, 394.47375pt x 280.04625pt>
+<cuncurrence.png, id=494, 404.51125pt x 296.10625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
 Package pdftex.def Info: cuncurrence.png  used on input line 1743.
-(pdftex.def)             Requested size: 348.26233pt x 247.24052pt.
+(pdftex.def)             Requested size: 348.26233pt x 254.93556pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1105,11 +1105,11 @@ See the caption package documentation for explanation.
 
 
 [41 <./cuncurrence.png>]
-<cuncurrence_ot_B.png, id=510, 497.86pt x 284.06125pt>
+<cuncurrence_ot_B.png, id=510, 489.83pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
 Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1787.
-(pdftex.def)             Requested size: 348.26233pt x 198.71147pt.
+(pdftex.def)             Requested size: 348.26233pt x 201.96661pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1207,7 +1207,7 @@ ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (4
-8 pages, 1285508 bytes).
+8 pages, 1287458 bytes).
 PDF statistics:
  1015 PDF objects out of 1200 (max. 8388607)
  159 named destinations out of 1000 (max. 500000)
