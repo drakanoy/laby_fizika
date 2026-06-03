@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  3 JUN 2026 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  4 JUN 2026 00:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1054,12 +1054,12 @@ See the caption package documentation for explanation.
 <rabi.png, id=466, 378.41376pt x 292.09125pt>
 File: rabi.png Graphic file (type png)
 <use rabi.png>
-Package pdftex.def Info: rabi.png  used on input line 1690.
+Package pdftex.def Info: rabi.png  used on input line 1701.
 (pdftex.def)             Requested size: 348.26233pt x 268.82079pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1694.
+(caption)                particular \caption on input line 1705.
 See the caption package documentation for explanation.
 
 
@@ -1068,12 +1068,12 @@ See the caption package documentation for explanation.
 <g20.png, id=475, 384.43625pt x 281.05pt>
 File: g20.png Graphic file (type png)
 <use g20.png>
-Package pdftex.def Info: g20.png  used on input line 1710.
+Package pdftex.def Info: g20.png  used on input line 1721.
 (pdftex.def)             Requested size: 348.26233pt x 254.61945pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1717.
+(caption)                particular \caption on input line 1728.
 See the caption package documentation for explanation.
 
 
@@ -1084,22 +1084,22 @@ See the caption package documentation for explanation.
 <cuncurrence.png, id=493, 394.47375pt x 280.04625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
-Package pdftex.def Info: cuncurrence.png  used on input line 1740.
+Package pdftex.def Info: cuncurrence.png  used on input line 1751.
 (pdftex.def)             Requested size: 348.26233pt x 247.24052pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1744.
+(caption)                particular \caption on input line 1755.
 See the caption package documentation for explanation.
 
 <fidelity.png, id=496, 427.5975pt x 296.10625pt>
 File: fidelity.png Graphic file (type png)
 <use fidelity.png>
-Package pdftex.def Info: fidelity.png  used on input line 1763.
+Package pdftex.def Info: fidelity.png  used on input line 1774.
 (pdftex.def)             Requested size: 348.26233pt x 241.16858pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1770.
+(caption)                particular \caption on input line 1781.
 See the caption package documentation for explanation.
 
 
@@ -1108,12 +1108,12 @@ See the caption package documentation for explanation.
 <cuncurrence_ot_B.png, id=509, 497.86pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
-Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1783.
+Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1794.
 (pdftex.def)             Requested size: 348.26233pt x 198.71147pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1790.
+(caption)                particular \caption on input line 1801.
 See the caption package documentation for explanation.
 
 
@@ -1121,7 +1121,7 @@ See the caption package documentation for explanation.
 [42 <./fidelity.png> <./cuncurrence_ot_B.png>]
 
 [43]
-Overfull \hbox (18.119pt too wide) in paragraph at lines 2086--2097
+Overfull \hbox (18.119pt too wide) in paragraph at lines 2097--2108
 []\T2A/cmr/m/n/14.4 ^^c2^^ee ^^e2^^f2^^ee-^^f0^^ee^^e9 ^^f7^^e0-^^f1^^f2^^e8 ^^
 ef^^f0^^e5^^e4-^^eb^^ee-^^e6^^e5-^^ed^^e0 ^^e8 ^^e8^^f1-^^f1^^eb^^e5-^^e4^^ee-^
 ^e2^^e0-^^ed^^e0 ^^f1^^f5^^e5-^^ec^^e0 ^^e3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 
@@ -1131,7 +1131,7 @@ ef^^f0^^e5^^e4-^^eb^^ee-^^e6^^e5-^^ed^^e0 ^^e8 ^^e8^^f1-^^f1^^eb^^e5-^^e4^^ee-^
 
 
 [44]
-Overfull \hbox (10.71579pt too wide) in paragraph at lines 2113--2121
+Overfull \hbox (10.71579pt too wide) in paragraph at lines 2124--2132
 \T2A/cmr/m/n/14.4 ^^ec^^e0^^e3-^^ed^^e8^^f2-^^ed^^ee^^ec ^^ef^^ee-^^eb^^e5 ^^ec
 ^^ee-^^e6^^e5^^f2 ^^f1^^eb^^f3-^^e6^^e8^^f2^^fc ^^e8^^f1-^^f2^^ee^^f7-^^ed^^e8-
 ^^ea^^ee^^ec ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^ee^^ed^^ed^^ee-^^e7^^e0^
@@ -1141,13 +1141,13 @@ Overfull \hbox (10.71579pt too wide) in paragraph at lines 2113--2121
 
 
 [45]
-Underfull \hbox (badness 4940) in paragraph at lines 2176--2179
+Underfull \hbox (badness 4940) in paragraph at lines 2187--2190
 []\T2A/cmr/m/n/14.4 Browne D.E., Rudolph T. \T2A/cmr/m/it/14.4 Resource-efficie
 nt linear optical quantum
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 2196--2199
+Underfull \hbox (badness 2050) in paragraph at lines 2207--2210
 []\T2A/cmr/m/n/14.4 Senellart P., Solomon G., White A. \T2A/cmr/m/it/14.4 High-
 performance semiconductor
  []
@@ -1155,7 +1155,7 @@ performance semiconductor
 
 
 [46]
-Underfull \hbox (badness 2809) in paragraph at lines 2221--2224
+Underfull \hbox (badness 2809) in paragraph at lines 2232--2235
 \T2A/cmr/m/it/14.4 entangled cluster state with solid-state quantum emitters in
  photonic
  []
@@ -1208,7 +1208,7 @@ ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 /symbols/msam10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (4
-8 pages, 1294117 bytes).
+8 pages, 1294069 bytes).
 PDF statistics:
  1018 PDF objects out of 1200 (max. 8388607)
  159 named destinations out of 1000 (max. 500000)
