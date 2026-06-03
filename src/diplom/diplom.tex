@@ -648,6 +648,30 @@ $\left|\uparrow\right\rangle$ и $\left|\downarrow\right\rangle$,
 повторное приложение $\pi$-импульса возбуждает квантовую точку, испускание
 следующего фотона создаёт спин-фотонную запутанность, а
 поворот спина вновь подготавливает состояние перед импульсной накачкой.
+Применяя к состоянию \eqref{eq:LR_step3} второй импульс возбуждения и
+последующую рекомбинацию получаем:
+\begin{gather}
+    |C_2\rangle = \bigl(\left|\uparrow\right\rangle|\sigma_+\rangle
+    + \left|\downarrow\right\rangle|\sigma_-\rangle\bigr)
+    |\sigma_+\rangle / \sqrt{2}
+    + \bigl(\left|\downarrow\right\rangle|\sigma_-\rangle
+    - \left|\uparrow\right\rangle|\sigma_+\rangle\bigr)
+    |\sigma_-\rangle / \sqrt{2}
+    \label{eq:LR_two_cycles}
+\end{gather}
+Вводя логическое кодирование поляризационных кубитов
+$|\sigma_+\rangle \equiv |0\rangle$, $|\sigma_-\rangle \equiv |1\rangle$
+и спинового кубита $\left|\uparrow\right\rangle \equiv |0\rangle$,
+$\left|\downarrow\right\rangle \equiv |1\rangle$, можно показать, что
+после завершающего поворота спина трёхкубитное состояние спина и двух
+фотонов с точностью до локальных однокубитных операций приводится к
+каноническому виду линейного кластерного состояния \cite{lindner2009}
+\begin{gather}
+    |C_3\rangle = \frac{1}{\sqrt{8}}\bigl(
+    |000\rangle + |001\rangle + |010\rangle - |011\rangle
+    + |100\rangle + |101\rangle - |110\rangle + |111\rangle \bigr)
+    \label{eq:cluster3}
+\end{gather}
 Многократное повторение этой последовательности приводит к
 накоплению в выходном поле линейной цепочки запутанных между собой
 фотонов: каждый новый фотон оказывается запутан со спином, который
