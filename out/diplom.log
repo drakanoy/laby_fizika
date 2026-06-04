@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  4 JUN 2026 03:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  4 JUN 2026 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,10 +24,9 @@ File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
 )
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+(/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cm
+ap/cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
@@ -245,7 +244,12 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cy
 rillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+)<<t2a.cmap>>)
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
 Package: babel 2026/04/15 v26.6 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
@@ -669,27 +673,27 @@ Package babel Info: 'russian' activates 'russian' shorthands.
 )
 \openout1 = `diplom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Info: Redefining \th on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \th on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -751,7 +755,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 -sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 20.
  (/Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.out)
 (/Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.out)
 \@outlinefile=\write3
@@ -759,18 +763,19 @@ Package hyperref Info: Link coloring OFF on input line 18.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<logo.png, id=54, 1122.76607pt x 185.19188pt>
+<logo.png, id=55, 1122.76607pt x 185.19188pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 94.
+Package pdftex.def Info: logo.png  used on input line 96.
 (pdftex.def)             Requested size: 482.78pt x 79.63094pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 104
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 106
 .
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 104
+LaTeX Font Info:    Trying to load font information for U+msb on input line 106
 .
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -787,7 +792,7 @@ x/pdftex.map} <./logo.png>]
 
 
 [2]
-Overfull \hbox (6.89093pt too wide) in paragraph at lines 183--198
+Overfull \hbox (6.89093pt too wide) in paragraph at lines 185--200
 []\T2A/cmr/bx/n/14.4 ^^d0^^e5^^e7^^ee^^ed^^e0^^ed^^f1^^ed^^ee^^e5 ^^e2^^ee^^e7-
 ^^e1^^f3^^e6-^^e4^^e5-^^ed^^e8^^e5 $\OML/cmm/m/it/14.4 ^^Y$\T2A/cmr/m/n/14.4 -^
 ^e8^^ec^^ef^^f3^^eb^^fc^^f1^^ee^^ec ^^f1 ^^ea^^f0^^ee^^f1^^f1-^^ef^^ee^^eb^^ff^
@@ -801,7 +806,7 @@ Overfull \hbox (6.89093pt too wide) in paragraph at lines 183--198
 [4]
 
 [5]
-Overfull \hbox (2.51605pt too wide) in paragraph at lines 292--296
+Overfull \hbox (2.51605pt too wide) in paragraph at lines 294--298
 \T2A/cmr/m/n/14.4 ^^ed^^ee-^^e3^^ee ^^ef^^ee-^^eb^^ff, ^^e8 ^^e8^^f1-^^f1^^eb^^
 e5-^^e4^^ee-^^e2^^e0^^f2^^fc ^^e2^^ee^^e7-^^ec^^ee^^e6-^^ed^^ee^^f1^^f2^^fc ^^e
 3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^
@@ -813,26 +818,26 @@ ee^^ed^^ed^^ee-^^e7^^e0^^ef^^f3^^f2^^e0^^ed^^ed^^fb^^f5
 [6]
 
 [7]
-Overfull \hbox (3.28748pt too wide) in paragraph at lines 317--317
+Overfull \hbox (3.28748pt too wide) in paragraph at lines 319--319
 []\T2A/cmr/bx/n/17.28 ^^ca^^f0^^ee^^f1^^f1-^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6
 ^^e8^^ee^^ed^^ed^^e0^^ff ^^f1^^f5^^e5-^^ec^^e0 ^^f0^^e5-^^e7^^ee-^^ed^^e0^^ed^^
 f1-^^ed^^ee-^^e3^^ee ^^e2^^ee^^e7-^^e1^^f3^^e6-
  []
 
-<trion_levels.png, id=154, 1175.39125pt x 693.59125pt>
+<trion_levels.png, id=159, 1175.39125pt x 693.59125pt>
 File: trion_levels.png Graphic file (type png)
 <use trion_levels.png>
-Package pdftex.def Info: trion_levels.png  used on input line 352.
+Package pdftex.def Info: trion_levels.png  used on input line 354.
 (pdftex.def)             Requested size: 314.40001pt x 185.52588pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 356.
+(caption)                particular \caption on input line 358.
 See the caption package documentation for explanation.
 
 
 
 [8]
-Underfull \hbox (badness 1655) in paragraph at lines 356--356
+Underfull \hbox (badness 1655) in paragraph at lines 358--358
 []\T2A/cmr/m/n/14.4 ^^d0^^e8^^f1. 1: |[]^^c7^^ee^^ed^^ed^^e0^^ff ^^e4^^e8^^e0-^
 ^e3^^f0^^e0^^ec-^^ec^^e0 ^^e7^^e0-^^f0^^ff-^^e6^^e5^^ed-^^ed^^ee^^e9 ^^ea^^e2^^
 e0^^ed-^^f2^^ee-^^e2^^ee^^e9 ^^f2^^ee^^f7-^^ea^^e8. ^^d0^^e5-^^e7^^e8-^^e4^^e5^
@@ -840,7 +845,7 @@ e0^^ed-^^f2^^ee-^^e2^^ee^^e9 ^^f2^^ee^^f7-^^ea^^e8. ^^d0^^e5-^^e7^^e8-^^e4^^e5^
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 356--356
+Underfull \hbox (badness 2073) in paragraph at lines 358--358
 \T2A/cmr/m/n/14.4 ^^fd^^eb^^e5^^ea-^^f2^^f0^^ee^^ed ^^f1^^ee ^^f1^^ef^^e8-^^ed^
 ^ee^^ec $\OMS/cmsy/m/n/14.4 "$ \T2A/cmr/m/n/14.4 ($\OMS/cmsy/m/n/14.4 #$\T2A/cm
 r/m/n/14.4 ) ^^ee^^e1-^^f0^^e0-^^e7^^f3-^^e5^^f2 ^^f2^^f0^^e8-^^ee^^ed ^^ef^^f0
@@ -849,7 +854,7 @@ A/cmr/m/n/14.4 ($\OML/cmm/m/it/14.4 ^^[[]$\T2A/cmr/m/n/14.4 )-
  []
 
 
-Overfull \hbox (4.31192pt too wide) in paragraph at lines 361--375
+Overfull \hbox (4.31192pt too wide) in paragraph at lines 363--377
 []\T2A/cmr/bx/n/14.4 ^^cd^^e5^^ea^^ee^^e3^^e5^^f0^^e5^^ed^^f2^^ed^^e0^^ff ^^f1^
 ^f3-^^ef^^e5^^f0-^^ef^^ee-^^e7^^e8-^^f6^^e8^^ff ^^f1^^ef^^e8-^^ed^^e0 ^^e8 ^^ed
 ^^e5^^e7^^e0-^^e2^^e8-^^f1^^e8-^^ec^^ee^^f1^^f2^^fc ^^ea^^e0-^^ed^^e0-^^eb^^ee^
@@ -859,7 +864,7 @@ Overfull \hbox (4.31192pt too wide) in paragraph at lines 361--375
 
 
 [9 <./trion_levels.png>]
-Overfull \hbox (23.0081pt too wide) in paragraph at lines 422--429
+Overfull \hbox (23.0081pt too wide) in paragraph at lines 424--431
 \T2A/cmr/m/n/14.4 ^^ea^^e0-^^ed^^e0^^eb ^^e4^^e5-^^f2^^e5^^ea-^^f2^^e8-^^f0^^ee
 -^^e2^^e0-^^ed^^e8^^ff ^^ed^^e0-^^f1^^f2^^f0^^ee-^^e5^^ed ^^ed^^e0 ^^e2^^e5^^f0
 -^^f2^^e8-^^ea^^e0^^eb^^fc-^^ed^^f3^^fe ^^ef^^ee-^^eb^^ff-^^f0^^e8-^^e7^^e0-^^f
@@ -872,7 +877,7 @@ Overfull \hbox (23.0081pt too wide) in paragraph at lines 422--429
 [10]
 
 [11]
-Overfull \hbox (0.87222pt too wide) in paragraph at lines 472--472
+Overfull \hbox (0.87222pt too wide) in paragraph at lines 474--474
 []\T2A/cmr/bx/n/17.28 ^^c3^^e5^^ed^^e5^^f0^^e0^^f6^^e8^^ff ^^ea^^eb^^e0-^^f1^^f
 2^^e5^^f0-^^ed^^fb^^f5 ^^f4^^ee-^^f2^^ee^^ed-^^ed^^fb^^f5 ^^f1^^ee-^^f1^^f2^^ee
 -^^ff-^^ed^^e8^^e9 ^^e8^^e7 ^^ea^^e2^^e0^^ed-
@@ -889,35 +894,35 @@ Overfull \hbox (0.87222pt too wide) in paragraph at lines 472--472
 [15]
 
 [16]
-<two_color_scheme.png, id=252, 419.5675pt x 586.19pt>
+<two_color_scheme.png, id=257, 419.5675pt x 586.19pt>
 File: two_color_scheme.png Graphic file (type png)
 <use two_color_scheme.png>
-Package pdftex.def Info: two_color_scheme.png  used on input line 722.
+Package pdftex.def Info: two_color_scheme.png  used on input line 724.
 (pdftex.def)             Requested size: 266.03474pt x 371.6809pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 729.
+(caption)                particular \caption on input line 731.
 See the caption package documentation for explanation.
 
 
 
 [17 <./two_color_scheme.png>]
-Overfull \hbox (1.49948pt too wide) in paragraph at lines 747--752
+Overfull \hbox (1.49948pt too wide) in paragraph at lines 749--754
 []\T2A/cmr/m/n/14.4 ^^d1^^f3^^f9^^e5^^f1^^f2^^e2^^e5^^ed^^ed^^ee, ^^f7^^f2^^ee 
 ^^ee^^f2-^^f1^^f2^^f0^^ee^^e9-^^ea^^e0 $\OT1/cmr/m/n/14.4 ^^A$ \T2A/cmr/m/n/14.
 4 ^^e2^^fb-^^e1^^e8-^^f0^^e0-^^e5^^f2-^^f1^^ff ^^e7^^ed^^e0-^^f7^^e8-^^f2^^e5^^
 eb^^fc-^^ed^^ee ^^e1^^ee^^eb^^fc-^^f8^^e5^^e9, ^^f7^^e5^^ec ^^e5^^f1^^f2^^e5-
  []
 
-<cavity_spectrum.png, id=265, 848.16875pt x 648.4225pt>
+<cavity_spectrum.png, id=270, 848.16875pt x 648.4225pt>
 File: cavity_spectrum.png Graphic file (type png)
 <use cavity_spectrum.png>
-Package pdftex.def Info: cavity_spectrum.png  used on input line 766.
+Package pdftex.def Info: cavity_spectrum.png  used on input line 768.
 (pdftex.def)             Requested size: 338.58632pt x 258.8499pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 774.
+(caption)                particular \caption on input line 776.
 See the caption package documentation for explanation.
 
 
@@ -925,35 +930,35 @@ See the caption package documentation for explanation.
 [18]
 
 [19 <./cavity_spectrum.png>]
-<rabi_two_color.png, id=283, 702.625pt x 724.7075pt>
+<rabi_two_color.png, id=288, 702.625pt x 724.7075pt>
 File: rabi_two_color.png Graphic file (type png)
 <use rabi_two_color.png>
-Package pdftex.def Info: rabi_two_color.png  used on input line 806.
+Package pdftex.def Info: rabi_two_color.png  used on input line 808.
 (pdftex.def)             Requested size: 314.40001pt x 324.29077pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 816.
+(caption)                particular \caption on input line 818.
 See the caption package documentation for explanation.
 
 
 
 [20 <./rabi_two_color.png>]
-<sideband_only.png, id=296, 720.6925pt x 814.04124pt>
+<sideband_only.png, id=301, 720.6925pt x 814.04124pt>
 File: sideband_only.png Graphic file (type png)
 <use sideband_only.png>
-Package pdftex.def Info: sideband_only.png  used on input line 841.
+Package pdftex.def Info: sideband_only.png  used on input line 843.
 (pdftex.def)             Requested size: 266.03474pt x 300.48253pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 846.
+(caption)                particular \caption on input line 848.
 See the caption package documentation for explanation.
 
 
 
 [21 <./sideband_only.png>]
-Overfull \hbox (10.12857pt too wide) in paragraph at lines 873--873
+Overfull \hbox (10.12857pt too wide) in paragraph at lines 875--875
 []\T2A/cmr/bx/n/17.28 ^^d0^^e5^^e7^^ee^^ed^^e0^^ed^^f1^^ed^^ee^^e5 ^^e2^^ee^^e7
 -^^e1^^f3^^e6-^^e4^^e5-^^ed^^e8^^e5 ^^e4^^e2^^f3^^f5-^^f3^^f0^^ee^^e2-^^ed^^e5-
 ^^e2^^ee^^e9 ^^f1^^e8-^^f1^^f2^^e5-^^ec^^fb $\OT1/cmr/m/n/17.28 2\OML/cmm/m/it/
@@ -962,15 +967,15 @@ Overfull \hbox (10.12857pt too wide) in paragraph at lines 873--873
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 873.
+(hyperref)                removing `math shift' on input line 875.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 873.
+(hyperref)                removing `\pi' on input line 875.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 873.
+(hyperref)                removing `math shift' on input line 875.
 
 
 
@@ -987,12 +992,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [27]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 1159.
+(hyperref)                removing `\@ifnextchar' on input line 1161.
 
 
 
 [28]
-Overfull \hbox (1.96774pt too wide) in paragraph at lines 1194--1210
+Overfull \hbox (1.96774pt too wide) in paragraph at lines 1196--1212
 []\T2A/cmr/m/n/14.4 ^^cf^^ee^^eb^^ed^^fb^^e9 ^^e3^^e0-^^ec^^e8^^eb^^fc-^^f2^^ee
 -^^ed^^e8-^^e0^^ed ^^f1^^e8-^^f1^^f2^^e5-^^ec^^fb ^^e2 ^^ef^^f0^^e8-^^e1^^eb^^e
 8-^^e6^^e5-^^ed^^e8^^e8 ^^e2^^f0^^e0-^^f9^^e0-^^fe-^^f9^^e5^^e9-^^f1^^ff ^^e2^^
@@ -1002,7 +1007,7 @@ ee^^eb-^^ed^^fb ^^e2^^ea^^eb^^fe-
 
 
 [29]
-Overfull \hbox (8.21384pt too wide) in paragraph at lines 1305--1312
+Overfull \hbox (8.21384pt too wide) in paragraph at lines 1307--1314
 \T2A/cmr/m/n/14.4 ^^dd^^f2^^e8 ^^f1^^ee-^^f1^^f2^^ee-^^ff-^^ed^^e8^^ff ^^ee^^f2
 -^^e2^^e5-^^f7^^e0-^^fe^^f2 ^^f1^^ee-^^ee^^f2-^^e2^^e5^^f2-^^f1^^f2^^e2^^e5^^ed
 -^^ed^^ee ^^f0^^e5-^^e7^^e8-^^e4^^e5^^ed^^f2-^^ed^^ee-^^ec^^f3 ^^fd^^eb^^e5^^ea
@@ -1012,14 +1017,14 @@ Overfull \hbox (8.21384pt too wide) in paragraph at lines 1305--1312
 
 
 [30]
-Overfull \hbox (4.99402pt too wide) detected at line 1382
+Overfull \hbox (4.99402pt too wide) detected at line 1384
 []
  []
 
 
 
 [31]
-Overfull \hbox (12.04004pt too wide) in paragraph at lines 1400--1407
+Overfull \hbox (12.04004pt too wide) in paragraph at lines 1402--1409
 []\T2A/cmr/m/n/14.4 ^^d6^^e5^^eb^^fc^^fe ^^ed^^e0-^^f1^^f2^^ee-^^ff-^^f9^^e5-^^
 e3^^ee ^^f0^^e0^^e7-^^e4^^e5-^^eb^^e0 ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^e3^
 ^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^ff ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^ee
@@ -1029,15 +1034,15 @@ e3^^ee ^^f0^^e0^^e7-^^e4^^e5-^^eb^^e0 ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^e3^
 
 
 [32]
-<scheme_new1.png, id=400, 925.4575pt x 867.24pt>
+<scheme_new1.png, id=405, 925.4575pt x 867.24pt>
 File: scheme_new1.png Graphic file (type png)
 <use scheme_new1.png>
-Package pdftex.def Info: scheme_new1.png  used on input line 1426.
+Package pdftex.def Info: scheme_new1.png  used on input line 1428.
 (pdftex.def)             Requested size: 314.40001pt x 294.6195pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1431.
+(caption)                particular \caption on input line 1433.
 See the caption package documentation for explanation.
 
 
@@ -1053,67 +1058,67 @@ See the caption package documentation for explanation.
 [37]
 
 [38]
-<rabi.png, id=476, 378.41376pt x 292.09125pt>
+<rabi.png, id=481, 378.41376pt x 292.09125pt>
 File: rabi.png Graphic file (type png)
 <use rabi.png>
-Package pdftex.def Info: rabi.png  used on input line 1708.
+Package pdftex.def Info: rabi.png  used on input line 1710.
 (pdftex.def)             Requested size: 348.26233pt x 268.82079pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1712.
+(caption)                particular \caption on input line 1714.
 See the caption package documentation for explanation.
 
 
 
 [39 <./rabi.png>]
-<g20.png, id=485, 384.43625pt x 281.05pt>
+<g20.png, id=490, 384.43625pt x 281.05pt>
 File: g20.png Graphic file (type png)
 <use g20.png>
-Package pdftex.def Info: g20.png  used on input line 1728.
+Package pdftex.def Info: g20.png  used on input line 1730.
 (pdftex.def)             Requested size: 348.26233pt x 254.61945pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1735.
+(caption)                particular \caption on input line 1737.
 See the caption package documentation for explanation.
 
 
 
 [40 <./g20.png>]
-<cuncurrence.png, id=496, 404.51125pt x 296.10625pt>
+<cuncurrence.png, id=501, 404.51125pt x 296.10625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
-Package pdftex.def Info: cuncurrence.png  used on input line 1758.
+Package pdftex.def Info: cuncurrence.png  used on input line 1760.
 (pdftex.def)             Requested size: 348.26233pt x 254.93556pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1762.
+(caption)                particular \caption on input line 1764.
 See the caption package documentation for explanation.
 
 
 
 [41 <./cuncurrence.png>]
-<fidelity.png, id=506, 427.5975pt x 296.10625pt>
+<fidelity.png, id=511, 427.5975pt x 296.10625pt>
 File: fidelity.png Graphic file (type png)
 <use fidelity.png>
-Package pdftex.def Info: fidelity.png  used on input line 1782.
+Package pdftex.def Info: fidelity.png  used on input line 1784.
 (pdftex.def)             Requested size: 348.26233pt x 241.16858pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1789.
+(caption)                particular \caption on input line 1791.
 See the caption package documentation for explanation.
 
-<cuncurrence_ot_B.png, id=511, 489.83pt x 284.06125pt>
+<cuncurrence_ot_B.png, id=516, 489.83pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
-Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1802.
+Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1804.
 (pdftex.def)             Requested size: 348.26233pt x 201.96661pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1806.
+(caption)                particular \caption on input line 1808.
 See the caption package documentation for explanation.
 
 
@@ -1121,7 +1126,7 @@ See the caption package documentation for explanation.
 [42 <./fidelity.png>]
 
 [43 <./cuncurrence_ot_B.png>]
-Overfull \hbox (18.119pt too wide) in paragraph at lines 2102--2113
+Overfull \hbox (18.119pt too wide) in paragraph at lines 2104--2115
 []\T2A/cmr/m/n/14.4 ^^c2^^ee ^^e2^^f2^^ee-^^f0^^ee^^e9 ^^f7^^e0-^^f1^^f2^^e8 ^^
 ef^^f0^^e5^^e4-^^eb^^ee-^^e6^^e5-^^ed^^e0 ^^e8 ^^e8^^f1-^^f1^^eb^^e5-^^e4^^ee-^
 ^e2^^e0-^^ed^^e0 ^^f1^^f5^^e5-^^ec^^e0 ^^e3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 
@@ -1131,7 +1136,7 @@ ef^^f0^^e5^^e4-^^eb^^ee-^^e6^^e5-^^ed^^e0 ^^e8 ^^e8^^f1-^^f1^^eb^^e5-^^e4^^ee-^
 
 
 [44]
-Overfull \hbox (10.71579pt too wide) in paragraph at lines 2128--2136
+Overfull \hbox (10.71579pt too wide) in paragraph at lines 2130--2138
 \T2A/cmr/m/n/14.4 ^^ec^^e0^^e3-^^ed^^e8^^f2-^^ed^^ee^^ec ^^ef^^ee-^^eb^^e5 ^^ec
 ^^ee-^^e6^^e5^^f2 ^^f1^^eb^^f3-^^e6^^e8^^f2^^fc ^^e8^^f1-^^f2^^ee^^f7-^^ed^^e8-
 ^^ea^^ee^^ec ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^ee^^ed^^ed^^ee-^^e7^^e0^
@@ -1141,13 +1146,13 @@ Overfull \hbox (10.71579pt too wide) in paragraph at lines 2128--2136
 
 
 [45]
-Underfull \hbox (badness 4940) in paragraph at lines 2191--2194
+Underfull \hbox (badness 4940) in paragraph at lines 2193--2196
 []\T2A/cmr/m/n/14.4 Browne D.E., Rudolph T. \T2A/cmr/m/it/14.4 Resource-efficie
 nt linear optical quantum
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 2211--2214
+Underfull \hbox (badness 2050) in paragraph at lines 2213--2216
 []\T2A/cmr/m/n/14.4 Senellart P., Solomon G., White A. \T2A/cmr/m/it/14.4 High-
 performance semiconductor
  []
@@ -1155,7 +1160,7 @@ performance semiconductor
 
 
 [46]
-Underfull \hbox (badness 2809) in paragraph at lines 2236--2239
+Underfull \hbox (badness 2809) in paragraph at lines 2238--2241
 \T2A/cmr/m/it/14.4 entangled cluster state with solid-state quantum emitters in
  photonic
  []
@@ -1173,10 +1178,10 @@ Package rerunfilecheck Info: File `diplom.out' has not changed.
 (rerunfilecheck)             Checksum: 4E677F942F0FCECC4E4F92FD1635379D;4387.
  ) 
 Here is how much of TeX's memory you used:
- 14700 strings out of 467694
- 236752 string characters out of 5412129
- 676317 words of memory out of 5000000
- 43409 multiletter control sequences out of 15000+600000
+ 14799 strings out of 467694
+ 238575 string characters out of 5412129
+ 676721 words of memory out of 5000000
+ 43462 multiletter control sequences out of 15000+600000
  645590 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,79p,3159b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1207,9 +1212,9 @@ ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (4
-8 pages, 1289126 bytes).
+8 pages, 1283951 bytes).
 PDF statistics:
- 1018 PDF objects out of 1200 (max. 8388607)
+ 1011 PDF objects out of 1200 (max. 8388607)
  159 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

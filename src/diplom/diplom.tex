@@ -1,7 +1,9 @@
 \documentclass[11pt]{article}    % тип дока
-\usepackage[utf8]{inputenc}   % используемые языки
+\usepackage{cmap}
 \usepackage[T2A]{fontenc}   % используемые языки
+\usepackage[utf8]{inputenc}   % используемые языки
 \usepackage[english, russian]{babel}   % используемые языки
+\pdfgentounicode = 1
 \usepackage[14pt]{extsizes}   % размер шрифта 14pt
 \usepackage[a4paper, left=3cm, right=1cm, top=2cm , bottom=2cm]{geometry}
 \usepackage{indentfirst}   % красная строка даже в первом абзаце
@@ -1677,7 +1679,7 @@ $\gamma_{PD} \gg \gamma_s$, $\gamma_s \tau \ll 1$ и $\Gamma \tau \leq 1$,
 $\left| + + \right\rangle$, $\left| + - \right\rangle$, $\left| - + \right\rangle$, $\left| - - \right\rangle$,
 это состояния резонансно рассеянного  испущенный в результате рекомбинации триона фотонов
 в циркулярной поляризации $\sigma_\pm$.
-Эта матрица плотности представляет собой смесь белловских состояний с весами:
+Эта матрица плотности представляет собой смесь белловских состояний с тепловыми весами:
 \begin{gather}
     \left| \Phi^{\pm} \right\rangle = \frac{1}{\sqrt{2}} \left( \left| + + \right\rangle \pm \left| - - \right\rangle \right)
 \end{gather}
