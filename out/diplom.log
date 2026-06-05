@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.5)  5 JUN 2026 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.5)  5 JUN 2026 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1134,7 +1134,7 @@ See the caption package documentation for explanation.
 [42 <./fidelity.png>]
 
 [43 <./cuncurrence_ot_B.png>]
-Overfull \hbox (18.119pt too wide) in paragraph at lines 2104--2115
+Overfull \hbox (18.119pt too wide) in paragraph at lines 1833--1844
 []\T2A/cmr/m/n/14.4 ^^c2^^ee ^^e2^^f2^^ee-^^f0^^ee^^e9 ^^f7^^e0-^^f1^^f2^^e8 ^^
 ef^^f0^^e5^^e4-^^eb^^ee-^^e6^^e5-^^ed^^e0 ^^e8 ^^e8^^f1-^^f1^^eb^^e5-^^e4^^ee-^
 ^e2^^e0-^^ed^^e0 ^^f1^^f5^^e5-^^ec^^e0 ^^e3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 
@@ -1144,7 +1144,7 @@ ef^^f0^^e5^^e4-^^eb^^ee-^^e6^^e5-^^ed^^e0 ^^e8 ^^e8^^f1-^^f1^^eb^^e5-^^e4^^ee-^
 
 
 [44]
-Overfull \hbox (10.71579pt too wide) in paragraph at lines 2130--2138
+Overfull \hbox (10.71579pt too wide) in paragraph at lines 1859--1867
 \T2A/cmr/m/n/14.4 ^^ec^^e0^^e3-^^ed^^e8^^f2-^^ed^^ee^^ec ^^ef^^ee-^^eb^^e5 ^^ec
 ^^ee-^^e6^^e5^^f2 ^^f1^^eb^^f3-^^e6^^e8^^f2^^fc ^^e8^^f1-^^f2^^ee^^f7-^^ed^^e8-
 ^^ea^^ee^^ec ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^ee^^ed^^ed^^ee-^^e7^^e0^
@@ -1154,7 +1154,7 @@ Overfull \hbox (10.71579pt too wide) in paragraph at lines 2130--2138
 
 
 [45]
-Underfull \hbox (badness 2809) in paragraph at lines 2193--2196
+Underfull \hbox (badness 2809) in paragraph at lines 1923--1926
 \T2A/cmr/m/it/14.4 entangled cluster state with solid-state quantum emitters in
  photonic
  []
@@ -1164,7 +1164,7 @@ Underfull \hbox (badness 2809) in paragraph at lines 2193--2196
 [46]
 
 [47]
-Underfull \hbox (badness 3354) in paragraph at lines 2268--2271
+Underfull \hbox (badness 3354) in paragraph at lines 1998--2001
 []\T2A/cmr/m/n/14.4 Browne D.E., Rudolph T. \T2A/cmr/m/it/14.4 Resource-efficie
 nt linear optical quantum
  []
@@ -1176,12 +1176,19 @@ nt linear optical quantum
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-04-28>
  ***********
-Package rerunfilecheck Info: File `diplom.out' has not changed.
-(rerunfilecheck)             Checksum: 4E677F942F0FCECC4E4F92FD1635379D;4387.
+
+
+Package rerunfilecheck Warning: File `diplom.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `diplom.out':
+(rerunfilecheck)             Before: 4F800CE97BC9DAC13EA3DE6824694F5E;4387
+(rerunfilecheck)             After:  510890E5986E4D4A3FAEC8DD9863D73B;4207.
  ) 
 Here is how much of TeX's memory you used:
- 14802 strings out of 467686
- 238622 string characters out of 5411864
+ 14803 strings out of 467686
+ 238632 string characters out of 5411864
  677175 words of memory out of 5000000
  43473 multiletter control sequences out of 15000+600000
  645590 words of font info for 86 fonts, out of 8000000 for 9000
@@ -1214,9 +1221,9 @@ ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (4
-8 pages, 1284788 bytes).
+8 pages, 1290428 bytes).
 PDF statistics:
- 1015 PDF objects out of 1200 (max. 8388607)
- 159 named destinations out of 1000 (max. 500000)
+ 1028 PDF objects out of 1200 (max. 8388607)
+ 160 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
