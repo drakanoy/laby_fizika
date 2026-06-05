@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.5.19)  4 JUN 2026 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.5)  5 JUN 2026 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,20 +6,20 @@ entering extended mode
 **./diplom.tex
 (diplom.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-03-20>
+L3 programming layer <2026-04-28>
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
@@ -251,33 +251,33 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@posthook=\toks18
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2026/04/15 v26.6 The multilingual framework for LuaLaTeX, pdfLaT
+Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
-\babel@savecnt=\count283
+\babel@savecnt=\count284
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2078.
+ne 2084.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2080.
+ne 2086.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2082.
+e 2088.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2083.
+e 2089.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2084.
+on input line 2090.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2086.
+on input line 2092.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2111.
+on input line 2117.
 \U@D=\dimen151
 \l@unhyphenated=\language79
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.
 def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count284
+\bbl@dirlevel=\count285
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4206.
+(babel)             Reported on input line 4228.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -292,7 +292,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/ru
 /babel-russian.tex)
 Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 4330.
+(babel)             from babel-en.ini. Reported on input line 4356.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-english/eng
 lish.ldf
@@ -305,7 +305,7 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )
 Package babel Info: Importing font and identification data for russian
-(babel)             from babel-ru.ini. Reported on input line 4330.
+(babel)             from babel-ru.ini. Reported on input line 4356.
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ba
 bel-russian/russianb.ldf
@@ -343,9 +343,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count285
-\Gm@cntv=\count286
-\c@Gm@tempcnt=\count287
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
 \Gm@bindingoffset=\dimen152
 \Gm@wd@mp=\dimen153
 \Gm@odd@mp=\dimen154
@@ -447,14 +447,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 y
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count288
+\inf@bad=\count289
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count289
-\leftroot@=\count290
+\uproot@=\count290
+\leftroot@=\count291
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count291
-\DOTSCASE@=\count292
+\classnum@=\count292
+\DOTSCASE@=\count293
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -467,20 +467,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen164
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count293
+\macc@depth=\count294
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count294
+\c@MaxMatrixCols=\count295
 \dotsspace@=\muskip17
-\c@parentequation=\count295
-\dspbrk@lvl=\count296
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
 \tag@help=\toks23
-\row@=\count297
-\column@=\count298
-\maxfields@=\count299
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
 \andhelp@=\toks24
 \eqnshift@=\dimen165
 \alignsep@=\dimen166
@@ -548,12 +548,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 options/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count300
+\c@section@level=\count301
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox
 .sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count301
+\etb@tempcnta=\count302
 )
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
 stringenc/stringenc.sty
@@ -561,8 +561,8 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen171
-\Hy@linkcounter=\count302
-\Hy@pagecounter=\count303
+\Hy@linkcounter=\count303
+\Hy@pagecounter=\count304
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.d
 ef
@@ -574,7 +574,7 @@ Now handling font encoding PD1 ...
 intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count304
+\Hy@SavedSpaceFactor=\count305
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.de
 f
@@ -590,7 +590,7 @@ Package hyperref Info: Plain pages OFF on input line 4214.
 Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count305
+\c@Hy@tempcnt=\count306
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -607,7 +607,7 @@ bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count306
+\Fld@menulength=\count307
 \Field@Width=\dimen173
 \Fld@charsize=\dimen174
 Package hyperref Info: Hyper figures OFF on input line 6091.
@@ -617,17 +617,17 @@ Package hyperref Info: backreferencing OFF on input line 6106.
 Package hyperref Info: Link coloring OFF on input line 6111.
 Package hyperref Info: Link coloring with OCG OFF on input line 6116.
 Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count307
-\c@Item=\count308
-\c@Hfootnote=\count309
+\Hy@abspage=\count308
+\c@Item=\count309
+\c@Hfootnote=\count310
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.
 def
 File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
-\Fld@listcount=\count310
-\c@bookmark@seq@number=\count311
+\Fld@listcount=\count311
+\c@bookmark@seq@number=\count312
 
 (/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/re
 runfilecheck/rerunfilecheck.sty
@@ -659,14 +659,14 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen182
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count312
-\c@continuedfloat=\count313
+\c@caption@flags=\count313
+\c@continuedfloat=\count314
 Package caption Info: hyperref package is loaded.
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
 nd-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count314
+\l__color_backend_stack_int=\count315
 ) (/Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
 (babel)             Reported on input line 8.
@@ -733,16 +733,16 @@ LaTeX Info: Redefining \th on input line 20.
 (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count315
+\scratchcounter=\count316
 \scratchdimen=\dimen183
 \scratchbox=\box55
-\nofMPsegments=\count316
-\nofMParguments=\count317
+\nofMPsegments=\count317
+\nofMParguments=\count318
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count318
+\MPscratchCnt=\count319
 \MPscratchDim=\dimen184
-\MPnumerator=\count319
-\makeMPintoPDFobject=\count320
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
 \everyMPtoPDFconversion=\toks28
 )
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epst
@@ -824,7 +824,7 @@ Overfull \hbox (3.28748pt too wide) in paragraph at lines 319--319
 f1-^^ed^^ee-^^e3^^ee ^^e2^^ee^^e7-^^e1^^f3^^e6-
  []
 
-<trion_levels.png, id=159, 1175.39125pt x 693.59125pt>
+<trion_levels.png, id=161, 1175.39125pt x 693.59125pt>
 File: trion_levels.png Graphic file (type png)
 <use trion_levels.png>
 Package pdftex.def Info: trion_levels.png  used on input line 354.
@@ -884,6 +884,14 @@ Overfull \hbox (0.87222pt too wide) in paragraph at lines 474--474
  []
 
 
+Overfull \hbox (1.56168pt too wide) in paragraph at lines 514--524
+\T2A/cmr/m/n/14.4 ^^f0^^e0^^f1-^^f1^^ec^^e0^^f2-^^f0^^e8-^^e2^^e0-^^e5^^f2-^^f1
+^^ff ^^ee^^e4^^e8-^^ed^^ee^^f7-^^ed^^e0^^ff ^^e7^^e0-^^f0^^ff-^^e6^^e5^^ed-^^ed
+^^e0^^ff ^^ea^^e2^^e0^^ed-^^f2^^ee-^^e2^^e0^^ff ^^f2^^ee^^f7-^^ea^^e0 ^^f1 ^^f0
+^^e5-^^e7^^e8-^^e4^^e5^^ed^^f2-^^ed^^fb^^ec ^^fd^^eb^^e5^^ea-
+ []
+
+
 
 [12]
 
@@ -894,7 +902,7 @@ Overfull \hbox (0.87222pt too wide) in paragraph at lines 474--474
 [15]
 
 [16]
-<two_color_scheme.png, id=257, 419.5675pt x 586.19pt>
+<two_color_scheme.png, id=263, 419.5675pt x 586.19pt>
 File: two_color_scheme.png Graphic file (type png)
 <use two_color_scheme.png>
 Package pdftex.def Info: two_color_scheme.png  used on input line 724.
@@ -915,7 +923,7 @@ Overfull \hbox (1.49948pt too wide) in paragraph at lines 749--754
 eb^^fc-^^ed^^ee ^^e1^^ee^^eb^^fc-^^f8^^e5^^e9, ^^f7^^e5^^ec ^^e5^^f1^^f2^^e5-
  []
 
-<cavity_spectrum.png, id=270, 848.16875pt x 648.4225pt>
+<cavity_spectrum.png, id=276, 848.16875pt x 648.4225pt>
 File: cavity_spectrum.png Graphic file (type png)
 <use cavity_spectrum.png>
 Package pdftex.def Info: cavity_spectrum.png  used on input line 768.
@@ -930,7 +938,7 @@ See the caption package documentation for explanation.
 [18]
 
 [19 <./cavity_spectrum.png>]
-<rabi_two_color.png, id=288, 702.625pt x 724.7075pt>
+<rabi_two_color.png, id=294, 702.625pt x 724.7075pt>
 File: rabi_two_color.png Graphic file (type png)
 <use rabi_two_color.png>
 Package pdftex.def Info: rabi_two_color.png  used on input line 808.
@@ -944,7 +952,7 @@ See the caption package documentation for explanation.
 
 
 [20 <./rabi_two_color.png>]
-<sideband_only.png, id=301, 720.6925pt x 814.04124pt>
+<sideband_only.png, id=307, 720.6925pt x 814.04124pt>
 File: sideband_only.png Graphic file (type png)
 <use sideband_only.png>
 Package pdftex.def Info: sideband_only.png  used on input line 843.
@@ -1034,7 +1042,7 @@ e3^^ee ^^f0^^e0^^e7-^^e4^^e5-^^eb^^e0 ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^e3^
 
 
 [32]
-<scheme_new1.png, id=405, 925.4575pt x 867.24pt>
+<scheme_new1.png, id=413, 925.4575pt x 867.24pt>
 File: scheme_new1.png Graphic file (type png)
 <use scheme_new1.png>
 Package pdftex.def Info: scheme_new1.png  used on input line 1428.
@@ -1058,7 +1066,7 @@ See the caption package documentation for explanation.
 [37]
 
 [38]
-<rabi.png, id=481, 378.41376pt x 292.09125pt>
+<rabi.png, id=489, 378.41376pt x 292.09125pt>
 File: rabi.png Graphic file (type png)
 <use rabi.png>
 Package pdftex.def Info: rabi.png  used on input line 1710.
@@ -1072,7 +1080,7 @@ See the caption package documentation for explanation.
 
 
 [39 <./rabi.png>]
-<g20.png, id=490, 384.43625pt x 281.05pt>
+<g20.png, id=498, 384.43625pt x 281.05pt>
 File: g20.png Graphic file (type png)
 <use g20.png>
 Package pdftex.def Info: g20.png  used on input line 1730.
@@ -1086,7 +1094,7 @@ See the caption package documentation for explanation.
 
 
 [40 <./g20.png>]
-<cuncurrence.png, id=501, 404.51125pt x 296.10625pt>
+<cuncurrence.png, id=509, 404.51125pt x 296.10625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
 Package pdftex.def Info: cuncurrence.png  used on input line 1760.
@@ -1100,7 +1108,7 @@ See the caption package documentation for explanation.
 
 
 [41 <./cuncurrence.png>]
-<fidelity.png, id=511, 427.5975pt x 296.10625pt>
+<fidelity.png, id=519, 427.5975pt x 296.10625pt>
 File: fidelity.png Graphic file (type png)
 <use fidelity.png>
 Package pdftex.def Info: fidelity.png  used on input line 1784.
@@ -1111,7 +1119,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 1791.
 See the caption package documentation for explanation.
 
-<cuncurrence_ot_B.png, id=516, 489.83pt x 284.06125pt>
+<cuncurrence_ot_B.png, id=524, 489.83pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
 Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1804.
@@ -1146,42 +1154,36 @@ Overfull \hbox (10.71579pt too wide) in paragraph at lines 2130--2138
 
 
 [45]
-Underfull \hbox (badness 4940) in paragraph at lines 2193--2196
-[]\T2A/cmr/m/n/14.4 Browne D.E., Rudolph T. \T2A/cmr/m/it/14.4 Resource-efficie
-nt linear optical quantum
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 2213--2216
-[]\T2A/cmr/m/n/14.4 Senellart P., Solomon G., White A. \T2A/cmr/m/it/14.4 High-
-performance semiconductor
- []
-
-
-
-[46]
-Underfull \hbox (badness 2809) in paragraph at lines 2238--2241
+Underfull \hbox (badness 2809) in paragraph at lines 2193--2196
 \T2A/cmr/m/it/14.4 entangled cluster state with solid-state quantum emitters in
  photonic
  []
 
 
 
+[46]
+
 [47]
+Underfull \hbox (badness 3354) in paragraph at lines 2268--2271
+[]\T2A/cmr/m/n/14.4 Browne D.E., Rudolph T. \T2A/cmr/m/it/14.4 Resource-efficie
+nt linear optical quantum
+ []
+
+
 
 [48] (/Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-03-20>
+L3 programming layer <2026-04-28>
  ***********
 Package rerunfilecheck Info: File `diplom.out' has not changed.
 (rerunfilecheck)             Checksum: 4E677F942F0FCECC4E4F92FD1635379D;4387.
  ) 
 Here is how much of TeX's memory you used:
- 14799 strings out of 467694
- 238575 string characters out of 5412129
- 676721 words of memory out of 5000000
- 43462 multiletter control sequences out of 15000+600000
+ 14802 strings out of 467686
+ 238622 string characters out of 5411864
+ 677175 words of memory out of 5000000
+ 43473 multiletter control sequences out of 15000+600000
  645590 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,79p,3159b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1212,9 +1214,9 @@ ication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (4
-8 pages, 1283951 bytes).
+8 pages, 1284788 bytes).
 PDF statistics:
- 1011 PDF objects out of 1200 (max. 8388607)
+ 1015 PDF objects out of 1200 (max. 8388607)
  159 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
