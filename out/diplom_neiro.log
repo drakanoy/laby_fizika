@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.5)  6 JUN 2026 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.5)  6 JUN 2026 23:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -693,27 +693,27 @@ Package babel Info: 'russian' activates 'russian' shorthands.
 )
 \openout1 = `diplom_neiro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Info: Redefining \th on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Info: Redefining \th on input line 102.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -775,7 +775,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 -sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 78.
+Package hyperref Info: Link coloring ON on input line 102.
  (/Users/drakanoy/PycharmProjects/laby_fizika/out/diplom_neiro.out)
 (/Users/drakanoy/PycharmProjects/laby_fizika/out/diplom_neiro.out)
 \@outlinefile=\write3
@@ -783,19 +783,19 @@ Package hyperref Info: Link coloring ON on input line 78.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<logo.png, id=55, 1122.76607pt x 185.19188pt>
+<logo.png, id=54, 1122.76607pt x 185.19188pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 154.
+Package pdftex.def Info: logo.png  used on input line 178.
 (pdftex.def)             Requested size: 482.78pt x 79.63094pt.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 164
+LaTeX Font Info:    Trying to load font information for U+msa on input line 188
 .
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 164
+LaTeX Font Info:    Trying to load font information for U+msb on input line 188
 .
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -811,14 +811,14 @@ x/pdftex.map} <./logo.png>]
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 506.45908pt, 5.69054pt)
+* h-part:(L,W,R)=(56.9055pt, 532.06656pt, 8.53581pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=506.45908pt
+* \textwidth=532.06656pt
 * \textheight=731.23584pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-54.36449pt
 * \headheight=14.0pt
 * \headsep=25.0pt
@@ -849,19 +849,10 @@ x/pdftex.map} <./logo.png>]
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 224.
+(hyperref)                be the same. Added a new anchor on input line 248.
 
 
-LaTeX Warning: Citation `fischer2017' on page 3 undefined on input line 242.
-
-
-LaTeX Warning: Citation `fischer2018' on page 3 undefined on input line 242.
-
-
-LaTeX Warning: Citation `loredo2019' on page 3 undefined on input line 242.
-
-
-Overfull \hbox (6.89093pt too wide) in paragraph at lines 254--269
+Overfull \hbox (6.89093pt too wide) in paragraph at lines 278--293
 []\T2A/cmr/bx/n/14.4 ^^d0^^e5^^e7^^ee^^ed^^e0^^ed^^f1^^ed^^ee^^e5 ^^e2^^ee^^e7-
 ^^e1^^f3^^e6-^^e4^^e5-^^ed^^e8^^e5 $\OML/cmm/m/it/14.4 ^^Y$\T2A/cmr/m/n/14.4 -^
 ^e8^^ec^^ef^^f3^^eb^^fc^^f1^^ee^^ec ^^f1 ^^ea^^f0^^ee^^f1^^f1-^^ef^^ee^^eb^^ff^
@@ -874,21 +865,10 @@ Overfull \hbox (6.89093pt too wide) in paragraph at lines 254--269
 
 ]
 
-LaTeX Warning: Citation `glassl2013' on page 4 undefined on input line 271.
-
-
-
 [4]
 
-LaTeX Warning: Citation `ramsay2010' on page 5 undefined on input line 304.
-
-
-LaTeX Warning: Citation `nazir2016' on page 5 undefined on input line 304.
-
-
-
 [5]
-Overfull \hbox (2.51605pt too wide) in paragraph at lines 364--368
+Overfull \hbox (2.51605pt too wide) in paragraph at lines 388--392
 \T2A/cmr/m/n/14.4 ^^ed^^ee-^^e3^^ee ^^ef^^ee-^^eb^^ff, ^^e8 ^^e8^^f1-^^f1^^eb^^
 e5-^^e4^^ee-^^e2^^e0^^f2^^fc ^^e2^^ee^^e7-^^ec^^ee^^e6-^^ed^^ee^^f1^^f2^^fc ^^e
 3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^
@@ -900,21 +880,21 @@ ee^^ed^^ed^^ee-^^e7^^e0^^ef^^f3^^f2^^e0^^ed^^ed^^fb^^f5
 [6]
 
 [7]
-<trion_levels.png, id=162, 1175.39125pt x 693.59125pt>
+<trion_levels.png, id=171, 1175.39125pt x 693.59125pt>
 File: trion_levels.png Graphic file (type png)
 <use trion_levels.png>
-Package pdftex.def Info: trion_levels.png  used on input line 424.
+Package pdftex.def Info: trion_levels.png  used on input line 448.
 (pdftex.def)             Requested size: 314.40001pt x 185.52588pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 428.
+(caption)                particular \caption on input line 452.
 See the caption package documentation for explanation.
 
 
 
 [8]
-Underfull \hbox (badness 1655) in paragraph at lines 428--428
+Underfull \hbox (badness 1655) in paragraph at lines 452--452
 []\T2A/cmr/m/n/14.4 ^^d0^^e8^^f1. 1: |[]^^c7^^ee^^ed^^ed^^e0^^ff ^^e4^^e8^^e0-^
 ^e3^^f0^^e0^^ec-^^ec^^e0 ^^e7^^e0-^^f0^^ff-^^e6^^e5^^ed-^^ed^^ee^^e9 ^^ea^^e2^^
 e0^^ed-^^f2^^ee-^^e2^^ee^^e9 ^^f2^^ee^^f7-^^ea^^e8. ^^d0^^e5-^^e7^^e8-^^e4^^e5^
@@ -922,7 +902,7 @@ e0^^ed-^^f2^^ee-^^e2^^ee^^e9 ^^f2^^ee^^f7-^^ea^^e8. ^^d0^^e5-^^e7^^e8-^^e4^^e5^
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 428--428
+Underfull \hbox (badness 2073) in paragraph at lines 452--452
 \T2A/cmr/m/n/14.4 ^^fd^^eb^^e5^^ea-^^f2^^f0^^ee^^ed ^^f1^^ee ^^f1^^ef^^e8-^^ed^
 ^ee^^ec $\OMS/cmsy/m/n/14.4 "$ \T2A/cmr/m/n/14.4 ($\OMS/cmsy/m/n/14.4 #$\T2A/cm
 r/m/n/14.4 ) ^^ee^^e1-^^f0^^e0-^^e7^^f3-^^e5^^f2 ^^f2^^f0^^e8-^^ee^^ed ^^ef^^f0
@@ -931,7 +911,7 @@ A/cmr/m/n/14.4 ($\OML/cmm/m/it/14.4 ^^[[]$\T2A/cmr/m/n/14.4 )-
  []
 
 
-Overfull \hbox (4.31192pt too wide) in paragraph at lines 433--447
+Overfull \hbox (4.31192pt too wide) in paragraph at lines 457--471
 []\T2A/cmr/bx/n/14.4 ^^cd^^e5^^ea^^ee^^e3^^e5^^f0^^e5^^ed^^f2^^ed^^e0^^ff ^^f1^
 ^f3-^^ef^^e5^^f0-^^ef^^ee-^^e7^^e8-^^f6^^e8^^ff ^^f1^^ef^^e8-^^ed^^e0 ^^e8 ^^ed
 ^^e5^^e7^^e0-^^e2^^e8-^^f1^^e8-^^ec^^ee^^f1^^f2^^fc ^^ea^^e0-^^ed^^e0-^^eb^^ee^
@@ -941,7 +921,7 @@ Overfull \hbox (4.31192pt too wide) in paragraph at lines 433--447
 
 
 [9 <./trion_levels.png>]
-Overfull \hbox (23.0081pt too wide) in paragraph at lines 494--501
+Overfull \hbox (23.0081pt too wide) in paragraph at lines 518--525
 \T2A/cmr/m/n/14.4 ^^ea^^e0-^^ed^^e0^^eb ^^e4^^e5-^^f2^^e5^^ea-^^f2^^e8-^^f0^^ee
 -^^e2^^e0-^^ed^^e8^^ff ^^ed^^e0-^^f1^^f2^^f0^^ee-^^e5^^ed ^^ed^^e0 ^^e2^^e5^^f0
 -^^f2^^e8-^^ea^^e0^^eb^^fc-^^ed^^f3^^fe ^^ef^^ee-^^eb^^ff-^^f0^^e8-^^e7^^e0-^^f
@@ -954,13 +934,16 @@ Overfull \hbox (23.0081pt too wide) in paragraph at lines 494--501
 [10]
 
 [11]
+Overfull \hbox (1.56168pt too wide) in paragraph at lines 608--618
+\T2A/cmr/m/n/14.4 ^^f0^^e0^^f1-^^f1^^ec^^e0^^f2-^^f0^^e8-^^e2^^e0-^^e5^^f2-^^f1
+^^ff ^^ee^^e4^^e8-^^ed^^ee^^f7-^^ed^^e0^^ff ^^e7^^e0-^^f0^^ff-^^e6^^e5^^ed-^^ed
+^^e0^^ff ^^ea^^e2^^e0^^ed-^^f2^^ee-^^e2^^e0^^ff ^^f2^^ee^^f7-^^ea^^e0 ^^f1 ^^f0
+^^e5-^^e7^^e8-^^e4^^e5^^ed^^f2-^^ed^^fb^^ec ^^fd^^eb^^e5^^ea-
+ []
+
+
 
 [12]
-
-LaTeX Warning: Reference `eq:trion_energy' on page 13 undefined on input line 6
-39.
-
-
 
 [13]
 
@@ -968,41 +951,36 @@ LaTeX Warning: Reference `eq:trion_energy' on page 13 undefined on input line 6
 
 [15]
 
-LaTeX Warning: Reference `sec:cross-polarization' on page 16 undefined on input
- line 772.
-
-
-
 [16]
-<two_color_scheme.png, id=266, 419.5675pt x 586.19pt>
+<two_color_scheme.png, id=273, 419.5675pt x 586.19pt>
 File: two_color_scheme.png Graphic file (type png)
 <use two_color_scheme.png>
-Package pdftex.def Info: two_color_scheme.png  used on input line 794.
+Package pdftex.def Info: two_color_scheme.png  used on input line 818.
 (pdftex.def)             Requested size: 266.03474pt x 371.6809pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 801.
+(caption)                particular \caption on input line 825.
 See the caption package documentation for explanation.
 
 
 
 [17 <./two_color_scheme.png>]
-Overfull \hbox (1.49948pt too wide) in paragraph at lines 819--824
+Overfull \hbox (1.49948pt too wide) in paragraph at lines 843--848
 []\T2A/cmr/m/n/14.4 ^^d1^^f3^^f9^^e5^^f1^^f2^^e2^^e5^^ed^^ed^^ee, ^^f7^^f2^^ee 
 ^^ee^^f2-^^f1^^f2^^f0^^ee^^e9-^^ea^^e0 $\OT1/cmr/m/n/14.4 ^^A$ \T2A/cmr/m/n/14.
 4 ^^e2^^fb-^^e1^^e8-^^f0^^e0-^^e5^^f2-^^f1^^ff ^^e7^^ed^^e0-^^f7^^e8-^^f2^^e5^^
 eb^^fc-^^ed^^ee ^^e1^^ee^^eb^^fc-^^f8^^e5^^e9, ^^f7^^e5^^ec ^^e5^^f1^^f2^^e5-
  []
 
-<cavity_spectrum.png, id=279, 848.16875pt x 648.4225pt>
+<cavity_spectrum.png, id=286, 848.16875pt x 648.4225pt>
 File: cavity_spectrum.png Graphic file (type png)
 <use cavity_spectrum.png>
-Package pdftex.def Info: cavity_spectrum.png  used on input line 838.
+Package pdftex.def Info: cavity_spectrum.png  used on input line 862.
 (pdftex.def)             Requested size: 338.58632pt x 258.8499pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 846.
+(caption)                particular \caption on input line 870.
 See the caption package documentation for explanation.
 
 
@@ -1010,36 +988,29 @@ See the caption package documentation for explanation.
 [18]
 
 [19 <./cavity_spectrum.png>]
-<rabi_two_color.png, id=297, 702.625pt x 724.7075pt>
+<rabi_two_color.png, id=304, 702.625pt x 724.7075pt>
 File: rabi_two_color.png Graphic file (type png)
 <use rabi_two_color.png>
-Package pdftex.def Info: rabi_two_color.png  used on input line 878.
+Package pdftex.def Info: rabi_two_color.png  used on input line 902.
 (pdftex.def)             Requested size: 314.40001pt x 324.29077pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 888.
+(caption)                particular \caption on input line 912.
 See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:sideband_only' on page 20 undefined on input line
- 896.
 
 
 
 [20 <./rabi_two_color.png>]
-
-LaTeX Warning: Reference `fig:sideband_only' on page 21 undefined on input line
- 907.
-
-<sideband_only.png, id=307, 720.6925pt x 814.04124pt>
+<sideband_only.png, id=317, 720.6925pt x 814.04124pt>
 File: sideband_only.png Graphic file (type png)
 <use sideband_only.png>
-Package pdftex.def Info: sideband_only.png  used on input line 913.
+Package pdftex.def Info: sideband_only.png  used on input line 937.
 (pdftex.def)             Requested size: 266.03474pt x 300.48253pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 918.
+(caption)                particular \caption on input line 942.
 See the caption package documentation for explanation.
 
 
@@ -1047,32 +1018,19 @@ See the caption package documentation for explanation.
 [21 <./sideband_only.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 945.
+(hyperref)                removing `math shift' on input line 969.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 945.
+(hyperref)                removing `\pi' on input line 969.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 945.
-
-
-LaTeX Warning: Reference `sec:cross-polarization' on page 22 undefined on input
- line 956.
-
-
-LaTeX Warning: Reference `sec:cross-polarization' on page 22 undefined on input
- line 964.
+(hyperref)                removing `math shift' on input line 969.
 
 
 
 [22]
-
-LaTeX Warning: Reference `sec:cross-polarization' on page 23 undefined on input
- line 1021.
-
-
 
 [23]
 
@@ -1085,20 +1043,10 @@ LaTeX Warning: Reference `sec:cross-polarization' on page 23 undefined on input
 [27]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 1231.
+(hyperref)                removing `\@ifnextchar' on input line 1255.
 
 
-LaTeX Warning: Reference `sec:cross-polarization' on page 28 undefined on input
- line 1241.
-
-
-LaTeX Warning: Citation `fischer2017' on page 28 undefined on input line 1262.
-
-
-LaTeX Warning: Citation `fischer2018' on page 28 undefined on input line 1262.
-
-
-Overfull \hbox (1.96774pt too wide) in paragraph at lines 1266--1282
+Overfull \hbox (1.96774pt too wide) in paragraph at lines 1290--1306
 []\T2A/cmr/m/n/14.4 ^^cf^^ee^^eb^^ed^^fb^^e9 ^^e3^^e0-^^ec^^e8^^eb^^fc-^^f2^^ee
 -^^ed^^e8-^^e0^^ed ^^f1^^e8-^^f1^^f2^^e5-^^ec^^fb ^^e2 ^^ef^^f0^^e8-^^e1^^eb^^e
 8-^^e6^^e5-^^ed^^e8^^e8 ^^e2^^f0^^e0-^^f9^^e0-^^fe-^^f9^^e5^^e9-^^f1^^ff ^^e2^^
@@ -1109,17 +1057,8 @@ ee^^eb-^^ed^^fb ^^e2^^ea^^eb^^fe-
 
 [28]
 
-LaTeX Warning: Reference `sec:krainov' on page 29 undefined on input line 1293.
-
-
-
-LaTeX Warning: Reference `sec:cross-polarization' on page 29 undefined on input
- line 1323.
-
-
-
 [29]
-Overfull \hbox (8.21384pt too wide) in paragraph at lines 1377--1384
+Overfull \hbox (8.21384pt too wide) in paragraph at lines 1401--1408
 \T2A/cmr/m/n/14.4 ^^dd^^f2^^e8 ^^f1^^ee-^^f1^^f2^^ee-^^ff-^^ed^^e8^^ff ^^ee^^f2
 -^^e2^^e5-^^f7^^e0-^^fe^^f2 ^^f1^^ee-^^ee^^f2-^^e2^^e5^^f2-^^f1^^f2^^e2^^e5^^ed
 -^^ed^^ee ^^f0^^e5-^^e7^^e8-^^e4^^e5^^ed^^f2-^^ed^^ee-^^ec^^f3 ^^fd^^eb^^e5^^ea
@@ -1129,14 +1068,14 @@ Overfull \hbox (8.21384pt too wide) in paragraph at lines 1377--1384
 
 
 [30]
-Overfull \hbox (4.99402pt too wide) detected at line 1454
+Overfull \hbox (4.99402pt too wide) detected at line 1478
 []
  []
 
 
 
 [31]
-Overfull \hbox (12.04004pt too wide) in paragraph at lines 1472--1479
+Overfull \hbox (12.04004pt too wide) in paragraph at lines 1496--1503
 []\T2A/cmr/m/n/14.4 ^^d6^^e5^^eb^^fc^^fe ^^ed^^e0-^^f1^^f2^^ee-^^ff-^^f9^^e5-^^
 e3^^ee ^^f0^^e0^^e7-^^e4^^e5-^^eb^^e0 ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^e3^
 ^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^ff ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^ee
@@ -1146,205 +1085,91 @@ e3^^ee ^^f0^^e0^^e7-^^e4^^e5-^^eb^^e0 ^^ff^^e2-^^eb^^ff-^^e5^^f2-^^f1^^ff ^^e3^
 
 
 [32]
-<scheme_new1.png, id=406, 925.4575pt x 867.24pt>
+<scheme_new1.png, id=422, 925.4575pt x 867.24pt>
 File: scheme_new1.png Graphic file (type png)
 <use scheme_new1.png>
-Package pdftex.def Info: scheme_new1.png  used on input line 1498.
+Package pdftex.def Info: scheme_new1.png  used on input line 1522.
 (pdftex.def)             Requested size: 314.40001pt x 294.6195pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1503.
+(caption)                particular \caption on input line 1527.
 See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `eq:lindblad' on page 33 undefined on input line 1518.
-
 
 
 
 [33 <./scheme_new1.png>]
 
-LaTeX Warning: Reference `sec:classical_field' on page 34 undefined on input li
-ne 1539.
-
-
-LaTeX Warning: Reference `eq:basis_vac' on page 34 undefined on input line 1549
-.
-
-
-LaTeX Warning: Reference `eq:basis_co' on page 34 undefined on input line 1551.
-
-
-
-LaTeX Warning: Reference `eq:basis_cross' on page 34 undefined on input line 15
-54.
-
-
-LaTeX Warning: Reference `eq:basis_vac' on page 34 undefined on input line 1559
-.
-
-
-LaTeX Warning: Reference `eq:basis_cross' on page 34 undefined on input line 15
-59.
-
-
-LaTeX Warning: Reference `eq:basis_vac' on page 34 undefined on input line 1568
-.
-
-
-LaTeX Warning: Reference `eq:basis_vac' on page 34 undefined on input line 1572
-.
-
-
-LaTeX Warning: Reference `eq:basis_co' on page 34 undefined on input line 1573.
-
-
-
-LaTeX Warning: Reference `eq:basis_co' on page 34 undefined on input line 1574.
-
-
-
-LaTeX Warning: Reference `eq:basis_cross' on page 34 undefined on input line 15
-74.
-
-
-
 [34]
 
-LaTeX Warning: Reference `sec:classical_field' on page 35 undefined on input li
-ne 1619.
-
-
-LaTeX Warning: Citation `ramsay2010' on page 35 undefined on input line 1624.
-
-
-
 [35]
-
-LaTeX Warning: Citation `ramsay2010' on page 36 undefined on input line 1639.
-
-
-LaTeX Warning: Citation `nazir2016' on page 36 undefined on input line 1639.
-
-
-LaTeX Warning: Citation `glassl2013' on page 36 undefined on input line 1639.
-
-
-LaTeX Warning: Citation `nazir2016' on page 36 undefined on input line 1640.
-
-
-LaTeX Warning: Citation `ramsay2010b' on page 36 undefined on input line 1640.
-
-
-LaTeX Warning: Reference `eq:basis_vac' on page 36 undefined on input line 1644
-.
-
-
-LaTeX Warning: Reference `eq:basis_cross' on page 36 undefined on input line 16
-44.
-
-
-LaTeX Warning: Reference `eq:lindbladian' on page 36 undefined on input line 16
-66.
-
-
-LaTeX Warning: Reference `sec:classical_field' on page 36 undefined on input li
-ne 1692.
-
-
-LaTeX Warning: Citation `fischer2017' on page 36 undefined on input line 1694.
-
-
-LaTeX Warning: Citation `fischer2018' on page 36 undefined on input line 1694.
-
-
 
 [36]
 
 [37]
 
-LaTeX Warning: Reference `sec:classical_field' on page 38 undefined on input li
-ne 1735.
-
-
-
 [38]
-<rabi.png, id=455, 378.41376pt x 292.09125pt>
+<rabi.png, id=498, 378.41376pt x 292.09125pt>
 File: rabi.png Graphic file (type png)
 <use rabi.png>
-Package pdftex.def Info: rabi.png  used on input line 1780.
+Package pdftex.def Info: rabi.png  used on input line 1804.
 (pdftex.def)             Requested size: 348.26233pt x 268.82079pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1784.
+(caption)                particular \caption on input line 1808.
 See the caption package documentation for explanation.
 
 
 
 [39 <./rabi.png>]
-<g20.png, id=464, 384.43625pt x 281.05pt>
+<g20.png, id=507, 384.43625pt x 281.05pt>
 File: g20.png Graphic file (type png)
 <use g20.png>
-Package pdftex.def Info: g20.png  used on input line 1800.
+Package pdftex.def Info: g20.png  used on input line 1824.
 (pdftex.def)             Requested size: 348.26233pt x 254.61945pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1807.
+(caption)                particular \caption on input line 1831.
 See the caption package documentation for explanation.
-
-
-LaTeX Warning: Citation `peres1996' on page 40 undefined on input line 1815.
-
-
-LaTeX Warning: Citation `vidal2002' on page 40 undefined on input line 1815.
 
 
 
 [40 <./g20.png>]
-<cuncurrence.png, id=471, 404.51125pt x 296.10625pt>
+<cuncurrence.png, id=518, 404.51125pt x 296.10625pt>
 File: cuncurrence.png Graphic file (type png)
 <use cuncurrence.png>
-Package pdftex.def Info: cuncurrence.png  used on input line 1830.
+Package pdftex.def Info: cuncurrence.png  used on input line 1854.
 (pdftex.def)             Requested size: 348.26233pt x 254.93556pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1834.
+(caption)                particular \caption on input line 1858.
 See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `eq:rho2_2pi' on page 41 undefined on input line 1840.
-
 
 
 
 [41 <./cuncurrence.png>]
-<fidelity.png, id=480, 427.5975pt x 296.10625pt>
+<fidelity.png, id=528, 427.5975pt x 296.10625pt>
 File: fidelity.png Graphic file (type png)
 <use fidelity.png>
-Package pdftex.def Info: fidelity.png  used on input line 1854.
+Package pdftex.def Info: fidelity.png  used on input line 1878.
 (pdftex.def)             Requested size: 348.26233pt x 241.16858pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1861.
+(caption)                particular \caption on input line 1885.
 See the caption package documentation for explanation.
 
-
-LaTeX Warning: Reference `eq:rho2_2pi' on page 42 undefined on input line 1868.
-
-
-<cuncurrence_ot_B.png, id=484, 489.83pt x 284.06125pt>
+<cuncurrence_ot_B.png, id=533, 489.83pt x 284.06125pt>
 File: cuncurrence_ot_B.png Graphic file (type png)
 <use cuncurrence_ot_B.png>
-Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1874.
+Package pdftex.def Info: cuncurrence_ot_B.png  used on input line 1898.
 (pdftex.def)             Requested size: 348.26233pt x 201.96661pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1878.
+(caption)                particular \caption on input line 1902.
 See the caption package documentation for explanation.
 
 
@@ -1352,7 +1177,7 @@ See the caption package documentation for explanation.
 [42 <./fidelity.png>]
 
 [43 <./cuncurrence_ot_B.png>]
-Overfull \hbox (18.119pt too wide) in paragraph at lines 1904--1915
+Overfull \hbox (18.119pt too wide) in paragraph at lines 1928--1939
 []\T2A/cmr/m/n/14.4 ^^c2^^ee ^^e2^^f2^^ee-^^f0^^ee^^e9 ^^f7^^e0-^^f1^^f2^^e8 ^^
 ef^^f0^^e5^^e4-^^eb^^ee-^^e6^^e5-^^ed^^e0 ^^e8 ^^e8^^f1-^^f1^^eb^^e5-^^e4^^ee-^
 ^e2^^e0-^^ed^^e0 ^^f1^^f5^^e5-^^ec^^e0 ^^e3^^e5-^^ed^^e5-^^f0^^e0-^^f6^^e8^^e8 
@@ -1362,7 +1187,7 @@ ef^^f0^^e5^^e4-^^eb^^ee-^^e6^^e5-^^ed^^e0 ^^e8 ^^e8^^f1-^^f1^^eb^^e5-^^e4^^ee-^
 
 
 [44]
-Overfull \hbox (10.71579pt too wide) in paragraph at lines 1930--1938
+Overfull \hbox (10.71579pt too wide) in paragraph at lines 1954--1962
 \T2A/cmr/m/n/14.4 ^^ec^^e0^^e3-^^ed^^e8^^f2-^^ed^^ee^^ec ^^ef^^ee-^^eb^^e5 ^^ec
 ^^ee-^^e6^^e5^^f2 ^^f1^^eb^^f3-^^e6^^e8^^f2^^fc ^^e8^^f1-^^f2^^ee^^f7-^^ed^^e8-
 ^^ea^^ee^^ec ^^ef^^ee^^eb^^ff^^f0^^e8^^e7^^e0^^f6^^e8^^ee^^ed^^ed^^ee-^^e7^^e0^
@@ -1372,7 +1197,7 @@ Overfull \hbox (10.71579pt too wide) in paragraph at lines 1930--1938
 
 
 [45]
-Underfull \hbox (badness 2050) in paragraph at lines 1964--1965
+Underfull \hbox (badness 2050) in paragraph at lines 1988--1989
 []\T2A/cmr/m/n/14.4 Senellart P., Solomon G., White A. \T2A/cmr/m/it/14.4 High-
 performance semiconductor
  []
@@ -1380,19 +1205,19 @@ performance semiconductor
 
 
 [46]
-Underfull \hbox (badness 8019) in paragraph at lines 1988--1989
+Underfull \hbox (badness 8019) in paragraph at lines 2012--2013
 []\T2A/cmr/m/n/14.4 Bennett A.J. [et al.] \T2A/cmr/m/it/14.4 A semiconductor ph
 oton-sorter \T2A/cmr/m/n/14.4 // Nature
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 1991--1992
+Underfull \hbox (badness 1609) in paragraph at lines 2015--2016
 []\T2A/cmr/m/n/14.4 Gl^^Dassl M., Barth A.M., Axt V.M. \T2A/cmr/m/it/14.4 Propo
 sed robust and high-fidelity
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 2015--2016
+Underfull \hbox (badness 2932) in paragraph at lines 2039--2040
 []\T2A/cmr/m/n/14.4 Muller A. [et al.] \T2A/cmr/m/it/14.4 Resonance fluorescenc
 e from a coherently driven
  []
@@ -1400,7 +1225,7 @@ e from a coherently driven
 
 
 [47]
-Underfull \hbox (badness 3354) in paragraph at lines 2024--2025
+Underfull \hbox (badness 3354) in paragraph at lines 2048--2049
 []\T2A/cmr/m/n/14.4 Browne D.E., Rudolph T. \T2A/cmr/m/it/14.4 Resource-efficie
 nt linear optical quantum
  []
@@ -1412,93 +1237,44 @@ nt linear optical quantum
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-04-28>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `diplom_neiro.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `diplom_neiro.out':
-(rerunfilecheck)             Before: 93A5E3F008B6B39670ECD854655D68D7;4003
-(rerunfilecheck)             After:  1D036D8026DF6D1D1820EAB435630CB3;4379.
+Package rerunfilecheck Info: File `diplom_neiro.out' has not changed.
+(rerunfilecheck)             Checksum: 1D036D8026DF6D1D1820EAB435630CB3;4379.
  ) 
 Here is how much of TeX's memory you used:
- 15200 strings out of 467686
- 244622 string characters out of 5411864
- 684623 words of memory out of 5000000
- 43875 multiletter control sequences out of 15000+600000
+ 15190 strings out of 467686
+ 244498 string characters out of 5411864
+ 687970 words of memory out of 5000000
+ 43874 multiletter control sequences out of 15000+600000
  640260 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,79p,3165b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{equation.4} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{equation.7} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{equation.6} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.2.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
- </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfou
-r/lh/lh-t2a/dpi600/lati1440.pk> </Users/drakanoy/Library/Application Support/Mi
-KTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakanoy
-/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi
-600/tcrm1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/dat
-a/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk> </Users/drakanoy/Library/Applic
-ation Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk> 
-</Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour
-/lh/lh-t2a/dpi600/larm1440.pk></Library/Application Support/MiKTeX/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/MiKT
-eX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Applicati
-on Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Li
-brary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/fo
-nts/type1/public/amsfonts/cm/cmmib10.pfb></Library/Application Support/MiKTeX/t
-exmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Su
-pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/
-Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/ins
-tall/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+ </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljf
+our/lh/lh-t2a/dpi600/lati1440.pk> </Users/drakanoy/Library/Application Support/
+MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk> </Users/drakan
+oy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
+pi600/tcrm1440.pk> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/d
+ata/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk> </Users/drakanoy/Library/Appl
+ication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk
+> </Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600/larm1440.pk></Library/Application Support/MiKTeX/texmfs/ins
+tall/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Applica
+tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmmib10.pfb></Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application 
+Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Librar
+y/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/i
+nstall/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom_neiro.
-pdf (48 pages, 1246336 bytes).
+pdf (48 pages, 1255509 bytes).
 PDF statistics:
- 921 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
+ 961 PDF objects out of 1000 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

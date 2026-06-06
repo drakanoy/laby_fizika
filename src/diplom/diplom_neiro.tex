@@ -40,30 +40,54 @@
 {1em}
 {}
 
-% Оглавление: в строке главы — только номер и название (без слова «ГЛАВА»).
-% Номер страницы ставится вплотную после названия (без отбивки точками к
-% правому краю). \nobreak не даёт номеру оторваться на отдельную строку.
-\contentsmargin{0pt}
+%% Оглавление: в строке главы — только номер и название (без слова «ГЛАВА»).
+%% rightskip заставляет длинный заголовок переноситься, parfillskip + бокс
+%% фиксированной ширины прижимают номер страницы вправо (как в ядре LaTeX).
+%\titlecontents{section}
+%[1.5em]
+%{\vspace{0.3em}\rightskip=1.55em\parfillskip=-1.55em}
+%{\thecontentslabel\ }
+%{}
+%{\nobreak\titlerule*[0.5pc]{.}\nobreak\hbox to 1.55em{\hfil\contentspage}}
+%
+%\titlecontents{section*}
+%[0em]
+%{\vspace{0.3em}\rightskip=1.55em\parfillskip=-1.55em}
+%{}
+%{}
+%{\nobreak\titlerule*[0.5pc]{.}\nobreak\hbox to 1.55em{\hfil\contentspage}}
+%
+%\titlecontents{subsection}
+%[2.5em]
+%{\rightskip=1.55em\parfillskip=-1.55em}
+%{\thecontentslabel\ }
+%{}
+%{\nobreak\titlerule*[0.5pc]{.}\nobreak\hbox to 1.55em{\hfil\contentspage}}
+
+% ============================================================
+% НАСТРОЙКА ОГЛАВЛЕНИЯ
+% ============================================================
+
 \titlecontents{section}
 [1.5em]
 {\vspace{0.3em}}
 {\thecontentslabel\ }
 {}
-{\nobreak\enspace\nobreak\thecontentspage}
+{\titlerule*[0.5pc]{.}\contentspage}
 
 \titlecontents{section*}
 [0em]
 {\vspace{0.3em}}
 {}
 {}
-{\nobreak\enspace\nobreak\thecontentspage}
+{\titlerule*[0.5pc]{.}\contentspage}
 
 \titlecontents{subsection}
 [2.5em]
 {}
 {\thecontentslabel\ }
 {}
-{\nobreak\enspace\nobreak\thecontentspage}
+{\titlerule*[0.5pc]{.}\contentspage}
 
 % Нумерация формул по главам: (номер главы).(номер формулы)
 \numberwithin{equation}{section}
