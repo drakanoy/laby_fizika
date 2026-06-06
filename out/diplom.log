@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.5)  6 JUN 2026 03:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.6.5)  6 JUN 2026 18:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1159,17 +1159,35 @@ Overfull \hbox (10.71579pt too wide) in paragraph at lines 1920--1928
 
 
 [45]
-Underfull \hbox (badness 2809) in paragraph at lines 1983--1986
-\T2A/cmr/m/it/14.4 entangled cluster state with solid-state quantum emitters in
- photonic
+Underfull \hbox (badness 2050) in paragraph at lines 1954--1955
+[]\T2A/cmr/m/n/14.4 Senellart P., Solomon G., White A. \T2A/cmr/m/it/14.4 High-
+performance semiconductor
  []
 
 
 
 [46]
+Underfull \hbox (badness 8019) in paragraph at lines 1978--1979
+[]\T2A/cmr/m/n/14.4 Bennett A.J. [et al.] \T2A/cmr/m/it/14.4 A semiconductor ph
+oton-sorter \T2A/cmr/m/n/14.4 // Nature
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 1981--1982
+[]\T2A/cmr/m/n/14.4 Gl^^Dassl M., Barth A.M., Axt V.M. \T2A/cmr/m/it/14.4 Propo
+sed robust and high-fidelity
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 2005--2006
+[]\T2A/cmr/m/n/14.4 Muller A. [et al.] \T2A/cmr/m/it/14.4 Resonance fluorescenc
+e from a coherently driven
+ []
+
+
 
 [47]
-Underfull \hbox (badness 3354) in paragraph at lines 2058--2061
+Underfull \hbox (badness 3354) in paragraph at lines 2014--2015
 []\T2A/cmr/m/n/14.4 Browne D.E., Rudolph T. \T2A/cmr/m/it/14.4 Resource-efficie
 nt linear optical quantum
  []
@@ -1185,10 +1203,10 @@ Package rerunfilecheck Info: File `diplom.out' has not changed.
 (rerunfilecheck)             Checksum: 1D036D8026DF6D1D1820EAB435630CB3;4379.
  ) 
 Here is how much of TeX's memory you used:
- 15191 strings out of 467686
- 244356 string characters out of 5411864
+ 15190 strings out of 467686
+ 244348 string characters out of 5411864
  688036 words of memory out of 5000000
- 43875 multiletter control sequences out of 15000+600000
+ 43874 multiletter control sequences out of 15000+600000
  640260 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,79p,3159b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1216,9 +1234,9 @@ fonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
 ype1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/i
 nstall/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/diplom.pdf (4
-8 pages, 1259617 bytes).
+8 pages, 1255506 bytes).
 PDF statistics:
- 970 PDF objects out of 1000 (max. 8388607)
+ 961 PDF objects out of 1000 (max. 8388607)
  154 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
