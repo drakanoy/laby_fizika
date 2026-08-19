@@ -75,8 +75,7 @@ driving laser field and for the interaction with the magnetic field, reads
 %    \label{eq:zeeman}
 %\end{gather}
 
-where the last term describes the Zeeman interaction in the transverse field
-
+where the last two terms describe the Zeeman interaction in the transverse field.
 Here $\hat{a}^{\dag}_{\sigma}$ is the creation operator of the resident electron,
 where $\sigma = \uparrow, \downarrow$ denotes the spin state $\left| \pm 1/2 \right>$;
 $\hat{d}^{\dag}_{\sigma}$ is the creation operator of the negatively charged trion,
@@ -99,14 +98,6 @@ polarization of the emitted photon is rigidly tied to the spin state of the QD.
 The transverse field $B_x$, in turn, mixes the two spin branches, which is the
 mechanism that correlates the polarizations of the two emitted photons.
 
-%Since the pump pulse contains a large number of photons, the corresponding mode is
-%treated as a classical field, $g \hat{b}_{H} \rightarrow \Omega_R(t)$, where
-%$\Omega_R(t)$ is the instantaneous Rabi frequency and the pulse area is
-%$\theta = 2 \int \Omega_R(t) \, dt$.
-%The pump is linearly polarized,
-%$\mathbf{e}_H = ( \bm{\sigma}_+ + \bm{\sigma}_- ) / \sqrt{2}$, so that both spin
-%branches are driven with equal amplitude, in contrast to the cross-polarized
-%excitation schemes.
 %The transformation to the frame rotating with the laser frequency,
 %$\hat{d}^{\dag}_{\sigma} \rightarrow \e^{i \omega_L t} \hat{d}^{\dag}_{\sigma}$ and
 %$\hat{b}^{\dag}_{\lambda} \rightarrow \e^{i \omega_L t} \hat{b}^{\dag}_{\lambda}$,
@@ -172,6 +163,43 @@ It is described by the operator
 
 This channel destroys the coherence between the two spin branches and therefore
 directly degrades the polarization entanglement of the emitted photon pair.
+
+The pump pulse contains a large number of photons, so the corresponding mode is
+treated as a classical field with the Rabi frequency $\Omega_R(t)$, whose envelope
+defines the pulse area $\theta = 2 \int \Omega_R(t) \, dt$.
+The pulse is linearly polarized and thus drives both spin branches with equal
+amplitude.
+
+Equation~(\ref{eq:lindblad}) is solved with the initial condition set by the state
+of the system before the arrival of the pump pulse, when the cavity mode is empty
+and the QD hosts only the resident electron.
+In the transverse magnetic field the eigenstates of the electron spin are the
+symmetric and antisymmetric superpositions
+$( \left| \uparrow \right> \pm \left| \downarrow \right> ) / \sqrt{2}$
+split by the Zeeman energy $2 \mu_B g_e B_x$, and their populations follow the
+Boltzmann distribution at the lattice temperature $T$.
+The initial density matrix in the basis
+$\{ \hat{a}^{\dag}_{\uparrow} \left| 0 \right> ,
+\hat{a}^{\dag}_{\downarrow} \left| 0 \right> \}$ therefore reads
+
+\begin{gather}
+    \hat{\rho}_0 = \frac{1}{2}
+    \begin{pmatrix}
+        1 & \tanh \left( \mu_B g_e B_x / k_B T \right) \\
+        \tanh \left( \mu_B g_e B_x / k_B T \right) & 1
+    \end{pmatrix}
+    \label{eq:rho0}
+\end{gather}
+
+The single parameter $\mu_B g_e B_x / k_B T$ controls the degree of the initial spin
+coherence.
+For $\mu_B g_e B_x \gg k_B T$ the electron is fully polarized along the field and the
+system starts from a pure state, whereas for $\mu_B g_e B_x \ll k_B T$ the two spin
+projections are populated equally and the initial state is a fully incoherent
+mixture.
+Since the polarization correlations of the emitted pair are inherited from the
+coherence between the two spin branches, this ratio directly limits the entanglement
+of the outgoing two-photon state.
 
 
 \end{document}
