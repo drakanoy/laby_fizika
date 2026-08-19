@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 01:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 01:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -482,6 +482,10 @@ Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 12.
 
  [1{/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pd
 ftex/pdftex.map}]
+Overfull \hbox (13.90099pt too wide) detected at line 197
+[]
+ []
+
 No file research.bbl.
 [2] (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.aux)
  ***********
@@ -517,7 +521,7 @@ m/cmsy6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
 lic/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/f
 onts/type1/public/amsfonts/cm/cmti9.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/research.pdf 
-(2 pages, 180668 bytes).
+(2 pages, 180349 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
