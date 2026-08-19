@@ -66,9 +66,10 @@ $g$ is the effective QD-cavity coupling parameter; $\Omega_R $ is Rabi frequency
 QD is located in horizontal magnetic field for controlling the spin polarisation of resident electron.
 Hameltonian of that intraction is:
 \begin{gather}
-    \hat{H}_{B} = \alpha B_x \left( \hat{a}^{\dag}_{\downarrow} \hat{a}_{\uparrow} + \hat{a}^{\dag}_{\uparrow} \hat{a}_{\downarrow}  \right)
+    \hat{H}_{B} = \mu_B g_e B_x \left( \hat{a}^{\dag}_{\downarrow} \hat{a}_{\uparrow} + \hat{a}^{\dag}_{\uparrow} \hat{a}_{\downarrow}  \right) +
+    \mu_B g_t B_x \left( \hat{d}^{\dag}_{\downarrow} \hat{d}_{\uparrow} + \hat{d}^{\dag}_{\uparrow} \hat{d}_{\downarrow}  \right)
 \end{gather}
-where $\alpha = \mu_B g$ product of Bohr magneton and g-factor.
+where $g_e$ g-factor of electron, $g_t$ g-factor of trion.
 
 In order to describe evolution with the escape of photons into the environment, evolution equation have to be:
 \begin{gather}
@@ -78,7 +79,7 @@ In order to describe evolution with the escape of photons into the environment, 
 where $\gamma_i $ and $\hat{V}_i $ are the rate and jump operator in the Lindbladian.
 It includes the photon yield from the cavity mode with $ \gamma_{photon} = \Gamma $, and $\hat{V}_{photon} = \hat{b}_{\pm} $
 and phonon pure-dephasing mechanism with $ \gamma_{phonon} = \gamma \Omega^2_R $ and $\hat{V}_{phonon} = \dots $,
-and
+and spin relaxation with $ \gamma_{phonon} = \dots $ and $\hat{V}_{spin} = \dots $.
 
 
 \end{document}

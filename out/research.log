@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  18 AUG 2026 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 00:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -486,7 +486,7 @@ Overfull \hbox (42.43587pt too wide) detected at line 60
  []
 
 
-Overfull \hbox (10.52515pt too wide) detected at line 77
+Overfull \hbox (10.52515pt too wide) detected at line 78
 []
  []
 
@@ -497,50 +497,37 @@ tex/pdftex.map}] (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.aux)
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `research.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `research.out':
-(rerunfilecheck)             Before: 349C001B39E22C870B3334F5E29E1D2A;433
-(rerunfilecheck)             After:  77175AF3695848B9250447EE8571BDC2;210.
+Package rerunfilecheck Info: File `research.out' has not changed.
+(rerunfilecheck)             Checksum: 77175AF3695848B9250447EE8571BDC2;210.
  ) 
 Here is how much of TeX's memory you used:
- 11745 strings out of 467513
- 179980 string characters out of 5405924
- 650249 words of memory out of 5000000
- 40838 multiletter control sequences out of 15000+600000
+ 11743 strings out of 467513
+ 179958 string characters out of 5405924
+ 651249 words of memory out of 5000000
+ 40837 multiletter control sequences out of 15000+600000
  638062 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,10n,79p,278b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section*.3} has been referenced but does not exist,
- replaced by a fixed one
-
-</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKT
-eX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Applicatio
-n Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Libr
-ary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cm
-r6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/in
-stall/fonts/type1/public/amsfonts/cm/cmr9.pfb></Library/Application Support/MiK
-TeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Applicat
-ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Li
+</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/ins
+tall/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Li
 brary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmti9.pfb>
+cmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/
+install/fonts/type1/public/amsfonts/cm/cmr9.pfb></Library/Application Support/M
+iKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Applic
+ation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
+Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmti9.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/research.pdf 
-(1 page, 158086 bytes).
+(1 page, 157063 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
