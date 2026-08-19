@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -481,59 +481,45 @@ Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 12.
 \openout3 = `researchNotes.bib'.
 
 
-
-LaTeX Warning: Reference `eq:hamiltonian' on page 1 undefined on input line 109
-.
-
-[1{/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdf
-tex/pdftex.map}]
 No file research.bbl.
-[2] (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.aux)
+[1{/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdf
+tex/pdftex.map}] (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `research.out' has not changed.
 (rerunfilecheck)             Checksum: 77175AF3695848B9250447EE8571BDC2;210.
  ) 
 Here is how much of TeX's memory you used:
- 11751 strings out of 467513
- 180057 string characters out of 5405924
- 657249 words of memory out of 5000000
- 40842 multiletter control sequences out of 15000+600000
+ 11748 strings out of 467513
+ 180030 string characters out of 5405924
+ 661344 words of memory out of 5000000
+ 40841 multiletter control sequences out of 15000+600000
  638062 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,11n,79p,263b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/ins
-tall/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/Mi
-KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Applica
-tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></L
-ibrary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmmib10.pfb></Library/Application Support/MiKTeX/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/t
-exmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Library/Application Sup
-port/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/Ap
-plication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
-></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmr9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Library/Application Support/MiKTeX
-/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Library/Application 
-Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+ts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/ins
+tall/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Li
+brary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/font
+s/type1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs
+/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/
+MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></Library/Applica
+tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmti9.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/research.pdf 
-(2 pages, 196509 bytes).
+(1 page, 172993 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
  17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
