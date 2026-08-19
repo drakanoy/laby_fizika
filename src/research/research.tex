@@ -1,0 +1,84 @@
+\documentclass[prb,twocolumn,preprintnumbers,superscriptaddress]{revtex4-2}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{hyperref}% add hypertext capabilities
+\DeclareMathOperator{\e}{e}
+\DeclareMathOperator{\sign}{sign}
+\newcommand{\av}[1]{\langle #1 \rangle}
+
+\begin{document}
+
+
+\title{g2(0) cases
+}
+
+\author{I.V.~Krainov}
+\email{igor.kraynov@mail.ru} 
+\affiliation{Ioffe Institute, 194021 St.~Petersburg, Russia} 
+\author{A.M.~Kononov}
+\affiliation{Ioffe Institute, 194021 St.~Petersburg, Russia} 
+
+
+\date{\today}
+
+\begin{abstract}
+abstract
+\end{abstract} 
+
+\maketitle
+
+In this paper, we consider a charged quantum dot (QD) with resident electron located in optical microresonator.
+Optically active transition is transition between ground state and charged trion with energy $E_t$,
+equaling to energy of the fundamental resonator mode $\hbar \omega_0$.
+The sistem is excited by laser pump with detuning $\Delta$.
+Hameltonian of that sistem in the rotation wave approximation is:
+
+\begin{gather}
+    \hat{H} = E_t \left( \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow}
+    + \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow} \right)
+    + \omega_0 \left( \hat{b}^{\dag}_{+} \hat{b}_{+}
+    + \hat{b}^{\dag}_{-} \hat{b}_{-} \right) +
+    \\ \nonumber
+    + g \left( \hat{d}^{\dag}_{\uparrow} \hat{b}_{+} \hat{a}_{\uparrow}
+    + \hat{d}^{\dag}_{\downarrow} \hat{b}_{-} \hat{a}_{\downarrow} \right)
+    + g^{*} \left( \hat{d}_{\uparrow} \hat{b}^{\dag}_{+} \hat{a}^{\dag}_{\uparrow}
+    + \hat{d}_{\downarrow} \hat{b}^{\dag}_{-} \hat{a}^{\dag}_{\downarrow} \right)
+\end{gather}
+since the pumping of the system is carried out by a laser pulse with a large number of photons,
+the interaction with this part can be described by a classical field:
+
+\begin{gather}
+    \hat{H} = \Delta \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow} + \Delta \hat{b}^{\dag}_{+} \hat{b}_{+} + \Omega_R \left( \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
+    +  \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right) + g \left( \hat{b}_{+} \hat{d}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
+    +  \hat{b}^{\dag}_{+} \hat{d}_{\uparrow} \hat{a}^{\dag}_{\uparrow} \right) \\ \nonumber
+    + \Delta \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow} + \Delta \hat{b}^{\dag}_{-} \hat{b}_{-} + \Omega_R \left( \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
+    +  \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right) + g \left( \hat{b}_{-} \hat{d}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
+    +  \hat{b}^{\dag}_{-} \hat{d}_{\downarrow} \hat{a}^{\dag}_{\downarrow} \right) \\ \nonumber
+\end{gather}
+where the optical mode creation operator in circular polarisation $\sigma_{\pm}$: $\hat{b}_{\pm}^\dag = \left( \hat{b}_{+}^\dag \pm \hat{b}_{-}^\dag \right)/\sqrt{2} $;
+the electron creation operator $\hat{a}_{\uparrow\downarrow}^\dag$, where $\uparrow\downarrow$ denotes the electron state $\left| \pm 1/2 \right>$;
+the trion creation operator $\hat{d}_{\uparrow\downarrow}^\dag$,  where $\uparrow\downarrow$ denotes the negatively charged trion state with heavy hole spin $\left| \pm 3/2 \right>$;
+$g$ is the effective QD-cavity coupling parameter; $\Omega_R $ is Rabi frequency.
+
+QD is located in horizontal magnetic field for controlling the spin polarisation of resident electron.
+Hameltonian of that intraction is:
+\begin{gather}
+    \hat{H}_{B} = \alpha B_x \left( \hat{a}^{\dag}_{\downarrow} \hat{a}_{\uparrow} + \hat{a}^{\dag}_{\uparrow} \hat{a}_{\downarrow}  \right)
+\end{gather}
+where $\alpha = \mu_B g$ product of Bohr magneton and g-factor.
+
+In order to describe evolution with the escape of photons into the environment, evolution equation have to be:
+\begin{gather}
+    \partial_t \hat{\rho} = -\frac{i}{\hbar} \left[ \hat{H} ; \hat{\rho} \right] + \sum_i \gamma_{i} \left( \hat{V}_i^{\dag} \hat{V}_i \hat{\rho} + \hat{\rho} \hat{V}_i^{\dag} \hat{V}_i - 2 \hat{V}_i \hat{\rho} \hat{V}_i^{\dag} \right) \equiv \hat{\mathcal{L}}t
+    \label{eq:lindblad}
+\end{gather}
+where $\gamma_i $ and $\hat{V}_i $ are the rate and jump operator in the Lindbladian.
+It includes the photon yield from the cavity mode with $ \gamma_{photon} = \Gamma $, and $\hat{V}_{photon} = \hat{b}_{\pm} $
+and phonon pure-dephasing mechanism with $ \gamma_{phonon} = \gamma \Omega^2_R $ and $\hat{V}_{phonon} = \dots $,
+and
+
+
+\end{document}
