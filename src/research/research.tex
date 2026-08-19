@@ -176,30 +176,38 @@ and the QD hosts only the resident electron.
 In the transverse magnetic field the eigenstates of the electron spin are the
 symmetric and antisymmetric superpositions
 $( \left| \uparrow \right> \pm \left| \downarrow \right> ) / \sqrt{2}$
-split by the Zeeman energy $2 \mu_B g_e B_x$, and their populations follow the
-Boltzmann distribution at the lattice temperature $T$.
-The initial density matrix in the basis
-$\{ \hat{a}^{\dag}_{\uparrow} \left| 0 \right> ,
-\hat{a}^{\dag}_{\downarrow} \left| 0 \right> \}$ therefore reads
+split by the Zeeman energy $2 \varepsilon_Z$, where
+$\varepsilon_Z = \mu_B g_e B_x$, and their populations follow the Boltzmann
+distribution at the lattice temperature $T$.
+The initial density matrix therefore reads
 
 \begin{gather}
-    \hat{\rho}_0 = \frac{1}{2}
-    \begin{pmatrix}
-        1 & \tanh \left( \mu_B g_e B_x / k_B T \right) \\
-        \tanh \left( \mu_B g_e B_x / k_B T \right) & 1
-    \end{pmatrix}
+    \hat{\rho}_0 =
+    \frac{\e^{\varepsilon_Z / k_B T}}{2 \cosh \left( \varepsilon_Z / k_B T \right)}
+    \left( \frac{\hat{a}^{\dag}_{\uparrow} + \hat{a}^{\dag}_{\downarrow}}{\sqrt{2}} \right)
+    \left| 0 \right> \left< 0 \right|
+    \left( \frac{\hat{a}_{\uparrow} + \hat{a}_{\downarrow}}{\sqrt{2}} \right)
     \label{eq:rho0}
+    \\ \nonumber
+    + \frac{\e^{-\varepsilon_Z / k_B T}}{2 \cosh \left( \varepsilon_Z / k_B T \right)}
+    \left( \frac{\hat{a}^{\dag}_{\uparrow} - \hat{a}^{\dag}_{\downarrow}}{\sqrt{2}} \right)
+    \left| 0 \right> \left< 0 \right|
+    \left( \frac{\hat{a}_{\uparrow} - \hat{a}_{\downarrow}}{\sqrt{2}} \right)
 \end{gather}
 
-The single parameter $\mu_B g_e B_x / k_B T$ controls the degree of the initial spin
-coherence.
-For $\mu_B g_e B_x \gg k_B T$ the electron is fully polarized along the field and the
-system starts from a pure state, whereas for $\mu_B g_e B_x \ll k_B T$ the two spin
-projections are populated equally and the initial state is a fully incoherent
-mixture.
-Since the polarization correlations of the emitted pair are inherited from the
-coherence between the two spin branches, this ratio directly limits the entanglement
-of the outgoing two-photon state.
+Equivalently, in the basis
+$\{ \hat{a}^{\dag}_{\uparrow} \left| 0 \right> ,
+\hat{a}^{\dag}_{\downarrow} \left| 0 \right> \}$ the populations of the two spin
+projections are equal and the off-diagonal element of $\hat{\rho}_0$ equals
+$\tanh \left( \varepsilon_Z / k_B T \right) / 2$.
+The single parameter $\varepsilon_Z / k_B T$ thus controls the degree of the initial
+spin coherence.
+For $\varepsilon_Z \gg k_B T$ the electron is fully polarized along the field and the
+system starts from a pure state, whereas for $\varepsilon_Z \ll k_B T$ the initial
+state is a fully incoherent mixture.
+%Since the polarization correlations of the emitted pair are inherited from the
+%coherence between the two spin branches, this ratio directly limits the entanglement
+%of the outgoing two-photon state.
 
 
 \end{document}
