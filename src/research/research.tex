@@ -135,7 +135,7 @@ The corresponding jump operator is
     \hat{V}_{\text{phon}} = \sum_{\sigma = \uparrow, \downarrow}
     \left( \hat{a}^{\dag}_{\sigma} \hat{a}_{\sigma}
     - \hat{d}^{\dag}_{\sigma} \hat{d}_{\sigma} \right) , \qquad
-    \gamma_{\text{phon}} = \gamma \, \Omega_R^2
+    \gamma_{\text{phon}} = \alpha \, \Omega_R^2
     \label{eq:jump-phon}
 \end{gather}
 
@@ -160,11 +160,11 @@ It is described by the operator
 This channel destroys the coherence between the two spin branches and therefore
 directly degrades the polarization entanglement of the emitted photon pair.
 
-The pump pulse contains a large number of photons, so the corresponding mode is
-treated as a classical field with the Rabi frequency $\Omega_R(t)$, whose envelope
-defines the pulse area $\theta = \int \Omega_R(t) \, dt$.
-The pulse is linearly polarized and thus drives both spin branches with equal
-amplitude.
+%The pump pulse contains a large number of photons, so the corresponding mode is
+%treated as a classical field with the Rabi frequency $\Omega_R(t)$, whose envelope
+%defines the pulse area $\theta = \int \Omega_R(t) \, dt$.
+%The pulse is linearly polarized and thus drives both spin branches with equal
+%amplitude.
 
 Equation~(\ref{eq:lindblad}) is solved with the initial condition set by the state
 of the system before the arrival of the pump pulse, when the cavity mode is empty
@@ -178,20 +178,18 @@ The initial density matrix therefore reads
 
 \begin{gather}
     \hat{\rho}_0 =
-    \frac{\e^{\mu_B g_e B_x / T}}
-    {\e^{\mu_B g_e B_x / T} + \e^{-\mu_B g_e B_x / T}}
-    \left( \frac{\hat{a}^{\dag}_{\uparrow} + \hat{a}^{\dag}_{\downarrow}}{\sqrt{2}} \right)
+    \frac{f(B_x)}{2}
+    \left(\hat{a}^{\dag}_{\uparrow} + \hat{a}^{\dag}_{\downarrow} \right)
     \left| 0 \right> \left< 0 \right|
-    \left( \frac{\hat{a}_{\uparrow} + \hat{a}_{\downarrow}}{\sqrt{2}} \right)
+    \left(\hat{a}_{\uparrow} + \hat{a}_{\downarrow} \right)
     \label{eq:rho0}
     \\ \nonumber
-    + \frac{\e^{-\mu_B g_e B_x / T}}
-    {\e^{\mu_B g_e B_x / T} + \e^{-\mu_B g_e B_x / T}}
-    \left( \frac{\hat{a}^{\dag}_{\uparrow} - \hat{a}^{\dag}_{\downarrow}}{\sqrt{2}} \right)
+    + \frac{f(-B_x)}{2}
+    \left(\hat{a}^{\dag}_{\uparrow} - \hat{a}^{\dag}_{\downarrow} \right)
     \left| 0 \right> \left< 0 \right|
-    \left( \frac{\hat{a}_{\uparrow} - \hat{a}_{\downarrow}}{\sqrt{2}} \right)
+    \left(\hat{a}_{\uparrow} - \hat{a}_{\downarrow} \right)
 \end{gather}
-where the temperature is measured in energy units.
+where $f(B_x) = \frac{\e^{\mu_B g_e B_x / T}}{\e^{\mu_B g_e B_x / T} + \e^{-\mu_B g_e B_x / T}}$ and the temperature is measured in energy units.
 %Equivalently, in the basis
 %$\{ \hat{a}^{\dag}_{\uparrow} \left| 0 \right> ,
 %\hat{a}^{\dag}_{\downarrow} \left| 0 \right> \}$ the populations of the two spin
