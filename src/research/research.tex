@@ -198,13 +198,17 @@ It is described by the operator
 \begin{pmatrix}
     \hat{d}_{\uparrow} \\
     \hat{d}_{\downarrow}
-\end{pmatrix} , \\ \nonumber
-    \gamma_{\text{spin} \, i} = \dots
+\end{pmatrix}
     \label{eq:jump-spin}
 \end{gather}
 
 This channel destroys the coherence between the two spin branches and therefore
 directly degrades the polarization entanglement of the emitted photon pair.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%написать про гаммы чуть осторожнее
+$\gamma_{\text{spin} \, x} = 1/T_1$, $\gamma_{\text{spin} \, y} = 1/T_2$, $\gamma_{\text{spin} \, z} = 1/T_2$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %The pump pulse contains a large number of photons, so the corresponding mode is
 %treated as a classical field with the Rabi frequency $\Omega_R(t)$, whose envelope
@@ -235,7 +239,10 @@ The initial density matrix therefore reads
     \left| 0 \right> \left< 0 \right|
     \left(\hat{a}_{\uparrow} - \hat{a}_{\downarrow} \right)
 \end{gather}
-where $f(B_x) = \frac{\e^{\mu_B g_e B_x / T}}{\e^{\mu_B g_e B_x / T} + \e^{-\mu_B g_e B_x / T}}$ and the temperature is measured in energy units.
+where $f(B_x) = \e^{\mu_B g_e B_x / T}/ \left( \e^{\mu_B g_e B_x / T} + \e^{-\mu_B g_e B_x / T}  \right)$
+and the temperature is measured in energy units.
+
+Our parametrs: $\Gamma = 50 \mu eV$, $T = 1 K$, $B = 5 T$, $\Delta = 50 \mu eV$, $\tau = 13 ps $, $\alpha = 0.2 ps $, $g = 25 \mu eV$
 %Equivalently, in the basis
 %$\{ \hat{a}^{\dag}_{\uparrow} \left| 0 \right> ,
 %\hat{a}^{\dag}_{\downarrow} \left| 0 \right> \}$ the populations of the two spin
@@ -249,6 +256,43 @@ where $f(B_x) = \frac{\e^{\mu_B g_e B_x / T}}{\e^{\mu_B g_e B_x / T} + \e^{-\mu_
 %Since the polarization correlations of the emitted pair are inherited from the
 %coherence between the two spin branches, this ratio directly limits the entanglement
 %of the outgoing two-photon state.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%написать про гарффики чуть осторожнее
+\begin{figure}[t]
+    \includegraphics[width=\columnwidth]{p1p2.pdf}
+    \caption{
+    p1p2
+    }
+    \label{fig:p1p2}
+\end{figure}
+
+\begin{figure}[t]
+    \includegraphics[width=\columnwidth]{g2(0).pdf}
+    \caption{
+    g2(0)
+    }
+    \label{fig:g20}
+\end{figure}
+
+\begin{figure}[t]
+    \includegraphics[width=\columnwidth]{Concurrence.pdf}
+    \caption{
+    concurrence
+    }
+    \label{fig:concurrence}
+\end{figure}
+
+\begin{figure}[t]
+    \includegraphics[width=\columnwidth]{Fidelity.pdf}
+    \caption{
+    fidelity
+    }
+    \label{fig:fidelity}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%написать про определение ro_1, ro_2,  concurrance and fidelity
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \end{document}
