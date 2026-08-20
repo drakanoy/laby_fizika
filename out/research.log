@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 02:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 13:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -498,7 +498,7 @@ Package rerunfilecheck Info: File `research.out' has not changed.
 Here is how much of TeX's memory you used:
  11751 strings out of 467513
  180055 string characters out of 5405924
- 660368 words of memory out of 5000000
+ 659368 words of memory out of 5000000
  40842 multiletter control sequences out of 15000+600000
  638062 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -521,7 +521,7 @@ m/cmsy6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
 lic/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/f
 onts/type1/public/amsfonts/cm/cmti9.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/research.pdf 
-(2 pages, 180349 bytes).
+(2 pages, 179068 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
