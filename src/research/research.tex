@@ -172,11 +172,33 @@ The third channel is the dephasing of the resident electron spin.
 %caused by the fluctuating hyperfine field of the lattice nuclei.
 It is described by the operator
 
+%\begin{gather}
+%    \hat{V}_{\text{spin i}} = \hat{a}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
+%    - \hat{a}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
+%    + \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow}
+%    - \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow} , \qquad
+%    \gamma_{\text{spin}} = \dots
+%    \label{eq:jump-spin}
+%\end{gather}
+
 \begin{gather}
-    \hat{V}_{\text{spin}} = \hat{a}^{\dag}_{\uparrow} \hat{a}_{\uparrow}
-    - \hat{a}^{\dag}_{\downarrow} \hat{a}_{\downarrow}
-    + \hat{d}^{\dag}_{\uparrow} \hat{d}_{\uparrow}
-    - \hat{d}^{\dag}_{\downarrow} \hat{d}_{\downarrow} , \qquad
+    \hat{V}_{\text{spin i}} =
+\begin{pmatrix}
+    \hat{a}^{\dag}_{\uparrow} & \hat{a}^{\dag}_{\downarrow}
+\end{pmatrix}
+    \hat{\sigma}_i
+\begin{pmatrix}
+    \hat{a}_{\uparrow} \\
+    \hat{a}_{\downarrow}
+\end{pmatrix} +
+\begin{pmatrix}
+    \hat{d}^{\dag}_{\uparrow} & \hat{d}^{\dag}_{\downarrow}
+\end{pmatrix}
+    \hat{\sigma}_i
+\begin{pmatrix}
+    \hat{d}_{\uparrow} \\
+    \hat{d}_{\downarrow}
+\end{pmatrix} , \\ \nonumber
     \gamma_{\text{spin}} = \dots
     \label{eq:jump-spin}
 \end{gather}
