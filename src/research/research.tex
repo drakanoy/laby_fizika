@@ -1,5 +1,6 @@
 \documentclass[prb,twocolumn,preprintnumbers,superscriptaddress]{revtex4-2}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{xcolor}
 \usepackage{graphicx}% Include figure files
 \usepackage{dcolumn}% Align table columns on decimal point
@@ -16,17 +17,17 @@
 }
 
 \author{I.V.~Krainov}
-\email{igor.kraynov@mail.ru} 
-\affiliation{Ioffe Institute, 194021 St.~Petersburg, Russia} 
+\email{igor.kraynov@mail.ru}
+\affiliation{Ioffe Institute, 194021 St.~Petersburg, Russia}
 \author{A.M.~Kononov}
-\affiliation{Ioffe Institute, 194021 St.~Petersburg, Russia} 
+\affiliation{Ioffe Institute, 194021 St.~Petersburg, Russia}
 
 
 \date{\today}
 
 \begin{abstract}
 abstract
-\end{abstract} 
+\end{abstract}
 
 \maketitle
 
@@ -39,9 +40,32 @@ The energy of the fundamental cavity mode $\hbar \omega_0$ coincides with that o
 the trion transition, $E_t = \hbar\omega_0$, and the interaction with all other
 modes is neglected.
 The system is driven by a laser pulse of carrier frequency $\omega_L$, detuned
-from the transition by $\Delta = \omega_0 - \omega_L$, and is subject to a
+from the transition by $\Delta = \omega_L - \omega_0$, and is subject to a
 magnetic field $B_x$, perpendicular to the growth
 axis.
+We are interested in the non-resonant regime, in which the detuning exceeds both the
+spectral width $\Gamma_L$ of the pump pulse and the width $\Gamma$ of the cavity
+mode, $\omega_L - \omega_0 \gtrsim \Gamma_L, \Gamma$, as sketched in
+Fig.~\ref{fig:scheme}.
+As the pump pulse carries a large number of photons, this separation of scales allows to describe it as a classical
+field with the Rabi frequency $\Omega_R(t)$, whereas the cavity mode, which is not
+directly fed by the laser, contains only a few photons and therefore has to be
+retained at the operator level.
+
+\begin{figure}[t]
+    \includegraphics[width=\columnwidth]{scheme_new.pdf}
+    \caption{
+    Energy scheme of the system.
+    The cavity mode of width $\Gamma$ (black) is centered at $\omega_0$ and is
+    resonant with the trion transition $E_t$ (blue).
+    The pump pulse (red) has the carrier frequency $\omega_L$ and the spectral width
+    $\Gamma_L$, and is detuned from the mode by $\Delta$.
+    The shaded box marks the spectral window of detection.
+    The magnetic field $B_x$ is applied perpendicular to the growth axis.
+    }
+    \label{fig:scheme}
+\end{figure}
+
 Within the rotating wave approximation the Hamiltonian of the system, which
 accounts for the coupling to the cavity mode, for the interaction with the
 driving laser field and for the interaction with the magnetic field, reads

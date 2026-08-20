@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -192,6 +192,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2965.
 LaTeX Info: Redefining \] on input line 2966.
 )
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.
+sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts
+.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Info: Redefining \frak on input line 111.
+LaTeX Info: Redefining \Bbb on input line 113.
+))
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
@@ -255,10 +270,12 @@ Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 \ar@cellbox=\box71
 )) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/bm.sty
 Package: bm 2025/10/21 v1.2g Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup4
-\symboldletters=\mathgroup5
-\symboldsymbols=\mathgroup6
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 LaTeX Info: Redefining \bm on input line 219.
 )
@@ -415,10 +432,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip58
 )
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 12.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 12.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 12.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 12.
+lass! (Proceeding with fingers crossed.) on input line 13.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 13.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 13.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 13.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
 nd-pdftex.def
@@ -427,24 +444,24 @@ File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 ) (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.aux)
 \openout1 = `research.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-
 pdf.mkii
@@ -471,17 +488,33 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 -sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 13.
  (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.out)
 (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.out)
 \@outlinefile=\write4
 \openout4 = `research.out'.
 
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 12.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 13.
 \openout3 = `researchNotes.bib'.
 
- [1{/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pd
-ftex/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<scheme_new.pdf, id=14, 499.8675pt x 468.79141pt>
+File: scheme_new.pdf Graphic file (type pdf)
+<use scheme_new.pdf>
+Package pdftex.def Info: scheme_new.pdf  used on input line 56.
+(pdftex.def)             Requested size: 246.0pt x 230.70409pt.
+[1{/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdf
+tex/pdftex.map} <./scheme_new.pdf>]
 No file research.bbl.
 [2] (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.aux)
  ***********
@@ -492,35 +525,40 @@ Package rerunfilecheck Info: File `research.out' has not changed.
 (rerunfilecheck)             Checksum: 77175AF3695848B9250447EE8571BDC2;210.
  ) 
 Here is how much of TeX's memory you used:
- 11751 strings out of 467513
- 180055 string characters out of 5405924
- 661368 words of memory out of 5000000
- 40842 multiletter control sequences out of 15000+600000
- 638062 words of font info for 75 fonts, out of 8000000 for 9000
+ 12289 strings out of 467513
+ 186599 string characters out of 5405924
+ 644267 words of memory out of 5000000
+ 41360 multiletter control sequences out of 15000+600000
+ 640542 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,11n,79p,263b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,11n,79p,568b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
 1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/ins
 tall/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/Mi
 KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Library/Applicat
-ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Li
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Li
 brary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/font
-s/type1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs
-/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/
-MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></Library/Applica
-tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb></Library/Application Support/MiKTeX/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texm
+fs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Library/Application Suppor
+t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/Appli
+cation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></
 Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmsy5.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb></Library/Application Support/MiKTeX/texmfs/install/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+m/cmr9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmsy5.pfb></Library/Application Support/MiKTeX/te
+xmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Library/Application Sup
+port/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Library/A
+pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti9.p
+fb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfo
+nts/symbols/msam10.pfb></Library/Application Support/MiKTeX/texmfs/install/font
+s/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/research.pdf 
-(2 pages, 187342 bytes).
+(2 pages, 434518 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 22 words of extra memory for PDF output out of 10000 (max. 10000000)
 
