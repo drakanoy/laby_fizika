@@ -346,6 +346,82 @@ corresponding density matrices,
     \label{eq:p1p2}
 \end{gather}
 
+The circular polarization of each emitted photon is produced by a single spin
+projection: the spin up state gives a $\sigma_+$ photon and the spin down state gives
+a $\sigma_-$ one.
+The second photon is emitted when the trion recombines and the QD returns to its
+ground state, so that the resident electron is left in the spin state $\sigma$
+rigidly correlated with the polarization of that photon, and the pair stays entangled
+with the spin left behind in the QD.
+This correlation is removed by the subsequent spin relaxation.
+The spin relaxes towards the in-plane direction set by the
+transverse field, ending up in the thermal state built on the eigenstates
+$( \left| \uparrow \right> \pm \left| \downarrow \right> ) /
+\sqrt{2}$ with the populations $f( \pm B_x )$.
+The relaxation is slow on the scale of the whole emission process, and the
+coherence between the two spin branches that survives it is given by the same thermal
+factor that determines the initial spin coherence in Eq.~(\ref{eq:rho0}).
+The two-photon polarization density matrix entering the entanglement measures is
+therefore
+
+\begin{gather}
+    \left( \hat{\rho}_2 \right)_{\lambda \sigma , \lambda' \sigma'} \rightarrow
+    \frac{1}{P_2} \, w_{\sigma \sigma'}
+    \left( \hat{\rho}_2 \right)_{\lambda \sigma , \lambda' \sigma'}
+    \label{eq:spin-projection}
+    \\ \nonumber
+    w_{\sigma \sigma'} = \delta_{\sigma \sigma'}
+    + \left( 1 - \delta_{\sigma \sigma'} \right)
+    \tanh \left( \frac{\mu_B g_e B_x}{T} \right)
+\end{gather}
+
+normalized to unit trace.
+The populations, diagonal in $\sigma$, are not affected, while the coherences between
+the two spin branches are suppressed by $\tanh ( \mu_B g_e B_x / T )$, so that the
+entanglement of the pair is limited by the polarization of the resident spin both
+before the pulse and after the emission.
+
+In the polarization basis of the two photons, $\left| \lambda \lambda' \right>$, the
+target state of the protocol is the maximally entangled Bell state
+
+\begin{gather}
+    \left| \Phi^+ \right> = \frac{1}{\sqrt{2}}
+    \left( \left| + + \right> + \left| - - \right> \right)
+    \label{eq:bell}
+\end{gather}
+
+in which both photons carry the same circular polarization.
+%It is a state of the $\Phi$ type rather than of the $\Psi$ type, because the selection
+%rules tie the polarization of each photon to the same spin projection and the two
+%emitted photons are therefore always co-polarized.
+
+The quality of the generated state is characterized by two standard measures.
+The first one is the fidelity to the target Bell state,
+
+\begin{gather}
+    F = \left< \Phi^+ \right| \hat{\rho}_2 \left| \Phi^+ \right>
+    \label{eq:fidelity}
+\end{gather}
+
+which exceeds $1/2$ only for entangled states and therefore already serves as an
+entanglement witness.
+The second one is the concurrence, which quantifies the entanglement itself,
+% TODO cite Wootters, PRL 80, 2245 (1998)
+
+\begin{gather}
+    C = \max \left( 0 , \, \lambda_1 - \lambda_2 - \lambda_3 - \lambda_4 \right)
+    \label{eq:concurrence}
+\end{gather}
+
+where $\lambda_1 \geq \lambda_2 \geq \lambda_3 \geq \lambda_4$ are
+the eigenvalues of the matrix $\sqrt{\sqrt{\hat{\rho}_2} \hat{\tilde{\rho}}_2 \sqrt{\hat{\rho}_2} }$, and
+$\hat{\tilde{\rho}}_2 = \left( \hat{\sigma}_y \otimes \hat{\sigma}_y \right)
+\hat{\rho}_2^{*} \left( \hat{\sigma}_y \otimes \hat{\sigma}_y \right)$ is the spin
+flipped density matrix, the complex conjugation being taken in the polarization
+basis.
+The concurrence vanishes for separable states and reaches unity for a maximally
+entangled one.
+
 All the results presented below are obtained by a numerical solution of
 Eq.~(\ref{eq:lindblad}) with the following set of parameters:
 the cavity mode width $\Gamma = 50\,\mu\text{eV}$, the QD--cavity coupling
@@ -379,6 +455,13 @@ power at a fixed pulse duration, and is measured below in units of $\pi$.
     \label{fig:p1p2}
 \end{figure}
 
+The emission probabilities are shown in Fig.~\ref{fig:p1p2}.
+The one-photon probability $P_1$ exhibits damped Rabi oscillations with maxima at odd
+and minima at even multiples of $\pi$, the damping being caused by the
+phonon-induced dephasing.
+The two-photon probability $P_2$ oscillates in antiphase and remains an order of
+magnitude smaller, reaching its maxima close to even pulse areas.
+
 \begin{figure}[t]
     \includegraphics[width=\columnwidth]{g2(0).pdf}
     \caption{
@@ -387,6 +470,12 @@ power at a fixed pulse duration, and is measured below in units of $\pi$.
     }
     \label{fig:g20}
 \end{figure}
+
+This antiphase behaviour is directly reflected in the second-order correlation
+function, Fig.~\ref{fig:g20}.
+At odd pulse areas $g^{(2)}(0)$ nearly vanishes, so that the source emits single
+photons, whereas at even ones it displays pronounced bunching peaks, the largest
+reaching $g^{(2)}(0) \approx 3$ at $\theta = 2\pi$.
 
 \begin{figure}[t]
     \includegraphics[width=\columnwidth]{Concurrence.pdf}
@@ -405,19 +494,6 @@ power at a fixed pulse duration, and is measured below in units of $\pi$.
     }
     \label{fig:fidelity}
 \end{figure}
-
-The emission probabilities are shown in Fig.~\ref{fig:p1p2}.
-The one-photon probability $P_1$ exhibits damped Rabi oscillations with maxima at odd
-and minima at even multiples of $\pi$, the damping being caused by the
-phonon-induced dephasing.
-The two-photon probability $P_2$ oscillates in antiphase and remains an order of
-magnitude smaller, reaching its maxima close to even pulse areas.
-
-This antiphase behaviour is directly reflected in the second-order correlation
-function, Fig.~\ref{fig:g20}.
-At odd pulse areas $g^{(2)}(0)$ nearly vanishes, so that the source emits single
-photons, whereas at even ones it displays pronounced bunching peaks, the largest
-reaching $g^{(2)}(0) \approx 3$ at $\theta = 2\pi$.
 
 The polarization state of the emitted pair is characterized in
 Figs.~\ref{fig:concurrence} and \ref{fig:fidelity}.
