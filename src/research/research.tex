@@ -244,6 +244,94 @@ The initial density matrix therefore reads
 where $f(B_x) = \e^{\mu_B g_e B_x / T}/ \left( \e^{\mu_B g_e B_x / T} + \e^{-\mu_B g_e B_x / T}  \right)$
 and the temperature is measured in energy units.
 
+The quantities measured in the experiment are the polarizations of the photons that
+reach the detector, so the observables have to be extracted from the projections of
+the full density matrix onto the sectors with a given number of emitted photons.
+Two routes bring a photon to the detector.
+It can leave the cavity already during the pulse, which corresponds to a quantum jump
+$\hat{b}_{\lambda}$ at a time $t_1 < \tau$, or it can be emitted after the end of the
+pulse by a trion that has survived until $t = \tau$ and then recombines with a
+probability close to unity.
+In the latter case the polarization of the photon is fixed by the trion spin through
+the selection rules, so that the spin index $\sigma$ of an unrecombined trion can be
+read as the polarization index of the photon it is going to emit.
+
+It is therefore convenient to introduce, along with the solution $\hat{\rho}(t)$ of
+Eq.~(\ref{eq:lindblad}) with the initial condition (\ref{eq:rho0}), the conditional
+density matrix $\hat{\rho}^{(\lambda)}(t | t_1)$.
+The latter is the solution of the same equation propagated from $t_1$ to $t$ with the
+initial condition $\hat{b}_{\lambda} \hat{\rho}(t_1) \hat{b}^{\dag}_{\lambda}$, that
+is, the state of the system given that a photon of circular polarization $\lambda$
+has escaped from the mode at the instant $t_1$.
+
+The one-photon density matrix is then a $2 \times 2$ matrix in the basis of the
+circular polarizations $\lambda = \pm$,
+
+\begin{gather}
+    \left( \hat{\rho}_1 \right)_{\lambda \lambda'} =
+    \left< 0 \right| \hat{d}_{\lambda} \hat{\rho}(\tau)
+    \hat{d}^{\dag}_{\lambda'} \left| 0 \right>
+    \label{eq:rho1}
+    \\ \nonumber
+    + \, \delta_{\lambda \lambda'} \, \Gamma \int_0^{\tau} dt_1
+    \sum_{\sigma = \uparrow, \downarrow}
+    \left< 0 \right| \hat{a}_{\sigma} \hat{\rho}^{(\lambda)}(\tau | t_1)
+    \hat{a}^{\dag}_{\sigma} \left| 0 \right>
+\end{gather}
+
+The first term collects the events in which the QD is left in the trion state at the
+end of the pulse and no photon has escaped before, while the second one collects the
+events in which a single photon has already been emitted during the pulse and the QD
+has returned to the ground state.
+
+The two-photon sector is spanned by the states
+$\hat{b}^{\dag}_{\lambda} \hat{d}^{\dag}_{\sigma} \left| 0 \right>$, in which one
+photon is already present while the trion is still excited and will emit the second
+one.
+It has to be stressed that these are not the single-photon states
+$\hat{b}^{\dag}_{\lambda} \hat{a}^{\dag}_{\sigma} \left| 0 \right>$ entering
+Eq.~(\ref{eq:rho1}).
+Two distinct routes populate this sector.
+In the first one the photon is created by the QD--cavity coupling and stays in the
+mode until the end of the pulse without leaving the cavity, so that the whole
+dynamics remains coherent; this is the resonant scattering of the laser photons.
+In the second one the first photon has actually escaped from the cavity at $t_1$, and
+the remaining part of the pulse re-excites the QD, which then emits the second
+photon.
+Accordingly, the two-photon density matrix is a $4 \times 4$ matrix in the basis
+$\left| \lambda \sigma \right>$ and consists of two contributions,
+$\hat{\rho}_2 = \hat{\rho}_2^{\text{scat}} + \hat{\rho}_2^{\text{re-ex}}$, with
+
+\begin{gather}
+    \left( \hat{\rho}_2^{\text{scat}} \right)_{\lambda \sigma , \lambda' \sigma'} =
+    \left< 0 \right| \hat{d}_{\sigma} \hat{b}_{\lambda} \hat{\rho}(\tau)
+    \hat{b}^{\dag}_{\lambda'} \hat{d}^{\dag}_{\sigma'} \left| 0 \right>
+    \label{eq:rho2}
+    \\ \nonumber
+    \left( \hat{\rho}_2^{\text{re-ex}} \right)_{\lambda \sigma , \lambda' \sigma'} =
+    \delta_{\lambda \lambda'} \, \Gamma \int_0^{\tau} dt_1
+    \left< 0 \right| \hat{d}_{\sigma} \hat{\rho}^{(\lambda)}(\tau | t_1)
+    \hat{d}^{\dag}_{\sigma'} \left| 0 \right>
+\end{gather}
+
+The two routes differ by whether a real photon escape event has occurred during the
+pulse, and therefore do not interfere.
+The detector, on the other hand, registers only the polarizations of the two photons
+and not the instant at which the first one was emitted, so that the two
+contributions are summed as probabilities.
+This is the origin of the partial loss of the entanglement discussed below: the
+re-excitation term carries no coherence between the two circular polarizations of
+the first photon and thus dilutes the polarization correlations created by the
+coherent route.
+
+The probabilities of the one- and two-photon emission are the traces of the
+corresponding density matrices,
+
+\begin{gather}
+    P_1 = \text{Tr} \, \hat{\rho}_1 , \qquad P_2 = \text{Tr} \, \hat{\rho}_2
+    \label{eq:p1p2}
+\end{gather}
+
 All the results presented below are obtained by a numerical solution of
 Eq.~(\ref{eq:lindblad}) with the following set of parameters:
 the cavity mode width $\Gamma = 50\,\mu\text{eV}$, the QD--cavity coupling
