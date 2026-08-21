@@ -128,7 +128,7 @@ mechanism that correlates the polarizations of the two emitted photons.
 
 To describe the evolution of the system coupled to its environment, the Hamiltonian
 dynamics has to be supplemented by the dissipative terms of the Lindblad equation
-% TODO cite Manzano, AIP Advances 10, 025106 (2020)
+%% TODO cite Manzano, AIP Advances 10, 025106 (2020)
 
 \begin{gather}
     \partial_t \hat{\rho} = -i \left[ \hat{H}, \hat{\rho} \right]
@@ -169,7 +169,6 @@ The corresponding jump operator is
 %% TODO cite Ramsay PRL 104, 017402 (2010); Ramsay PRL 105, 177402 (2010); Nazir JPCM 28, 103002 (2016)
 
 The third channel is the dephasing of the resident electron spin.
-%caused by the fluctuating hyperfine field of the lattice nuclei.
 It is described by the operator
 
 %\begin{gather}
@@ -202,19 +201,23 @@ It is described by the operator
     \label{eq:jump-spin}
 \end{gather}
 
+where $\hat{\sigma}_i$ with $i = x, y, z$ are the Pauli matrices acting in the spin
+space of the resident electron and of the trion.
+Since the magnetic field is directed along $x$, the operators
+$\hat{V}_{\text{spin} \, y}$ and $\hat{V}_{\text{spin} \, z}$ relax the longitudinal
+spin component, whereas $\hat{V}_{\text{spin} \, x}$ adds a pure dephasing of the
+transverse ones.
+The three rates are therefore expressed through the longitudinal and transverse spin
+relaxation times $T_1$ and $T_2$ as
+
+\begin{gather}
+    \gamma_{\text{spin} \, x} = \frac{1}{T_1} , \qquad
+    \gamma_{\text{spin} \, y} = \gamma_{\text{spin} \, z} = \frac{1}{T_2}
+    \label{eq:spin-rates}
+\end{gather}
+
 This channel destroys the coherence between the two spin branches and therefore
 directly degrades the polarization entanglement of the emitted photon pair.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%написать про гаммы чуть осторожнее
-$\gamma_{\text{spin} \, x} = 1/T_1$, $\gamma_{\text{spin} \, y} = 1/T_2$, $\gamma_{\text{spin} \, z} = 1/T_2$
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%The pump pulse contains a large number of photons, so the corresponding mode is
-%treated as a classical field with the Rabi frequency $\Omega_R(t)$, whose envelope
-%defines the pulse area $\theta = \int \Omega_R(t) \, dt$.
-%The pulse is linearly polarized and thus drives both spin branches with equal
-%amplitude.
 
 Equation~(\ref{eq:lindblad}) is solved with the initial condition set by the state
 of the system before the arrival of the pump pulse, when the cavity mode is empty
@@ -242,7 +245,15 @@ The initial density matrix therefore reads
 where $f(B_x) = \e^{\mu_B g_e B_x / T}/ \left( \e^{\mu_B g_e B_x / T} + \e^{-\mu_B g_e B_x / T}  \right)$
 and the temperature is measured in energy units.
 
-Our parametrs: $\Gamma = 50 \mu eV$, $T = 1 K$, $B = 5 T$, $\Delta = 50 \mu eV$, $\tau = 13 ps $, $\alpha = 0.2 ps $, $g = 25 \mu eV$
+All the results presented below are obtained by a numerical solution of
+Eq.~(\ref{eq:lindblad}) with the following set of parameters:
+the cavity mode width $\Gamma = 50\,\mu\text{eV}$, the QD--cavity coupling
+$g = 25\,\mu\text{eV}$, the detuning $\Delta = 50\,\mu\text{eV}$, the pulse duration
+$\tau = 13\,\text{ps}$, the phonon coupling constant $\alpha = 0.2\,\text{ps}$, the
+transverse magnetic field $B_x = 5\,\text{T}$ and the lattice temperature
+$T = 1\,\text{K}$.
+The pulse area $\theta = \int \Omega_R(t) \, dt$ is varied by changing the pump
+power at a fixed pulse duration, and is measured below in units of $\pi$.
 %Equivalently, in the basis
 %$\{ \hat{a}^{\dag}_{\uparrow} \left| 0 \right> ,
 %\hat{a}^{\dag}_{\downarrow} \left| 0 \right> \}$ the populations of the two spin
@@ -257,12 +268,12 @@ Our parametrs: $\Gamma = 50 \mu eV$, $T = 1 K$, $B = 5 T$, $\Delta = 50 \mu eV$,
 %coherence between the two spin branches, this ratio directly limits the entanglement
 %of the outgoing two-photon state.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%написать про гарффики чуть осторожнее
+
 \begin{figure}[t]
     \includegraphics[width=\columnwidth]{p1p2.pdf}
     \caption{
-    p1p2
+    Probabilities of the one-photon, $P_1$ (solid), and two-photon, $P_2$ (dashed),
+    emission as functions of the pump pulse area.
     }
     \label{fig:p1p2}
 \end{figure}
@@ -270,7 +281,8 @@ Our parametrs: $\Gamma = 50 \mu eV$, $T = 1 K$, $B = 5 T$, $\Delta = 50 \mu eV$,
 \begin{figure}[t]
     \includegraphics[width=\columnwidth]{g2(0).pdf}
     \caption{
-    g2(0)
+    Second-order correlation function at zero delay, $g^{(2)}(0)$, as a function of
+    the pump pulse area.
     }
     \label{fig:g20}
 \end{figure}
@@ -278,7 +290,8 @@ Our parametrs: $\Gamma = 50 \mu eV$, $T = 1 K$, $B = 5 T$, $\Delta = 50 \mu eV$,
 \begin{figure}[t]
     \includegraphics[width=\columnwidth]{Concurrence.pdf}
     \caption{
-    concurrence
+    Concurrence of the emitted two-photon polarization state as a function of the
+    pump pulse area.
     }
     \label{fig:concurrence}
 \end{figure}
@@ -286,10 +299,33 @@ Our parametrs: $\Gamma = 50 \mu eV$, $T = 1 K$, $B = 5 T$, $\Delta = 50 \mu eV$,
 \begin{figure}[t]
     \includegraphics[width=\columnwidth]{Fidelity.pdf}
     \caption{
-    fidelity
+    Fidelity of the emitted two-photon polarization state to the Bell state
+    $\left| \Phi^+ \right>$ as a function of the pump pulse area.
     }
     \label{fig:fidelity}
 \end{figure}
+
+The emission probabilities are shown in Fig.~\ref{fig:p1p2}.
+The one-photon probability $P_1$ exhibits damped Rabi oscillations with maxima at odd
+and minima at even multiples of $\pi$, the damping being caused by the
+phonon-induced dephasing.
+The two-photon probability $P_2$ oscillates in antiphase and remains an order of
+magnitude smaller, reaching its maxima close to even pulse areas.
+
+This antiphase behaviour is directly reflected in the second-order correlation
+function, Fig.~\ref{fig:g20}.
+At odd pulse areas $g^{(2)}(0)$ nearly vanishes, so that the source emits single
+photons, whereas at even ones it displays pronounced bunching peaks, the largest
+reaching $g^{(2)}(0) \approx 3$ at $\theta = 2\pi$.
+
+The polarization state of the emitted pair is characterized in
+Figs.~\ref{fig:concurrence} and \ref{fig:fidelity}.
+Both the concurrence and the fidelity to the Bell state
+$\left| \Phi^+ \right>$ are only weakly sensitive to the pump power, staying close
+to $0.34$ and $0.62$, respectively, over the whole range of pulse areas, with
+shallow minima near the odd ones.
+The fidelity exceeding $1/2$ confirms that the emitted pair is entangled for any
+excitation power.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %написать про определение ro_1, ro_2,  concurrance and fidelity
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

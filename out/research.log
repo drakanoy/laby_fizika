@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  21 AUG 2026 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -515,83 +515,83 @@ Package pdftex.def Info: scheme_new.pdf  used on input line 56.
 (pdftex.def)             Requested size: 246.0pt x 230.70409pt.
 [1{/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdf
 tex/pdftex.map} <./scheme_new.pdf>]
-<p1p2.pdf, id=45, 487.8225pt x 329.23pt>
+<p1p2.pdf, id=46, 487.8225pt x 329.23pt>
 File: p1p2.pdf Graphic file (type pdf)
 <use p1p2.pdf>
-Package pdftex.def Info: p1p2.pdf  used on input line 263.
+Package pdftex.def Info: p1p2.pdf  used on input line 273.
 (pdftex.def)             Requested size: 246.0pt x 166.02623pt.
-<g2(0).pdf, id=46, 487.8225pt x 322.20375pt>
+<g2(0).pdf, id=47, 487.8225pt x 322.20375pt>
 File: g2(0).pdf Graphic file (type pdf)
 <use g2(0).pdf>
-Package pdftex.def Info: g2(0).pdf  used on input line 271.
+Package pdftex.def Info: g2(0).pdf  used on input line 282.
 (pdftex.def)             Requested size: 246.0pt x 162.48299pt.
-<Concurrence.pdf, id=47, 487.8225pt x 329.23pt>
+<Concurrence.pdf, id=48, 487.8225pt x 329.23pt>
 File: Concurrence.pdf Graphic file (type pdf)
 <use Concurrence.pdf>
-Package pdftex.def Info: Concurrence.pdf  used on input line 279.
+Package pdftex.def Info: Concurrence.pdf  used on input line 291.
 (pdftex.def)             Requested size: 246.0pt x 166.02623pt.
-<Fidelity.pdf, id=48, 487.8225pt x 329.23pt>
+<Fidelity.pdf, id=49, 487.8225pt x 329.23pt>
 File: Fidelity.pdf Graphic file (type pdf)
 <use Fidelity.pdf>
-Package pdftex.def Info: Fidelity.pdf  used on input line 287.
+Package pdftex.def Info: Fidelity.pdf  used on input line 300.
 (pdftex.def)             Requested size: 246.0pt x 166.02623pt.
-
-No file research.bbl.
-[2] [3 <./p1p2.pdf> <./g2(0).pdf
+ [2 <./p1p2.pdf> <./g2(0).pdf
 
 pdfTeX warning: pdflatex (file ./g2(0).pdf): PDF inclusion: multiple pdfs with 
 page group included in a single page
-> <./Concurrence.pdf
+>]
 
-pdfTeX warning: pdflatex (file ./Concurrence.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
->] [4 <./Fidelity.pdf>]
-(/Users/drakanoy/PycharmProjects/laby_fizika/out/research.aux)
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 314.
+
+No file research.bbl.
+[3 <./Concurrence.pdf> <./Fidelity.pdf
+
+pdfTeX warning: pdflatex (file ./Fidelity.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>] (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `research.out' has not changed.
 (rerunfilecheck)             Checksum: 77175AF3695848B9250447EE8571BDC2;210.
  ) 
 Here is how much of TeX's memory you used:
- 12329 strings out of 467513
- 187347 string characters out of 5405924
- 647382 words of memory out of 5000000
- 41394 multiletter control sequences out of 15000+600000
+ 12331 strings out of 467513
+ 187376 string characters out of 5405924
+ 644815 words of memory out of 5000000
+ 41396 multiletter control sequences out of 15000+600000
  640542 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,15n,79p,568b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
 1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/ins
-tall/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/Mi
-KTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Library/Applicat
-ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Li
-brary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmmi9.pfb></Library/Application Support/MiKTeX/texmfs/install/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texm
-fs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Library/Application Suppor
-t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Library/Appli
-cation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmr9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb></Library/Application Support/MiKTeX/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Library/Application Sup
-port/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti9.pfb></Library/A
-pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/ms
-am10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb>
+tall/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></Library/Application Suppor
+t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/App
+lication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmmi9.pfb></Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application 
+Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Library
+/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmr9.pfb></Library/Application Support/MiKTeX/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKT
+eX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Library/Applicatio
+n Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Libr
+ary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+ti9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/
+amsfonts/symbols/msam10.pfb></Library/Application Support/MiKTeX/texmfs/install
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/research.pdf 
-(4 pages, 547657 bytes).
+(3 pages, 564135 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
+ 262 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
