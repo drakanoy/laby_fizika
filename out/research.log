@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  21 AUG 2026 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  21 AUG 2026 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -515,30 +515,30 @@ Package pdftex.def Info: scheme_new.pdf  used on input line 56.
 (pdftex.def)             Requested size: 246.0pt x 230.70409pt.
 [1{/Users/drakanoy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdf
 tex/pdftex.map} <./scheme_new.pdf>]
-Underfull \hbox (badness 1448) in paragraph at lines 287--304
+Underfull \hbox (badness 1448) in paragraph at lines 301--318
 []\OT1/cmr/m/n/10 The two-photon sec-tor is spanned by the states
  []
 
 [2]
-<p1p2.pdf, id=61, 487.8225pt x 329.23pt>
+<p1p2.pdf, id=62, 487.8225pt x 329.23pt>
 File: p1p2.pdf Graphic file (type pdf)
 <use p1p2.pdf>
-Package pdftex.def Info: p1p2.pdf  used on input line 360.
+Package pdftex.def Info: p1p2.pdf  used on input line 374.
 (pdftex.def)             Requested size: 246.0pt x 166.02623pt.
-<g2(0).pdf, id=62, 487.8225pt x 322.20375pt>
+<g2(0).pdf, id=63, 487.8225pt x 322.20375pt>
 File: g2(0).pdf Graphic file (type pdf)
 <use g2(0).pdf>
-Package pdftex.def Info: g2(0).pdf  used on input line 369.
+Package pdftex.def Info: g2(0).pdf  used on input line 383.
 (pdftex.def)             Requested size: 246.0pt x 162.48299pt.
-<Concurrence.pdf, id=63, 487.8225pt x 329.23pt>
+<Concurrence.pdf, id=64, 487.8225pt x 329.23pt>
 File: Concurrence.pdf Graphic file (type pdf)
 <use Concurrence.pdf>
-Package pdftex.def Info: Concurrence.pdf  used on input line 378.
+Package pdftex.def Info: Concurrence.pdf  used on input line 392.
 (pdftex.def)             Requested size: 246.0pt x 166.02623pt.
-<Fidelity.pdf, id=64, 487.8225pt x 329.23pt>
+<Fidelity.pdf, id=65, 487.8225pt x 329.23pt>
 File: Fidelity.pdf Graphic file (type pdf)
 <use Fidelity.pdf>
-Package pdftex.def Info: Fidelity.pdf  used on input line 387.
+Package pdftex.def Info: Fidelity.pdf  used on input line 401.
 (pdftex.def)             Requested size: 246.0pt x 166.02623pt.
 
 No file research.bbl.
@@ -556,14 +556,18 @@ pdfTeX warning: pdflatex (file ./Concurrence.pdf): PDF inclusion: multiple pdfs
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `research.out' has not changed.
 (rerunfilecheck)             Checksum: 77175AF3695848B9250447EE8571BDC2;210.
  ) 
 Here is how much of TeX's memory you used:
- 12337 strings out of 467513
- 187430 string characters out of 5405924
- 651889 words of memory out of 5000000
- 41398 multiletter control sequences out of 15000+600000
+ 12339 strings out of 467513
+ 187457 string characters out of 5405924
+ 653915 words of memory out of 5000000
+ 41399 multiletter control sequences out of 15000+600000
  640542 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,15n,79p,568b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -578,23 +582,24 @@ s/cm/cmmi6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/
 public/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/instal
 l/fonts/type1/public/amsfonts/cm/cmmi9.pfb></Library/Application Support/MiKTeX
 /texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application 
-Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Library
-/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.
+Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Library
+/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.
 pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmr9.pfb></Library/Application Support/MiKTeX/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKT
-eX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></Library/Applicatio
-n Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Libr
-ary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/
-amsfonts/cm/cmti9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts
-/type1/public/amsfonts/symbols/msam10.pfb></Library/Application Support/MiKTeX/
-texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+onts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmr9.pfb></Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application
+ Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></Libra
+ry/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cms
+y6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmti9.pfb></Library/Application Support/MiKTeX/texmfs/
+install/fonts/type1/public/amsfonts/symbols/msam10.pfb></Library/Application Su
+pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/research.pdf 
-(4 pages, 581027 bytes).
+(4 pages, 589410 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 283 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
