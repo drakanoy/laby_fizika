@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  10 SEP 2026 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  10 SEP 2026 15:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -596,7 +596,7 @@ type1/public/amsfonts/cm/cmti9.pfb></Library/Application Support/MiKTeX/texmfs/
 install/fonts/type1/public/amsfonts/symbols/msam10.pfb></Library/Application Su
 pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/research.pdf 
-(4 pages, 587924 bytes).
+(4 pages, 587920 bytes).
 PDF statistics:
  274 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
