@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  15 SEP 2026 02:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2026.7.15)  15 SEP 2026 02:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -531,16 +531,6 @@ File: conc_fidel_v2.png Graphic file (type png)
 Package pdftex.def Info: conc_fidel_v2.png  used on input line 457.
 (pdftex.def)             Requested size: 246.0pt x 163.33109pt.
  [3]
-
-LaTeX Warning: Reference `fig:g20' on page 4 undefined on input line 518.
-
-
-LaTeX Warning: Reference `fig:concurrence' on page 4 undefined on input line 52
-4.
-
-
-LaTeX Warning: Reference `fig:fidelity' on page 4 undefined on input line 524.
-
 No file research.bbl.
 [4 <./g2_p1_p2_v2.png> <./conc_fidel_v2.png>]
 (/Users/drakanoy/PycharmProjects/laby_fizika/out/research.aux)
@@ -548,52 +538,46 @@ No file research.bbl.
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `research.out' has not changed.
 (rerunfilecheck)             Checksum: 77175AF3695848B9250447EE8571BDC2;210.
  ) 
 Here is how much of TeX's memory you used:
- 12339 strings out of 467513
- 187424 string characters out of 5405924
+ 12336 strings out of 467513
+ 187387 string characters out of 5405924
  654971 words of memory out of 5000000
- 41396 multiletter control sequences out of 15000+600000
+ 41393 multiletter control sequences out of 15000+600000
  640542 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,15n,79p,569b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/ins
-tall/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/Mi
-KTeX/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></Library/App
-lication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb></Library/Application Support/MiKTeX/texmfs/insta
-ll/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTe
-X/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></Library/Application
- Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Libra
-ry/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
-5.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmr6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/ins
-tall/fonts/type1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKT
-eX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></Library/Application
- Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Libr
-ary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cm
-sy5.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs
-/install/fonts/type1/public/amsfonts/cm/cmti9.pfb></Library/Application Support
-/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb></Library
-/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb>
+ts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/ins
+tall/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></Library/Application Suppor
+t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/App
+lication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></Library/Application Support/MiKTeX/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmmi9.pfb></Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application 
+Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Library
+/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></Library/Application Support/MiKTeX/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmr9.pfb></Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application
+ Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></Libra
+ry/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cms
+y6.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmti9.pfb></Library/Application Support/MiKTeX/texmfs/
+install/fonts/type1/public/amsfonts/symbols/msam10.pfb></Library/Application Su
+pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/drakanoy/PycharmProjects/laby_fizika/out/research.pdf 
-(4 pages, 574842 bytes).
+(4 pages, 565046 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
+ 182 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
  32 words of extra memory for PDF output out of 10000 (max. 10000000)
 
