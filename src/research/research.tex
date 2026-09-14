@@ -53,7 +53,7 @@ directly fed by the laser, contains only a few photons and therefore has to be
 retained at the operator level.
 
 \begin{figure}[t]
-    \includegraphics[width=\columnwidth]{scheme_new.pdf}
+    \includegraphics[width=\columnwidth]{scheme_new_v1.pdf}
     \caption{
     Energy scheme of the system.
     The cavity mode of width $\Gamma$ (black) is centered at $\omega_0$ and is
@@ -452,6 +452,17 @@ emission (\ref{eq:spin-projection}).
 The factor $\Omega_R^2 / ( \Omega_R^2 + \Delta^2 )$ shows how the
 detuning influences the two-photon yield.
 
+\begin{figure*}
+    \includegraphics[width=1\columnwidth]{g2_p1_p2_v2.png}
+    \includegraphics[width=1\columnwidth]{conc_fidel_v2.png}
+    \caption{
+    (Left) Second-order correlation function at zero delay, $g^{(2)}(0)$, as a function of the pump pulse area. Inset: Probabilities of the one-photon, $P_1$ (solid), and two-photon, $P_2$ (dashed), emission as functions of the pump pulse area.
+    (Right) Concurrence (solid) of the emitted two-photon polarization state and fidelity (dashed) to the Bell state $\left| \Phi^+ \right>$ as a function of the
+    pump pulse area.
+    }
+    \label{fig:p1p2}
+\end{figure*}
+
 Equation~(\ref{eq:rho2-analytic}) is a mixture of the two Bell states with thermal
 weights,
 
@@ -495,14 +506,6 @@ power at a fixed pulse duration, and is measured below in units of $\pi$.
 %of the outgoing two-photon state.
 
 
-\begin{figure}[t]
-    \includegraphics[width=\columnwidth]{p1p2.pdf}
-    \caption{
-    Probabilities of the one-photon, $P_1$ (solid), and two-photon, $P_2$ (dashed),
-    emission as functions of the pump pulse area.
-    }
-    \label{fig:p1p2}
-\end{figure}
 
 The emission probabilities are shown in Fig.~\ref{fig:p1p2}.
 The one-photon probability $P_1$ exhibits damped Rabi oscillations with maxima at odd
@@ -511,38 +514,11 @@ phonon-induced dephasing.
 The two-photon probability $P_2$ oscillates in antiphase and remains an order of
 magnitude smaller, reaching its maxima close to even pulse areas.
 
-\begin{figure}[t]
-    \includegraphics[width=\columnwidth]{g2(0).pdf}
-    \caption{
-    Second-order correlation function at zero delay, $g^{(2)}(0)$, as a function of
-    the pump pulse area.
-    }
-    \label{fig:g20}
-\end{figure}
-
 This antiphase behaviour is directly reflected in the second-order correlation
 function, Fig.~\ref{fig:g20}.
 At odd pulse areas $g^{(2)}(0)$ nearly vanishes, so that the source emits single
 photons, whereas at even ones it displays pronounced bunching peaks, the largest
 reaching $g^{(2)}(0) \approx 3.8$ at $\theta = 2\pi$.
-
-\begin{figure}[t]
-    \includegraphics[width=\columnwidth]{Concurrence.pdf}
-    \caption{
-    Concurrence of the emitted two-photon polarization state as a function of the
-    pump pulse area.
-    }
-    \label{fig:concurrence}
-\end{figure}
-
-\begin{figure}[t]
-    \includegraphics[width=\columnwidth]{Fidelity.pdf}
-    \caption{
-    Fidelity of the emitted two-photon polarization state to the Bell state
-    $\left| \Phi^+ \right>$ as a function of the pump pulse area.
-    }
-    \label{fig:fidelity}
-\end{figure}
 
 The polarization state of the emitted pair is characterized in
 Figs.~\ref{fig:concurrence} and \ref{fig:fidelity}.
