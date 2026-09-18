@@ -332,17 +332,39 @@ The pulse first drives the resident electron into the trion, then a laser photon
 resonantly scattered into the mode, and finally the trion recombines, returning the
 QD to its ground state.
 
-The two-photon density matrix therefore carries, besides the two photon
-polarizations, a third index, the spin of the resident electron.
-The selection rules tie all three of them together: each pair of co-polarized photons
-is emitted together with a definite spin projection left in the QD, so that the
-photons remain entangled with the electron.
-The spin relaxation towards the in-plane thermal state, the last step of
-Eq.~(\ref{eq:scheme}), is what breaks this link.
-It decouples the photonic degrees of freedom from the electronic ones at the price of
-a slightly reduced entanglement of the pair, since the spin coherence that survives
-the relaxation is limited by the thermal factor
-$\tanh \left( \mu_B g_e B_x / T \right)$.
+As long as the trion has not recombined, the state of Eq.~(\ref{eq:scheme}) carries a
+third index besides the two photon polarizations, namely the spin $\sigma$ of the
+resident electron, and the selection rules lock all three of them to each other.
+The two-photon density matrix is accordingly a three-index object
+$( \hat{\rho}_2 )_{\lambda_1 \lambda_2 \sigma , \lambda_1' \lambda_2' \sigma'}$, and
+the photons taken alone are entangled with the electron rather than with each other.
+The last step of Eq.~(\ref{eq:scheme}) resolves this: the spin relaxes towards the
+in-plane thermal state $\hat{\rho}_{\text{spin}}$, the same one that the QD started
+from, irrespective of which pair has been emitted.
+Contracting the third index with it gives the density matrix of the photon pair
+alone,
+
+\begin{gather}
+    \hat{\rho}_{\text{spin}} = \frac{1}{2}
+    \begin{pmatrix}
+        1 & \eta \\
+        \eta & 1
+    \end{pmatrix} , \qquad
+    \eta = \tanh \left( \frac{\mu_B g_e B_x}{T} \right)
+    \label{eq:spin-contraction}
+    \\ \nonumber
+    \left( \hat{\rho}_2 \right)_{\lambda_1 \lambda_2 , \lambda_1' \lambda_2'} =
+    \sum_{\sigma \sigma'}
+    \left( \hat{\rho}_2 \right)_{\lambda_1 \lambda_2 \sigma , \lambda_1' \lambda_2' \sigma'}
+    \left( \hat{\rho}_{\text{spin}} \right)_{\sigma' \sigma}
+\end{gather}
+
+The contraction decouples the photonic degrees of freedom from the electronic ones.
+Since $\sigma$ is locked to the photon polarizations, the populations, diagonal in
+$\sigma$, are untouched, whereas the coherences between the two branches are reduced by the factor $\eta$.
+The decoupling of the photonic and the electronic degrees of freedom is thus achieved at the expense
+of a partial loss of the polarization coherence, the residual spin polarization $\eta$
+setting an upper bound on the entanglement of the emitted pair.
 
 Written as a density matrix with the thermal weights taken into account, the last
 line of Eq.~(\ref{eq:scheme}) gives, to first order in $g \tau$ and in the basis
@@ -360,13 +382,12 @@ $\left| - - \right>$,
     \end{pmatrix}
     \label{eq:rho2-analytic}
 \end{gather}
-where $\eta = \tanh \left( \mu_B g_e B_x / T \right)$.
 Only the co-polarized states $\left| + + \right>$ and $\left| - - \right>$ are
 populated, and the entire dependence on the magnetic field and on the temperature
 enters through the coherence $\eta^2$.
 The square appears because the spin coherence is picked up twice, once through the
-initial state (\ref{eq:rho0}) and once through the spin left behind after the
-emission.
+initial state (\ref{eq:rho0}) and once through the contraction
+(\ref{eq:spin-contraction}).
 The factor $\Omega_R^2 / ( \Omega_R^2 + \Delta^2 )$ shows how the detuning influences
 the two-photon yield.
 
